@@ -3,6 +3,7 @@ import { Capacitor } from '@capacitor/core';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './App';
+import { scheduleReminders } from './reminders';
 import './styles.css';
 
 if (Capacitor.isNativePlatform()) {
@@ -11,6 +12,7 @@ if (Capacitor.isNativePlatform()) {
     if (canGoBack) history.back();
     else void NativeApp.minimizeApp();
   });
+  void scheduleReminders();
 }
 
 createRoot(document.getElementById('root')!).render(

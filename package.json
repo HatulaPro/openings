@@ -21,6 +21,7 @@
     "@capacitor/android": "^8.5.2",
     "@capacitor/app": "^8.1.2",
     "@capacitor/core": "^8.5.2",
+    "@capacitor/local-notifications": "^8.3.1",
     "@lichess-org/chessground": "^10.4.2",
     "chessops": "^0.15.1",
     "react": "^19.3.0",
