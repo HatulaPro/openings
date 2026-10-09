@@ -1,0 +1,69 @@
+[Line "English Attack: 9...O-O and the pawn race, 11.g4 b5 12.g5 b4"]
+[Section "6.Be3 e5: 9...O-O and the pawn race"]
+[Summary "The old main line: both kings castle on opposite wings and each side storms the other. Black sacrifices a bishop and a pawn to open the a-file and the long diagonal against the white king. With best play the game is level."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. f3 Be6 9. Qd2 O-O { The older main
+line. Black castles into the attack because the counterattack on the other wing is faster than it looks. } 10.
+O-O-O Nbd7 { [%cal Gd7b6,Gb6c4] The knight supports ...b5 and may go to b6 or c5. } 11. g4 { [%cal Gg4g5] The
+storm begins. g5 will drive the knight from f6 with tempo. } 11... b5 { [%cal Gb5b4] Black races. It is the
+only way: slow moves lose to g5 and h4-h5. } 12. g5 b4 { The pawn hits the c3 knight, and White cannot take on
+f6 first because of ...bxc3. } ( 12... Nh5!? { Playable: the knight avoids the pawn at once, White trades on
+d5 and the structure is that of the quieter lines. } 13. Nd5 Bxd5 14. exd5 ) 13. Ne2 { Moves the knight out of the pawn's way and heads for g3 and the kingside. } ( 13. gxf6 bxc3 14.
+Qxc3 ( 14. fxe7 cxd2+ { and Black wins the queen. } ) 14... Nxf6 { Black equalises: the pawn on f6 is gone and
+the bishop controls d5 again. } ) 13... Ne8 { [%cal Ge8c7,Gc7b5] The knight steps out of the way and heads for
+c7, where it guards d5 and the queenside. } ( 13... Nh5?! { Misplaces the knight on the rim. } 14. Ng3 Nxg3 15. hxg3 { Opens the h-file for White's
+rook: the worst thing Black can do. } ) 14. f4 { [%cal Gf4f5] } 14... a5 { Black ignores the attack and goes on
+with his own: the knights will be driven from b3. } ( 14... exf4?! { Hands White the open lines. } 15. Nxf4
+{ The knight comes with tempo and the bishop heads for d4 and f6. } ) 15. f5 a4 { [%cal Ga4b3] The bishop on e6
+is attacked, but so is the knight on b3. } 16. Nbd4 { White's best: the attacked knight jumps to d4, forcing ...exd4 and then Nxd4 with a threat on e6. The captures 16.fxe6 axb3 give Black the better game. } ( 16. fxe6 axb3 17. cxb3 ( 17. exd7 bxa2 { and the a-pawn queens. } ) 17...
+fxe6 { Black has two open files for his rooks and White's king is open. } ) 16... exd4 17. Nxd4 b3 { [%cal
+Gb3c2,Ga4a3] } 18. Kb1 ( 18. fxe6?? { Wins a bishop, but the b-pawn queens. } 18... bxa2 19. Qc3 a1=Q+ ) 18... bxc2+ 19. Nxc2 Bb3! { [%cal Gb3a2] The most
+beneficial way to give up the bishop: it opens the a-file against the white king. } 20. axb3 axb3 21. Na3 {
+[%cal Ga3b5] Counter-intuitively, White's king is mostly safe: the knight goes to b5 and covers c3. } 21... Ne5
+22. h4 Ra4 23. Rh3 Rxe4 24. Qg2 Rg4 25. Qb7 Qd7 26. Qxd7 Nxd7 27. Bc4 Nc7 28. Rd4 Rxd4 29. Bxd4 d5 30. Bxb3 Bc5
+31. Nc2 Rb8 32. Ba2 Bxd4 33. Nxd4 Kf8 34. Kc2 Na6 35. Ra3 { **Verdict:** equal. Svidler against Van Wely
+(Foros 2007) was drawn. The line is the reason ...h5 is popular: Black can still choose this pawn race if he
+wants it, but without ...h5 he has to know a lot of theory. } *
+
+[Line "English Attack: 7.Nf3 Be7 8.Bc4 and 8.Nd2"]
+[Section "6.Be3 e5: 7.Nf3 and the 8th-move sidelines"]
+[Summary "White keeps the knight on f3, which blocks his own kingside pawns but prepares Bc4, Ng5 and kingside castling. Black plays ...O-O and ...Be6, offering a trade, and heads for an equal ending."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 { [%cal Gf3g5,Gf1c4] White blocks the f-pawn,
+so there is no pawn storm, but he gets quiet kingside castling, Bc4 and Ng5 ideas against f7, and b3 for the
+bishop if Black plays ...b5. } 7... Be7 { [%cal Ge7f6] The bishop prevents Bg5 and Ng5 tricks and prepares
+castling. } 8. Bc4 { [%cal Gc4f7] } ( 8. Nd2 { White reroutes the knight to c4 and b6 or d5 but it takes many
+moves. } 8... b5 { Black has time because the knight on d2 blocks the queen. } 9. a4 b4 { Not 9...bxc4? 10.Nxc4
+and Nb6 comes. } 10. Nd5 Nxd5 11. exd5 O-O 12. Nc4 Nd7 13. a5 f5 14. f3 f4 15. Bf2 Bh4 16. g3 e4 17. fxe4 Bg5
+18. Bd3 Qf6 19. O-O Ne5 { Black may be a pawn down with a loose structure, but he has a strong attack on the
+kingside and all his pieces are in play. } ) 8... O-O { With the knight on f3 it is hard for White to push
+the kingside pawns, so there is no hurry to run to the queenside. } 9. O-O Be6 { [%cal Gc8e6] Offers the trade
+before Ng5 can hit e6. } 10. Bxe6 { } ( 10. Bb3 Nc6 { Not 10...Nbd7? 11.Bxe6 fxe6 12.Ng5, when e6 is hard to
+defend because the knight blocks the queen. } 11. Qe2 ( 11. Bg5 Na5 12. Bxf6 Bxf6 13. Nd5 Nxb3 14. axb3 Rc8 15. c4 Bg5 16.
+Nxg5 Qxg5 17. Qd3 Bxd5 18. Qxd5 Rc6 { Equal: the bishop pair against two knights. } ) 11... Na5 12. Rfd1 Nxb3 13. axb3 Qc7 14. Bg5 Nh5 15. Nxe5 Bxg5
+16. Qxh5 Bf6 17. Nf3 Bxc3 18. bxc3 Qxc3 19. Nd4 { Black wins back the pawn and is fine: Kamsky against
+Gelfand, Candidates 2011, was drawn. }  ) 10... fxe6 { Black
+opens the f-file for the rook. The doubled pawns take d5 and f5 away from White. } 11. Na4 { The point of the
+exchange: Na4 controls b6 and c5. } 11... Nfd7 { [%cal Gd7c5,Gd7b6] Challenges both squares, and unblocks the
+bishop on e7. } 12. c4 { Takes d5 from the black pawn. } 12... Nc6 13. Rc1 Nc5 14. Nxc5 dxc5 15. Ne1 Qxd1 16.
+Rxd1 Rad8 { **Verdict:** equal. The pawn structure looks odd, but Black controls d4, f4 and d5 and has the
+central pawns. } *
+
+[Line "English Attack: 7.Nb3 Be7 8.Qd2 Ng4, 8.h3 and 8.Be2"]
+[Section "6.Be3 e5: 7.Nf3 and the 8th-move sidelines"]
+[Summary "If White does not play 8.f3, Black can trade his bad knight for the bishop with ...Ng4, or go for ...Be6 with an extra tempo. 8.h3 prepares f4 without wasting a move on f3."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. Qd2 { White saves the move f3, but
+now the knight on f6 is not bothered. } ( 8. h3 { Prepares f4 directly,
+without a tempo on f3, and g4 as well. } 8... Be6 { Castling at once would allow g4. } 9. f4 ( 9. Qf3 O-O 10. g4
+a5 11. Bb5 Na6 12. O-O-O Nc7 13. Bb6 Nd7 14. Bxc7 Qxc7 15. a4 ) 9... exf4 10. Bxf4 Nc6 { Not ...Nbd7, which would
+block a defender of d6. } 11. Qe2 Ne5 12. O-O-O Nfd7 13. Kb1 O-O 14. g4 Rc8 15. Qe3 Qc7 16. g5 b5 ) ( 8. Be2
+Be6 { Transposes to the Classical Variation, which is covered by the other chapter. } ) 8... Ng4! { [%cal Gg4e3] The bishop is attacked and the e3 bishop is
+needed to guard d4 and d5. Black trades it, and without the dark-squared bishop the kingside attack loses a lot
+of force. } ( 8... Be6?! { The more natural move gives White 9.O-O-O. } 9. O-O-O Nbd7 10. f4 b5 11. Kb1 O-O 12.
+f5 Bc4 13. g4 Bxb3 14. cxb3 Nxg4 15. Rg1 Nxe3 16. Qxe3 Kh8 { Theoretically level, but White has the easier game
+and Caruana-Ivanchuk, Bucharest 2012, ended in a draw. } ) 9. Nd5 { Now that d5 has lost its defender White
+plays the knight there. } 9... Nxe3 10. Nxe3 Be6 { [%cal Ge7g5] The bishop comes to g5 next, and White cannot
+simply attack on the kingside. } 11. Bc4 Nd7 12. O-O Nf6 13. Qd3 O-O 14. Nd5 Rc8 15. Nxf6+ Bxf6 16. Nd2 Qc7 17.
+Bxe6 fxe6 18. c4 Be7 { **Verdict:** equal. The position is a quiet one with Black's pawn centre solid and
+the knight on d2 clumsy. Giri against Swiercz (Youth Stars 2008) was drawn. } *

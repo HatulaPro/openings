@@ -1,0 +1,8 @@
+node_modules/
+dist/
+
+# Downloaded source data; rebuild with `pnpm data:openings` and `pnpm data:book`
+data/raw/
+
+# The full book of elite games; the app ships the part trimmed to the repertoire (public/book.bin)
+data/book-full.bin

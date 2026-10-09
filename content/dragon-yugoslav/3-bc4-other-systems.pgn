@@ -1,0 +1,101 @@
+[Line "Chinese Dragon: 10...Rb8"]
+[Section "9.Bc4: other systems for Black"]
+[Summary "Black supports ...b5 with the rook and aims to open the b-file with ...Na5-c4. It avoids the 12.Kb1 lines, and after 12.Bh6 Black defends with the unusual ...e5."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O
+Rb8 { [%cal Gb7b5,Gc6a5,Ga5c4] The Chinese Dragon. The rook goes to the b-file instead of the c-file:
+...b5 is supported, and after ...Na5-c4 and Bxc4 Black recaptures with the b-pawn and has an open file
+against b2. It is a way to play the 9.Bc4 lines without meeting 11...Ne5 12.Kb1. }
+11. Bb3 { The bishop retreats before ...b5 arrives with tempo. }
+( 11. Nxc6? { Opening the b-file for a rook that is already on it. } 11... bxc6 12. h4 Qa5 { [%cal
+Gb8b2,Gf6e4] Black is already attacking. Jones won a miniature here when White played 13.Kb1, allowing
+13...Nxe4 with a mating threat on b2 that costs the queen. } )
+( 11. h4 { The other move order. } 11... b5 12. Bb3 Na5 { This is the note with 12.h4 below. } )
+11... Na5 { [%cal Ga5c4,Ga5b3] Threatening ...Nc4, and keeping ...Nxb3 in hand for the moment the bishop
+becomes dangerous. } 12. Bh6 { The most topical move: before the b-file opens White removes the bishop
+that would use it. }
+( 12. h4 { The original main line. } 12... b5 13. h5 Nc4 14. Bxc4 bxc4 { [%cal Gb8b2,Gd8b6] Black has
+what the opening was played for. } 15. hxg6 fxg6 16. Bh6 Qb6 { Forcing a weakness, since b2 is attacked
+twice. } 17. b3 Bxh6 18. Qxh6 Rf7 { The rook covers h7 along the rank and the king is safe. Black has the
+c- and b-files and the better pawn cover, and has won most of the elite games from here. } )
+12... Bxh6 13. Qxh6 b5 { [%cal Gb5b4] The queen has been drawn to h6, so Black can advance without
+worrying about b2 for the moment. } 14. h4 { [%cal Rh4h5] } 14... e5 { [%csl Rd6] A move Dragon players
+are taught never to make, and here it is the point. The knight has to leave d4, where it supported Nd5
+and the sacrifices on f5 and e6, and the seventh rank is opened for the defence. The hole on d6 does not
+matter: the dark-squared bishops are gone and White's pieces are committed to the kingside. } 15. Nde2
+b4 16. Nd5 Nxb3+ { Only now, when the recapture has to be made with the a-pawn. } 17. axb3 Nxd5 18. Rxd5
+Rb6 { [%cal Gb6d6] Covering d6 along the rank. } 19. h5 g5 { **Verdict:** Black is fine. The h-file
+stays closed and the queen on h6 is cut off from the game. If White takes on d6, Black answers ...f6 and
+has won every elite game played; otherwise ...f6 and ...Rf7 secure the king and Black turns to the
+weakened queenside. The Chinese
+Dragon is a serious system with far less theory than the main lines, and a good second weapon. } *
+
+[Line "The old main line: 10...Qa5"]
+[Section "9.Bc4: other systems for Black"]
+[Summary "The queen comes to a5 and both rooks to the c-file. For decades this was the Dragon; 12.Kb1 took the sting out of the queen sortie and it is now a sideline."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O
+Qa5 { [%cal Gf8c8,Gc6e5,Ge5c4] The classical set-up, the one Chris Ward's books taught: queen to a5,
+king's rook to c8, knight to e5 and c4. Everything points at c3 and a2. } 11. Bb3 Rfc8 { The king's rook,
+so that the other can stay on a8 behind the a-pawn or go to b8. The drawback is that f8 is no longer
+available to the king's defence. } 12. Kb1 { [%csl Yb1] The move that put the line out of fashion. With
+the king on b1, ...Qxd2 is not check, so every Nd5 has to be reckoned with; a2 is covered; and the queen
+on a5 is more of a target than an attacker. The old main line 12.h4 Ne5 13.Kb1 reaches the same
+position as the game. } 12... Ne5 13. h4 { The move with White's best results in practice is 13.Bg5,
+pinning the knight so that Nd5 becomes a real threat; Black answers 13...Nc4. The simple 13.Nd5 Qxd2
+leads to an ending that Black holds without trouble. } 13... Nc4
+( 13... b5 { The other plan: after ...Nc4 Black wants to recapture with the b-pawn and use the b-file, as
+in the Chinese Dragon. It has scored at least as well as the main line. } )
+14. Bxc4 Rxc4 15. Nb3 { [%cal Rb3a5] Chasing the queen and covering d4 and a1. } 15... Qc7 16. Bd4 { The
+bishop blocks the fourth rank and offers the exchange of Black's best piece. } 16... Be6 { [%cal
+Ga7a5,Ga5a4] Clearing the queen's path and preparing to chase the knight. } 17. h5 a5 { **Verdict:**
+playable. A typical position of the old theory: White has the h-file, Black drives the knight from b3
+with ...a4 and breaks through to c2 and b2, and exchange sacrifices on c3 are always in the air. Black
+has done well enough from here in practice. The reason 10...Qa5 is rare today lies earlier, at moves
+12 and 13, where White has a choice of promising lines and Black does not. } *
+
+[Line "Giri's 9...Nxd4 and 10...Be6"]
+[Section "9.Bc4: other systems for Black"]
+[Summary "Black exchanges on d4 at once and challenges the bishop on c4. An old line that Giri has rehabilitated: it avoids the main-line theory and often leads to an ending in which Black has no problems."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Nxd4 10. Bxd4 {
+10.Qxd4 loses the bishop pair to 10...Ng4. } 10... Be6 { [%cal Gd8a5,Gb7b5] Giri's main recommendation
+against 9.Bc4. The pieces go straight to their most active squares and the queenside play starts
+without ...Bd7 and ...Rc8. White must either exchange on e6 or retreat and allow ...Qa5 and ...b5. }
+11. Bb3 { Keeping the tension. }
+( 11. Bxe6 { This doubles Black's pawns and gives him the d5-square for good: with a pawn on e6 the
+knight on c3 has nowhere to go. } 11... fxe6 12. O-O-O Qa5 13. Rhe1 { [%cal Re4e5] The critical move:
+White forgets the h-pawn and plays e5. }
+( 13. Kb1 Rac8 14. h4 Nh5 { Blocking the h-pawn; Giri also likes 14...Nd7, meeting h5 with ...g5. }
+15. Bxg7 Kxg7 { White's kingside play is stopped, since g4 is met by ...Nf4 or ...Ng3, and Black doubles
+on the c-file. } )
+13... Nd7 { The knight stays near the centre when White is not playing for h5. } 14. Bxg7 Kxg7 15. e5 d5
+{ Keeping the centre closed: 15...Nxe5 16.f4 would return the pawn and give the knight on c3 the d5
+square. Black now steers for an ending with ...Rac8 and an exchange of queens on d2, and regroups with
+...Kf7 and ...Nb8-c6 to challenge a knight on d4. Giri's verdict is that neither side can make
+progress. } )
+11... Qa5 { [%cal Ga5a2,Ga5c3] The queen controls b5 and d5 from here and presses on c3 and a2. } 12. O-O-O
+b5 { [%cal Gb5b4] The new twist. The older 12...Rfc8 13.Kb1 b5 allows 14.a3, stopping ...b4; played at
+once, the pawn gets there. } 13. Kb1 { [%cal Rc3d5] The usual precaution when the queens face each other
+on d2 and a5: Nd5 now threatens to answer ...Qxd2 with the in-between check on e7. } 13... b4 14. Nd5
+( 14. Ne2 { Passive: the knight gives up d5 and a4. } 14... Bxb3 15. cxb3 e5 { [%cal Gd6d5,Gf8d8] With
+the knight on e2 Black can break in the centre: ...Rfd8 and ...d5 cannot be prevented. } )
+14... Bxd5 { The bishop takes, keeping the knight that defends e7 and the kingside. } 15. exd5
+( 15. Bxd5 { This looks strong, since the bishops come off on g7, but there is a tactical flaw. }
+15... Nxd5 16. Bxg7 Nc3+! { The in-between check that Giri points out: the bishop on g7 is not going
+anywhere, and first the knight opens the b-file. } 17. Bxc3
+( 17. bxc3 Rfb8 { The threats on the b-file win the piece back with interest: 18.cxb4 Rxb4+ 19.Qxb4
+Qxb4+ 20.Bb2 Rb8. } )
+17... bxc3 18. Qxc3 { After the queens come off Black regains the pawn against White's ruined queenside,
+and it is White who has to work for the draw in the rook ending. } )
+15... Qb5 { [%cal Ga7a5,Ga5a4] The queen makes way for the a-pawn and offers an exchange on d3 or e2. }
+16. Rhe1
+( 16. Qd3 Qxd3 17. Rxd3 Nd7 { Trading the bishop that eyes g7 and a7. } 18. Bxg7 Kxg7 19. Re3 Kf6 { The
+king defends e7 himself. The ending is equal, and in practice a little easier for Black. } )
+16... a5 17. Qe2 Qxe2 18. Rxe2 a4 { Gaining space with tempo. } 19. Bc4 Rfc8 20. b3 Rc7 { **Verdict:**
+equal. Black covers e7 along the rank, the king goes to f8, and the knight has d7, b6 and c5 to choose
+from. White has the bishop pair and Black the sounder pawns and a target on d5; the many elite games
+from here have slightly favoured Black.
+
+This is the practical alternative to the Topalov and Soltis lines: far less to remember, and positions
+in which the Dragon's structure is all Black needs. } *

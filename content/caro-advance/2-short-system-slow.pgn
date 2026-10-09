@@ -1,0 +1,98 @@
+[Line "Slow set-up: 5...Nd7 6.O-O Ne7 7.Nbd2 h6 8.Nb3 g5"]
+[Section "3...Bf5 4.Nf3: Short System, slow set-ups"]
+[Summary "Black keeps the centre closed and expands on the kingside. White holds c5 with the knight on b3, regroups with Ne1-d3 and is ready for f4 or for play on the queenside."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7 { Black postpones ...c5 until the pieces are out. The knight
+supports both breaks, ...c5 and ...f6, and leaves e7 for the other knight. 5...Ne7 and 5...h6 usually reach the
+same positions. } 6. O-O Ne7 { The knight is heading for g6 or f5, or will make room for the bishop by going on
+to c8. }
+( 6... h6 { Only a different move order. } 7. Nbd2 Ne7 8. Nb3 )
+7. Nbd2 { [%cal Gd2b3,Gc1d2] Dreev's set-up. The knight goes to b3, where it stops ...c5 and looks at a5, the
+c-pawn stays flexible, and the c1-bishop keeps its diagonal. 7.c3 and 7.a4 are the other popular moves, and
+Efimenko recommends 7.Nh4 to take the bishop pair at once. }
+7... h6 { A retreat for the bishop against Nh4, and the first step of ...g5. }
+( 7... c5 { Premature with the king in the centre. } 8. c4 { The knight on d2 is ready to recapture on c4 and
+head for d6, and the position opens before Black can castle. } )
+( 7... Bg6 { Clearing f5 for the knight. This reaches the position of the ...Nh6-f5 line below, where g4 and f4
+follow. } 8. Nb3 Nf5 9. Bd2 )
+8. Nb3 { [%csl Yc5] Now ...c5 loses a pawn or, after exchanges on c5, hands White the d4-square for a knight.
+Black has to look for play elsewhere. }
+8... g5 { [%cal Rf8g7,Rf7f6] The most ambitious plan, and the one Dreev and Basso recommend for Black: space on
+the kingside, ...Bg7 and ...f6 against e5, with the king often going to the queenside. }
+9. Ne1 { [%cal Ge1d3,Gf2f4] The knight is not needed on f3 any more. From d3 it covers c5, b4 and f4, and it gets
+out of the way of the f-pawn before ...g4 can gain time. }
+( 9. a4 { Equally popular: White gains space on the other wing first and keeps the knight on f3 until Black shows
+his hand. The pawn goes on to a5 and threatens a6, loosening the light squares where Black's king may want to
+live. } 9... Bg7 10. a5 )
+9... Qc7 10. Nd3 { 10.f4 at once is the other move Dreev and Basso analyse. With the knight on d3 first, White
+keeps the choice between f4 and the queenside. } 10... Ng6 11. Bd2 { **Plan:** Black usually castles long now.
+White then has a ready-made attack with a4-a5 and c4, while f4 is played at a moment when ...gxf4 does not hand
+Black the g-file. Bg4 or Bh5 are typical ways to exchange or disturb Black's active pieces.
+
+**Verdict:** a full-blooded middlegame with chances for both sides. White has more space and the safer king;
+Black has the breaks ...f6 and ...c5 and must time them well. } *
+
+[Line "Slow set-up: 8.Nb3 against 8...Bh7 and 8...Qc7"]
+[Section "3...Bf5 4.Nf3: Short System, slow set-ups"]
+[Summary "Black waits. White gains space with a4 and prepares Ne1-d3 and the advance of the kingside pawns; stopping the a-pawn with ...a5 leaves a target."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7 6. O-O Ne7 7. Nbd2 h6 8. Nb3 Bh7 { A prophylactic retreat: the
+bishop is out of the way of g4 and Nh4, and f5 is free for the knight. }
+( 8... Qc7 { Keeps ...c5, ...g5 and long castling all open. } 9. Bd2 { The natural square: the bishop supports
+a4-a5, and it meets ...a5 by attacking the pawn. } 9... a5 10. a4 g5 11. Ne1 { The plans of the 8...g5 line with
+the a-pawns fixed, which helps White: b5 is his, and the pawn on a5 ties a black piece down. } )
+9. a4 { [%cal Ga4a5] With the centre closed White gains space where Black cannot answer. A pawn on a5 cramps the
+whole queenside, and a6 would break up the light squares. }
+9... a5 { Stops the pawn at the cost of the b5-square and of a pawn that needs defending. }
+( 9... Nf5 { Black develops and lets the pawn run. } 10. a5 a6 11. c4 { With the queenside fixed the central
+break comes with more force: Black's pawns are fixed on a6 and b7, the c-file is about to open against them,
+and the bishop on h7 is a spectator. } )
+10. Bd2 { **Plan:** the bishop attacks a5 and makes ...c5 harder still. White continues with Ne1-d3 and f4, and
+g4 gains time whenever a knight lands on f5.
+
+**Verdict:** White is a little better: more space on both wings and no weaknesses, while Black still has to find
+work for the h7-bishop and a safe place for the king. } *
+
+[Line "5...Ne7 6.O-O c5 7.c4"]
+[Section "3...Bf5 4.Nf3: Short System, slow set-ups"]
+[Summary "Black breaks with ...c5 behind a knight on e7. White strikes back with c4 and takes on c5, because the f8-bishop is blocked."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 { A flexible move order: the knight can go to g6, f5 or c8, and
+...c5 can be supported by either knight on c6. Its drawback is that the f8-bishop is shut in for the moment. }
+6. O-O c5 { The independent try. 6...h6 also transposes to the slow lines, and against 6...Bg6, 6...Ng6 and
+6...Nc8 White uses the same Nbd2-b3 set-up. }
+( 6... Nd7 { Back in the main slow line. } 7. Nbd2 )
+7. c4! { [%cal Gd4c5,Gc4d5] Recommended by both Dreev and Efimenko. Black has two central pawns under attack and
+a king that cannot castle for at least two moves, so White wants the files open now. }
+7... Nbc6
+( 7... dxc4 8. Bxc4 { Here the bishop recaptures: it looks at e6, and after 8...Nbc6 White takes on c5, when the
+knight on e7 again prevents ...Bxc5. } 8... Nbc6 9. dxc5 )
+8. dxc5 { The rule from the 6.Be3 lines: take when the bishop cannot recapture. } 8... d4 { Black gets a passed
+pawn and the d5-square for the pawn, and hopes to round up c5 later with ...Ng6 and ...Bxc5. }
+9. Qb3 { [%csl Rb7] The absent bishop again: b7 is attacked, and the queen steps off the d-file so that a rook
+can go to d1 against the d-pawn. } 9... Qd7 10. Rd1 { **Verdict:** White is a pawn up and attacks d4. Black can
+win a pawn back with ...Ng6, but has to spend time on it while White finishes development with Na3 or Nbd2.
+Efimenko judges White's chances preferable; the position is sharp and far less explored than 5...c5. } *
+
+[Line "Slow set-up: ...Bg6 with ...Nh6-f5, and the fifth-move sidelines"]
+[Section "3...Bf5 4.Nf3: Short System, slow set-ups"]
+[Summary "Black brings the knight to f5 through h6. White lets it come, drives it off with g4 and gains space with f4. The rare fifth moves transpose or lose time."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7
+( 5... h6 { Dreev and Basso's move order for Black; it reaches the main slow line. } 6. O-O Nd7 7. Nbd2 Ne7
+8. Nb3 )
+( 5... a6 { A waiting move that prepares ...c5 by ruling out Bb5 and Nb5. White develops in the usual way. }
+6. O-O Nd7 7. Nbd2 h6 8. Nb3 { Now 8...c5 is met by 9.dxc5, and the move ...a6 has changed little. } )
+( 5... Bb4+ { Tried by Carlsen: the check provokes c3, so that a later c4 costs a move. } 6. c3 Ba5 7. O-O
+{ The bishop is a long way from the kingside, and b4 will gain time on it. } )
+( 5... a5 { Prevents the Nb3 and a4-a5 clamp in advance. } 6. O-O Nd7 7. a4 { Fixing the pawn and taking b5 for
+good. Black's usual follow-up is 7...f6, which White answers in the centre with 8.c4. } )
+6. O-O Bg6 { Black clears f5 for the king's knight, which will travel h6-f5, leaving e7 for the bishop: the
+most harmonious way to develop the kingside without ...c5. }
+7. Nbd2 Nh6 { 8.Bxh6 is possible at any moment, but it gives up the bishop that guards the dark squares and
+opens the g-file. White prefers to keep the tension. } 8. Nb3 Nf5 9. Bd2 { A useful waiting move: the bishop
+looks at a5 and the queen's rook is free, before White decides about g4. } 9... Be7 10. g4 { [%cal Gf2f4] The
+knight has no comfortable retreat: h6 is passive, and after ...Nh4 the exchange leaves White free to play f4. }
+10... Nh4 11. Nxh4 Bxh4 12. f4 { **Verdict:** White has a large space advantage on the kingside and threatens
+f5. Black has to stop it with ...f5 himself, and White then keeps the choice between opening lines and playing
+g5, which cuts the bishop on h4 off from its camp. White is better. } *

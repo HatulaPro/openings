@@ -1,0 +1,54 @@
+[Line "3.f4 d6 4.Nf3 Bg4 5.Bb5: the Stington Variation"]
+[Section "2...Nc6 3.f4 declined"]
+[Summary "Black supports e5 with ...d6 and pins the knight. White pins back, takes on c6 to wreck the pawn structure, trades on e5 and gets the f-file and the better pawns."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 { [%cal Gf2f4] } 3... d6 { The Stington Variation, the most common way of declining. The pawn on e5 is held, the c8 bishop is freed, and f4 has not been taken, so White's f-pawn has not yet been used. }
+4. Nf3 { [%cal Gf3e5] Puts pressure on e5 and prepares Bb5. }
+4... Bg4 { The most natural developing move: it pins the knight, so that fxe5 dxe5 Nxe5 is not yet a threat. }
+( 4... Nf6 { The Knight Variation, nearly as common as 4...Bg4. } 5. Bb5 { [%cal Gb5c6] The same pin against the c6 knight. } 5... Bd7 6. d3 a6 7. Bxc6 Bxc6 8. fxe5 dxe5 { A mistake; 8...Ng4!? is better, offering the pawn for activity. } 9. Nxe5 { The pawn is won and the knight moves to the queen-side. } 9... Bd6 10. Nxc6 bxc6 11. O-O { White has the better hand: a centre, the open f-file and open lines for the bishop and queen against a damaged pawn structure. } )
+5. Bb5 { [%cal Gb5c6,Gb5e8] Pins the knight in turn. Both pins are real, but White's is the more useful one: the c6 knight is the only guard of the e5 pawn and it is now tied to the king. }
+5... a6 { Asks the bishop what it intends. }
+( 5... Ne7 6. h3 Bxf3 7. Qxf3 a6 8. Ba4 { Not Bxc6+: after ...Nxc6 the knight is improved and no longer pinned. } 8... b5 9. Bb3 Nd4 10. Qf2 Nxb3 11. axb3 { The a-file is open for White, the pawn structure is a little worse, but the queen on f2 and the pressure on f7 give White the better game. } )
+( 5... Nf6 6. h3 Bxf3 7. Qxf3 Be7 8. O-O O-O 9. Bxc6 bxc6 10. fxe5 dxe5 11. d3 { A typical structure: Black's pawns on c6, c7 and e5 are loose and White has the f-file. } )
+( 5... Bxf3 6. Qxf3 a6 7. Bxc6+ bxc6 8. d3 { Stops the bishop being driven back and prepares fxe5 with a strong pawn chain. Bc4 would run into ...Nd4 with a fork. } )
+6. Bxc6+ { The right moment to trade: after 6.Ba4 b5 the bishop is out of play, and 6.Bc4 runs into ...Nd4, which hits the queen and f3. Taking on c6 wrecks Black's pawns for good. }
+6... bxc6 7. fxe5 { [%cal Gf1f8] Exchanges the f-pawn for the d-pawn and opens the f-file. }
+7... dxe5 8. h3 { [%cal Gh3g4] Forces the bishop to decide. } 8... Bxf3 9. Qxf3 { [%cal Gf3f7,Gf1f7,Gc1e3,Ge1c1] The f-file is White's. The plan is Rf1 doubling against f7, d3 and Be3 or Bd2, then O-O-O, with a king-side attack against a pawn structure that has a weak c6, c7 and e5.
+
+**Verdict:** a small but lasting edge for White: better pawns, the f-file and the more harmonious pieces. } *
+
+[Line "3.f4 Nf6?! 4.fxe5 Nxe5 5.d4: the Corell Variation"]
+[Section "2...Nc6 3.f4 declined"]
+[Summary "Taking the pawn with the knight loses time: the knights are driven back by d4 and e5, and Black has to find 7...d5 to stay in the game."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 Nf6?! { The Corell Variation. The knight attacks e4, but after fxe5 it has no good square and White gains time on it. }
+4. fxe5 Nxe5 { The knight takes the pawn and centralises. } 5. d4 { [%cal Gd4e5] Kicks the knight at once while building the centre. }
+5... Nc6 { The knight retreats. Alternatively the other knight goes to g6. }
+( 5... Ng6 6. e5 Ng8 { Black's pieces are back where they started, with the knight on g6 misplaced. } 7. Nf3 d6 { Attacks the e5 pawn. } 8. Bc4! { [%cal Gc4f7] Ignores the pawn and aims at f7. } 8... dxe5 9. O-O! { Ignores it again: a lead in development against an uncastled king is worth a pawn. } 9... exd4? { Takes the pawn and walks into the knight jump. } 10. Ng5! { [%cal Gg5f7] Threatens Nxf7 forking queen and rook. } 10... Nh6 11. Nxf7 Nxf7 12. Bxf7+ Ke7 13. Bg5+ Kd7 14. Qxd4+ Bd6 15. Qg4+ Kc6 16. Qa4+ Kc5 17. Be3# { A king hunt that ends in mate. } )
+6. e5 { [%cal Ge5f6] Drives the other knight back too. } 6... Ng8 7. Nf3 { [%cal Gf3g5] }
+7... d5! { The only move that holds the balance: it attacks e5 and keeps the c8 bishop in play. 7...d6 and 7...Bb4 both fail, as the variations show. }
+( 7... Bb4? { Ignores the centre. } 8. d5 { Gains a tempo: the knight on c6 is attacked. } 8... Nce7 9. Qd4 { [%cal Gd4b4] Supports e5 and attacks the bishop. } 9... Bxc3+ 10. bxc3 { White is far ahead in development and space, and the b-file is open. } )
+( 7... d6? { Defends e5 with a pawn, but it cannot hold. } 8. Bb5 { [%cal Gb5c6] Pins the knight; the d6 pawn cannot hold. } 8... dxe5 9. Nxe5 f6 10. Nxc6 bxc6 11. Bxc6+ Bd7 12. Qh5+ g6 13. Qe2+ Ne7 14. Bxa8 Qxa8 15. O-O { White wins the exchange and more. } )
+8. Bb5 { [%cal Gb5c6,Gc3d5] Pins the c6 knight (d7 is empty) and adds a second attacker to d5. Black can answer with 8...Bd7, 8...a6, 8...Bg4, 8...Bb4 or 8...Be6; the study analyses 8...Bd7 and gives short lines for the others. }
+8... Bd7 { The main line of the study. }
+( 8... Bb4 9. O-O Bxc3 10. bxc3 Bg4 11. Qe1 Ne7 12. Ng5 O-O 13. Nxh7 Kxh7 14. Qh4+ Kg8 15. Qxg4 { White comes out a bishop up. } )
+( 8... Be6 9. O-O Bb4 10. Ne2 Ne7 11. c3 Ba5 12. Ng5 O-O 13. Bd3 { White has the initiative against the king. } )
+9. Nxd5 { [%cal Gd5c7] The bishop on d7 blocked the queen's defence of d5, so the pawn simply falls. } 9... Nce7 10. Bc4 { Keeps the pressure on d5 and avoids the exchange on c6. } 10... Nxd5 11. Bxd5 c6 12. Bb3 Be6 13. O-O Bxb3 14. axb3 Be7 15. c4 { [%cal Gc4c5,Gd4d5] White has more space in the centre and the e5 pawn cramps the black pieces. } 15... Qb6 { The study stops here.
+
+**Verdict:** a small space advantage for White, with the e5 pawn cramping Black. The study gives no clear verdict at this point and I would call it a pleasant but not decisive edge. } *
+
+[Line "3.f4 Bc5 4.Nf3 d6 5.Na4: the Quelle Variation"]
+[Section "2...Nc6 3.f4 declined"]
+[Summary "Black puts the bishop on c5 and White chases it with Na4, gets the bishop pair, pins on b5 and then expands with f5."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 Bc5?! { The Quelle Variation. The bishop eyes f2 and g1, and White must not leave the king uncovered. }
+4. Nf3 { [%cal Gf3e5] Puts pressure on e5 and covers g1, which neutralises the bishop's pressure for the time being. }
+4... d6 5. Na4! { [%cal Ga4c5] Attacks the bishop and gets the bishop pair. }
+5... Bb6 { Keeps the bishop; 5...Bd4 and 5...Bb4 lose time. }
+( 5... exf4 { Gives up the bishop's retreat but grabs the pawn. } 6. Bb5 { [%cal Gb5c6] The pin against the c6 knight is what makes d4 possible. } 6... Bd7 7. d4 { Now ...Nxd4 runs into Bxd7+ and Nxd4, winning a piece, because the queen no longer has ...Qh4+ once it has recaptured on d7. } )
+6. Bb5 { [%cal Gb5c6,Gb5e8] Pins the knight on c6 (d7 is empty) and develops with an eye on the king. }
+( 6. Nxb6 { Also good, and it reaches the same position by another move order: taking at once and then playing Bb5 gives Black no additional options. } 6... axb6 7. Bb5 Bd7 8. d3 Nge7 9. f5 O-O 10. O-O )
+6... Bd7 7. Nxb6 axb6 { The bishop pair is White's, and the a-pawn has left its file. } 8. d3 { [%cal Gc1d2] Builds a pawn chain and opens the bishop's diagonal. The bishop on b5 cannot be kicked: the a-pawn is no longer on the a-file. }
+8... Nge7 { Protects the knight. } 9. f5 { [%cal Gf5g6,Gc1g5] Gains space on the king-side: the f5 pawn takes e6 and g6 from the black pieces, and there is an outpost for the dark-squared bishop on g5 or h6. White can castle soon.
+
+**Verdict:** a small edge for White, with the bishop pair and the f-pawn thrust. } *

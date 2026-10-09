@@ -1,0 +1,65 @@
+[Line "2...d6 3.d4: the Cenni Variation"]
+[Section "2...d6, 2...f5, 2...g6, 2...c6"]
+[Summary "Against the passive 2...d6 White opens the centre at once with 3.d4, keeps the queen active on d3 and e2 and gains space with the f-pawn."]
+
+1. e4 e5 2. Nc3 d6 { A solid but passive reply: Black rules out any tactics on f7 and keeps the centre intact, but he gives White a free hand in the centre. }
+3. d4 { [%cal Gd4e5] The Cenni Variation: White opens the centre at once, before Black has developed a piece. }
+( 3. f4 { The Omaha Gambit, covered by two of the studies: after 3...exf4 the queen comes to f3 and regains the pawn. A second weapon, not the main line. } 3... exf4 4. Qf3 { [%cal Gf3f4] } 4... Nc6 { The sound reply. }
+( 4... g5?! { Black tries to keep the pawn. } 5. h4! { Strikes at the pawn chain at once. } 5... f6? { The most popular reply and a mistake: it opens the e8-h5 diagonal. } 6. Qh5+ Kd7 7. Nf3 Qe8 8. Qxe8+ Kxe8 9. hxg5 fxg5 10. Nd5 { [%cal Gd5c7,Gd5f6] Threatens a fork. } 10... Kd8 11. Nxg5 { Again threatens a fork. } 11... Nh6 12. Rxh6! { [%cal Gh1h6,Gg5f7] A deflection: the bishop must take, and then the knight forks king, rook and bishop. } 12... Bxh6 13. Nf7+ { A triple fork wins the exchange and more. } )
+5. Qxf4 Nd4 6. Bd3 { Protects c2 against the fork and prepares to develop. } 6... Nf6 )
+3... exd4 { The natural capture. }
+( 3... Nc6 4. d5 Nd4 5. Be3 c5 6. dxc6 Nxc6 7. f3 Be6 8. Nd5 Qa5+ 9. Bd2 Qd8 10. c4 Nf6 11. Bd3 Nxd5 12. cxd5 Bd7 13. dxc6 Bxc6 { White has the more harmonious pieces and the centre.  } )
+4. Qxd4 { [%cal Gd4g7] The queen takes the pawn and eyes g7. }
+4... Nc6 { Hits the queen. }
+5. Qd3 { The queen retreats along the d-file and still covers e4. }
+5... Nf6 6. Be3 { Develops the bishop, ready for long castling. } 6... Ng4 { Attacks the bishop. } 7. Bd2 { [%cal Gd2c3] } 7... Nce5 8. Qe2 Be7 9. f4 { [%cal Gf4e5] The f-pawn drives the knights back and takes space. } 9... Ng6 10. f5 N6e5 { The study stops here.
+
+**Verdict:** White has the space and the more harmonious development, and Black's knights have been pushed around. The edge is small, but Black has no real counterplay. } *
+
+[Line "2...f5? 3.exf5 Nf6 4.g4: the Latvian shot"]
+[Section "2...d6, 2...f5, 2...g6, 2...c6"]
+[Summary "2...f5 is a Latvian Gambit without a knight on f3 to harass, so White simply takes and uses g4 to drive the f6 knight away, with Qh5+ and the fork on c7 to follow."]
+
+1. e4 e5 2. Nc3 f5? { Black borrows the Latvian Gambit. In the real Latvian White has a knight on f3, which ...e4 kicks away with tempo; here there is no such knight, so the idea simply loses a pawn. }
+3. exf5 { Takes the pawn. } 3... Nf6 { Develops and eyes e4 and g4. } 4. g4! { [%cal Gg4g5,Gd1h5] Drives the knight away and prepares Qh5+. }
+4... d5 { Strikes in the centre and prepares ...e4. }
+( 4... Bc5 5. g5 O-O 6. gxf6 Qxf6 7. Qf3 d6 8. Ne4 Qxf5 9. Qxf5 Bxf5 10. Nxc5 dxc5 { White is a knight up for a pawn, and the simplification helps him. } )
+( 4... h6 5. Nf3 Nxg4 6. Rg1 Nf6 7. d4 e4 8. Ne5 d5 9. Nxd5 Qxd5 10. Bc4 Qd6 11. Bf7+ Ke7 { A messy position that the study leaves without a verdict. } )
+5. g5 Ne4 { The knight jumps into the centre. }
+( 5... d4 { Counterattacks the knight on c3 and ignores the knight on f6. } 6. gxf6 dxc3 7. Qh5+ Kd7 8. Qf7+ Kc6 9. Bg2+ e4 10. Qc4+ Kd7 11. Qe6# )
+6. Qh5+ { [%cal Gh5e8] } 6... Ke7 { 6...g6 loses a rook. }
+( 6... g6 7. fxg6 hxg6 8. Qxh8 )
+7. f6+ { [%cal Gf6e7] A pawn check that opens the g-file and the diagonal. } 7... gxf6 8. d4 { [%cal Gd4e5,Gc3e4] Opens the centre and threatens Nxe4 and dxe5. } 8... Qe8 9. Nxd5+ Kd8 10. Qxe8+ Kxe8 11. Nxc7+ Kd8 12. Nxa8 { White wins the rook and has a decisive material advantage.
+
+**Verdict:** White is clearly better. The pin on the e8-h5 diagonal and the fork on c7 decide. } *
+
+[Line "2...g6 3.d4: the fianchetto is not ready"]
+[Section "2...d6, 2...f5, 2...g6, 2...c6"]
+[Summary "The fianchetto is not possible without a pawn on d4: White opens the centre and the queen takes on d4 with tempo, hitting g7."]
+
+1. e4 e5 2. Nc3 g6 { Black intends the fianchetto, but the bishop will not come to g7 in time. }
+3. d4 { [%cal Gd4e5] Opens the centre at once. }
+3... exd4 4. Qxd4 { [%cal Gd4g7] The queen takes the pawn and attacks g7 and the rook behind it. }
+4... Qf6 { The most popular reply. It defends g7, but it leads into a queen trade that favours White. }
+( 4... f6 { The study calls this ugly move the best: Black defends g7 with a pawn and has an uncomfortable position, with the dark squares permanently weak. } 5. Be3 { Followed by O-O-O. } )
+5. Qxf6 Nxf6 6. e5 { [%cal Ge5f6] } 6... Ng4 { The knight attacks e5 and gets out of the pawn's way. } 7. Nd5 { [%cal Gd5c7,Gd5f6] Threatens Nxc7+ and attacks the f6 square. } 7... Kd8 8. h3 Nxe5 9. Bg5+ Be7 10. Bxe7+ Ke8 11. Bf6 { [%cal Gf6h8,Gf6e5] } 11... Rg8 12. Nxc7+ Kf8 13. Bxe5 Na6 14. Nxa8 { White is a rook up.
+
+**Verdict:** the study shows what happens if Black misplays the opening, but it does not analyse 4...Nc6, which is the most natural reply. After 4...Nc6 the queen has to move again and I have no published source for its best square, so that line needs your own analysis before it is played. } *
+
+[Line "2...c6 3.d4 d5 4.dxe5: the Burden Variation"]
+[Section "2...d6, 2...f5, 2...g6, 2...c6"]
+[Summary "2...c6 is an attempt at a Caro-Kann set-up. White strikes at once with 3.d4; after 3...d5 4.dxe5 the queens come off and the black king cannot castle."]
+
+1. e4 e5 2. Nc3 c6 { The Burden Variation, first played in 1865: Black prepares ...d5 but develops nothing and takes c6 away from the knight. }
+3. d4 { [%cal Gd4e5] Breaks through at once. }
+3... d5 { The critical reply: Black strikes at once in the centre. }
+( 3... exd4? { Allows the queen to develop with tempo, because ...Nc6 is no longer possible. } 4. Qxd4 Nf6?! { The most common reply. }
+( 4... d6 5. Bf4 Nf6 6. O-O-O c5 7. Qe3 Be7 8. Nf3 { White is far ahead in development. } )
+5. e5 { Wins a tempo on the knight. } 5... Ng8
+( 5... Nd5 6. Nxd5 cxd5 7. Qxd5 Nc6 8. Bf4 { White is almost fully developed. } )
+6. Ne4! { [%cal Ge4d6] Threatens Nd6+. } 6... b6? { Weakens the c6 and d6 squares. } 7. Bg5! { [%cal Gg5d8,Ge4d6] The bishop attacks the queen, and whatever stands on e7 is pinned to it: Black cannot answer Nd6+ with ...Bxd6, because that would unblock the diagonal g5-d8. } 7... Be7 8. Nd6+ Kf8 9. Bxe7+ Nxe7 10. Qf4 { Threatens Qxf7#. } )
+4. dxe5 { Takes the pawn and attacks the d5 pawn. } 4... dxe4 { The main line. }
+( 4... d4 5. Bc4 dxc3 6. Bxf7+ Ke7 7. Bg5+ Nf6 8. exf6+ Kxf7 9. Qxd8 { White wins the queen. } )
+5. Qxd8+ Kxd8 { Black cannot castle any more. } 6. Bg5+ { [%cal Gg5d8] } 6... Be7 7. Nxe4 { Wins the pawn back. } 7... Bxg5 8. Nxg5 Nh6 9. O-O-O+ Kc7 10. h3 Nd7 11. N1f3 f6 12. Ne6+ Kb8 13. Nxg7 fxe5 { The study stops here.
+
+**Verdict:** a pleasant endgame for White: Black has lost the right to castle, White has the active knights and the pressure on the d-file, and the knight on g7 has to be watched. } *

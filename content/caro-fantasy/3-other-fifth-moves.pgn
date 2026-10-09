@@ -1,0 +1,64 @@
+[Line "5...Be6 6.c3 Nd7 7.Bd3 Ngf6 8.O-O Bd6 9.Kh1"]
+[Section "5...Be6 and 5...Nd7"]
+[Summary "Black declines the pin and keeps the e5 pawn with the bishop on e6. White builds the centre with c3 and Bd3, castles and tucks the king away on h1."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Be6 { [%cal Re6c4,Re6d5] Declines the pin. The bishop covers c4,
+so Bc4 would be met by ...Bxc4, and it guards d5. The second most popular fifth move (about 29%) and the
+quieter way to fight the centre. } 6. c3 { [%cal Gc3d4,Gd1b3] Supports d4 so that ...exd4 can be answered
+by cxd4, and keeps Qb3 in reserve against b7. The most played move by far (about two thirds of the
+games). Bc4 is pointless here because the e6 bishop trades it off. } 6... Nd7 { [%cal Rd7e5,Rd7f6] Guards e5,
+leaves the c-pawn alone and prepares ...Ngf6 and ...Bd6. } 7. Bd3 { [%cal Gd3h7,Gd3e4] The bishop backs e4
+and eyes h7. About 80% of the games. } 7... Ngf6 8. O-O Bd6 9. Kh1 { [%cal Gh1g1,Gf3g5,Gc1g5]
+**Idea:** the standard Fantasy waiting move. The king leaves the g1-a7 diagonal, so ...Bc5 and ...Bxg1
+tricks stop mattering, and White prepares Bg5, Ng5 or Qe1-h4 without worrying about a check on g1. In elite games White scored 63% with 9.Kh1 (84 games), clearly more than with the other
+ninth moves. }
+9... h6 { [%cal Rh6g5] Takes g5 away from the bishop and the knight. }
+( 9... Qc7 { Another way to keep the pieces flexible. } 10. Be3 { 59% for White in 32 elite games. } 10... O-O
+11. Nbd2 )
+10. Be3 { [%cal Ge3c5,Ge3h6] The bishop steps aside from the ...h6 kick and eyes the c5 and a7 squares. Elite
+results here: 24 wins, 2 draws and 15 losses in 41 games. } ( 10. Nbd2 { Also possible: the knight supports
+e4 and frees the queen's rook for e1. } 10... O-O )
+10... O-O { **Position:** a manoeuvring game. White has the pair d4/e4 and the half-open f-file; Black has
+a solid centre and the bishops pointed at the king.
+
+**Plans for White:** Nbd2 and Qe2 (or Qe1), Rae1 and a later dxe5 to open the f-file; Ng5 when the bishop
+on e6 can be traded; a4 to fix the queenside. **Plans for Black:** ...Qc7 and ...Rae8; ...exd4 cxd4 to
+free the pieces and put a knight on b4; ...Bg4 to bring the last piece into play.
+
+**Verdict:** balanced, with White a little freer. The book stops here and the choice is yours. } *
+
+[Line "5...Be6 6.Bg5: the d5 break (study line)"]
+[Section "5...Be6 and 5...Nd7"]
+[Summary "A rare alternative from a Lichess study: Bg5 and the pawn break d5 force a series of trades that end level. Included for the pattern, not as the main weapon."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Be6 6. Bg5 { [%cal Gg5d8,Gd4d5] An alternative to 6.c3 given by
+a Lichess study: the bishop develops with the idea of the pawn break d5. It is rare (nine elite games). } 6... Qb6 { [%cal Rb6b2] Counterattacks b2 and takes the queen out of the centre. } 7. d5!?
+{ [%cal Gd4d5,Gb1d2,Gd2c4] **Idea:** the pawn break clears d4 and gives the knight a route. After 7...Bg4
+White ignores the pawn on b2 and plays Nbd2-c4, using the tempo gained on the black queen. } 7... Bg4
+8. Nbd2 Nd7 9. Nc4 { [%cal Gc4b6,Gd5d6] Hits the queen at once and prepares the pawn push. } 9... Qc7
+10. d6 { [%cal Gd6c7] The pawn attacks the queen and cramps Black. } 10... Qb8 11. Ncxe5 { Takes the pawn with
+a tempo on the g4 bishop. } 11... Bxf3 12. Nxf3 Qxd6 13. Qe2 Qe6 14. Qc4 h6 15. Be3 Ngf6 16. O-O-O
+{ **Verdict:** a level position. The sequence is a series of trades that give back the extra pawns, and
+White's lead is better development with the king on the queenside. Interesting as a pattern, but 6.c3 is
+easier to play and scored better. } *
+
+[Line "5...Nd7 6.Bc4: the knight steps in"]
+[Section "5...Be6 and 5...Nd7"]
+[Summary "Black defends e5 with the b8 knight and keeps the bishop home. White takes on the gambit idea with 6.Bc4 exd4 7.O-O, or meets 6...Bd6 with the main-line set-up."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Nd7 { [%cal Rd7e5] Defends e5 without committing the c8
+bishop, but blocks its own bishop and queen. Rare (about 2% of the games). } 6. Bc4 { [%cal Gc4f7] The usual
+developing move, aimed at f7. } 6... exd4 { [%cal Rd4c3] The pawn grab: about 60% of Black's replies. }
+( 6... Bd6 { Keeps the pawn centre and the bishop. } 7. O-O Ngf6 8. c3 { The main-line structure, but
+Black's c8 bishop has not committed, so there is no pin and the Bg5 plan is less pointed. The elite
+results were poor for White (6 wins in 18), which is why 5...Nd7 is a line to treat with respect. } )
+7. O-O { [%cal Gf1f7] The same gambit idea as against 5...exd4: develop, castle, and wait for Black to run
+out of useful moves. } 7... Ngf6 8. e5 { [%cal Ge5f6,Ge5d6] Gains space with tempo. The knight must go to d5
+or e4. } 8... Nd5 9. Kh1 { [%cal Gh1g1] The same king move as in the 5...Be6 line: the knight on d5 and a bishop
+on c5 would bear on g1, so the king steps off the diagonal. Elite games with 9.Kh1: 6 games, 4 wins for
+White, so the sample is small. }
+( 9. Bxd5 { Simplifies, but gives up the bishop and leaves Black a healthy d-pawn after ...cxd5. Elite
+results with this: 4 wins, 1 draw and 4 losses in 9 games. } 9... cxd5 10. Nbd2 )
+9... N7b6 10. Bb3 Be7 { **Verdict:** unclear but easy for White: the bishop sits on b3, the d4 pawn will fall to
+Nxd4 or Qxd4, and Black is cramped by the pawn on e5. The sample is only a few games, and the position is
+playable for both sides. } *

@@ -1,0 +1,1044 @@
+:root {
+  --bg: #161512;
+  --surface: #262421;
+  --surface-2: #33312d;
+  --border: #3d3a36;
+  --text: #dcdad5;
+  --muted: #999690;
+  --accent: #6fa32b;
+  --accent-text: #fff;
+  --good: #8bc34a;
+  --warn: #e6a23c;
+  --bad: #e5604d;
+
+  /* Capacitor sets the --safe-area-inset-* variables on Android, where the app draws under the system bars. */
+  --inset-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+  --inset-bottom: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
+
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  overscroll-behavior: none;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.pad {
+  padding: 12px 16px;
+}
+
+.splash {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Screen frame: a top bar, optional pinned content, a scrolling body and an optional toolbar. */
+
+.screen {
+  /* Height kept free around the board for the bars and at least a few lines of text. */
+  --chrome: 290px;
+  /* The board is as wide as the screen, but leaves that room below it. */
+  --board-size: min(100vw, 560px, 100dvh - var(--chrome) - var(--inset-top) - var(--inset-bottom));
+  height: 100dvh;
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--inset-top);
+  overflow: hidden;
+}
+
+.screen.study {
+  --chrome: 340px;
+}
+
+.screen.study.engine-on {
+  --chrome: 376px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 56px;
+  padding: 6px 16px;
+}
+
+.screen.study .topbar {
+  min-height: 48px;
+  padding-block: 2px;
+}
+
+.topbar .back {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  margin-left: -12px;
+  border: 0;
+  background: none;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.titles {
+  min-width: 0;
+}
+
+.titles h1 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.screen.study .titles h1 {
+  -webkit-line-clamp: 1;
+}
+
+.titles p {
+  color: var(--muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: calc(16px + var(--inset-bottom));
+}
+
+.scroll.with-footer {
+  padding-bottom: 16px;
+}
+
+.toolbar {
+  flex: none;
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px calc(8px + var(--inset-bottom));
+  border-top: 1px solid var(--surface);
+}
+
+.toolbar .btn {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.tool {
+  flex: 1;
+  min-height: 46px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.tool.label {
+  flex: 0.8;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.tool.on {
+  border-color: var(--accent);
+  color: var(--good);
+}
+
+.tool:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.tabs {
+  padding: 0 16px 10px;
+}
+
+/* Lists */
+
+section > h2 {
+  padding: 14px 16px 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Headings that quote moves keep their letter case: "3...d6", not "3...D6". */
+section > h2.plain {
+  font-size: 0.85rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.group > h3 {
+  padding: 10px 16px 2px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 16px;
+  border: 0;
+  border-bottom: 1px solid var(--surface);
+  background: none;
+  text-align: left;
+}
+
+.row:active {
+  background: var(--surface);
+}
+
+.row-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-sub {
+  color: var(--muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row-sub.moves {
+  color: var(--text);
+  opacity: 0.8;
+  font-variant-numeric: tabular-nums;
+}
+
+.row-note {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.row-side {
+  flex: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.line-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--surface);
+}
+
+.line-item .row {
+  flex: 1;
+  min-width: 0;
+  border-bottom: 0;
+}
+
+/* Board */
+
+.board {
+  position: relative;
+  flex: none;
+  width: var(--board-size);
+  height: var(--board-size);
+  margin: 0 auto;
+}
+
+.board-host {
+  width: 100%;
+  height: 100%;
+}
+
+.promotion {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.promotion-choices {
+  display: flex;
+  gap: 8px;
+}
+
+.promotion-choices button {
+  width: 64px;
+  height: 64px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--text);
+  color: #111;
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* Panels and controls */
+
+.panel {
+  margin: 12px 16px 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.panel > h2 {
+  padding: 0;
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+}
+
+.panel p {
+  font-size: 0.9rem;
+}
+
+.segmented {
+  display: flex;
+  padding: 3px;
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.segmented button {
+  flex: 1;
+  min-height: 38px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--muted);
+}
+
+.segmented button.on {
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.btn {
+  min-height: 46px;
+  padding: 0 18px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-weight: 600;
+}
+
+.btn.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
+.btn.small {
+  flex: none;
+  min-height: 34px;
+  margin-right: 12px;
+  padding: 0 12px;
+  font-size: 0.8rem;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 16px 0;
+}
+
+.actions .btn {
+  flex: 1;
+}
+
+.panel .actions {
+  padding: 4px 0 0;
+}
+
+.actions.stack {
+  flex-direction: column-reverse;
+}
+
+.chip {
+  align-self: flex-start;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.chip.good {
+  border-color: var(--good);
+  color: var(--good);
+}
+
+.tag {
+  align-self: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tag.good {
+  background: rgba(139, 195, 74, 0.16);
+  color: var(--good);
+}
+
+.tag.warn {
+  background: rgba(230, 162, 60, 0.16);
+  color: var(--warn);
+}
+
+.tag.bad {
+  background: rgba(229, 96, 77, 0.16);
+  color: var(--bad);
+}
+
+/* Prose from the notes */
+
+.prose {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.prose p,
+.prose ul {
+  margin: 0 0 0.6em;
+}
+
+.prose ul {
+  padding-left: 1.2em;
+}
+
+.prose li {
+  margin-bottom: 0.25em;
+}
+
+.prose > :last-child {
+  margin-bottom: 0;
+}
+
+.prose strong {
+  color: #f3f1ec;
+  font-weight: 600;
+}
+
+.prose code {
+  font-family: inherit;
+  font-weight: 600;
+}
+
+/* Chapter overview */
+
+.intro {
+  padding: 2px 16px 0;
+}
+
+.idea {
+  margin: 14px 16px 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.idea > h2 {
+  padding: 0;
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+}
+
+.diagram {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.diagram .board {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+}
+
+.diagram-hint {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+/* Study board: engine, move strip, note and the moves from the position */
+
+.engine {
+  position: relative;
+  flex: none;
+}
+
+.eval-bar {
+  height: 5px;
+  background: #3a3835;
+}
+
+.eval-bar span {
+  display: block;
+  height: 100%;
+  background: #e8e6e1;
+  transition: width 0.3s;
+}
+
+.engine-status {
+  min-height: 31px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+.engine-line {
+  width: 100%;
+  min-height: 31px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 74px 2px 12px;
+  border: 0;
+  background: none;
+  text-align: left;
+}
+
+.engine-line .eval {
+  flex: none;
+  min-width: 46px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.eval.for-white {
+  background: #e8e6e1;
+  color: #222;
+}
+
+.eval.for-black {
+  background: #3a3835;
+  color: #ddd;
+}
+
+.engine-line .pv {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.engine-line .depth {
+  flex: none;
+  font-size: 0.7rem;
+}
+
+.engine-more {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 26px;
+  padding: 0 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.move-strip {
+  position: relative;
+  flex: none;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+  border-bottom: 1px solid var(--surface);
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.move-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.strip-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.strip-item.ahead .move {
+  opacity: 0.45;
+}
+
+.move.start {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 16px 0;
+}
+
+.note > h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+}
+
+.note > h2 .muted {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.note > h2.good {
+  color: var(--good);
+}
+
+.note > h2.warn {
+  color: var(--warn);
+}
+
+.note > h2.bad {
+  color: var(--bad);
+}
+
+.note > p {
+  font-size: 0.9rem;
+}
+
+.line-end {
+  margin-top: 14px;
+}
+
+.move-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.move-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 9px 16px 9px 13px;
+  border: 0;
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid var(--surface);
+  background: none;
+  text-align: left;
+}
+
+.move-row:active {
+  background: var(--surface);
+}
+
+.move-row.good {
+  border-left-color: var(--good);
+}
+
+.move-row.warn {
+  border-left-color: var(--warn);
+}
+
+.move-row.bad {
+  border-left-color: var(--bad);
+}
+
+.move-row-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.move-row .san {
+  min-width: 3.2em;
+  font-weight: 700;
+}
+
+.move-row .spacer {
+  flex: 1;
+}
+
+.move-row .num {
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.move-row .result-bar {
+  flex: none;
+  width: 76px;
+  height: 10px;
+  /* Too narrow for the percentages. */
+  font-size: 0;
+}
+
+.move-row-note {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Play and drill */
+
+.status,
+.context {
+  padding: 12px 16px 0;
+}
+
+.status {
+  font-weight: 600;
+}
+
+.context {
+  font-size: 0.8rem;
+}
+
+.prompt {
+  min-height: 2.2em;
+  padding: 8px 16px 0;
+  font-weight: 600;
+}
+
+.prompt.good {
+  color: var(--good);
+}
+
+.move-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 0;
+  padding: 10px 16px 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.move-pair {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.move-number {
+  padding-left: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.move {
+  min-height: 32px;
+  padding: 0 6px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  font-weight: 600;
+}
+
+.move:disabled {
+  cursor: default;
+}
+
+.move.warn {
+  color: var(--warn);
+}
+
+.move.bad {
+  color: var(--bad);
+}
+
+.move.selected {
+  background: var(--surface-2);
+}
+
+.result-bar {
+  display: flex;
+  height: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 0.65rem;
+  line-height: 16px;
+  text-align: center;
+}
+
+.result-bar .white {
+  background: #e8e6e1;
+  color: #222;
+}
+
+.result-bar .draw {
+  background: #8a8782;
+  color: #fff;
+}
+
+.result-bar .black {
+  background: #3a3835;
+  color: #ddd;
+}
+
+/* Training: progress, and the notes on the last moves */
+
+.mastery-bar {
+  flex: none;
+  display: flex;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+
+.mastery-bar.edge {
+  border-radius: 0;
+}
+
+.row .mastery-bar {
+  margin: 7px 0 3px;
+}
+
+.mastery-bar .solid,
+.mastery-legend .solid::before {
+  background: var(--good);
+}
+
+.mastery-bar .learning,
+.mastery-legend .learning::before {
+  background: rgba(139, 195, 74, 0.4);
+}
+
+.mastery-bar .fading,
+.mastery-legend .fading::before {
+  background: var(--warn);
+}
+
+.mastery-bar .missed,
+.mastery-legend .missed::before {
+  background: var(--bad);
+}
+
+.mastery-note {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.level {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.level.good {
+  color: var(--good);
+}
+
+.level.warn {
+  color: var(--warn);
+}
+
+.level.bad {
+  color: var(--bad);
+}
+
+.mastery-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.mastery-legend .key::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: var(--surface-2);
+}
+
+/* A chapter's standing, under its tabs. */
+.standing {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0 16px 10px;
+  font-size: 0.8rem;
+}
+
+.train {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 16px 0;
+}
+
+.train-status {
+  min-height: 1.5em;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.train-status.good {
+  color: var(--good);
+}
+
+.train-status.warn {
+  color: var(--warn);
+}
+
+.train-status.bad {
+  color: var(--bad);
+}
+
+.train-note {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  border: 0;
+  border-left: 3px solid var(--border);
+  border-radius: 0 8px 8px 0;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.train-note:disabled {
+  cursor: default;
+}
+
+.train-note.good {
+  border-left-color: var(--good);
+}
+
+.train-note.warn {
+  border-left-color: var(--warn);
+}
+
+.train-note.bad {
+  border-left-color: var(--bad);
+}
+
+.train-move {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.train-note .prose {
+  color: var(--text);
+  font-size: 0.88rem;
+}

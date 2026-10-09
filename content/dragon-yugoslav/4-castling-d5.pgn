@@ -1,0 +1,188 @@
+[Line "9.0-0-0 d5: main line with 12.Bd4 Bxd4"]
+[Section "9.0-0-0 d5"]
+[Summary "The main line of the modern Dragon. Black trades bishops, gains time on the queen and lives with split queenside pawns; with exact play he wins the h-pawn and reaches a balanced ending."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O { [%cal
+Gd6d5] White saves the three bishop moves of the 9.Bc4 lines and castles at once. The price is that he
+no longer controls d5. } 9... d5 { The principled reply, and a pawn sacrifice. Jones's rule is that when
+the Dragon player can play ...d5 he should: the break frees the position and gets rid of the hole on d5.
+The alternatives 9...Nxd4 10.Bxd4 Be6 and 9...Bd7 are playable, but they give White the attacking set-up
+he wants without the tempi Bc4 costs. } 10. exd5 { The tenth-move alternatives 10.Qe1, 10.Kb1 and
+10.Nxc6 have their own lines. } 10... Nxd5 11. Nxc6 bxc6 { [%cal Ga8b8,Gd8b6] [%csl Yc5,Rb2] The
+structure of the whole variation. Black has split pawns and a hole on c5; in return the b-file is open
+onto b2 and the bishop on g7 looks through to c3. } 12. Bd4 { [%cal Rc3e4,Re4c5] White declines the pawn
+(12.Nxd5 is a separate line) and offers to trade the bishop that makes the b-file dangerous. Once it is
+gone he hopes to settle a knight on c5. } 12... Bxd4 { Jones's choice. Black gives up the bishop, but
+gains a tempo on the queen and keeps a sound centre: no pawn on e5 means no hole on d6 and an open
+diagonal for the queen. The older 12...e5 has its own line; 12...Nxc3 13.Qxc3 Bh6+ is a third way that
+has scored less well. } 13. Qxd4 Qb6 { [%cal Gb6d4] Offering an exchange that White cannot accept: 14.Qxb6
+axb6 would repair Black's pawns and open the a-file. } 14. Na4 { With tempo, and on the way to c5. }
+( 14. Nxd5 cxd5 15. Qxb6 axb6 { Black's pawns are healthy again and the a-file is open. The ending is
+equal and Black has scored well in it. } )
+14... Qc7 { The retreat most strong players choose. 14...Qa5 first, to provoke 15.b3, is the alternative
+Jones also covers: it loosens the dark squares round the king, but it gives the king air as well, and
+White's results after 15.b3 have been better. } 15. Bc4 { Pinning nothing yet, but lining up on d5 and
+f7. 15.Nc5 Rd8 16.Bc4 comes to the same thing. } 15... Rd8 { [%cal Gd8d4] The rook faces the queen, so
+that any knight move will come with tempo. } 16. Nc5 { [%csl Yc5] The outpost. From here the knight
+covers b7, d7 and e6 and shuts the c-file. }
+( 16. h4 { Too slow. } 16... Bf5 { Black is fully developed and attacks c2, with ...Nb6 or ...Nb4 to
+follow; White has done badly here. } )
+16... Bf5 { [%cal Gf5c2] Development with a threat. } 17. Bb3 { Covering c2 and stepping out of the way of
+...Nb6. } 17... Nb6 { [%cal Gd8d4,Gc7h2] The accurate move. The knight uncovers the rook against the
+queen, and when the rooks come off the h2-pawn falls. The natural 17...Nf4 18.Qf2 has scored badly:
+after the exchange on d1 White keeps all his pressure and Black has won nothing. } 18. Qe3 Rxd1+ 19. Rxd1
+Qxh2 { Black has won a pawn. In return White gets a tempo on the bishop and the only open file. } 20. g4
+Nd5 { An in-between move that saves the bishop: the queen is attacked first. } 21. Qd2 Qxd2+ 22. Kxd2 Bc8
+23. Ba4 Rb8 { **Verdict:** balanced. Black is a pawn up, White has a knight on c5, pressure on c6 and
+the more active king, and the elite games from here have divided evenly. Black's plan is to unravel with
+...Kg7, ...Nb6 or ...Nf4 and ...h5, creating a passed pawn; White tries to win c6 or a7 first. } *
+
+[Line "9.0-0-0 d5: the old main line 12.Bd4 e5"]
+[Section "9.0-0-0 d5"]
+[Summary "Black keeps the bishops and offers the exchange on f8. The most played line in practice and the one Giri builds on with 13...Re8; White's pressure is lasting but manageable."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. exd5
+Nxd5 11. Nxc6 bxc6 12. Bd4 e5 { [%csl Rd6] The traditional move, still the most common one in practice.
+Black keeps the bishop and gains space with tempo. The cost is the long diagonal, which is closed until
+...e4 can be played, and a hole on d6 for White's knight. } 13. Bc5 { [%cal Rc5f8] } 13... Be6 { [%cal
+Gg7h6,Ga8b8] The move that made the line: Black leaves the rook to be taken. }
+( 13... Re8 { Giri's recommendation, avoiding the offer. His book treats 14.Nxd5, 14.Bc4 and 14.Ne4 as
+the main replies. After 14.Nxd5 cxd5 15.Qxd5 Qxd5 16.Rxd5 Be6 Black is a pawn down in an ending that Ward
+judges tenable, with the bishop pair and two open files. Against the main move, the independent idea is
+to keep the bishop on c8 and play the queen and the f-pawn. } 14. Ne4 Qc7 15. h4 f5 16. Nd6 Rd8 17. Nxc8
+Raxc8 { White has the bishop pair and Black a strong centre and all his pieces in play; the results from
+here are close to level. } )
+14. Ne4 { [%cal Re4d6,Re4g5] White declines and brings the knight to the centre. }
+( 14. Bxf8? { Taking the exchange gives up the dark squares for good. } 14... Qxf8 { Black threatens
+...Bh6, pinning the queen, and follows with ...Rb8 and ...Qb4 against b2 while the bishop on g7 comes to
+life with ...e4. This is the standard example of the Dragon bishop being worth more than a rook. } )
+14... Re8 { The rook steps out of the attack. 14...Rb8 is the sharper try, still offering the exchange;
+the old textbooks answer it with 15.Bc4. } 15. h4 { [%cal Rh4h5] The critical move, according to Ward:
+White wants h5 before Black is organised. } 15... h5 { Stopping the pawn where it stands, and
+keeping g5 and g4 under control so that the knight can use f4. }
+( 15... h6 { The classical main line, meeting h5 with ...g5. After 16.g4 Qc7 17.g5 h5 18.Bc4 Red8 Black's
+position holds, but White's bind on the dark squares lasts, and this is the line Jones had in mind when
+he wrote that Black was suffering. } )
+16. Bc4 Nf4 { [%cal Gd8d2] Forcing matters: the bishop on e6 is attacked, and the queens come off. }
+17. Bxe6 Qxd2+ 18. Rxd2 Nxe6 19. Be3 f5 { **Verdict:** a playable ending. Black has driven the bishop back
+and gains space with ...f5 and ...e4, or ...f4; the knight is as good as the bishop, and the weak pawns
+on c6 and a7 are hard to attack. White keeps a symbolic edge because of the structure. Practice is
+close to level, and it is an easier position to handle than the middlegames with 15...h6. } *
+
+[Line "9.0-0-0 d5: the pawn grab 12.Nxd5"]
+[Section "9.0-0-0 d5"]
+[Summary "White takes the pawn. Black replies 13...Qc7, offering both rooks for the queen, and gets open files against the king whatever White does."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. exd5
+Nxd5 11. Nxc6 bxc6 12. Nxd5 cxd5 13. Qxd5 { White has won a pawn and attacks the rook on a8. } 13... Qc7 {
+[%cal Gc8f5,Ga8b8,Gg7b2] The move that makes 9...d5 possible. Black ignores the rook: with the b- and
+c-files open and both bishops aimed at the king, development matters more than material. Jones's verdict
+is that taking the material, whether the pawn alone or the two rooks as well, is dangerous for White. }
+14. Qc5 { White returns to the defence and offers the queens. }
+( 14. Qxa8 { Taking everything. } 14... Bf5 { [%cal Gc7c2,Gf8a8] Mate is threatened on c2 and the queen
+is attacked, so it has to give itself for the second rook. } 15. Qxf8+ Kxf8 16. Rd2 { White has two rooks and a pawn for the queen but
+is behind in development. }
+( 16. Bd3? { A common mistake. } 16... Qe5 { [%cal Ge5e3,Ge5b2] A double attack on e3 and b2 that wins
+material. } )
+16... h5 { Black needs this move at some point, to give the king air and to hold up g4. The queen and
+bishops then go after the queenside pawns. Black has full compensation, as Hansen puts it, and in elite
+games he has scored heavily; the only question is whether it can be won. } )
+14... Qb7 { [%cal Gb7b2] Keeping the queens on and hitting b2. } 15. Qa3 { [%cal Ra3e7] The queen defends
+b2 and a2 from the side and eyes e7. }
+( 15. Qb5 { An offer to repeat. } 15... Qc7 { After 16.Qc5 Qb7 the position repeats, and a draw this way
+is a common end to the line. A player who wants more can exchange on b5 and play the ending a pawn down
+with the bishops and both files, which has scored well. } )
+( 15. b3 { Blocking the b-file at the cost of the long diagonal. } 15... Bf5 16. Bd3 Rac8 { [%cal
+Gc8c5,Gf5d3] Gaining a tempo on the queen. All Black's pieces are aimed at c2 and c3, and the pawn on b3
+has left the dark squares round the king without a defender. } )
+15... Bf5 { [%cal Gf5c2,Ga8b8,Gf8c8] } 16. Bd3 { Challenging the bishop that attacks c2. } 16... Rab8 17. b3
+{ **Verdict:** Black has lasting compensation: both rooks have files, the bishop on g7 has the long
+diagonal to itself and the white king will never be comfortable. But care is needed here. The routine
+17...Rfc8 18.Bxf5 gxf5 has not done well in elite games, because White gets his rook to d3 and
+consolidates. This is the one position of the 9.0-0-0 complex to prepare from Jones's fourth chapter
+before relying on it; the repetition with 15.Qb5 and the ending after 14.Qxa8 hold no dangers. } *
+
+[Line "9.0-0-0 d5: 10.Qe1"]
+[Section "9.0-0-0 d5"]
+[Summary "The queen leaves the d-file so that the rook attacks d5. Black answers 10...e5 and reaches a version of the old main line."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. Qe1 {
+[%cal Rd1d5] An odd-looking move with a clear point: the rook now attacks d5 directly, and the queen
+watches e4 and e5 from behind. It avoids the heavily analysed lines with 12.Bd4 Bxd4. } 10... e5 { Jones's answer, and by far the usual one. Black holds d5 by attacking the
+knight. The solid alternative is 10...e6. } 11. Nxc6 bxc6 12. exd5 Nxd5 { The knight must recapture.
+After 12...cxd5 13.Bg5 the bishop pins the knight and uncovers the queen against e5, which is the
+tactical point of putting the queen on e1. } 13. Bc4 Be6 14. Ne4 { [%cal Re4c5,Re3c5] The same plan as in
+the old main line: bishop to c5, knight to c5 or d6. }
+( 14. Kb1 { The fashionable move among strong players, waiting to see Black's set-up. } 14... Rb8 { A
+useful move in return. 14...Re8 is the other standard reply; what Black must not play is 14...Qc7,
+because 15.Nxd5 cxd5 16.Bxd5 wins a pawn. } )
+14... Qc7 15. Bc5 Rfd8 16. h4 h6 { [%cal Gd5f4] Preparing to answer h5 with ...g5, as in the old main
+line. After 17.g4 Nf4 Black exchanges the light-squared bishops and has a firm grip on f4.
+
+**Verdict:** White is a little better. This is the old 12.Bd4 e5 structure with the white queen on e1,
+where it is safer than on d2, and White's results in practice are good. Black's position is sound and
+the plans are the familiar ones (...Nf4, ...Rd7 and doubling, ...a5), but this is the line of the
+9.0-0-0 complex in which Black has to defend most patiently. } *
+
+[Line "9.0-0-0 d5: 10.Kb1"]
+[Section "9.0-0-0 d5"]
+[Summary "A waiting move with a tactical idea: after 10...Nxd4 White plays 11.e5. Black gets a good game by giving the exchange, or by a queen sacrifice."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. Kb1 {
+[%csl Yb1] The king move improves every version of the pawn grab on d5, and it sets a trap. }
+10... Nxd4 { The right reply, and the only good one. }
+( 10... e5?! { Playing as against 10.Qe1 is what White hopes for. } 11. Nxc6 bxc6 12. exd5 Nxd5 13. Nxd5
+cxd5 14. Qxd5 { This is the pawn grab of the 12.Nxd5 line with Kb1 thrown in and the bishop on g7 shut
+in by its own e-pawn. Black has little to show for the pawn. } )
+11. e5 { [%cal Re5f6] The point of 10.Kb1: both knights are attacked. }
+( 11. Bxd4 dxe4 { The centre is liquidated and Black has no weaknesses, although White's results in the
+few elite games have been good and accuracy is still required. } )
+11... Nf5 { [%cal Gf5e3] The knight escapes with tempo on the bishop. } 12. exf6 exf6 { Giri's choice and
+the usual move. Black has an extra pawn for the moment and keeps the bishop on g7. }
+( 12... Bxf6 { The older line, leading to a famous queen sacrifice worked out by Golubev: after 13.Nxd5
+Black takes the knight with the queen. Rook, bishop and pawn for the queen, with two fine bishops, is
+thought to be just about enough, and in practice it has scored well. } 13. Nxd5 Qxd5 14. Qxd5 Nxe3 15. Qd2
+Nxd1 16. Qxd1 Be6 )
+13. Bc5 { Attacking the rook. }
+( 13. Nxd5 { Winning the pawn back and centralising the knight. } 13... Nxe3 14. Qxe3 Be6 15. Bc4 f5 {
+Opening the bishop. } 16. Bb3 Re8 { Black has the two bishops against a strong knight. The position is
+about equal, but it is easier for White, who has scored well. } )
+13... d4 { The exchange sacrifice Giri recommends and Carlsen has played. The rook is left to be taken
+so that the knight can come to e3 with tempo. } 14. Bxf8 Qxf8 15. Nb5 Ne3 { [%csl Ye3] The knight on e3,
+protected by the d-pawn, paralyses White's rooks. } 16. Re1 f5 { Opening the long diagonal. } 17. f4 Qc5 {
+**Verdict:** dynamically equal. Black has a pawn, the bishop pair and the knight on e3 for the exchange,
+and White has to return material to free himself, usually by taking on d4 or e3. The line is forcing
+and worth learning exactly, since one slip by either side decides the game. } *
+
+[Line "9.0-0-0 d5: 10.Nxc6 and the minor tenth moves"]
+[Section "9.0-0-0 d5"]
+[Summary "White takes on c6 first so that Black cannot capture on e4, then goes for Bh6 or Bc4. Black's counterplay on the b-file is fast enough; the other tenth moves are met by 10...dxe4."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. Nxc6 {
+White strengthens Black's centre and opens the b-file, but with the queen pinned on the d-file ...dxe4
+is not available, and he gains a move for the attack. }
+( 10. h4 { Not dangerous, since Black's central play is already under way. } 10... dxe4 11. h5 Nxd4
+12. Bxd4 e5 { The simplest way to stop the attack, in Jones's words. } 13. h6 exd4 14. hxg7 Re8 { The pawn
+on g7 looks frightening and does nothing. } 15. Nxe4 Nxe4 16. fxe4 Qf6 { The queen comes to the defence,
+and after ...Qxg7 Black is a safe pawn up; White has just enough activity to hold. } )
+( 10. Bh6 { Trading bishops at the cost of the centre. } 10... Bxh6 11. Qxh6 Nxd4 12. Rxd4 e5 13. Rxd5 {
+White's best chance is this exchange sacrifice. } 13... Nxd5 14. exd5 f5 { White has some compensation
+and no more. 10...dxe4 is a simpler route to equality. } )
+10... bxc6 11. Bh6 { The sharpest idea. 11.exd5 Nxd5 is the main line by transposition. }
+( 11. Bc4 { Using the pin to bring the bishop to b3. } 11... e6 12. Bb3 Bb7 { Jones's set-up. The bishop
+on b7 blocks the b-file, but the one on b3 is shut out by Black's pawns, and the game is level. } )
+11... Bxh6 12. Qxh6 Rb8 { [%cal Gb8b2,Gd8a5] Both sides are now playing for mate. Hansen prefers 12...Qb6
+with the same ideas; the lines run together. } 13. e5 { White's main try, driving the knight from f6. }
+( 13. h4 Qa5 { [%cal Gb8b2] Jones's improvement. The rook sacrifice on b2 follows, and Black's attack
+arrives first. } )
+13... Nd7 14. h4
+( 14. Rd4 { The rook heads for h4. } 14... Re8 15. e6 Nf6 16. exf7+ Kxf7 { A complicated position in which
+Jones likes Black's central pawns. } )
+14... Nxe5 15. h5 Bf5 16. g4 f6 { [%cal Gg6g5] The idea that holds everything together. The bishop cannot
+be taken: 17.gxf5 g5 and the queen is trapped. } 17. Qe3 { The best square. }
+( 17. Qf4? { Walking into a discovered attack. } 17... Qd6 { [%cal Gd6b4,Ge5d3] White has to lose a move
+with the queen. } 18. Qe3 Qb4 { Black's attack on b2 is decisive; this is how Marin won a model game. } )
+17... Bd7 18. hxg6 Qb6 { Forcing the queens off; 18...hxg6 19.f4 would be dangerous. } 19. gxh7+ Kh8
+20. Qxb6 axb6 { **Verdict:** equal. White is a pawn up for a moment, but the pawn on h7 falls and Black
+has the more compact structure. The lines are sharp and short: know 12...Rb8, the trick 16...f6 and the
+queen exchange with 18...Qb6, and 10.Nxc6 holds no terrors. } *

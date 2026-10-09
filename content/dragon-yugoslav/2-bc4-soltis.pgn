@@ -1,0 +1,131 @@
+[Line "Soltis Variation: 13.Bg5 Rc5 14.Kb1"]
+[Section "9.Bc4: Soltis Variation and 12.Kb1"]
+[Summary "White can force this system with the 10.h4 move order. Black closes the h-file with ...h5, posts a rook on c5 and meets the g4 and h5 sacrifices by taking everything and returning the exchange."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. h4 {
+[%cal Rh4h5] White starts with the h-pawn. The point of the move order is to rule out the Topalov
+Variation: with h5 threatened, Black has no time for ...Rc8, ...Nxd4 and ...b5. The price is that White
+is committed to h4, so the quiet 12.Kb1 systems are gone as well. }
+( 10. Bb3 { The third move order. } 10... Rc8 { Keeping both systems: 11.O-O-O Nxd4 12.Bxd4 b5 is the
+Topalov Variation. The independent alternative is 10...Nxd4 11.Bxd4 b5 at once, the original form of
+Topalov's idea. } 11. h4 h5 12. O-O-O { The same position as
+after 12.Bb3 in the main line. } 12... Ne5 )
+10... h5 { [%csl Yh5,Rg5] The Soltis move, and here the only good one: Jones calls it dangerous to let
+the pawn go any further. With the pawn on h5 White can open the h-file only by sacrificing with g4. The
+cost is the g5-square, which is where White's bishop goes next. } 11. O-O-O Rc8 12. Bb3 Ne5 { [%cal
+Ge5c4] Now the knight belongs on e5. With h4 and ...h5 inserted the Topalov plan is less good: after
+12...Nxd4 13.Bxd4 b5 White plays g4, and ...h5 has turned from a defence into a target. On e5 the knight
+eyes c4 and also covers g4 and f3. } 13. Bg5 { [%cal Rg5f6,Rf3f4,Rc3d5] The main line. The bishop takes
+the square ...h5 gave up, pins the knight to e7 and prepares f4 followed by e5, or Bxf6 and Nd5. The
+alternatives 13.Bh6, 13.Kb1 and 13.g4 are in a later line. } 13... Rc5 { [%cal Gc5g5,Gb7b5] [%csl Yd5]
+The key move of the Soltis, and not one that anybody finds at the board. On c5 the rook covers d5, so
+that Nd5 can be answered by ...Rxd5; it frees the b-pawn; and it looks along the rank at the bishop on
+g5. As soon as the knight leaves e5 Black can take that bishop. The exchange sacrifice removes White's
+best attacking piece, drags a pawn to g5 where it blocks its own files, and leaves Black's knight and
+bishop unopposed on the dark squares. } 14. Kb1 { The usual prophylactic move, taking the king off the
+c-file before the fight starts. 14.g4 and 14.f4 are in the next line. } 14... b5 { [%cal Gb5b4,Ge5c4]
+Jones's recommendation: Black simply gets on with it. }
+( 14... Re8 { The older main line. The rook protects e7 so that the queen is free to go to a5 or c8;
+Carlsen played it against Radjabov in 2008. It is a sound alternative for a player who wants the rook
+on e8 before committing the b-pawn. } )
+15. g4 { [%cal Rh4h5] White cannot wait for ...Nc4 or ...b4 and gives a pawn to open the h-file. }
+15... hxg4 { Jones prefers taking. After 15...a5, which has also been played, he names 16.gxh5 and
+16.Bxf6 as the critical replies. } 16. h5 { A second pawn, to pull the knight away from f6. }
+16... Nxh5 17. Nd5 { [%cal Rd5e7,Rg5e7] Now e7 is attacked twice. } 17... Re8 { The calm defence and the
+most popular move. 17...Rxd5 at once has also been played. } 18. Rxh5 { The standard blow: the rook is
+given to reopen the file that the knight was blocking. } 18... gxh5 19. Qh2 { [%cal Rh2h5] Heading for
+h5, with threats against h7 and f7. } 19... Rxd5 { [%cal Gd8b6] Black returns the exchange to remove the
+knight, which was tying the queen and the rook to e7. } 20. Bxd5 Qb6 { **Verdict:** critical and
+double-edged. Black is two pawns up for the moment. White will win one back on h5 and has the h-file;
+Black has the knight on e5, pressure on d4 and b2, and ...e6 to drive the bishop from d5.
+
+This is where Jones's recommended moves lead in practice. It is sharper than anything in the Topalov
+lines and has to be prepared move by move: here the plans alone are not enough. } *
+
+[Line "Soltis Variation: 13.Bg5 Rc5 with 14.g4 and 14.f4"]
+[Section "9.Bc4: Soltis Variation and 12.Kb1"]
+[Summary "White breaks at once without Kb1. Black takes the pawn, hits the queen with ...Nc4 and has the bishop on g5 under fire from the rook."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. h4 h5
+11. O-O-O Rc8 12. Bb3 Ne5 13. Bg5 Rc5 14. g4 { White sacrifices at once, saving the king move. }
+( 14. f4 { [%cal Rf4f5,Re4e5] Chasing the knight to prepare e5. The drawback is that f3 no longer covers
+e4 and g4, and the bishop on g5 has lost its way back to e3. } 14... Nc4 15. Qd3 Na5 { [%cal Ga5b3] The
+knight goes after the bishop on b3, the piece that makes e5 and f5 dangerous. This is the move elite
+players have chosen most often, with good results in a small number of games; 15...b5 16.e5 is the
+sharper alternative. } )
+14... hxg4 15. f4 { [%cal Rf4f5,Re4e5] White wants to drive the knight off and follow with f5 or e5. }
+( 15. h5 Nxh5 { Black is two pawns up and the knight blocks the h-file. It is the main line of the
+previous game without Kb1 and ...b5, and White has to prove his compensation without the useful king
+move. } )
+15... Nc4 { [%cal Gc5g5] With tempo, and now the rook really does attack the bishop on g5. } 16. Qe2 Qc8
+{ **Verdict:** fine for Black. The queen move does several jobs: it defends g4, it lines up on the
+c-file behind the rook and knight so that a sacrifice on b2 is in the air, and it leaves the rook free
+to take on g5. Black is a pawn up with the h-file closed, and the standard assessment is that the early
+g-pawn advance promises White little. } *
+
+[Line "Soltis Variation: 13.Bh6, 13.Kb1 and 13.g4"]
+[Section "9.Bc4: Soltis Variation and 12.Kb1"]
+[Summary "White's other 13th moves. Against 13.Bh6 Black exchanges on c4 and g7 and brings a rook to h8; 13.Kb1 leads to the sharpest test of the Soltis; 13.g4 is premature."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. h4 h5
+11. O-O-O Rc8 12. Bb3 Ne5 13. Bh6 { The direct attempt to remove the bishop. }
+( 13. Kb1 { [%csl Yb1] Useful and flexible, and in practice the most dangerous move: White keeps Bg5, Bh6
+and g4 all in hand. } 13... Nc4 14. Bxc4 Rxc4 15. g4 { [%cal Rh4h5] The modern way, sacrificing two pawns
+for the files. }
+( 15. Nde2 { [%cal Re3h6] The older plan: the knight defends c3 so that Bh6 can follow without allowing
+...Rxc3. } 15... b5 16. Bh6 b4 { Black is in time on the queenside and has scored well. } )
+15... hxg4 16. h5 Nxh5 17. fxg4 Bxg4 18. Rdg1 Qd7 { Black has two extra pawns and White two open files.
+Black's ideas are ...Rfc8 and a sacrifice on c3; White doubles on the g- or h-file. This is the line in
+which White has scored best against the Soltis in elite games, and it should be studied before 11...Ne5
+is chosen in a game that matters. } )
+( 13. g4?! { Premature: White has neither played Kb1 nor pinned the knight. } 13... hxg4 14. h5 Nxh5
+15. Bh6 e6 { [%cal Gd8f6,Gd8h4] The precise defence. The queen gets a route to f6 and h4, and the bishop
+on b3 is shut out. } 16. Rdg1 Qf6 { White has no way through and is two pawns down. } )
+13... Nc4 { The solid answer. Black removes the b3-bishop first and lets the dark-squared bishops come
+off on g7, where the king recaptures and clears h8 for a rook. }
+( 13... Bxh6 { The classical sacrificial line, and still playable. } 14. Qxh6 Rxc3 15. bxc3 Qa5 { [%cal
+Ga5c3,Gf8c8] The queen on h6 is far from the defence and Black has the usual compensation: the wrecked
+pawns, the c-file and the knight on e5. It asks more of Black's memory than the main line. } )
+14. Bxc4 Rxc4 15. Bxg7 Kxg7 16. g4 { The only way to open lines. }
+( 16. Nd5 { Without the dark-squared bishops this exchange holds no terror. } 16... Nxd5 17. exd5 { Black
+has no weaknesses and plays ...b5 and ...Qb6 or ...Qa5; the kingside is closed. } )
+16... hxg4 17. h5 Rh8 { [%cal Gh8h1] The point of recapturing on g7 with the king: the rook reaches the
+h-file in one move and White's attack runs into a defender of equal value. } 18. hxg6 fxg6 19. f4
+( 19. e5 { A flashy try that fails. } 19... dxe5 20. Ne6+ Bxe6 21. Qxd8 Rxd8 22. Rxd8 gxf3 { Black has
+bishop, knight and a mass of passed pawns for a rook and is winning; he has won every elite game from
+here. } )
+19... e5 { **Verdict:** good for Black. He strikes in the centre before White can play f5 or e5, and
+after 20.Nde2 Nxe4 he has won a second pawn. The position stays sharp, but Black has a healthy plus score
+in this line and none of the usual worries about the h-file. } *
+
+[Line "The 12.Kb1 system and the Burnett Variation"]
+[Section "9.Bc4: Soltis Variation and 12.Kb1"]
+[Summary "The line that drives many Dragon players to the Topalov move order. White makes a useful waiting move, and Black's sharpest answer is a rook sacrifice on c4."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O
+Rc8 11. Bb3 Ne5 12. Kb1 { [%csl Yb1] The modern main line, reckoned the critical test of 11...Ne5. White
+makes the one useful move that commits nothing. The king leaves the c-file and covers a2; ...Qa5 no
+longer comes with a pin or a check; Nd5 becomes possible because ...Qxd2 is not check; and since h4 has
+not been played, the Soltis set-up has nothing to block. } 12... Nc4 { The established move and Jones's
+choice for those who play 11...Ne5. The fashionable 12...a6, which Carlsen used against Ivanchuk in
+2008, he considers too slow to be best; White's critical reply is 13.h4. }
+( 12... Re8 { The most popular of the waiting moves. The rook covers e7, which frees the queen, and it
+lets Black answer Bh6 with ...Bh8 and keep the bishop. The main line runs into a version of the Soltis
+in which White sacrifices two pawns. } 13. h4 h5 14. g4 hxg4 15. h5 Nxh5 16. Bh6 Kh7 { With great
+complications; White has full compensation and Black has to know a lot. } )
+13. Bxc4 Rxc4 14. g4 { [%cal Rh2h4,Rh4h5] With the king already safe White can start with the g-pawn.
+That rules out ...h5, and h4-h5 will follow. The old verdict was that White is simply better, because
+Black's standard counterplay is too slow. } 14... b5 { [%cal Gb5b4] Counterplay has to be immediate. }
+15. b3 { [%cal Rb3c4] The critical test. The rook has no good square: 15...Rc8 16.Ndxb5 loses a pawn,
+and 15...Rc5 runs into 16.Ne6, when the bishop takes on c5 and the d-file opens against the queen. }
+( 15. h4 { Getting on with the attack and leaving the rook alone. } 15... b4 16. Nd5 Nxd5 17. exd5 Qa5 {
+[%cal Ga5a2,Gc4d4] A race. Black attacks a2 and d5, White plays h5; the position is unclear and both
+sides have won games from it. } )
+15... b4 { [%cal Gg7c3] The Burnett Variation: Black leaves the rook where it is. It is the c3 sacrifice
+in another form, as Jones points out, with the rook given on c4. } 16. bxc4 bxc3 17. Qxc3 Qc7 { [%cal
+Gc7c4,Gf8b8] The first target is c4, and the b-file is open for the other rook. } 18. g5 Nh5 {
+**Verdict:** Black has given the exchange and a pawn, and has real compensation. The white king has no
+pawns in front of it on the b-file, the pawns on a2, c2 and c4 are all weak, and Black's bishops, the
+rook on the b-file and the knight heading for f4 are all active while White's attack has not started.
+Jones presents this as a complete answer to 12.Kb1, and Black has won most of the few elite games
+played. It is the right choice for a player who wants 11...Ne5 as the main system. } *

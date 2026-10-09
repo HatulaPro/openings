@@ -1,0 +1,226 @@
+[Line "9.Ne1 Nd7 10.Be3: 13.Rc1 and the c5 pawn sacrifice"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "The modern main line. White gives the c-pawn to open the queenside at once; Black takes it, parks a knight on a6 and attacks with ...h5 and ...g4."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 { Black can play this without preparation:
+7.dxe5 dxe5 8.Qxd8 Rxd8 9.Nxe5 does not win a pawn because of 9...Nxe4 (see the Exchange Variation). }
+7. O-O { White keeps the tension, so Black increases it. } 7... Nc6 { [%cal Rc6d4,Re5d4] The repertoire move.
+A second attack on d4 means White cannot go on making useful moves: he has to close the centre (8.d5),
+release it (8.dxe5) or defend it with a piece that can be harassed (8.Be3 Ng4). Closing it gains a tempo on
+the knight, but a closed centre is exactly what Black wants, because the f6-knight can then leave without
+e5 or e4 becoming a problem and the f-pawn can advance. }
+( 7... Na6 { A sound second system, not the repertoire. The knight waits for d5 to go to c5 and Black keeps
+...Qe8, ...Ng4 and ...c6 in reserve. It avoids the long forcing lines, at the price of leaving White the
+choice of structure. } )
+( 7... Nbd7 { The old main line: solid, with ...c6, ...Re8 and ...exd4 to come. The knight blocks the
+c8-bishop and puts no pressure on d4, so White builds up at leisure with Re1, Bf1 and Rb1. } )
+( 7... exd4 { Gives up the centre for play against e4. } 8. Nxd4 Re8 9. f3 { White has more space and a
+small, lasting pull. Black's set-up with ...c6 and ...d5 or ...Nbd7-c5 is playable but it is a different
+opening from the one in this chapter. } )
+8. d5 Ne7 { [%cal Gf7f5,Rc4c5] [%csl Yd6,Yc7] The Mar del Plata. On e7 the knight looks clumsy, but it is
+the right square: it supports ...f5 and goes to g6 as soon as the f-pawn has passed, whereas from b8 it would
+need three moves to do anything.
+
+**Plans:** White attacks the base of Black's chain with c5, opens the c-file and aims at c7, d6 and a7.
+Black attacks the base of White's with ...f5-f4 and ...g5-g4. White is usually faster; Black is playing for
+mate. }
+9. Ne1 { [%cal Re1d3,Rf2f3] The knight goes to d3 to support c5 and f4, and the f-pawn is free to defend
+e4. This is the line where the race is run in its purest form. } 9... Nd7 { [%cal Gf7f5,Gd7f6] The knight
+has to release the f-pawn, and from d7 it also covers c5, so that White needs b4 or Nd3 before he can
+break. It will return to f6 once ...f4 has been played. }
+( 9... Ne8 { The alternative, and Kasparov played both. From e8 the knight guards c7 and d6 in advance,
+but it does nothing to hold up c5, so White gets his break a move sooner. Worth knowing as a surprise;
+the plans are the same. } )
+10. Be3 { [%cal Re3a7] The most ambitious square. The bishop supports c5, eyes a7 and will defend the king
+from f2. The drawback is that ...f4 comes with tempo. } 10... f5 11. f3 { White must keep e4 protected by a
+pawn. 11.exf5 gxf5 only helps Black, who gets e4 covered and a mobile centre with ...f4 or ...Nf6 and ...e4
+in the air. } 11... f4 { Never ...fxe4: after fxe4 White has the f-file and Black has no pawn break left. }
+12. Bf2 g5 { [%cal Gg5g4,Gh7h5] [%csl Rg2] The attack is under way. Black intends ...Ng6, ...Nf6, ...Rf7,
+...Bf8, ...Rg7 and ...h5 in whatever order White's threats allow, and then ...g4. }
+13. Rc1 { [%cal Rc4c5] The modern main line. White wants c5 without spending a move on b4 or Nd3, and with
+the rook already on the c-file the pawn can be offered. } 13... Ng6 { [%cal Gg6h4] The move order matters.
+After 13...Nf6 14.c5 Ng6 15.cxd6 cxd6 16.Nb5 White has the c-file and the b5-knight for free and Black is
+a tempo short. By keeping the knight on d7 for one more move Black makes White pay for c5 with a pawn. }
+( 13... Rf6 { A different way to attack, with pieces: ...Rh6 or ...Rg6 and ...Qe8-h5, while the knight
+stays on d7 to hold c5. It is rarer and less well mapped; a reasonable second weapon. } )
+14. c5 { White gives the pawn to open lines before Black has finished regrouping. }
+( 14. Nd3 { The slow way. } 14... Nf6 15. c5 { The 13.Nd3 line by transposition, see there. } 15... Rf7 )
+( 14. Nb5 { Aiming at a7 as well as c7. } 14... b6 { Not 14...a6, when the knight goes to a7 and takes the
+c8-bishop; the trick is shown under 13.Nb5. After ...b6 the knight will be driven back by ...a6 when it
+suits Black. } )
+14... Nxc5 { With the knight, so that the chain d6-c7 stays intact. } 15. b4 Na6 { [%cal Ga6b4] [%csl Yc7]
+The only square that works: 15...Nd7 16.Nb5 wins back c7 or a7 at once with a bind. From a6 the knight
+guards c7 and attacks b4. It is out of play for the attack, but Black is a pawn up and still has
+everything he needs on the kingside. }
+16. Nb5 { [%cal Rb5a7,Rb5c7] The usual move: the knight covers b4's weakness by threatening a7. }
+( 16. Nd3 { Protects b4 first and keeps Nb5 for later. } 16... Rf7 { Covering c7 before it is attacked.
+Black continues ...h5, ...Bf8 or ...Bh6 and ...g4, and meets Nb5 with ...Bd7. } )
+16... Bd7 { [%cal Gd7b5] Developing with a threat to take the knight is one of the few times the bishop
+leaves c8 willingly, and it can go back. 17.Nxa7 regains the pawn but sends the knight to the edge of the
+board, three moves from the kingside. } 17. a4 { [%cal Gh7h5,Gg5g4,Gf8f7] White supports the knight and
+keeps the bind.
+
+**Verdict:** White has lasting pressure for the pawn: the a6-knight is tied down and b5 is a fine outpost.
+Black has an extra pawn and an untouched attack: ...h5 and ...Rf7 come next, then ...g4, and the bishop
+can take on b5 whenever the knight becomes dangerous. All the recent repertoire books
+treat 13.Rc1 as the critical test of 10.Be3; in practice both sides win games from this position. } *
+
+[Line "10.Be3: 13.a4 a5"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "Korchnoi's 13.a4 prepares a5 and c5. Black stops the pawn with ...a5 and ...b6, accepts a knight on c6 and gets on with the attack."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3
+f4 12. Bf2 g5 13. a4 { [%cal Ra4a5,Rc4c5] Korchnoi's move. The a-pawn is to go to a5, after which c5
+arrives with more force, a6 can break up the queenside and the bishop on f2 bears on b6 and a7. }
+13... a5 { [%csl Yb6,Yc5] The modern answer. The queenside is now much harder to open: White needs b4, and
+after ...axb4 Black has the a-file and the c5-square is still covered. The price is the hole on b5. }
+( 13... Ng6 { The older move, which allows 14.a5. It is playable, and it was the scene of a model attack. }
+14. Nd3 Nf6 15. c5 h5 16. h3 Rf7 17. c6 a5 { Keeping the queenside closed. } 18. cxb7 Bxb7 19. b4 Bc8
+{ The bishop goes straight back to the diagonal where it belongs. } 20. bxa5 Bh6 21. Nb4 g4 22. Nc6 Qf8
+23. fxg4 hxg4 24. hxg4 Bg5 25. Bf3 Qh6 { Korchnoi-Kasparov, Amsterdam 1991. The bishop came to g5 via h6
+and the queen to h6 via f8; White's king did not survive the h-file. } )
+14. Nd3 { Heading for b4 after the pawn exchange, or supporting c5. } 14... b6 { [%cal Ga5b4] Now c5 is
+ruled out for a long time and b4 can be met by ...axb4. The move also takes b6 away from White's bishop. }
+15. b4
+( 15. Be1 { White wants to recapture on b4 with the bishop and free f2 for the knight. } 15... h5 { Black
+simply continues; ...Nf6, ...Ng6 and ...g4 follow. } )
+15... axb4 16. Nxb4 Nf6 { The knight has done its work on d7 and returns to support ...g4. } 17. Nc6
+{ [%csl Rc6] The point of White's play: the knight cannot be left there. } 17... Nxc6 18. dxc6 { [%cal Gd8e8,Gc8e6,Gg5g4]
+**Verdict:** the structure has changed in Black's favour in one respect and White's in another. The pawn
+on c6 cramps the queenside and gives White d5 for the other knight, but it is cut off from its
+supporters, Black's d6-pawn is no longer a target and the centre is closed for good. Black attacks the
+pawn with ...Qe8 or covers d5 with ...Be6, and then plays ...h5 and ...g4. Chances are level. } *
+
+[Line "10.Be3: 13.Nd3 and 13.b4, the classical race"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "White prepares c5 the slow way and Black has time for the full Gligoric set-up. Two famous games show how the attack is carried out."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3
+f4 12. Bf2 g5 13. Nd3 { The old main line. The knight supports c5, but it has taken a move and it no
+longer defends g2 from e1. }
+( 13. b4 { The other way to prepare c5. } 13... Nf6 14. c5 Ng6 15. cxd6 cxd6 16. Rc1 Rf7 17. a4 Bf8 18. a5
+Bd7 { Here the bishop can come out, because it gains time against Nb5. } 19. Nb5 g4 { Black does not
+defend c7 a second time. } 20. Nc7 g3 { [%csl Rh2,Rf2] The rook is left to its fate. The pawn on g3 opens
+the diagonal for the queen and the knight comes to h5. } 21. Nxa8 Nh5 22. Kh1 gxf2 23. Rxf2 Ng3+ 24. Kg1
+Qxa8 { Piket-Kasparov, Tilburg 1989. Black has two pieces for the rook and the dark squares; he won in a
+few more moves. White's play can be improved, but the game shows how little the queenside matters once
+...g3 has been played. } )
+13... Nf6 { Now that c5 can no longer be prevented, the knight goes where it is needed for ...g4. } 14. c5
+Ng6 15. Rc1 Rf7 { [%cal Gg7f8,Gf7g7] [%csl Yc7] Gligoric's move, and the key to the whole system. The rook
+covers c7 along the rank, so the open c-file gives White no entry, and it clears f8 for the bishop, which
+in turn will clear g7 for the rook. } 16. Rc2 { White doubles on the c-file. 16.Kh1 is the modern
+refinement, making room for the bishop on g1; Black's set-up does not change. } 16... Bf8 { Covers d6
+and so frees the knight on f6 and the queen from defensive duty. } 17. cxd6 cxd6 { Always with the pawn:
+the chain stays whole. } 18. Qd2 g4 19. Rfc1 g3 { [%cal Gf6h5,Gd8h4,Gc8h3] The standard pawn sacrifice.
+Black does not want the g-file opened by exchanges, he wants the dark squares and the h-file. } 20. hxg3
+fxg3 21. Bxg3 Nh5 22. Bh2 Be7 { [%cal Ge7g5,Gg5e3] Taimanov-Najdorf, Zurich 1953. The bishop comes to g5
+and e3, the queen to g5 or h4, the knights to f4 and h4, and the c8-bishop waits for h3.
+
+**Verdict:** White's doubled rooks hit nothing, because c7 is covered and there is no second target, while
+every black piece has a route to the king. This is why White looked for faster methods (13.Rc1, 13.a4)
+and why the line is still worth playing against anyone who chooses it. } *
+
+[Line "10.Be3: 13.g4 and 13.Nb5"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "White blocks the kingside before attacking on the other wing, or probes a7 first. Black switches to the h-file, and answers Nb5 with ...b6."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3
+f4 12. Bf2 g5 13. g4 { [%csl Yg4] White stops ...g4 once and for all and means to play on the queenside
+with his king safe. The cost is that his own king's position has become rigid. }
+( 13. Nb5 { [%cal Rb5a7] The knight attacks a7, which the bishop on f2 is also eyeing. } 13... b6 { The
+right pawn. The knight will be driven away with ...a6 next, and Black has gained two moves that are
+useful against c5. White argues that b6 and a6 are targets for a4-a5; theory considers the position
+balanced. }
+( 13... a6? { The natural move loses the piece Black cannot do without. } 14. Na7 { The knight is immune:
+14...Rxa7 15.Bxa7 b6 traps the bishop only for a moment, as b4 and c5 will dig it out and White has won
+the exchange. Otherwise Nxc8 follows and the attack has lost its bishop. } )
+14. b4 a6 15. Nc3 { Black continues with ...Ng6, ...Nf6 and ...h5 as usual. } )
+13... h5 { [%cal Gf8f6,Gf6h6] Keeping the pawns on the board and putting the question to g4 at once. }
+( 13... fxg3 { The other treatment, taken en passant: after 14.hxg3 Black plays ...Ng6 and ...h5-h4 or
+...Nf6-h5. It opens the position for White's bishops as well, and it gives up the f4-pawn that cramps
+him, so it is the second choice. } 14. hxg3 Ng6 )
+14. h3 Rf6 { [%cal Gf6h6,Ge7g6,Gg7f8] The plan is the h-file: ...Rh6, ...Ng6, ...Nf6 and, when everything is
+ready, ...hxg4 followed by an invasion on h2 or h4, or a sacrifice on g4.
+
+**Verdict:** the attack is slower than usual and White's queenside play is as fast as ever, so Black
+must not hurry: he first brings every piece to the kingside and keeps c7 and d6 covered with the knight
+on d7 and the bishop on f8. The position is closed and manoeuvring, with chances for both sides. } *
+
+[Line "10.Nd3 f5 11.Bd2: the main line"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "The bishop stays out of range of ...f4 and White breaks with c5 at once. Black regroups with ...Rf7, ...Ne8, ...Bf8 and ...Rg7 and sacrifices a pawn with ...g4."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Nd3 { The
+knight supports c5 immediately and the bishop will go to d2, where ...f4 does not gain a tempo. } 10... f5
+11. Bd2 { 11.exf5 is met by 11...Nxf5 with ...Nd4 to come, and after 11.f4 exf4 Black gets the e5-square for a
+knight: opening the centre does not suit White here. } 11... Nf6 { [%cal Rf6e4] Back at once: the
+knight attacks e4, and c5 cannot be held up anyway now that the knight is on d3. } 12. f3 f4 13. c5
+( 13. g4 { The blockade. } 13... g5 { The main line. The pawn stays on f4, where it cramps White, and Black will
+use the h-file. } 14. Be1 h5 15. h3 Ng6 16. Kg2 Rf7 17. c5 Bf8 18. Bf2 Rh7 { [%cal Gh7h8,Gd8e8] Black doubles on
+the h-file and decides later whether to open it. The king's side is no longer a place where White can be
+mated quickly, but neither can he ignore it. } )
+13... g5 14. Rc1
+( 14. cxd6 cxd6 15. Nf2 { White defends first: the knight covers g4 and h3. } 15... h5 16. h3 Ng6 17. Qc2
+Rf7 { Against Nb5 and Qc7. Black continues ...a6, ...Bf8 and ...g4 as a pawn sacrifice, exactly as in the
+main line. } )
+( 14. Qc2 { An attempt to reach c7 at once. } 14... g4 { Kotronias's recommendation, which he gives two
+exclamation marks: Black answers a threat to c7 by attacking. } 15. Nb5 g3 { [%cal Gd8h4,Gc8h3] The pawn
+on g3 changes everything. If White closes the kingside with 16.h3 his king is locked in and Black
+prepares ...Bxh3 at leisure. Against the critical 16.Bb4 and 16.Ba5 Kotronias gives 16...Nfxd5, clearing
+the diagonal from d8 to h4 at the cost of a piece, with at least a draw for Black in every line. His
+summary is worth remembering: once a pawn stands on g3, the d8-h4 diagonal is what matters. } )
+14... Ng6 15. cxd6
+( 15. Nb5 { White keeps the tension on d6. } 15... Rf7 16. Ba5 { Provoking a weakness. } 16... b6 17. cxd6
+cxd6 18. Be1 g4 { Black has been made to play ...b6, which weakens c6, and White's bishop has taken three
+moves to reach e1. Black goes straight for the king. } )
+15... cxd6 16. Nb5 Rf7 { [%csl Yc7] } 17. Qc2 { [%cal Rb5c7] } 17... Ne8 { The one purely defensive
+move. Queen and knight both aim at c7, and the rook alone is not enough. The knight will return. } 18. a4
+h5 19. Nf2 { White covers g4 and h3 before Black gets there. } 19... Bf8 { [%cal Gf7g7] Covers d6 and
+makes room for the rook. The a7-pawn is left hanging on purpose. }
+20. h3
+( 20. Nxa7 { The pawn can be taken, and this is the tactical point of Black's set-up. } 20... Rc7 { The
+rook hits the queen and the knight on a7 has no way back. } 21. Ba5 Rxc2 22. Bxd8 Rxe2 23. Nxc8 Rxa4
+{ Material is level and Black's rooks are active. Analysts who distrust this ending play 19...Bd7 first,
+with the bishop then tied to the queenside; the main line is the principled choice. } )
+20... Rg7 21. Qb3 Nh4 { [%csl Rg2,Rf3] The knight takes up its post. } 22. Rc2 a6 { Now that everything is
+ready on the kingside the knight is sent away; the hole on b6 no longer matters. } 23. Na3 Nf6 { The
+knight returns for the breakthrough. } 24. Be1 g4 { The break comes as a pawn sacrifice, because White
+has h3 and f3 covered three times. } 25. hxg4 hxg4 26. Nxg4 Nh5 { [%cal Gh5g3,Gd8g5,Gf8e7] **Verdict:** the
+theory ends here. For the pawn Black has g3 for the knight, an open h-file, the queen coming to g5 or h4
+and the rook on g7 behind it all, while White's queenside has no target left. The line has been tested for
+decades and Black's compensation is regarded as full: it is White who has to find the only moves. } *
+
+[Line "10.Nd3 f5 11.f3 f4 12.b4"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "White leaves the bishop on c1 and pushes the queenside pawns as far as they will go. Black ignores them and plays ...h5 and ...g4."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Nd3 f5 11. f3
+{ White can also start with this move; 11...f4 12.Bd2 g5 13.c5 Nf6 then transposes to the 11.Bd2 lines. }
+11... f4 12. b4 { [%cal Rc4c5,Ra2a4] The bishop stays at home, where it is not in the way, and every
+tempo goes into the pawn storm: c5, a4-a5 and a6 or c6. } 12... g5 13. c5 Nf6 14. a4 h5 { With no bishop
+on d2 or f2 White's kingside has fewer defenders, so Black can go for ...g4 without the full regrouping. }
+15. a5 Ng6 16. Nf2 { The knight is needed against ...g4. } 16... Rf7 { [%cal Gg7f8,Gf7g7,Gg5g4] Still the
+right square: it covers c7 and b7 along the rank against cxd6, a6 and c6 ideas.
+
+**Verdict:** a pure race. In Thybo-Jones, 2021, Black preferred 16...Kh8 and after 17.a6 bxa6 18.c6 gave up
+the queenside completely for ...g4, ...Bh6 and ...Nh4, winning a wild game. The lesson is the same either
+way: White's pawns can reach the sixth rank without creating a target, and Black must not be distracted. } *
+
+[Line "10.f3 f5 11.g4: the Benko Attack"]
+[Section "Mar del Plata: 9.Ne1"]
+[Summary "White takes space on the kingside himself, to meet ...f4 with a blockade. Black keeps the tension and regroups with ...Kh8 and ...Ng8."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. f3 { A
+flexible move. After 10...f5 White can still transpose with 11.Be3 f4 12.Bf2 g5 or 11.Nd3 f4. } 10... f5
+11. g4 { [%csl Yg4,Yf5] Benko's idea. White wants Black to close the kingside, after which he has a free
+hand on the other wing. } 11... Kh8 { [%cal Ge7g8,Gg7h6] Black does not oblige. The king leaves the g-file
+and the diagonal, and g8 is cleared for the knight, which will come to f6 while the bishop goes to h6 to
+exchange itself for White's good bishop. }
+( 11... f4?! { What White is hoping for. } 12. h4 { The kingside is closed: ...g5 is met by h5 and ...h5 by
+g5, and Black has no pawn break left while White plays c5 undisturbed. } )
+12. Nd3
+( 12. Be3 { The bishop avoids the exchange on h6 for the moment. } 12... Ng8 { The same plan: ...Bh6 next,
+or ...f4 only now, when the bishop has to lose a move. } )
+12... Ng8 { [%cal Gg7h6,Gg8f6,Gd7c5] **Verdict:** Black keeps the tension on f5 and g4 and improves his
+pieces: ...Bh6, ...Ngf6, ...a5 and ...Nc5. White's king is the more exposed if the position opens, and
+his extra space on the kingside is something he must defend for the rest of the game. Chances are equal. } *

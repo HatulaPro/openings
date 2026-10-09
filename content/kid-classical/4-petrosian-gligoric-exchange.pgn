@@ -1,0 +1,149 @@
+[Line "Petrosian System: 7.d5 a5 8.Bg5"]
+[Section "Petrosian System: 7.d5"]
+[Summary "White closes the centre early and pins the knight to stop ...f5. Black unpins with ...Qe8, forces f3 with ...h5 and activates his bad bishop via h6 and e3."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. d5 { [%cal Rc1g5] White closes the centre
+before the knight has come to c6, so there is no ...Ne7 and no automatic kingside attack. He keeps the
+choice of where to castle and intends Bg5, to make ...f5 hard to organise. } 7... a5 { [%cal Gb8a6,Ga6c5]
+[%csl Yc5] The c5-square is the natural home for Black's queen's knight in this structure, and ...a5
+secures it against b4 before the knight sets out. }
+( 7... Nbd7 { The old main line. The knight reaches c5 as well, but it blocks the bishop and takes d7 from
+the other knight, and Black usually has to accept 8.Bg5 h6 9.Bh4 g5, with a weakened kingside. } )
+( 7... Na6 { A flexible relative of the main move, recommended by Gallagher: Black keeps ...a5 in reserve
+and may save it altogether. The plans are the same, and it often transposes. } )
+8. Bg5 { [%csl Rf6] Petrosian's idea. With the knight pinned Black cannot play ...Nh5, ...Ne8 or ...Nd7
+to free the f-pawn. } 8... h6 { Asking the question while the answer costs White something: on e3 the
+bishop is hit by ...Ng4, and on h4 it can later be shut in or trapped. } 9. Bh4
+( 9. Be3 Ng4 10. Bd2 f5 { Black has gained ...h6 and ...f5 for nothing and stands well. } )
+9... Na6 { Development first. The pin is broken with the queen, not with the g-pawn. }
+( 9... g5?! { The old way of breaking the pin, which the main line was invented to avoid. } 10. Bg3 Nh5
+11. h4 { White breaks up the pawns before Black has consolidated: after 11...g4 the knight goes to d2
+or h2, f5 is a hole that only White can use and Black's bishop on g7 has no future. } )
+10. Nd2 { [%cal Rf2f3] The knight makes way for f3 and is ready to meet ...Nc5 with b3, a3 and b4. }
+10... Qe8 { [%cal Gf6h7,Gf7f5] The pin is broken without weakening anything. The queen also supports
+...Nh7 and ...f5 and looks at a4. } 11. O-O
+( 11. a3 { Starting the queenside play before castling. } 11... Bd7 { The same answer as in the main
+line: now b4 is not possible, and Rb1 can be met by ...a4. } )
+11... Nh7 { [%cal Gf7f5,Gh6h5] Clearing the f-pawn, and from h7 the knight supports ...h5 and can come to
+g5. } 12. a3 Bd7 { [%csl Yb4] A precise move. The queen now protects the rook on a8, so 13.b4 loses a pawn
+to 13...axb4 14.axb4 Nxb4. White has to spend another move on preparation. } 13. b3 { So that ...a4 can be answered
+by b4. }
+( 13. Kh1 { White prepares f3 and Bf2 without allowing a check on e3. } 13... a4 { Fixing the queenside:
+b4 can now be taken en passant and the knight has c5 for good. } )
+13... h5 { [%cal Gg6g5,Gh5h4] The threat is ...g5 followed by ...h4, trapping the bishop, so White must
+make room for it. }
+( 13... f5 { The sharp alternative, which leads to a famous exchange sacrifice. } 14. exf5 gxf5 15. Bh5
+Qc8 16. Be7 Re8 17. Bxe8 Qxe8 18. Bh4 e4 { Yusupov-Kasparov, Barcelona 1989. For the exchange Black has
+the long diagonal, e5 and d3 for his knights and a mobile pawn pair; White's rooks have no open file.
+Black won, and the sacrifice is still considered sound, but the main line asks less of Black's memory. } )
+14. f3 Bh6 { [%cal Gh6e3] [%csl Ye3] The move ...h5 was played for this as well. White's f3 has opened
+the diagonal to e3, and the bishop that was shut in behind its own pawns becomes Black's most active
+piece. } 15. Rb1 Be3+ 16. Bf2 Bxf2+ { The straightforward choice: the bad bishop is exchanged for White's
+good one. }
+( 16... Bc5 { Keeping the bishops on is also possible: the bishop is safe on c5 and annoying, and White
+needs b4 to shift it. A matter of taste. } )
+17. Rxf2 Qe7 { [%cal Gh5h4,Ge7g5,Gf7f5] **Verdict:** balanced. With the dark-squared bishops gone Black's
+king is safe and his remaining bishop is the better one. He continues with ...h4, ...Qg5, ...Kg7 and
+...Nf6-h5-f4, or with ...f5 when White is busy elsewhere. White will play b4, and after ...axb4, axb4
+Black keeps the queenside closed with ...b6 or strikes back with ...c5. Neither side can easily break
+through, and the better manoeuvrer wins. } *
+
+[Line "Petrosian System: 8.Be3, 8.O-O and 8.h3"]
+[Section "Petrosian System: 7.d5"]
+[Summary "White's quieter eighth moves. Black uses ...Ng4 against a bishop on e3 and otherwise develops with ...Na6, heading for the main-line set-up."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. d5 a5 8. Be3 { The bishop takes c5 away
+from the knight and White keeps Nd2 and g4 in mind. It is also a target. }
+( 8. O-O { White commits his king, which rules out the plans with g4. } 8... Na6 9. Bg5
+( 9. Qc2 { Defending e4 so that the knight can stay on f3. } 9... Nc5 { The knight ties White to the
+e4-pawn, and Black follows with ...Bd7 or ...Nh5-f4. } )
+9... h6 10. Bh4 Qe8 11. Nd2 { The main line by transposition. } 11... Nh7 )
+( 8. h3 { The plan with Be3 and g4, restraining ...f5. } 8... Na6 { This position belongs to the h3
+systems and is covered in that chapter; Black's set-up with ...Nc5, ...Bd7 and ...Qe8 or ...Nh5 is
+the same. } )
+8... Ng4 9. Bg5 f6 10. Bh4 Na6 { Black has been made to play ...f6, which blocks the bishop for the
+moment, and in return the pin has gone and the knight on g4 has a good route home. } 11. Nd2 Nh6
+{ [%cal Gh6f7,Gg7h6] The knight goes to f7, where it covers g5, e5 and d6 and makes ...Bh6 possible.
+
+**Verdict:** Black completes the set-up with ...Nf7, ...Bd7 and ...Qe8, and then chooses between ...Bh6,
+exchanging the bad bishop, and ...f5. White's bishop on h4 is out of play once the f-pawn has moved on,
+and his queenside advance needs the same a3, b3, Rb1 and b4 as in the main line. Equal chances. } *
+
+[Line "Gligoric System: 7.Be3 Ng4 8.Bg5 f6 9.Bh4"]
+[Section "Gligoric System: 7.Be3"]
+[Summary "White delays castling and keeps the centre fluid. Black chases the bishop and, once it is committed to h4, plays ...Nc6 after all, reaching a Mar del Plata with extra features."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 { [%cal Rd4d5,Rf3d2] The Gligoric System.
+White supports d4, keeps the tension and has not castled, which makes Black's usual attack less
+attractive. } 7... Ng4 { The bishop is attacked before h3 can be played. The alternatives 7...exd4,
+7...Na6, 7...c6 and Nunn's 7...h6 are all respectable; this is the most direct and the one most
+repertoire books choose. }
+( 7... Nc6?! { What White is hoping for. } 8. d5 Ne7 9. Nd2 { A Mar del Plata in which White has saved a
+move on castling and has the knight on d2 at once. He is ready for b4 and c5, his king can stay in the
+centre or go to the queenside, and Black's attack has no target. Theory gives White the better game. } )
+8. Bg5 f6 { The bishop is blocked, but only until the pawn moves on to f5. } 9. Bh4 { [%csl Rd8] The
+bishop stays on the diagonal of the queen. As long as it is there the f-pawn is pinned in effect, since
+...f5 would uncover an attack on d8, so Black has to prepare the advance. } 9... Nc6 { [%cal Rc6d4] Now
+the knight comes out after all. The difference from move seven is that after 10.d5 Ne7 White's bishop stands on h4,
+outside the pawn chain, where ...g5 will hit it with tempo, and the knight on g4 has a good route home
+via h6 and f7. }
+( 9... g5 { The other main line, which Vigorito covers alongside 9...Nc6. Black gains space at once and
+brings the knight to f7, at the cost of weakening f5 and h5 before White has committed his centre. It
+is sound, and a matter of taste. } 10. Bg3 Nh6 )
+10. d5
+( 10. O-O { Keeping the tension, and transposing to the line 7.O-O Nc6 8.Be3 Ng4 9.Bg5 f6 10.Bh4, where
+the continuation is discussed. } 10... g5 11. Bg3 Nh6 )
+10... Ne7 11. Nd2 { The knight on g4 is attacked and f3 is prepared. } 11... Nh6 { [%cal Gh6f7] Not a bad
+square in this structure: the knight goes to f7, where it defends d6, the base of the chain, and
+supports ...g4 later. } 12. f3 { Giving the bishop f2. } 12... g5
+( 12... c5 { A positional alternative. Black blocks the queenside before turning to the other wing;
+after 13.dxc6 bxc6 he has the b-file and control of d5. It scores well and suits players who dislike
+races. } )
+13. Bf2 f5 14. c5 Ng6 { [%cal Gg5g4,Gh6f7] **Verdict:** a Mar del Plata race with two differences. Black's
+king's knight stands on h6 instead of f6, heading for f7, where it guards d6 and makes the c5 break less
+dangerous. And White's king is still on e1: he can castle long, or play g4 to block the kingside, so
+Black must be ready to switch to the h-file with ...Nf7 and ...h5. Chances are equal. } *
+
+[Line "Gligoric System: 9.Bc1"]
+[Section "Gligoric System: 7.Be3"]
+[Summary "The bishop goes home, claiming that ...f6 and the knight on g4 are misplaced. Black develops with ...Nc6 and gets ...f5 in."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bc1 { White has lost
+no time, since Black's last two moves are not obviously useful, and h3 is a threat. } 9... Nc6 { The
+most natural move now that d5 would not come with Nd2 ready. The older 9...exd4 10.Nxd4 f5 opens the
+game at once and is also playable. } 10. O-O { Transposing to the line 7.O-O Nc6 8.Be3 Ng4 9.Bg5 f6
+10.Bc1, where Black's play is explained. }
+( 10. d5 { Closing the centre with the king still at home. } 10... Ne7 11. h3 Nh6 { [%cal Gh6f7,Gf6f5]
+White hopes to use the knight's position with g4 or h4-h5. Black answers with ...Nf7, after which
+h5 can be met by ...g5, and then plays ...f5 or ...c5. The knight on f7 is well placed and White's
+king has no safe home, so the chances are balanced. } )
+10... f5 11. dxe5 Ngxe5 *
+
+[Line "Exchange Variation: 7.dxe5"]
+[Section "Exchange Variation: 7.dxe5"]
+[Summary "White trades queens and tries to use his lead in development. Black meets the threats to c7 and f6 exactly, plays ...c6 and equalises; the d4-square is his long-term asset."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. dxe5 dxe5 8. Qxd8 Rxd8 9. Bg5 { [%cal Rc3d5]
+[%csl Rf6,Rc7] The only dangerous move. The knight on f6 is pinned against the rook, and Nd5 threatens
+both it and c7. }
+( 9. Nxe5 { This wins nothing. } 9... Nxe4 { The pawn comes straight back, because the knight on e5 is
+attacked by the bishop. } 10. Nxe4
+( 10. Nxf7? { Trying to win the exchange. } 10... Bxc3+ { The check gains the decisive tempo. } 11. bxc3
+Kxf7 { Black has won a piece. } )
+10... Bxe5 { Black has the more active bishops and no problems at all. } )
+( 9. Nd5 { The same idea without the pin. } 9... Nxd5 10. cxd5 c6 11. Bc4 cxd5 12. Bxd5 Nd7 { The knight
+will challenge the bishop from b6 or f6. Black is equal for the same reasons as in the main line. } )
+9... Re8 { [%cal Gb8a6,Gc7c6] The rook leaves the pin, so that Nd5 can be met by ...Nxd5. On e8 it also
+guards e5, which frees the bishop and the knights from that duty. } 10. Nd5
+( 10. O-O-O { Development with a threat: Nd5 or Nb5 would now hit c7 with the rook on the d-file. }
+10... Na6 { The knight covers c7 and is on its way to c5. } 11. Ne1 { The knight heads for d5 by c2 and
+e3. } 11... c6 { [%csl Yd4] Taking d5 away for good. Black follows with ...Nc5, ...a5 and ...Ne6-d4, and
+it is White who has to be careful: his e4-pawn and the d4-square are permanent weaknesses. } )
+10... Nxd5 11. cxd5 c6 { Black challenges the pawn at once, before White can support it with Rc1 or
+Nd2-c4. } 12. Bc4 cxd5 13. Bxd5 Nd7 { [%cal Gd7c5,Gd7b6] The knight keeps both b6 and c5 in view and
+does not block the c8-bishop for long. The bishop on d5 looks strong, but it will be exchanged or
+driven back. } 14. Nd2 { Heading for c4 and d6. } 14... Nc5 15. O-O-O Be6 { [%csl Yd4] **Verdict:** equal.
+The strong bishop is exchanged, after 16.Bxe6 Nxe6 the knight attacks g5 and looks at d4 and f4, and
+neither side has a weakness the other can reach. In the long run Black's structure is the healthier
+one, because he controls d5 with pieces while d4 can never be covered by a white pawn. The side that
+understands the knight manoeuvres wins these endings, and that is usually the King's Indian player. } *

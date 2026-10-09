@@ -1,0 +1,26 @@
+[Line "Classical main line: 5.d4"]
+[Section "3...d6"]
+[Summary "White keeps a small lead in development against Black's solid, symmetrical centre."]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 { [%cal Rf6e4] Taking first is the test. Black cannot take back at once, which is
+the whole point of the next note. } 3... d6
+( 3... Nxe4? { The move every beginner wants to play, and it loses material. } 4. Qe2! { [%cal Ge2e8]
+The queen lines up against the king, so the knight on e4 cannot move away. } 4... Qe7
+( 4... Nf6?? { [%csl Rd8] Moving the knight away opens the e-file. } 5. Nc6+ { A discovered check that wins the queen. } )
+5. Qxe4 d6 6. d4 dxe5 7. dxe5 Nc6 8. Bb5 Bd7 9. Nc3 { White is a clean pawn up. } )
+4. Nf3 { The knight retreats before Black takes on e4, so that 4...Nxe4 no longer comes with tempo. }
+( 4. Nxf7?! { The Cochrane Gambit: two pawns and an exposed king for the knight. Dangerous in blitz,
+but it is not the repertoire. } 4... Kxf7 5. d4 c5! { Black hits the centre before White has developed. } )
+4... Nxe4 5. d4 { [%cal Gf1d3,Ge1g1,Gf1e1] **Plan:** Bd3, castle, Re1 and c4, playing against the knight
+on e4. Black has to decide whether to support it with ...d5 or drop it back. } 5... d5 6. Bd3 Be7 7. O-O
+Nc6 8. c4 { White is slightly more comfortable: the knight on e4 is under pressure and d5 is a target. } *
+
+[Line "Modern main line: 5.Nc3"]
+[Section "3...d6"]
+[Summary "White gives up the pawn structure for fast development and castles long."]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 { A second repertoire choice in the same position as
+5.d4. Shared moves before it are annotated only once, in the first line. } 5... Nxc3 6. dxc3 { [%cal
+Gc1e3,Gd1d2,Ge1c1] Towards the centre would be routine; this recapture opens the d-file and the diagonal
+of the c1-bishop, and White castles long. } 6... Be7 7. Be3 O-O 8. Qd2 Nd7 9. O-O-O { Opposite-side
+castling: White pushes the h- and g-pawns, Black plays ...Ne5 or ...Nc5 and ...Be6. } *

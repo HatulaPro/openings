@@ -1,0 +1,73 @@
+[Line "3.f4 exf4 4.Nf3 Nf6 5.d4: the Fozo Defence"]
+[Section "2...Nc6 3.f4 exf4 4.Nf3"]
+[Summary "The Vienna Gambit against the copycat knight. After 4.Nf3 and 5.d4 White owns the centre and recovers the f4 pawn with Bxf4 and a lead in development."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 { [%cal Gf2f4,Gf4e5] The Vienna Gambit against 2...Nc6, the second weapon of this chapter. It is a King's Gambit with the knight already on c3: White builds a pawn centre and opens the f-file, and the f4 pawn is a loan that is nearly always repaid by Bxf4. Compared with 3.Bc4 it is more direct and demands more precise knowledge of the lines. }
+3... exf4 { Black takes. In practice most players decline, with ...d6, ...Nf6 or ...Bc5 (see the next file). }
+4. Nf3 { [%cal Gf3h4,Rd8h4] The knight stops ...Qh4+ before it starts and prepares d4. Black can now keep the pawn only at the price of ...g5, or develop and let White take it back. }
+( 4. d4 { The Steinitz Gambit, 4...Qh4+ 5.Ke2, is a real alternative, but it leaves the king in the middle and none of the studies used for this chapter recommend it. 4.Nf3 gets the same centre without the check. } 4... Qh4+ 5. Ke2 )
+4... Nf6 { The Fozo Defence, by far Black's most common reply. It hits e4 and invites ...Bb4. }
+5. d4 { [%cal Gd4c5,Gd4e5,Ge4d5,Ge4f5] White takes the whole centre: pawns on d4 and e4 control c5, e5, d5 and f5, and the f4 pawn will be recovered by Bxf4 with a gain of time. }
+5... Bb4 { Pins the knight, so that ...Nxe4 is a threat. }
+( 5... d5 { Strikes at once in the centre. } 6. e5 { [%cal Ge5f6] Do not trade on d5: the pawn thrust kicks the knight and the e5 pawn cramps Black. } 6... Ne4 7. Bxf4 Nxc3 8. bxc3 Bg4 { Pins the knight, but the bishop has left c8 and b7 is loose. } 9. Rb1 { [%cal Gb1b7] } 9... b6 10. Bb5 { The knight on c6 is pinned, White has the centre and the open b-file, and the pawn structure on c3 gives no target. } )
+( 5... d6 { Passive. } 6. Bxf4 Be7 7. d5 { The knight is driven back at once. } 7... Nb8 8. Bd3 O-O 9. O-O Bg4 10. Qd2 { [%cal Gd2f4] The queen guards the bishop on f4 against the pin and prepares Rae1 or Rf1. White has more space and a firm centre. } )
+6. Bd3 { [%cal Gd3e4] A second guard for e4. The study rates 6.Qe2 and 6.Bxf4 as mistakes and 6.Qd3 as inferior. }
+( 6. Bxf4? { Gives up the centre pawn for a flank pawn. } 6... Nxe4 { The e4 pawn falls, because the c3 knight is pinned and cannot help. } )
+6... O-O?! { The study's verdict is that castling here is an error, because White recovers the pawn with gain of time. }
+7. Bxf4 { [%cal Gf4c7] The bishop returns with an attack on c7 and the f-pawn is back. }
+7... Re8 8. O-O! { [%cal Gg1h1] Not a defence of e4 but an invitation to take it: White completes development and the capture on e4 turns out to cost Black more than it wins. }
+8... Bxc3 9. bxc3 Nxe4? { Takes the bait. } 10. d5! { [%cal Gd5c6,Gd3e4] A double attack: d5 attacks the knight on c6 and the bishop on d3 attacks the knight on e4, so Black cannot save both. }
+10... Nxc3 11. Qd2 { [%cal Gd2c3,Gd5c6] The queen attacks the c3 knight and the pawn on d5 attacks c6. If Black takes on d5, Bxh7+ wins another piece.
+
+**Verdict:** a clear edge for White according to the study. Black's mistake was to castle before the centre was settled, so the lesson is to meet the pin with Bd3, regain the pawn and keep the lead in development. } *
+
+[Line "3.f4 exf4 4.Nf3 g5 5.Bc4: the Muzio structure"]
+[Section "2...Nc6 3.f4 exf4 4.Nf3"]
+[Summary "Black holds the f4 pawn with ...g5 and ...g4. White castles into a Muzio-style attack, a risky gambit of a knight for the f-file and the f7 square."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 { Black clings to the pawn. It is the most testing reply and it makes 4.Nf3 a real decision: the knight will be attacked after ...g4 and cannot retreat without handing Black the initiative. The Vienna System study calls the line problematic for exactly this reason and says the knight will probably have to be sacrificed. }
+5. Bc4 { [%cal Gc4f7] The usual choice of the studies. The other classical route, the Hamppe-Allgaier with 5.h4 g4 6.Ng5, is a different gambit that none of the studies used for this chapter treat, so it is not given here. The bishop eyes f7 and White will castle at once. }
+5... g4 { Attacks the knight. }
+6. O-O! { [%cal Gf1f4,Gd1f3] The same idea as in the Muzio Gambit of the King's Gambit: White does not move the attacked knight but castles. If Black takes on f3, the queen recaptures with a strong attack on f4 and f7. }
+6... gxf3 7. Qxf3 { [%cal Gf3f4,Gf3f7,Gc4f7] The queen hits f4 and f7 (together with the bishop and the rook behind it), and White has a lead in development in return for a knight. }
+7... Bc5+! { The best defence according to the study: an in-between check that prepares ...Qh4, defending f4 from the other side. }
+( 7... Qf6? { The most popular move and a mistake. } 8. Nd5 { [%cal Gd5f6,Gd5c7] The knight hits the queen and c7. } 8... Qd4+ 9. Kh1 Qxc4 10. d3 { [%cal Gd3c4] The queen is attacked again and the fork on c7 follows. } 10... Qd4 11. Nxc7+ { Wins the rook on a8. } )
+8. Kh1 Qh4 { Black defends f4 and starts an attack of his own on h2. }
+9. d4 { [%cal Gd4c5] Kicks the bishop and opens the c1 bishop. } 9... Nxd4 10. Qd3 { [%cal Gd3f1,Gc1f4] The queen leaves the knight's attack and White threatens Rxf4 or Bxf4. }
+10... f3 { A counter-blow: the pawn goes forward and threatens ...Qxh2#. } 11. g3 { [%cal Gg3h4] } 11... Qh3 { [%cal Gh3f1] The study continues 12.Rxf3!? Nxf3 13.Qxf3, a rook sacrifice with White's pieces aimed at f7 and d5.
+
+**Verdict:** speculative. The study treats this as promising for White, but it is the least explored line of the chapter, with few games behind it, and White is a knight and a pawn down before the final sacrifice. If you do not want to gamble a knight on move 6, the whole 3.f4 branch is optional: 3.Bc4 is the main line of the chapter. } *
+
+[Line "3.f4 exf4 4.Nf3 d6 5.d4: the Triscow Defence"]
+[Section "2...Nc6 3.f4 exf4 4.Nf3"]
+[Summary "Black develops quietly. White takes the centre, wins the f4 pawn back and gets the bishop pair with a half-open g-file."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 d6 { The Triscow Defence. It prepares ...Bg4 and ...Nf6 without giving White a target, but it leaves the f4 pawn to its fate. }
+5. d4 { [%cal Gd4c5,Gd4e5,Ge4d5,Ge4f5] The centre again. }
+5... Bg4 { The pin is the usual idea. }
+( 5... g5 { Tries to keep the pawn, but the knight on c6 is loose. } 6. d5 { [%cal Gd5c6] The knight must move before the g5 pawn can be defended. } 6... Ne5 7. Bb5+ { Black cannot reply 7...c6 because of dxc6. } 7... Bd7 8. Bxd7+ Qxd7 9. Nxg5 { The g5 pawn was left without a guard. } 9... h6 10. Nf3 { White has regained the pawn and has the better centre. } )
+6. Bxf4 { [%cal Gf4c7] The pawn is back and the bishop eyes c7. }
+6... Bxf3 { Black gives the bishop for the knight to stop White's attack. }
+7. gxf3! { [%cal Gh1g1,Gg1g7] The recapture with the pawn. White gets the half-open g-file and keeps the centre. The study's plan is to castle long, put the king on b1 and push the h-pawn, with rooks on the g-file, e5 and d5 thrusts and Bd3 or Bh3 as needed. }
+( 7. Qxf3 { Also fine, but the pawn recapture gives White more play against g7. } )
+7... Qh4+ { Black counts on a check. } 8. Bg3 { [%cal Gg3h4] Blocks the check and attacks the queen. } 8... Qf6 { The queen moves again but runs into a knight jump. }
+9. Nd5 { [%cal Gd5f6,Gd5c7] The knight attacks the queen again, with a fork on c7 in the air. } 9... Qd8 { White has a strong knight on d5, a solid centre and the bishop pair, and the g-file is half-open for the rooks.
+
+**Verdict:** a plus for White and an easy plan: O-O-O, Kb1, rooks to the g-file, h4-h5 and the central thrusts e5 or d5. } *
+
+[Line "3.f4 exf4 4.Nf3 Bb4 5.d4"]
+[Section "2...Nc6 3.f4 exf4 4.Nf3"]
+[Summary "Black develops the bishop before taking back the centre. After 5.d4 Bxc3+ 6.bxc3 White has the centre and the open b-file, and the f4 pawn comes back."]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 Bb4 { The Westraller Variation, a bishop move that ignores the centre. }
+( 4... Bc5 { The Gusten-Vignok Variation: the bishop is attacked at once by d4. } 5. d4 Bb6 6. Bxf4 d6 7. Bb5 { [%cal Gb5e8,Gd4d5] The bishop pins the knight and White threatens d5. } 7... Bd7 8. O-O Nf6 9. h3 { Takes g4 away. } 9... a6 10. Bc4 { [%cal Ga2a4,Gb2b4] The plan is an attack on the queen-side, where Black's pieces are. } )
+5. d4 { [%cal Gd4e5] } 5... Bxc3+ 6. bxc3 { Always towards the centre: the chain c3-d4-e4 stays solid and the b-file is open for the rook. }
+6... Nf6 { Hits e4. }
+( 6... d5 { Strikes at once. } 7. exd5 Qxd5 8. Bxf4 { [%cal Gf4c7] Looks like a blunder but it is not. } 8... Qe4+ 9. Qe2 { The black queen is pinned to the king, so she cannot take on f4. } 9... Qxe2+ 10. Bxe2 { White has the centre and the more active pieces. } )
+( 6... d6 7. Bxf4 { Transposes to the 4...Bc5 line above. } )
+7. Bd3 { Defends e4 before ...Nxe4. } 7... O-O { Taking on e4 at once is bad, and castling is the natural reply. }
+8. O-O d5! { The right way to challenge White: the pawn hits e4. } 9. e5 { [%cal Ge5f6] Gains a tempo on the knight. } 9... Ne4 { An annoying knight, but White has a resource. }
+10. Qe1! { [%cal Ge1c3,Gf3h4] Defends the pawn on c3 in advance, so that ...Nxc3 can be met by Qxc3, and keeps Bxf4 for later. } 10... Bf5 { Not the best move, but the natural one. }
+11. Bxf4 { [%cal Gf4e5,Gf3h4,Ga1b1,Gc3c4] The pawn is back. White's plans are Rb1 and c4 against the d5 pawn, with a4-a5 on the queen-side, and Nh4 to trade off the bishop on f5.
+
+**Verdict:** a pleasant advantage for White in the study's view, with the more flexible pawn structure. } *

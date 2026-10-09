@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Openings</string>
+    <string name="title_activity_main">Openings</string>
+    <string name="package_name">app.openings.trainer</string>
+    <string name="custom_url_scheme">app.openings.trainer</string>
+</resources>

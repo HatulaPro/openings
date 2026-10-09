@@ -1,0 +1,88 @@
+[Line "5...exd4 6.Bc4 Nf6 7.O-O Bc5 8.Ng5 O-O 9.Nxf7: the pinned knight"]
+[Section "5...exd4: the gambit"]
+[Summary "Black grabs d4, White develops instead of recapturing. If Black castles into Ng5 and Nxf7, the knight on f6 is pinned along the f-file and White wins material."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 exd4 { [%cal Rd4c3] Black takes the pawn (about one game in six).
+The pawn on d4 is not going anywhere, so White does not recapture at once. } 6. Bc4 { [%cal Gc4f7,Gf3g5,Gf1f7,Gf3d4]
+**Idea:** the Fantasy gambit. White ignores the pawn and develops with tempo: bishop to c4, castle, the
+rook on the f-file, a knight to g5, so that f7 is attacked three times before Black has castled. The pawn
+on d4 can be taken back with Nxd4 or Qxd4 whenever it suits.
+
+**Why it works:** Black's king is still in the middle and only his pawns are developed. In elite games
+White scores about 65% after 6.Bc4, the best result of any line in this chapter. The quiet 6.Nxd4 is
+possible but gives Black time for ...Bc5 and ...Nf6. }
+6... Nf6 { [%cal Rf6e4] The most popular reply (about 40%). It develops and attacks the e4 pawn. }
+7. O-O { [%cal Gf1f7] Castling instead of defending e4: every tempo goes into development, and the rook
+joins the f-file behind the f7 target. } 7... Bc5 { [%cal Rc5g1,Rc5f2] Defends d4 and eyes g1, but leaves
+f7 to the king alone. } 8. Ng5 { [%cal Gg5f7,Gc4f7] Doubles on f7. Black's natural move now loses. }
+8... O-O? { [%cal Rg8f7] Castles into the combination. The king arrives on the f-file just in time for the
+pin. }
+( 8... Nxe4 { Grabs a pawn and leaves f7 to its fate. } 9. Bxf7+ { The study's picture of how fast Black's
+position falls apart. } 9... Kd7? { The king is dragged up the board and cannot get back; the finish is
+a mating attack. } 10. Nxe4 Bb6 11. Qg4+ Ke7 12. Qxg7 d3+ 13. Kh1 Kd7 14. Bc4+ Qe7 15. Qxe7+ Kxe7 16. Rf7+
+Ke8 17. Nd6+ Kd8 18. Bg5# )
+9. Nxf7! { [%cal Gg5f7] The knight sacrifice that makes the pin work. Black has to take it, and did so in
+15 of 15 elite games. } 9... Rxf7 10. Bxf7+ { [%cal Gf1f6] The bishop sacrifice pulls the king onto f7. }
+10... Kxf7 { [%csl Rf6,Rf7][%cal Gf1f6] **The point:** the king now stands on f7 with the rook on f1 behind
+the f6 knight. The knight is pinned, so it cannot take anything and it cannot move.
+
+Material is roughly level (two minor pieces for a rook and a pawn), but the pin decides the rest. }
+11. Qh5+ { [%cal Gd1h5,Gh5c5] The queen checks on the diagonal that the pinned knight cannot cover, and
+then takes the c5 bishop along the fifth rank. } ( 11. e5 { Also strong: the pawn attacks the pinned
+knight. With the bishop on c5 the queen move wins more, but e5 is the way to win the knight when there
+is nothing to capture on c5 (see the next line). } 11... Nd7 12. exf6 Nxf6 )
+11... Kg8 { Kg8 or ...g6 makes no difference: the c5 bishop falls either way. } 12. Qxc5 { White is
+the exchange up with a safe king; the black king is bare and the queenside undeveloped. } 12... Nxe4 13. Qc4+
+Kh8 { **Verdict:** White wins material by force. Black's last resource is to take the e4 pawn, but the
+knight and the d4 pawn are loose and White has the exchange. In elite games this sequence won 14 of 18,
+and the study files it under the worst moves Black can make. } *
+
+[Line "7...Be7 8.Ng5 O-O 9.Nxf7 and 11.e5"]
+[Section "5...exd4: the gambit"]
+[Summary "The same sacrifice against the quieter bishop move. With nothing on c5 to win, White wins the pinned knight with e5."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 exd4 6. Bc4 Nf6 7. O-O Be7 { [%cal Re7f6] The second most popular
+seventh move (about a third of the games). The bishop covers f6 and the king's squares, so Black thinks
+he is safe from Ng5. } 8. Ng5 { [%cal Gg5f7,Gc4f7] The same idea. Playing 8.e5 first is the alternative
+and it scores poorly (2 wins in 11). } 8... O-O 9. Nxf7 Rxf7 10. Bxf7+ Kxf7
+11. e5 { [%cal Ge5f6,Gf1f6] There is no bishop on c5 to win, but the f6 knight is pinned to the king and
+the pawn attacks it. The knight cannot move without exposing the king to the rook, so it is lost. }
+11... Kg8 { Gives the king a square and offers a pawn back. } 12. exf6 Bxf6 { **Verdict:** White has the
+exchange for a pawn, a safe king and the d4 pawn to take back. In the 31 elite games with 11.e5 White won
+20 and lost 9. Every one of the 40 players who reached this position castled on move 8, so the line has
+not been tested against a Black who finds something else. } *
+
+[Line "7...Be6 8.Bxe6 fxe6 9.e5: kicking the knight"]
+[Section "5...exd4: the gambit"]
+[Summary "Black challenges the bishop at once. After the exchange on e6 White kicks the knight with e5 and the Ng5 jump hits e6; the d4 pawn is regained with interest."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 exd4 6. Bc4 Nf6 7. O-O Be6 { [%cal Re6c4] Challenges the bishop
+before it can do any harm. Played in about one game in eight. } 8. Bxe6 { Gives up the bishop pair for a
+pawn structure. } 8... fxe6 { Black's pawns are now e6, c6, d4: the e6 pawn is isolated once the e-file
+opens, and the f-file is open for White's rook. } 9. e5 { [%cal Ge5f6] Attacks the knight. The e5 pawn
+cramps Black and takes d5 and f6 from his pieces. } ( 9. Ng5 { Also possible: Ng5 hits e6 and h7. In
+elite games it scored worse than e5 (one win in three). } 9... Bc5 )
+9... Nd5 { [%cal Rd5f4,Rd5b4] The knight goes to d5, where it blocks the d-file and covers f4 and b4. }
+( 9... Ne4 { Keeps the knight active on e4, and the elite results favour Black (8 wins for Black in 16). }
+10. Nbd2 Nxd2 )
+10. Ng5 { [%cal Gg5e6,Gd1d4] Attacks the e6 pawn and threatens to take on d4. Black has to answer both.
+Elite games: 11 games, 10 wins for White. } 10... Qd7 { **Verdict:** a very small sample, but White has the
+easier game: the d4 pawn will be regained (Qxd4), e6 is a weakness and f7 and the f-file belong to White.
+The risk is the same as everywhere else in this chapter: the king on g1 faces the a7-g1 diagonal if a
+dark-squared bishop reaches it. } *
+
+[Line "6...Bg4 and 6...Bb4+: the early sixth moves"]
+[Section "5...exd4: the gambit"]
+[Summary "6...Bg4 walks into Bxf7+ and Ne5+; 6...Bb4+ forces White to give another pawn but gets a strong attack."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 exd4 6. Bc4 Bg4 { [%cal Rg4f3] Pins the knight again and wants
+to take on f3. }
+( 6... Bb4+ { Black interposes the check. } 7. c3 { The move played in 19 of the 23 elite games. } 7... dxc3
+8. Bxf7+ { [%cal Gc4f7] The elite choice (12 of 14 games). Black has taken two pawns, White has taken one
+and dragged the king out. } 8... Ke7 9. Qb3 { **Verdict:** a real gambit. White is a pawn down and has
+open lines against the king. Four elite games reached 9.Qb3, which is far too few to call it theory. It
+is a sharp side branch; if you want to avoid it, recapture 6.Nxd4 against 5...exd4. } )
+7. Bxf7+ { [%cal Gc4f7] The same tactic as in the 5...Bg4 line. } 7... Kxf7 8. Ne5+
+{ [%cal Ge5f7,Ge5g4,Gd1g4] A fork of the king and the bishop on g4, which is also attacked by the queen. }
+8... Ke8 9. Qxg4 { **Verdict:** White has regained the sacrificed pawn and taken away the black king's right
+to castle; the elite results in this line (7 games) were 6 wins for White. } 9... Nf6 *

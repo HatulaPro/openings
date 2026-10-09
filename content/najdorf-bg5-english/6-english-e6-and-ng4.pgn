@@ -1,0 +1,35 @@
+[Line "English Attack: 6...e6, the Scheveningen set-up with ...b5 and ...Bb7"]
+[Section "6.Be3: ...e6 and ...Ng4"]
+[Summary "Black keeps d5 under control and plays ...b5, ...Bb7 and ...h6, then breaks with ...e5 and ...d5. It is a second choice: the line below is given by the study without commentary, and 7.g4 leads to the Perenyi Attack."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 { [%csl Yd5,Yf5] The Scheveningen move order.
+The pawn guards d5 and f5, so White's knights have no outposts, but the bishop on c8 is blocked and the pawn
+no longer kicks the knight from d4: White gets a free hand with the pawn storm. Black usually has to spend
+a tempo on ...e5 later. } 7. f3 { [%cal Gg2g4,Gd1d2] } ( 7. g4 { The Perenyi Attack. } 7... e5 8. Nf5 g6 9. g5
+gxf5 10. gxf6 Qxf6 { Everything is forced: the knights are exchanged, and after 11.exf5 both sides have
+shattered kingside pawns, the g-file is open and the kings are exposed. The studies I used stop at 9.g5, so
+this line should be checked before it is played. } ) 7... b5 { [%cal Gb5b4,Gc8b7] } 8. Qd2 Bb7 { The bishop
+takes the long diagonal at once; it will also support ...d5 later. } 9. g4 h6 { [%cal Gh6g5] Takes g5 from the
+pawn, so that the knight on f6 is not driven away. } 10. h4 Nbd7 11. Rg1 e5 { [%cal Ge5d4] The pawn comes to
+e5 at last, with tempo on the knight, and Black's pieces now cover d5. } 12. Nf5 d5 { [%cal Gd5e4] Hits the
+pawn on e4 and the knight on f5 is no longer supported by the e-pawn. } 13. Nxd5 Nxd5 14. exd5 g6 { [%cal
+Gg6f5] } 15. Ng3 Nf6 { [%cal Gf6d5] **Verdict:** playable and unclear. Black has to win back the pawn on d5
+with ...Nf6 and ...Bxd5 and has the better development, but the study gives no further moves and no
+verdict, so the line should be treated as a second choice behind 6...e5. } *
+
+[Line "English Attack: 6...Ng4, the Anti-English"]
+[Section "6.Be3: ...e6 and ...Ng4"]
+[Summary "Black attacks the bishop at once. If White retreats with Bc1 Black can repeat; if he plays Bg5 Black gets a wild kingside pawn structure with ...h6 and ...g5 and a knight on e5."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 { [%cal Gg4e3] The Anti-English. It attacks
+the bishop at once and makes White decide whether to give up the bishop pair or to repeat moves. The study
+I used says that Black can also repeat with ...Nf6 and ...Ng4 if White is happy with a draw. } 7. Bg5 { [%cal
+Rg5e7] White keeps the bishop and pins the e7 pawn. } ( 7. Bc1 { If White retreats, Black can repeat the moves with ...Nf6 and ...Ng4, or
+play the main move 6...e5 after all. } 7... Nf6 8. Be3 e5 ) 7... h6 { [%cal Gh6g5] Asks the bishop what it wants to
+do. } 8. Bh4 g5 { Black expands on the kingside early and takes the bishop's retreat squares away. } 9. Bg3 Bg7 {
+[%cal Gg7d4] The bishop on g7 eyes d4 and the long diagonal. } 10. h3 { Kicks the knight away. } (
+10. f3? { Hits the knight but loses material. } 10... Ne3! { [%cal Ge3c2,Ge3d1] The knight hits the queen and the bishop at once, and the d4 knight cannot be taken. } 11. Qd2 Bxd4 12. Qxd4?? { Greedy. } 12... Nxc2+
+{ Forks the king and the queen. } ) 10... Ne5 { **Verdict:** playable, though not the most common line. Black has
+weakened the kingside, so he cannot castle short quickly, but the knight on e5 is superb, the bishop on g7 is
+strong and White has no good way to attack the pawns. Care is needed with the king: it will probably go long
+or stay in the middle. } *

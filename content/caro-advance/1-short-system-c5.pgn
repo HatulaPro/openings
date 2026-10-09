@@ -1,0 +1,155 @@
+[Line "Short System: 6...Qb6 7.Nc3 Nc6, the b2-pawn main line"]
+[Section "3...Bf5 4.Nf3: Short System with 5...c5"]
+[Summary "White gives up b2 for a lead in development. Exact play by Black leads to a level ending a pawn down; anything less is punished quickly."]
+
+1. e4 c6 2. d4 d5 3. e5 { [%cal Rc8f5,Rc6c5] White takes space and denies f6 to the knight. In return Black's
+bishop gets out, and the base of the chain on d4 will be attacked by ...c5. } 3... Bf5 { The bishop comes out
+before ...e6 shuts it in. 3...c5 and the rare third moves have their own lines. }
+4. Nf3 { [%cal Gf1e2,Ge1g1] The Short System. White does not chase the bishop: the plan is Be2, castle, and open
+the centre when Black plays ...c5. The sharper 4.h4 is the second weapon and has its own lines. }
+( 4. Nc3 { The other sharp try, the Bayonet or Van der Wiel Attack: after 4...e6 White hunts the bishop with g4,
+Nge2, h4 and Nf4. It was the fashion of the 1990s. Black's antidote is the immediate counterblow in the centre. }
+4... e6 5. g4 Bg6 6. Nge2 c5 7. h4 h5 8. Nf4 Bh7 9. Nxh5 Nc6 { White has won a pawn, but the kingside is full of
+holes and d4 is collapsing. Eljanov's repertoire for Black is built on this position. Not our line. } )
+( 4. Nd2 { A quieter route to the same set-up: Nb3 comes first, to hold c5, and Nf3 and Be2 follow. It usually
+transposes to the slow lines of the Short System, but it gives up the option of meeting ...c5 with Be3. }
+4... e6 5. Nb3 Nd7 6. Nf3 )
+( 4. c4 { Opens the c-file at once. Black develops with ...Ne7 and takes on c4 at a good moment, when the
+d5-square and the knight route b6-d5 give easy play. } 4... e6 5. Nc3 Ne7 )
+( 4. Be3 { Kasparov's move, keeping the knight's options open. The drawback is 4...Qb6, when b2 is awkward to
+defend and White's queen has to go to c1. } 4... Qb6 5. Qc1 e6 6. c4 )
+4... e6 5. Be2 { The modest square is chosen on purpose. On e2 the bishop stays on the board, covers g4 and h5
+so that Nh4 becomes an idea, and can go to b5 or g4 later. }
+( 5. Bd3?! { The exchange helps only Black, whose bishop is the one without a future. } 5... Bxd3 6. Qxd3 Qa5+
+7. c3 Qa6 { Capablanca's manoeuvre. Without queens White's space means little and every remaining black piece is
+good: an ideal French. } )
+5... c5 { The critical move, and Black's strongest according to Kritz: d4 is attacked before the kingside is
+developed. The set-ups that keep the centre closed (5...Nd7, 5...Ne7, 5...h6) are in the slow lines. }
+6. Be3 { [%cal Gd4c5,Gc2c4] The key move of the system. The bishop defends d4, so that ...cxd4 can be answered by
+Nxd4 with a knight hitting f5 and b5, and after dxc5 the pawn on c5 is protected. }
+( 6. c3?! { The French reflex is the wrong one here. } 6... Nc6 7. O-O cxd4 8. cxd4 Nge7 { Black has an Advance
+French with the bishop already on f5, which is worth more than the tempo spent on ...c6-c5 (Kritz). The knight
+goes to c8-b6 or g6 and Black has no problems. } )
+6... Qb6 { [%cal Rb6b2,Rb6d4] The most testing reply: the queen attacks b2, adds to the pressure on d4 and takes
+the sting out of dxc5. 6...cxd4 and the knight moves are separate lines. }
+7. Nc3! { The pawn has to be given up. 7.b3 and 7.Qc1 hold it but are too passive (Kritz). Nc3 develops with Na4 and Nb5 in the air, and 7...Qxb2 is answered by 8.Qb1
+(next line). } 7... Nc6 { Black brings a third attacker to d4 before deciding about b2. }
+8. O-O { White offers the pawn a second time. Castling is worth more than any defensive move, and the knight on
+c6 has made the fork on c7 a real threat after Nb5. } 8... Qxb2 { The critical test, and the only way to justify
+the queen's sortie. }
+( 8... c4 { Black declines and closes the centre, still eyeing b2. But d4 is now safe, so White has a free hand
+on the wings. } 9. Rb1 { Covers b2 for good and prepares b3, opening the b-file against the queen. } 9... Qa5
+10. a3 { Stops ...Bb4 and slows down ...b5-b4, Black's only active plan. White continues with Nh4 (or Ne1 and g4)
+and f4-f5 on the kingside and b3 on the queenside. } )
+9. Qe1! { [%cal Ga1b1,Gc3b5] The knight on c3 is attacked. The queen defends it from a square where it is not in
+the way, and now Rb1 followed by Nb5 is the threat. }
+( 9. Rb1?? { The rook move needs the knight to be protected first. } 9... Qxc3 )
+( 9. Nb5 { The older try, threatening Nc7+. After 9...c4 the complications are unclear at best: Kritz concludes
+that it gives no clear advantage, and in practice Black has scored well. } 9... c4 )
+9... cxd4 { The only good move. Black must open the game for the f8-bishop at once; everything slower runs into
+Rb1 and Nb5. }
+( 9... c4? { Natural, shutting in the e2-bishop and keeping d4 closed, but now the queen is cut off. } 10. Rb1 Qa3
+11. Nb5 Qa4 12. Nc7+ Kd7 13. Nxa8 { White has won the exchange. Even if the knight is eventually lost in the
+corner, Black's king is stranded in the centre. Practice is heavily in White's favour. } )
+( 9... O-O-O?! { Running with the king. } 10. Rb1 Qxc2 11. Bb5 { Very good compensation (Kritz, citing
+Kamsky-Morozevich): the king has castled into the line of fire of the rooks and the bishop. } )
+10. Bxd4 { The bishop takes, so that after the exchange a knight stands on d4, attacking f5 and ready for b5. }
+10... Nxd4 11. Nxd4 Bb4! { [%cal Rb4c3] Development first. Black has no time to save the bishop on f5 (Kritz);
+the counterattack on c3 is what holds the position together. }
+12. Rb1 { The main move and Kritz's recommendation. White forces a queenless position in which Black's extra pawn
+is no comfort. }
+( 12. Ndb5 { Efimenko's recommendation for players who want to keep more tension: the knight heads for d6 and c7
+and Rb1 follows. } 12... Ba5 13. Rb1 Qxc2 14. Rc1 Qb2 { White can repeat with Rb1 or play on with Na4 or Nd6+.
+Black should hold with exact defence, but has to find a string of only moves. } )
+12... Bxc3 13. Rxb2 Bxe1 14. Rxe1 b6 { Forced: there is no other way to meet both Rxb7 and Nxf5 (Kritz). }
+15. Bb5+ Kf8 16. Nxf5 exf5 17. c4 { [%cal Ge1d1,Gb2c2] **Verdict:** White is a pawn down with full compensation.
+The c- and d-files open for the rooks, d5 falls or becomes weak, and the rook on h8 needs several moves to get
+into play. Kritz: only two results are possible.
+
+Against exact defence it is a draw, and modern practice (often with 15.h4 h5 inserted first) confirms it. That
+is the price of the main line: White risks nothing and the opponent has to know all of this. } *
+
+[Line "Short System: 6...Qb6 7.Nc3 c4 and 7...Qxb2"]
+[Section "3...Bf5 4.Nf3: Short System with 5...c5"]
+[Summary "Black closes the centre or takes b2 a move early. Against the first White covers b2 with Rb1 and plays on the wings; the early capture is met by 8.Qb1."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 Qb6 7. Nc3 c4 { [%csl Yd4] Black keeps the threat to b2
+but releases d4. That is a real concession: with the centre closed White no longer has to hurry and can attack
+on either wing. }
+( 7... Qxb2?! { Taking at once is worse than taking a move later, because the queens can be forced off. }
+8. Qb1! { [%cal Gb1b7] Kritz prefers this to the wild 8.Nb5 c4 9.Nc7+ Kd7 10.Nxa8 Bxc2, which nobody can
+calculate. The rook takes the b-file with tempo, and b7 and c7 cannot both be held. } 8... Qxb1+ 9. Rxb1 c4
+( 9... b6 10. dxc5 bxc5 11. Rb7 d4 12. Bxd4! { The sacrifice opens everything while Black has only the bishop
+on f5 in play. } 12... cxd4 13. Nxd4 Nd7 14. Bb5 { White is a piece down for a pawn, but Black is tied hand and
+foot: Baklan-Rasmussen was won by White (Kritz). } )
+10. Rxb7 Nc6 11. Nb5 { Threatening the fork on c7. } 11... Rb8 12. Rxb8+ Nxb8 13. Kd2 a6 14. Na7 { Material is
+level, Black's kingside is still at home, and White's king and rook reach the queenside first. Kritz gives this
+(Bologan-Palo) as a clear advantage. } )
+8. Rb1 { The simplest answer to the threat. The rook will be well placed when b3 opens the file. }
+8... Bb4 { Pinning the knight to renew the pressure, and developing the bishop before the knight takes e7. }
+9. Nh4 { [%cal Gh4g6,Gf2f4] The standard reaction once the centre is closed. The bishop cannot avoid the
+exchange (h7 is occupied), so White collects the bishop pair when it suits and frees the f-pawn. }
+9... Bg6 10. O-O Qa5 11. Bg4 { [%cal Gc3e2,Gf2f4] A regrouping taken from practice: the bishop clears e2 for the
+knight (11...Nc6 12.Ne2, heading for f4) and aims at e6, the point that f4-f5 will attack.
+
+**Plan:** Nxg6 at a moment when ...hxg6 does not help Black, then f4-f5; on the queenside b3 opens the b-file.
+**Verdict:** White has the initiative on both wings and will have the bishops, and Black still has to find a
+home for the king. } *
+
+[Line "Short System: 6...cxd4 7.Nxd4 Ne7 8.O-O"]
+[Section "3...Bf5 4.Nf3: Short System with 5...c5"]
+[Summary "Black releases the tension and develops. White pins on b5, breaks up the pawns with Bxc6 and Nxf5 and opens the centre with c4."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 cxd4 { The solid choice: Black removes the tension before
+White can use it and aims simply for ...Ne7 and ...Nbc6. } 7. Nxd4 Ne7 { The knight covers f5 and makes room for
+the other one on c6. Black is not afraid of Nxf5 here: a knight recaptures, the closed centre blunts the bishop
+pair, and e5 needs watching (Kritz). }
+8. O-O { The modern main move, keeping both c4 and Bb5 available. Dreev covers all three of White's options. }
+( 8. c4 { The sharp alternative, which Kritz calls the only way to fight for an advantage. It leads by force to
+a queenless middlegame in which White has the bishops and the initiative; g4 comes next (Caruana's treatment).
+More forcing than the main line, and a good second string. } 8... Nbc6 9. Qa4 a6 10. Nc3 dxc4 11. O-O-O Qa5
+12. Qxa5 Nxa5 13. Nxf5 Nxf5 14. Bb6 Nc6 15. f4 )
+( 8. Nd2 { The quiet treatment: the knight supports its colleague from f3 and White simply completes
+development. Black usually answers ...Bg4 or ...Be4 and exchanges a pair of minor pieces. } 8... Nbc6 9. N2f3 )
+8... Nbc6 9. Bb5 { [%cal Gb5c6,Gd4f5] A pin with a positional point, and Efimenko's recommendation: White will
+take on c6 and on f5 and leave Black with broken pawns on both wings. } 9... a6 { Black asks the question at
+once. 9...Bg6 saves the f-pawns from being doubled but leaves the pin, and 10.c4 opens the centre in the same
+way. } 10. Bxc6+ bxc6 { Black keeps d5 covered and gets the b-file. }
+( 10... Nxc6 { Keeps the queenside intact but allows the other half of the plan. } 11. Nxf5 exf5 12. c3 Be7
+13. Nd2 { The d-pawn is isolated, the f-pawns are doubled, and the knight comes to f3 or b3 and then d4. A
+pleasant edge without risk. } )
+11. c4 { [%csl Rd5,Rc6] The point of the whole operation. Black's king is two moves from castling and the
+queenside pawns are broken: now the centre is opened. } 11... Qd7 { The queen guards c6 and d5 and prepares
+...dxc4 followed by ...Nd5. The alternatives 11...c5 and 11...dxc4 open the position while Black is still
+undeveloped. } 12. Nc3 dxc4 13. Na4 { [%cal Ga4b6,Ga4c5] The pawn on c4 will not run away. The knight heads for
+b6 and c5, the squares that the exchange on c6 created. } 13... Nd5 14. Nxf5 exf5 15. Rc1 c3 { The pawn could not
+be held, so Black returns it in the way that damages White's structure most. } 16. Qc2 { Keeping the queens on:
+16.Nxc3 Nxe3 would allow the exchange on d1. } 16... Rb8 17. Nxc3 Nxe3 18. fxe3 { **Verdict:** roughly level,
+and easier for White. Black has a bishop against a knight but weak pawns on a6, c6 and f5 and an uncastled
+king; White has the open d- and f-files and a lead in development to set against the doubled e-pawns. Top-level
+games usually end in draws, but Black has to be accurate for some time yet. } *
+
+[Line "Short System: 6...Nd7, 6...Nc6 and 6...Ne7"]
+[Section "3...Bf5 4.Nf3: Short System with 5...c5"]
+[Summary "Black develops a knight before resolving the centre. White answers with c4 or dxc5 and opens the game while the f8-bishop is still blocked."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 Nd7 { A developing move that supports c5 and keeps the
+tension. Its defects (Kritz): the knight is passive on d7 and takes the queen's eye off d5. }
+( 6... Nc6?! { The most natural square, but the pawn on c5 is simply hanging. } 7. dxc5! { The bishop cannot
+recapture: 7...Bxc5? 8.Bxc5 Qa5+ 9.b4! costs Black a piece, because the bishop on c5 covers b4 (9...Nxb4
+10.Bxb4). So the pawn has to be won back slowly. } 7... Qc7 8. O-O Nge7 { 8...Nxe5 9.Nxe5 Qxe5 10.Bb5+ costs Black the right
+to castle. } 9. c4! { White opens the centre before Black has castled and keeps the extra pawn for the time
+being: a clear advantage (Kritz, citing Edouard-Reinhart). } )
+( 6... Ne7 { Prepares ...Nec6 or ...Nf5 and keeps ...Nbc6 for later, but blocks the bishop again. } 7. dxc5
+{ Dreev's choice. The pawn is held by the e3-bishop, and Black gets it back only by spending several moves on
+the knights. } 7... Nd7 8. O-O Nc6 9. c4 { The same recipe: the centre is opened against the uncastled king. } )
+7. O-O Ne7 8. c4! { Kritz's recommendation; he judges White's position excellent (Haslinger-Strating). The
+knights on d7 and e7 are in each other's way and block the f8-bishop, so Black is at least three moves from
+castling: the moment to open the centre. Efimenko prefers to prepare it with 8.Nbd2. }
+8... dxc4 9. Na3 { [%cal Ga3c4,Ga3b5] The knight, not the bishop, will take on c4, because from there or from b5
+it reaches d6. With both black knights blocking the queen and the bishop, d6 is unguarded and the king has no
+square: a knight landing there is mate. } 9... c3 { Returning the pawn to spoil White's structure after
+10.bxc3. } 10. Nb5 { [%csl Rd6] White ignores the pawn: the threat is Nd6 mate. } 10... Nd5 { The most active way
+to open the bishop's view of d6: the knight also attacks e3 and supports the pawn on c3. } 11. Nxc3 { **Verdict:** White has regained the pawn with a lead in
+development. After 11...Nxe3 12.fxe3 the open f-file and the central pawn mass make up for the doubled pawns,
+and Black still has to castle. } *

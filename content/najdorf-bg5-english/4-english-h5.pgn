@@ -1,0 +1,78 @@
+[Line "English Attack: 7...Be7 8.f3 Be6 9.Qd2 h5, the main line with 10.Be2"]
+[Section "6.Be3 e5: the ...h5 set-up"]
+[Summary "Black stops g4 before it starts, and the English Attack turns from a pawn race into a manoeuvring game. White trades on d5, Black ends up with the bishop pair and a comfortable open game."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 { [%cal Gf2f3,Gd1d2,Ge1c1,Gg2g4,Gh2h4] The English
+Attack, today White's most popular sixth move. The bishop defends d4 for good, so the knight can be challenged
+without any pin, and f3, Qd2, long castling and the g4-g5 and h4 pawn storm follow. It is a race: White's
+pawns against the black king, Black's queenside pawns against the white king on the other wing. } 6... e5 {
+[%cal Ge5d4] [%csl Yd5,Rd6] The principled reply. The pawn kicks the d4 knight, takes space and opens the f8
+bishop; the price is the structure from the overview, a hole on d5 and a backward pawn on d6. The Scheveningen
+set-up 6...e6 (sixth file) keeps d5 under control but gives White a free hand with g4, and 6...Ng4 (also
+sixth file) is the drawing line. } 7. Nb3 { [%cal Gd4b3] The knight leaves the centre without blocking the
+f-pawn or the bishop. 7.Nf3 (fifth file) is the quiet alternative. } ( 7. Nf5? { Hits d6 and g7 but loses
+time. } 7... d5 8. Bg5 d4 9. Bxf6 gxf6 10. Nb1 Bxf5 11. exf5 { Black has taken the centre with ...d5 and ...d4,
+and White's pieces have been pushed back. } ) ( 7. Nde2 Be6 8. f4 Nbd7 { The knight on e2 blocks the bishop
+and the queen, and Black develops with ease. } ) 7... Be7 { [%cal Rf2f4] The accurate move order. 7...Be6 is
+the more common move, but it allows 8.f4. The text avoids that, and after 8.f3 Be6 the main line is reached
+either way. } 8. f3 { [%cal Gg2g4,Gd1d2] Defends e4 so that the c3 knight is free, takes g4 from Black's knight
+and prepares the pawn storm. } 8... Be6 { [%csl Yd5,Yc4] The bishop guards d5 and hits the knight on b3 and c4.
+It is safe from f4, because White has already used a tempo on f3. } 9. Qd2 { [%cal Ge1c1] Prepares long
+castling and covers d5: if Black plays ...d5 now, White castles long and has the d-file. } ( 9. g4 { Too early. }
+9... d5! { [%cal Gd5e4] The answer to an early g4 in every English Attack: the centre opens while White's king is still in the middle. } 10. g5 ( 10. exd5 Nxd5 11. Nxd5 Bxd5 { Black has the stronger centre and active
+bishops. } ) 10... d4 11. gxf6 Bxf6 { Black regains the piece with a better position. } ) 9... h5!? { [%csl Rg4]
+The modern idea, used at the top level. It stops g4 for good, because g4 hxg4 fxg4 would open the h-file for
+Black. The old answer 9...O-O leads to the pawn race of the first game of the next file; with ...h5 White cannot attack
+with the g-pawn, so the game becomes positional. The cost is that castling short is no longer attractive, so
+the king stays in the middle for a while. } 10. Be2 { Flexible: White waits to see where Black puts his king,
+and prepares kingside castling. 10.Nd5 and 10.O-O-O have their own games. } 10... Nbd7 { [%cal Gd7b6,Gd7c5] }
+11. Nd5 { [%csl Yc6,Yd5] Now that the b8 knight has gone to d7, nothing guards c6. White plans exchanges on d5,
+exd5 and Na5-c6. } 11... Nxd5 12. exd5 Bf5 { [%cal Gf5c2] The bishop leaves the attacked square and hits c2. }
+13. O-O O-O 14. Na5 { [%csl Yc6,Rb7] } 14... Qb8 { [%cal Gb8d6] The study's choice; elite games mostly play 14...Qc7 (or 14...Qc8), but then the
+knight can sit on a5 for ever. With the queen on b8 the bishop can go to d8 and remove it, and the queen also guards d6.
+14...Qc8 looks active, but 15.c3 Bd8 16.Nc4 Qb8 gives White a pressure on d6 that the text avoids. } 15. c4 {
+[%cal Gc4c5,Gb2b4] } 15... Bd8 { [%cal Gd8a5] Forces the knight to decide: Nb3 would block White's own b-pawn,
+and b4 is met by ...Bxa5. } 16. Rac1 Bg6 17. Bd1 { [%cal Gd1a4,Rd7c5] Ba4 would challenge the knight on d7,
+which guards c5. } 17... Bxa5 18. Qxa5 b5! { [%cal Gb5c4] Challenges the c4 pawn at once. If it is taken,
+...axb5 and ...Rxa2 hits a pawn. } 19. Qd2 { **Verdict:** equal and comfortable for Black. The queenside is
+open for ...a5, ...Rc8 and ...Nc5 ideas, White's d5 pawn is a target and the black bishop on g6 eyes the
+whole diagonal. } *
+
+[Line "English Attack: 9...h5 10.O-O-O Nbd7 11.Kb1 b5"]
+[Section "6.Be3 e5: the ...h5 set-up"]
+[Summary "White castles long and waits with Kb1, and Black expands on the queenside. The critical continuations are 12.Nd5 for a quick ending, 12.h3 and 12.f4."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. f3 Be6 9. Qd2 h5 10. O-O-O { White
+castles long, as in the old main line, but g4 is not available. } 10... Nbd7 { Black does not castle: with the
+h-pawn on h5 the king is better in the centre. } 11. Kb1 { [%cal Gc1b1] The usual waiting move. It takes the king
+off the c-file, where ...Bxb3 and ...Qa5 ideas would be annoying, and keeps White flexible. } 11... b5 { [%cal
+Gb5b4,Gd7b6,Gd8c7] Black expands. The general plan is ...Qc7, ...Nb6 and ...b4 or ...Nc4; the knight on b6 also
+guards d5. } 12. Nd5 { The most forcing: White trades off the knight on d5 and heads for a quiet position. } (
+12. h3 { Covers g4 so that f4 or g4 becomes possible. } 12... h4 { Stops g4. } 13. Bd3 Qc7 14. f4 Nb6 { Black
+has a good game: the queen guards e5 and the knight eyes c4 and a4. } ) ( 12. g3 { A slower way to play for g4:
+it stops ...h4, and h3 and g4 follow. } 12... Qc7 13. h3 Nb6 14. Rg1 b4 15. Ne2 Nc4 { Black is much better:
+White spent too much time on the pawn moves and Black's counterplay is faster. } ) ( 12. f4 { Avoids the complications of g4 and goes for a different pawn push. } 12... Qc7 {
+Prepares ...Bc4 in case f5 comes. } 13. Nd5 ( 13. f5 Bc4 { Taking on c4 would leave the knight on b3 in a bad
+way, so White retreats the bishop, and Black plays ...a5 and ...b4. } ) 13... Bxd5 14. exd5 O-O 15. g3 Rfe8 16.
+h3 Ne4 { The knight comes with tempo on the queen. } 17. Qg2 exf4 18. gxf4 Bf6 { Equal: Black has ideas on
+both wings. } ) 12... Bxd5 { With the bishop, not the knight: after ...Nxd5 the recapture exd5 would hit the bishop on e6 with tempo,
+whereas now the knight on b6 puts more pressure on d5. } 13. exd5 Nb6 { [%cal Gb6d5,Gf6d5] Threatens
+the d5 pawn, which cannot be defended by c4 because of the b5 pawn. } 14. Bxb6 Qxb6 15. Na5 { The only way for
+White not to be worse: the knight heads for c6 and a quick ending. } 15... Rc8 16. Nc6 Nxd5 17. Nxe7 Nxe7 18.
+Qxd6 Qxd6 19. Rxd6 Nc6 { **Verdict:** equal. Black has more space and active rooks, and the king comes to e7. }
+*
+
+[Line "English Attack: 9...h5 10.Nd5 and the exchange sacrifice on a3"]
+[Section "6.Be3 e5: the ...h5 set-up"]
+[Summary "White trades knights at once. Black recaptures with the knight, keeps the bishop pair and plays ...a5 and ...Nd7. The other recapture 10...Bxd5 allows a very different, more risky game with a sacrifice of the exchange."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. f3 Be6 9. Qd2 h5 10. Nd5 {
+White heads for kingside castling and forces the issue on d5. } 10... Nxd5 { [%cal Ge6d5] If possible, Black
+keeps the bishop pair. } ( 10... Bxd5!? { The other recapture is playable, with a different character. } 11.
+exd5 Nbd7 12. O-O-O Qc7 13. c4 a5 14. Kb1 O-O 15. Na1 a4 16. Nc2 a3 17. Nxa3 Rxa3 18. bxa3 Ra8 { Black has
+given up the exchange and a pawn for the open a-file and the white king. Objectively White is better, but it
+is difficult to prove with the king on b1. } ) 11. exd5 Bf5 { [%cal Gf5c2] } 12. Be2 { White finishes
+development. 12.Na5 does not work: after 12...b6 the knight cannot go to c6, because the b8 knight guards it. }
+12... a5 { [%cal Ga5a4] Black stops Na5 for good, so that the b8 knight can come out. } 13. a4 { Stops ...a4, which would drive the knight from b3 to an awkward square. } 13... Nd7 { [%cal Gd7c5] } 14. O-O O-O 15. f4 exf4 16. Bxf4 Bg6 17. Kh1
+Qc7 { **Verdict:** equal. The d5 pawn is a target and the black bishops control the board, but White's
+pieces are well placed and the position needs care. } *

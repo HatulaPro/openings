@@ -1,0 +1,77 @@
+[Line "7.Nge2 Nc6 8.d5 Ne5 9.Ng3 h5: the h-pawn against the knight"]
+[Section "Saemisch 6...c5: 7.Nge2"]
+[Summary "The main line of the Saemisch. Black plants a knight on e5, drives the Ng3 back with ...h5-h4, fixes the kingside with ...h3 and then plays Benoni-style on the queenside. White's knights and king end up in each other's way."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 { [%cal Gc1e3,Gd1d2] The Saemisch. The pawn holds e4 for good, takes f3 away from the g1-knight and prepares Be3, Qd2 and long castling, often with g4 and h4-h5 to follow. The price is real: the knight must go to e2, where it blocks the bishop, and the complex e4-f3-g2 becomes a target for ...Nh5, ...f5 and the h-pawn. Black cannot stop the build-up, so the answer is to hit the centre at once instead of waiting for the storm. }
+5... O-O { Black castles before there is a target: White's attack needs a king on the queenside and several pawn moves, and none of it is dangerous for a king that sits behind the fianchetto as long as the g7-bishop can be kept. }
+6. Be3 { The main move (about 70% of elite games). The bishop guards d4 and clears d2 for the queen, and Bh6 to trade Black's best piece is always in the air. That is why Black wants play in the centre at once. The sidelines 6.Bg5, 6.Nge2 and 6.Bd3 are in the third file. }
+6... c5 { [%cal Gc7c5,Rc5d4] The most popular answer and the one the studies recommend. The pawn hits d4 before White has played Qd2, keeps the g7-bishop open (it is shut in after ...e5) and gives Black three structures to choose from: the Benoni after d5, an open centre after dxc5, or a knight on e5 after Nge2 Nc6 d5. }
+( 6... e5 { The classical set-up and the second system of this chapter (third file). The pawn takes d4 under fire and closes the g7-bishop, but it fixes the centre, and with f3 played White cannot get a strong d4-d5 without allowing ...Nh5 and ...f5. It is less popular than 6...c5 and less well supported by the studies, but sound. } )
+( 6... Nc6 { The Panno (last game of the third file). The knight attacks d4 a second time without committing the c-pawn, so Black can follow with ...a6 and ...Rb8 and meet d5 with ...Ne5 or ...Nd4. A different opening from the 6...c5 lines: sharper, less well mapped, and chosen less often in the elite games (about 19% against 31% for 6...c5). } )
+( 6... Nbd7 { A solid choice that one popular repertoire study recommends (7.Qd2 b6 8.O-O-O c5). It avoids the pawn sacrifice on c5 but gives White a free hand, and it is rare in the elite games compared with 6...c5. } )
+7. Nge2 { [%cal Re2g3,Re2c1] The most flexible move (about half of elite games). White keeps d4, d5 and dxc5 in hand and clears the d1-h5 diagonal. The knight is the weak point: it blocks the f1-bishop, cannot go to f3, and its only useful squares are g3 and c1. Black's whole plan is built around that. 7.d5 and 7.dxc5 are in the next file. }
+7... Nc6 { A second attack on d4 and the preparation for ...Ne5 once d5 is played. White must now decide: close the centre with 8.d5, keep the tension with 8.Qd2 (third game) or release it with 8.dxc5. }
+8. d5 { The tempo on the knight is the point, but it also fixes the centre exactly the way Black wants it for a knight on e5. }
+8... Ne5 { [%cal Ge5c4,Ge5d3,Ge5f3] The knight is at home here: it hits c4, d3 and f3, and White cannot chase it. 9.f4 would kick it, but then e4 loses its support and ...Neg4 or ...Nfg4 hits Be3 and h2. The immediate threat is ...Nxc4. }
+( 8... Na5 { Playable (about one game in ten) and it hits c4 too, but the knight stands on the edge and has no way back into the game. The central knight is better. } )
+( 8... Nd4? { Loses a pawn: 9.Nxd4 cxd4 10.Bxd4 and the bishop on g7 is attacked as well. } 9. Nxd4 cxd4 10. Bxd4 )
+9. Ng3 { [%cal Gg3f5] This knight leaves e2, so the f1-bishop now protects c4, and it heads for the kingside, where it supports White's pawn storm. Its weakness is a pawn on h4. }
+( 9. Nc1 { [%cal Gc1b3,Gc1d3] White avoids the h-pawn plan: from c1 the knight goes to b3 or d3, and b3 is available to hold c4. The price is a knight that has left the kingside altogether, so Black plays the Benoni way (next game). } )
+9... h5 { [%cal Gh5h4] Black goes straight for the knight. On g3 it has no good retreat and the h-pawn attacks it for free. If White allows ...h4 the knight has to go to f1, where it does nothing for the rest of the middlegame. }
+( 9... e6 { Also playable and common: 10.Be2 exd5 11.cxd5 and then ...h5 or ...a6. It lets White decide whether to play h4 himself, which is why the study prefers the immediate ...h5. } 10. Be2 exd5 11. cxd5 a6 )
+10. Be2 { Develops and prepares to castle; it neither stops the plan nor does anything about it. }
+( 10. h4?! { Stops ...h4 for good but weakens g4: if White ever plays f4 against the knight, ...Ng4 comes with threats on e3 and h2, so the knight on e5 is untouchable. } 10... e6 11. Qd2 exd5 12. cxd5 Bd7 { Black has everything he wants: a permanent knight on e5, a White king with nowhere comfortable to go, and queenside play with ...b5 at leisure. } )
+10... h4 { The knight has to move. 11.Nf5 loses to ...gxf5 and 11.Nh1 is hopeless; Nf1 is the only way to keep the piece in play. }
+11. Nf1 e6 { [%cal Ge6d5] Now the centre. White's knight is far from the action, so Black can afford to open the e-file, trade on d5 and keep the knight on e5 as a monster. }
+12. Nd2 { [%cal Rd2c4] The knight heads for c4, where it hits e5 and d6 (about half of elite games). }
+( 12. f4 { A sharp try to drive the knight away at once. } 12... Nxc4!! { [%cal Gb7b5] The idea Grischuk used against Svidler (Candidates 2013, according to the study): a piece for two pawns and an initiative. After Bxc4 the pawn break ...b5 wins the bishop's square, and White's pawns on e4, d5 and f4 are loose while the knight on f1 is out of play. } 13. Bxc4 b5! { The bishop is attacked and the b5-square is the one White cannot cover. } 14. Bxb5 exd5 15. exd5 Rb8 { Black has two pawns for the piece, the b-file and a lead in activity: the bishop on b5 is attacked, the d5-pawn is hit by the f6-knight, and the white king cannot castle comfortably. The study calls the compensation full. } )
+( 12. Bg5 { The other main move (about a fifth of elite games): the bishop eyes the h4-pawn and the queen on d8. Black replies ...exd5 and ...h3 as in the main line. } )
+12... exd5 13. cxd5 h3! { [%cal Gh4h3,Rg2g1] The key move. It threatens ...hxg2, so White has to answer, and the pawn on h3 takes away the square from which White would otherwise support f4 and g4. After g3 the dark squares f3, h3 and f2 are weak, and the knight on e5 eyes f3 and g4. }
+14. g3 { 14.g4 is the thematic try, and it fails to a sacrifice: }
+( 14. g4?! { Understandable from a Saemisch player: White wants f4. } 14... Bxg4!! { [%cal Gd8h4,Gh4e1] This amazing sacrifice gives Black an easy position. } 15. fxg4 Nfxg4 { The queen comes to h4 and ...Qxg4 is always in the air. } 16. Bf4 ( 16. Bxg4? { Takes the knight but loses to the check on the h4-e1 diagonal. } Qh4+ 17. Kf1 Nxg4 18. Qf3 f5 ) 16... Bh6! { Black wants all the dark squares: the bishop attacks the one on f4 and the knight on d2 behind it. } 17. Bg3 Ne3 { The knight hits the queen and takes f1 and d1 away, so White can never castle. } 18. Qb1 Qg5 { Black's attack is too strong. } )
+14... a6 { [%cal Gb7b5] The knight on e5 is permanent: f4 would lose control of g4 because of the pawn on h3, so the kingside is quiet and Black can turn to the queenside. }
+15. a4 { Most common. It stops ...b5 in principle, but it allows the break as a pawn offer that opens the a- and b-files for Black's rooks. }
+15... Bd7 { [%cal Gb7b5] The bishop prepares ...b5 and protects the pawn on the file. }
+16. O-O ( 16. a5 b5 17. axb6 Qxb6 18. Ra2 Qb4! { The queen controls c4; it looks odd, but without that square the knight on e5 would be trapped by Nc4. } 19. g4 Bb5 20. O-O Rfb8 21. g5 Nfd7 22. f4 Nc4! { With White's pawns over-extended Black is better. } ) 16... b5! { [%cal Gb5c4,Ga6a5] The break. White's last pawn move a4 becomes a target and the a- and b-files open for the rooks. }
+17. axb5 axb5 18. Rxa8 ( 18. Nxb5 Qb6 { White cannot keep the knight on b5 and ...Qxb2 follows. } ) 18... Qxa8 19. Nxb5 Bxb5 20. Bxb5 Rb8 { [%cal Gb8b5,Gb8b2] White has won a pawn, but the bishop is attacked and b2 falls: after 21.Be2 Rxb2 the rook stands on the second rank, where it works with the queen on a2 and the knight on e5. }
+21. Be2 Rxb2 { Black has regained the pawn and has the more active pieces. The study rates it as better for Black. The plan in practice: keep the knight on e5, bring the queen to a2 and let the knights on d2 and f1 and the weak king tell. } *
+
+[Line "9.Nc1 e6: the Benoni plan with ...a6 and ...b5"]
+[Section "Saemisch 6...c5: 7.Nge2"]
+[Summary "White retreats the knight to c1 to avoid ...h5-h4 and to play b3 or Nb3. Black plays it the Benoni way: ...exd5, ...a6, ...Bd7 and the break ...b5."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8. d5 Ne5 9. Nc1 9... e6 { [%cal Ge6d5] Black has no kingside target any more, so he plays the Benoni way. }
+10. Be2 exd5 11. cxd5 a6 { [%cal Ga6b5] The standard plan. The knight on e5 holds c4 and d3 and the break ...b5 opens the queenside before White has finished developing. }
+12. a4 { White stops ...b5 for now. } 12... Bd7 13. O-O ( 13. a5 b5 14. axb6 Qxb6 { Black does not mind the exchange: the b-file is open for ...Rfb8 and the queen hits b2. } ) 13... b5 { [%cal Gb5a4] The pawn offer that opens everything. }
+14. axb5 axb5 15. Rxa8 Qxa8 { [%cal Ga8a2,Gf8b8] White has won a pawn for the moment, but the pressure down the b-file and on the second rank will win it back. } 16. Nxb5 Bxb5 17. Bxb5 Rb8 { The bishop and the b2-pawn are both attacked. The extra pawn will not last, and Black's knight on e5 and the bishop on the long diagonal keep the initiative. } *
+
+[Line "8.Qd2 Qa5 9.O-O-O: the pin on the c3-knight"]
+[Section "Saemisch 6...c5: 7.Nge2"]
+[Summary "White keeps the tension and goes for Qd2 and long castling. 8...Qa5 uses the pin along the diagonal a5-d2 and forces White to resolve the centre, or to try a pawn storm that over-extends him."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8. Qd2 { [%cal Gd2h6,Gd2c1] The positional way to play the Saemisch: White waits, connects the queen with Bh6 and wants to castle long. It is the second most popular eighth move (about 44% of games). }
+8... Qa5! { [%cal Ra5c3,Ra5a2] The queen pins the c3-knight against the queen on d2 (if the knight moves, ...Qxd2+), eyes a2 behind it and prepares ...cxd4. White's king is nowhere yet, and the centre is already under pressure. }
+( 8... b6 { The other main move (about a quarter of the games): it keeps the queen back and prepares ...Bb7 and ...Rb8. Slower, and it gives White a free hand with d5 or O-O-O. } )
+9. O-O-O { [%cal Gc1b1] The consistent move. White commits to the attack with g4 and h4, but his king stands in front of the very pawn break Black is about to play. 9.d5 (next game) is the other main move. }
+9... a6 { [%cal Gb7b5] Preparing ...b5, and the a-pawn also takes b5 from the knight on c3. }
+10. Kb1 { Protects a2 and frees the c3-knight to jump to d5 or b5. }
+10... Rd8! { [%cal Rd8d4] The rook prepares ...cxd4 and, above all, ...dxc5 with the rook hitting the queen on d2 with tempo. It is the quiet and safe choice. }
+( 10... b5 { More ambitious and more common in elite games: the pawn is offered at once to open the queenside against the king on b1. A good choice for a player who wants to play for a win; 10...Rd8 is the safer. } )
+11. Nd5 { The best way to neutralise the pressure: trade queens. }
+( 11. g4?! { The storm. } 11... b5! { The queenside pawn break comes first: the king on b1 is the one under fire. } 12. h4 e6 13. h5 b4 14. Nd5!! { The critical test: a knight sacrifice that tries to open lines before ...b3. } 14... exd5 15. cxd5 b3 { The only move: ...b3 uncovers the queen on d2. Black must keep calculating, but White has no follow-up and his king is the one in danger. } )
+( 11. d5? { Pointless: the rook on d8 does nothing for the king and the knight on e5 is perfect. } 11... Ne5 12. Nc1 b5! { Almost a Benko Gambit, with the difference that White's king is on b1 and his kingside attack is nowhere. } )
+( 11. dxc5 dxc5 12. Nd5 Nxd5 13. Qxa5 Nxa5 14. cxd5 Nc4 15. Bxc5 Nxb2 { Black trades the c5-pawn for the b2-pawn and has the initiative. } )
+11... Qxd2 12. Rxd2 Nxd5 13. cxd5 Nxd4 { d4 is attacked three times and defended three times, so the exchanges are equal. } 14. Nxd4 cxd4 15. Bxd4 Bxd4 16. Rxd4 Bd7 { [%cal Gd7b5,Ga8c8] The queens are off and the position is level. Black can fight on with ...f5, ...Rac8 and ...b5; White's pawn on d5 needs protection and his king is not yet safe from a rook on c8. } 17. Be2 f5 { An equal ending in which the better-prepared player has the initiative: ...Kf7-g6, ...Rac8 and ...b5 are the usual ideas. } *
+
+[Line "8.Qd2 Qa5 9.d5 Ne5: ...Nfd7-b6 and the break ...b5"]
+[Section "Saemisch 6...c5: 7.Nge2"]
+[Summary "After 8.Qd2 Qa5 White can close the centre. Black plants a knight on e5, brings the f6-knight to b6 to attack c4 a second time and breaks with ...b5; White cannot hold everything."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8. Qd2 Qa5 9. d5 { [%cal Rd5c6] The knight is attacked, but the queen on a5 has already pinned c3, which changes the usual plans. } 9... Ne5 { [%cal Ge5c4,Ge5d3] }
+10. Ng3 { The knight leaves e2 so that the f1-bishop defends c4, and heads for the kingside. }
+( 10. Nc1 Nfd7 11. Nb3 Qb4 12. Nb5 Qa4 13. Nc3 Qb4 { A repetition is available to both sides; Black can play on with 14.Nb5 Qxd2+ 15.Nxd2 a6 16.Nc3 f5 and a kingside expansion. } )
+10... Nfd7! { [%cal Gd7b6,Rb6c4] The f6-knight goes to b6, adding a second attacker to c4, and it clears f6 for ...f5. White cannot protect c4 in time. }
+11. Rc1 { The direct reply, but it leaves a2 loose. }
+( 11. Be2 Nb6 12. b3? { Looks natural: the pawn protects c4 twice over. } 12... Nexc4! { The long diagonal is now open for the g7-bishop. } 13. bxc4 Bxc3 { The knight on c3 is attacked twice and defended once, and ...Bxa1 follows. } 14. Qxc3 Qxc3+ )
+11... b5! { [%cal Gb5c4,Ga5a2] The pawn offer works because the queen on a5 stands behind a2; there is no need to prepare it with ...a6. }
+12. Nxb5 ( 12. cxb5 a6 13. bxa6 Bxa6 { A good Benko-style gambit for Black: the f1-bishop is hit at once and the knight on e5 is ready for ...c4 and ...Nd3. } ) 12... Qxa2 13. Qc2 Rb8 14. Be2 f5 { 14...f5 meets the threat of f4 trapping the knight on e5: after f4 Black has g4 for the knight. } 15. exf5 a6 16. Nc3 Qxb2 { Material is level, and Black's pieces coordinate far better than White's. } *

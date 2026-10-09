@@ -1,0 +1,79 @@
+[Line "7.d5 e6 8.Qd2 exd5 9.cxd5 a6: the Saemisch Benoni"]
+[Section "Saemisch 6...c5: 7.d5 e6"]
+[Summary "White closes the centre at once and Black strikes with ...e6. After the exchange on d5 the pieces go to the same squares as against 7.Nge2: a knight on e5, the h-pawn against Ng3, and ...b5 on the queenside."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. d5 { White gains space and fixes the centre at once (about one game in five). The chain e4-f3 stays intact and the g7-bishop is blunted if Black cannot open the centre. }
+7... e6 { [%cal Ge7e6,Rd5e6] Black must challenge d5 before White plays Nge2-g3 and h4. The e-pawn breaks the grip on d5, opens the e-file against the pawn on e4 and clears the way for a knight to e5. }
+8. Qd2 { The most popular move (62% of elite games). The queen connects with Bh6 and prepares long castling. 8.Nge2, 8.Bd3 and 8.dxe6 are in the next games. }
+8... exd5 { [%cal Gd8d5] The exchange has to be made now: after a quiet move such as ...a6, dxe6 and Bxe6 would give White the chance to improve the pawn on f3. }
+9. cxd5 { The natural recapture. } ( 9. exd5?! { Gives up the chain e4-f3: the move f3 has been played for nothing, and Black has a free hand with ...Re8, ...Nbd7 and ...Ne5. } )
+9... a6 { [%cal Ga6b5] The standard plan: ...b5, and the knight to e5 or c4. The pawn move also takes b5 from the knight. }
+10. a4 { Almost always played (96% of elite games), since ...b5 would otherwise come with a gain of space. It does leave b5 as a pawn offer. }
+10... Re8 { [%cal Gd8e7,Re8e4] The rook eyes e4, ready for ...Nxe4 when the queen on d2 is overloaded, and it frees f8 for the bishop. The other main plan is 10...Nbd7 (40% of games), with the same knight route to e5. }
+11. Nge2 { 11.Be2 and 11.Bd3 are the other tries; Black plays ...Nbd7 and ...Ne5 against all of them. } ( 11. a5 b5 12. axb6 Qxb6 { Black accepts the exchange and the b-file is his: ...Nbd7, ...Rb8 and the queen hits b2. } )
+11... Nbd7 { [%cal Gd7e5] }
+12. Ng3 { The knight goes to g3 and runs into the h-pawn. } ( 12. Nc1 Ne5 13. Be2 Nh5 14. O-O f5 { Black has ...f5 with the knight on h5 hitting f4, and White's kingside pieces are uncoordinated. } )
+12... h5 { [%cal Gh5h4] The usual race of the pawn against the knight: from g3 the knight has no moves except f1. }
+13. Be2 ( 13. Bg5 h4 14. Bxh4 Nxe4! { The reason ...h4 is not a pawn sacrifice: the knight takes e4 with an attack on the queen on d2 and uncovers the queen on d8 against the bishop on h4. } 15. Bxd8 Nxd2+ { A discovered check from the rook on e8. } 16. Kxd2 Rxd8 { The queens come off, White has won the h-pawn, Black the e4-pawn and the dark bishop is free. } )
+13... h4 14. Nf1 Rb8 { [%cal Gb7b5] The rook goes behind the b-pawn so that after axb5 axb5 the a-file is the only open one and Black's rook is not on it. }
+15. Bg5 h3 { The pawn goes to h3, where it fixes g2 and stops White from playing h3 himself. }
+16. g4 { 16.g3 and 16.gxh3 are the alternatives; neither stops the break on b5. } 16... b5 { [%cal Gb5c4] } 17. axb5 axb5 18. Nxb5 Ne5 { [%cal Gb8b5,Ge5f3,Gf6g4] The knight on b5 is attacked by the rook and the knight on e5 hits g4 and f3, so White's bishop on e2 is overloaded. } 19. Nc3 Qb6 { The queen joins the queenside and the white king is stuck in the centre. White's weak points are b2 and the diagonal a7-g1, and Black's pieces are far more active. } *
+
+[Line "7.d5 e6 8.Nge2 exd5 9.cxd5 Nbd7: the knight to e5 and ...Nh5-g3"]
+[Section "Saemisch 6...c5: 7.d5 e6"]
+[Summary "White develops the knight first. The structure is the same, but with the queen still on d1 Black can play ...h5-h4 against Ng3 and bring the f6-knight to h5."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. d5 e6 8. Nge2 { [%cal Re2g3] White commits the knight and keeps the queen flexible. The plan is Ng3 and Be2, with long castling later. }
+8... exd5 { The exchange is again the best answer (62% of games); 8...b6 is the second most played, but gives White an easier game. }
+9. cxd5 Nbd7 { [%cal Gd7e5] }
+10. Ng3 ( 10. g4 Ne5 11. Ng3 { The knight on e5 attacks g4, so the pawn push only weakens f4 and h4. } )
+10... h5 11. Be2 h4 12. Nf1 Rb8 { [%cal Gb7b5] }
+13. a4 a6 { Preparing ...b5 and keeping the rook on b8 away from the a-file. }
+14. Nd2 { The knight returns by f1-d2 and c4, hitting e5. } ( 14. Bg5 h3 15. g3 Ne5 { The pawn on h3 fixes the kingside and the knight on e5 is permanent. } )
+14... Nh5 { [%cal Gh5f4,Gh5g3] The knight heads for f4 or g3. White's pieces get in each other's way: the f1-knight cannot return, and the e2-bishop has to cover the king. }
+15. Nc4 Ne5 { The knight is in the centre again and f4 would lose the pawn on e4. }
+16. O-O Ng3 { The thematic jump: the knight on g3 attacks f1 and e2, and after hxg3 hxg3 the pawn on g3 and the open h-file give Black attacking chances against the king. The study stops here. } *
+
+[Line "7.d5 e6 8.Bd3 exd5 9.cxd5 Nbd7 10.Nge2 Ne5 11.Bc2 b5!"]
+[Section "Saemisch 6...c5: 7.d5 e6"]
+[Summary "With the bishop on d3 White tries to make the knight on e5 trade itself off. Black trades and breaks with ...b5. The move 8.dxe6 is a mistake: the g7-bishop gets d4 and e5."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. d5 e6 8. Bd3 { White develops and eyes b5 and h7. Because the bishop stands on d3 the knight on e5 can be traded off. }
+( 8. dxe6? { The point of f3 is to hold the chain e4-d5, and White destroys it himself. } 8... Bxe6! { The backward d6-pawn is a small price for the dark bishop and the squares d4 and e5. } 9. Bd3 ( 9. Qd2 Nc6 10. O-O-O Qa5 ) 9... Nc6 10. Nge2 Ne5 11. b3? { Natural, but it runs into a double sacrifice. } 11... b5!! { The point: once the knight on c3 takes b5 and the knight on e5 moves with check, the g7-bishop sees the rook on a1 along an empty diagonal. } 12. Nxb5 Nfg4! { The knight attacks Be3 and offers itself: if fxg4, the knight on e5 is free to take d3 with check. } 13. fxg4 Nxd3+ 14. Qxd3 Bxa1 { Black has won the exchange. } )
+8... exd5 9. cxd5 Nbd7 { [%cal Gd7e5] } 10. Nge2 Ne5 { [%cal Ge5d3] The knight eyes d3: the bishop must decide. }
+11. Bc2 { Retreats and avoids the exchange, but the bishop no longer watches b5. }
+( 11. O-O a6 12. a4 Bd7 13. h3 Rb8 14. f4 Nxd3 15. Qxd3 b5 16. axb5 axb5 17. Ra7 b4 18. Nd1 Bb5 19. Qc2 b3 20. Qd2 Nxe4 { The queen cannot guard both e4 and e2; Black wins material. } )
+11... b5! { [%cal Gb5c4,Gf8b8] The break works because the bishop has left b5 and the knight on c3 is overloaded. }
+12. Nxb5 Rb8 { [%cal Gb8b5,Gb8b2] } 13. a4 Nc4 { [%cal Gc4e3,Gc4b2] The knight forks the bishop on e3 and the pawn on b2. } 14. Bc1 Qa5+ { A check that wins a tempo. } 15. Nbc3 Nxb2 { The pawn is recovered, and the knight hits the queen. } 16. Qd2 Nc4 { Black has regained the pawn and has the better coordination: White's knights are awkward and the king is stuck in the centre. } *
+
+[Line "7.dxc5 dxc5 8.Qxd8 Rxd8 9.Bxc5 Nc6 10.Nge2 b6: the gambit"]
+[Section "Saemisch 6...c5: 7.dxc5"]
+[Summary "White wins a pawn and trades queens, but Black's lead in development, the d-file and the weak c4-pawn give full compensation. The bishop has to leave c5 and ...Ba6 and ...Nb4 regain the pawn."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. dxc5 { White takes the pawn (about a third of elite games) and heads for a queenless middlegame. }
+7... dxc5 { [%cal Gd8d1] Black recaptures with the d-pawn so that the d-file is open for the rook. }
+8. Qxd8 Rxd8 9. Bxc5 { White is a pawn up, but his kingside is undeveloped (the f1-bishop and the g1-knight are both locked behind f3 and e4) and his king is still in the centre. }
+9... Nc6 { [%cal Gc6b4,Gc6e5] Black's lead in development is the compensation. The knight eyes b4 and e5 and the rook on d8 controls the open file. White has five tenth moves (Nge2, Ba3, Rd1, Nd5, Be3), and against each the idea is the same: gain a tempo against the bishop and attack c4. }
+10. Nge2 { The most popular move (about 35% of games). }
+( 10. Ba3 a5 11. Rd1 Be6 12. Nd5 Nb4 13. Nxe7+ Kh8 { The king step avoids the pin on the a3-f8 diagonal; ...Nc2+ and the trade of the dark bishops follow. } )
+10... b6 { [%cal Gc8a6,Gb6a5] The b-pawn chases the bishop to a3 and prepares ...Ba6 against c4. }
+( 10... Nd7 { The other main move, played in about half the games: the knight attacks the bishop and heads for e5. } 11. Be3 Nde5 12. Nf4 e6 { The knight on f4 is attacked and White's pieces are uncoordinated. } )
+11. Ba3 { The bishop retreats, losing a tempo: from a3 it eyes e7 and keeps c1 free for long castling. } 11... a5 { [%cal Gc8a6,Gc6b4,Gf6d7] The standard set-up: the a-pawn prevents b4 and prepares ...Ba6 and ...Nb4. }
+12. Nd5 { The knight jumps to d5 to trade pieces and relieve the pressure. } 12... Nxd5 13. cxd5 Nb4 { [%cal Gb4a2,Gb4d5] The knight hits a2 and d5 at once. } 14. O-O-O Nxa2+ 15. Kb1 Nb4 { Black has regained the pawn and the knight returns to b4. The white king stands on b1 behind a damaged queenside. } 16. Nc3 { An equal position. Black's plan is ...Bd7, ...Rac8 and ...a4, against the bishop on a3, which is White's only active piece. } *
+
+[Line "7.dxc5: 10.Rd1 Rxd1+ and the other tenth moves"]
+[Section "Saemisch 6...c5: 7.dxc5"]
+[Summary "After 10.Rd1 Black exchanges rooks, trades the dark bishop for the knight and goes after c4 with a knight on e5."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. dxc5 dxc5 8. Qxd8 Rxd8 9. Bxc5 Nc6 10. Rd1 { White trades rooks to take the d-file from Black, but gives up castling for good. }
+( 10. Be3 Be6 11. Rc1 Rac8 12. b3 Nb4 { Black goes on with ...Nd7-e5 to collect c4. } )
+10... Rxd1+ 11. Kxd1 { The king stays in the centre and the rook on h1 is out of play. }
+( 11. Nxd1 Nd7 12. Ba3 a5 13. Bd3 Nde5 { The knight reaches e5 and the bishop on d3 is attacked. } )
+11... Nd7 { [%cal Gd7c5] The knight attacks the bishop and the bishop must decide. }
+12. Ba3 { }
+( 12. Be3 Bxc3 13. bxc3 Nde5 14. f4 Ng4 15. Ke2 Be6 16. Kf3 Nxe3 { Black gets rid of the bishop and regains the pawn with ...Na5. } )
+12... Bxc3! { [%cal Gc6e5,Gc3a1] Trading the dark bishop for the knight wrecks White's pawns: after bxc3 the pawns on c3 and c4 are weak targets and Black's knight goes to e5. }
+13. bxc3 Nde5 { [%cal Ge5c4,Ge5f3] The knight hits c4 and f3. }
+14. f4 { }
+( 14. h3? { Too slow: it does not prevent anything. } 14... Be6 15. f4 Rd8+ 16. Kc2 Nxc4 { White cannot defend the pawn on c4. } )
+14... Ng4 { Threatens ...Nf2+ and ...Ne3+. } 15. Nh3 Ne3+ 16. Kd2 Nxf1+ 17. Rxf1 Be6 { The pawn on c4 falls: White's bishop is on a3, his king is on d2, and Black has a lasting initiative. } 18. Rb1 Rd8+ 19. Kc2 Rd7 { Everything is protected; Black has an easy game. } *

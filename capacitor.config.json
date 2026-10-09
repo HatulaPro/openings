@@ -1,0 +1,10 @@
+{
+  "appId": "app.openings.trainer",
+  "appName": "Openings",
+  "webDir": "dist",
+  "plugins": {
+    "SystemBars": {
+      "style": "DARK"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A pawn, kept inside the adaptive icon's central safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FBF3E4"
+        android:pathData="M44.5,38a9.5,9.5 0 1,0 19,0a9.5,9.5 0 1,0 -19,0Z" />
+    <path
+        android:fillColor="#FBF3E4"
+        android:pathData="M45,48h18a2.5,2.5 0 0,1 0,5h-18a2.5,2.5 0 0,1 0,-5Z" />
+    <path
+        android:fillColor="#FBF3E4"
+        android:pathData="M49,53C49,63 42,66 40,74L68,74C66,66 59,63 59,53Z" />
+    <path
+        android:fillColor="#FBF3E4"
+        android:pathData="M38.5,74h31a2.5,2.5 0 0,1 2.5,2.5v1a2.5,2.5 0 0,1 -2.5,2.5h-31a2.5,2.5 0 0,1 -2.5,-2.5v-1a2.5,2.5 0 0,1 2.5,-2.5Z" />
+</vector>

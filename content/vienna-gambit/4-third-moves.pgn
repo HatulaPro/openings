@@ -1,0 +1,74 @@
+[Line "3...exf4: the gambit accepted"]
+[Section "Black avoids 3...d5"]
+[Summary "The most common reply below master level, and simply bad: 4.e5 sends the knight home and White has a King's Gambit with two extra moves."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 exf4? { In the King's Gambit proper this is the main line. Here the knight on
+f6 turns it into a mistake. } 4. e5 { [%cal Gc3d5,Gd1h5] [%csl Rf6] The knight has no square: e4 and d5
+are covered by the c3 knight, g4 and h5 by the queen. } 4... Ng8
+( 4... Qe7 { The pin is the only other try, and it fails to a pin in return. } 5. Qe2 Ng8 6. Nf3
+{ [%cal Gc3d5] Nd5 is coming with tempo on the queen. } 6... d6 7. Nd5 Qd7 8. Nxc7+ { The typical
+finish. } 8... Qxc7 9. exd6+ { Discovered check, and the queen is lost. } )
+5. Nf3 { Stops ...Qh4+, the only thing Black had gained. Compared with 1.e4 e5 2.f4 exf4 3.Nf3, White
+has e5 and Nc3 for nothing (Illingworth). } 5... d6
+( 5... d5 6. d4 g5 7. h4 g4 8. Ng1 { The f4 pawn falls and Black's kingside is full of holes. Goeller
+gives 8...f3 9.gxf3 Be7 10.Bg5 as slightly better for White. } )
+6. d4 dxe5 7. Qe2 { [%cal Ge2e5] The pin on the e-file wins the pawn back with a lead in development,
+and is stronger than recapturing at once. } 7... Be7
+( 7... Bb4 8. Qxe5+ Qe7 9. Bxf4 { White has his pawn back and the better development; the queen
+exchange does not help Black. } )
+8. Qxe5 Nc6 9. Bb5 { The knight is pinned, so the queen stays where it is. } 9... Bd7 10. Bxc6 Bxc6 11. d5
+Bd7 12. Bxf4 { White has regained both pawns, leads in development and has g7 and c7 to aim at.
+
+**Verdict:** clearly better for White, which is Illingworth's judgement of the whole 3...exf4 line. } *
+
+[Line "3...d6: the solid decline"]
+[Section "Black avoids 3...d5"]
+[Summary "Black props up e5 and reaches a King's Gambit Declined without the active bishop on c5. White develops with Nf3 and Bb5 and keeps the tension."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d6 { The only sound alternative to 3...d5, but a passive one: the f8 bishop is
+shut in and White is not forced to do anything. Illingworth calls it too passive. } 4. Nf3
+{ [%cal Gf1b5,Gd2d3] Keep the tension. Taking on e5 would free Black's game; as it is he has to worry
+about fxe5 and about d4 on every move. } 4... Nc6
+( 4... exf4 { Giving up the centre. } 5. d4 Be7 6. Bxf4 { The full centre and the f-file for nothing.
+White scores close to sixty per cent from here in elite games. } )
+( 4... Nbd7 { The Hanham set-up. } 5. d4 { A Philidor in which White has already played f4. } )
+( 4... Bg4 5. h3 Bxf3 6. Qxf3 { The bishop pair and a lead in development. If the bishop retreats to h5
+instead, g4 gains more time. } )
+5. Bb5 { [%cal Gb5c6,Gf4e5] The pressure on e5 becomes real: Bxc6 followed by fxe5 is a threat. }
+5... Bd7
+( 5... exf4 6. d4 { Again the centre is White's, and the f4 pawn will be collected by the bishop. } )
+6. d3 { The usual continuation. White castles next and the f-file opens when he chooses.
+
+**Verdict:** a small, risk-free advantage for White: more space, the f-file, and a black position with
+no active plan. } *
+
+[Line "3...Nc6: both knights are driven back"]
+[Section "Black avoids 3...d5"]
+[Summary "Developing instead of fighting for the centre. After 4.fxe5 Nxe5 5.d4 and 6.e5 both black knights go home and White has a huge lead."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 Nc6? { Natural, and already a serious mistake: the knight will be hit by the
+d-pawn and its colleague by the e-pawn. } 4. fxe5 Nxe5 5. d4 { [%cal Gd4e5,Ge4e5] } 5... Ng6
+( 5... Nc6 6. e5 Ng8 7. Nf3 d5 8. Bd3 { Clearly better for White. Hromadka-Jonet, Paris 1924, continued
+8...Bb4 9.O-O Bg4 10.Ne2 and the kingside attack decided quickly. } )
+6. e5 Ng8 7. Nf3 { [%cal Gf1c4,Ge1g1] Not 7.Bc4 at once because of 7...Nxe5!, when 8.dxe5 Qh4+ wins the
+bishop back. } 7... d6
+( 7... d5 8. Bd3 { White is fully developed in three more moves, and Black has not started. } )
+8. Bc4 dxe5 9. O-O! { [%cal Gf3g5,Gc4f7] White does not recapture. The target is f7, and Ng5 comes next
+with a strong attack (Goeller) against a king that is three moves from castling. } *
+
+[Line "3...Bb4 and 3...Bd6"]
+[Section "Black avoids 3...d5"]
+[Summary "Pinning the knight lets White take on e5 and recapture on c3 with the d-pawn, after which Qg4 wins material. 3...Bd6 loses a piece at once."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 Bb4? { The pin does not stop fxe5, and the bishop will have to be given for
+the knight. }
+( 3... Bd6? { Defends e5 with a piece that is then forked. } 4. fxe5 Bxe5 5. d4 Bd6 6. e5 { Bishop and
+knight are attacked and one of them goes. } )
+4. fxe5 Bxc3 5. dxc3! { [%cal Gd1g4] The d-pawn again, this time to open the queen's way to g4. After
+5.exf6 or 5.bxc3 White is only slightly better. } 5... Nxe4 6. Qg4! { [%cal Gg4e4,Gg4g7] A double
+attack on e4 and g7. } 6... Nc5 7. Qxg7 Qh4+ 8. Kd1! { Not 8.g3, when 8...Qe4+ picks up the rook. On d1
+the king is safe and h1 stays defended. } 8... Rf8 9. Nf3 Qh5 10. Bh6 Ne6 11. g4! { Deflects the queen.
+After the exchange on h5 the g7 knight is attacked by the bishop and cannot be held: if it moves the f8
+rook falls, and ...Rg8 is met by Rg1. } 11... Nxg7 12. gxh5 { Winning for White
+according to Goeller, who gives this as an improvement on Kornin-Frota, Fortaleza 1979: a pawn up with
+the bishops, and the g7 knight and f8 rook are both in trouble. } *

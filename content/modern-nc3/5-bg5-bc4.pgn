@@ -1,0 +1,35 @@
+[Line "4.Bg5 a6 5.Qd2 b5 6.a4 b4 7.Nd5 a5 8.c3 c6 9.Ne3 Nf6"]
+[Section "4.Bg5 and 4.Bc4"]
+[Summary "Against 4.Bg5 Black avoids the Pirc ...Nf6 and plays the Tiger set-up. Without a bishop on e3 the ...c5 break is easier, and the knight on d5 can be chased away by ...c6."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bg5 { Aims at the pin on f6 and at e7, and prepares Qd2 and long castling. Against a Pirc order (4...Nf6) it is more dangerous, because White may play e5 or Qd2 with threats
+against the knight (in the elite games White scores 53% against 4...Nf6 and 46% against 4...a6). } 4... a6 { [%cal Gb7b5,Gb8d7] The Tiger answer: no knight to pin, and Black waits for White to commit. Against the bishop on g5, Black's counterplay with ...c5 is
+easier than against Be3, because the bishop no longer protects d4. } 5. Qd2 { [%cal Gd2h6,Gg5h6] Threatens Bh6, but without a knight on f6 and a castled king the threat has little point. } 5... b5 { [%cal Gb5b4] } 6. a4 { Challenges the pawn at once. }
+( 6. Nf3 Bb7 7. Bd3 Nd7 { Black develops as in the Tiger lines: ...Ngf6 and ...c5 follow. } )
+6... b4 { [%cal Gb4c3] Gains time on the knight. } 7. Nd5 { [%cal Gd5c7,Gd5e7] The knight is well placed in the centre. } 7... a5 { Protects the b4 pawn and stops a5, which would leave Black weak on the queenside. }
+8. c3 { Attacks b4 and prepares to open the queenside. } 8... c6 { [%cal Gc6d5] Kicks the knight. } 9. Ne3 { The knight has to retreat; e3 is the natural square, from where it covers c2 and f5 and keeps an eye on d5. } 9... Nf6! { [%cal Gf6e4]
+Hits e4 and forces f3, which blocks the knight on g1. } 10. f3 O-O 11. cxb4 axb4 12. Qxb4 Nbd7 { [%cal Gd7c5,Ge7e5] White has a pawn, but Black has a lead in development and a clear plan: ...h6 forces the bishop to decide, and ...e5 and ...Nc5 give Black the centre. }
+13. Qd2 h6 14. Bh4 e5 { [%cal Ge5d4] } 15. d5 Nc5 { [%cal Gc5e4,Gc5b3] } 16. Rd1 g5 17. Bf2 Ncxe4 { A forcing sequence from the study: 18.fxe4 Nxe4 19.Qb4 Nxf2 20.Kxf2 c5 and the white king is exposed, Black has the bishops and
+a big centre. It is a model of what Black is playing for here, rather than a line to expect move for move: Black has real compensation for the pawn. } *
+
+[Line "4.Bc4 Nf6 5.Nf3 O-O 6.O-O Nc6 7.h3: the Mad Dog"]
+[Section "4.Bg5 and 4.Bc4"]
+[Summary "White aims at f7 with the bishop on c4. Black develops with ...Nf6, ...O-O and ...Nc6; after the slow 7.h3 the knight takes on e4 and ...d5 forks bishop and knight."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bc4 { The bishop aims at f7. White hopes for an attack with Qe2 or Qf3 and a knight to g5, but with ...Nf6 Black has e5 under control and can answer almost everything with ...d5. } 4... Nf6 { [%cal Gf6e4]
+The knight comes out at once: it prevents e5 and attacks the e4-pawn. } 5. Nf3 O-O { Castling removes the king from the f7 problem: f7 is now defended by the rook and the king. } 6. O-O Nc6 { [%cal Gc6d4,Gc8g4]
+The Mad Dog. The knight puts d4 under pressure with the bishop on g7 behind it. White must now deal with the possible ...Bg4 pin and ...Nxe4. }
+( 6... Bg4 { An alternative that scores very well in the elite games (63% for Black after 7.h3). } 7. h3 Bxf3 8. Qxf3 Nc6 )
+7. h3?! { Looks natural, since it prevents ...Bg4, but it neglects e4. White scores badly after this move in the elite database. } ( 7. e5 dxe5 8. dxe5 Qxd1 9. Rxd1 { The e5-pawn is attacked by the knight and the bishop, and Black has easy equality. } )
+7... Nxe4 { [%cal Ge4c3,Ge4f2] } 8. Nxe4 ( 8. Bxf7+ Rxf7 9. Nxe4 d5 10. Nc5 Qd6 11. Be3 e5 12. dxe5 Nxe5 13. Nxe5 Bxe5 14. c3 c6 { White has given up a bishop for a pawn
+and Black's pieces are more active. } ) 8... d5! { [%cal Gd5c4,Gd5e4] The pawn forks the bishop on c4 and the knight on e4. } 9. Bd3 ( 9. Bxd5 Qxd5 { White has lost a piece for a pawn. } ) 9... dxe4 10. Bxe4 { [%cal Rc6d4] } 10... Nxd4 { [%cal Gd4f3,Gd8d4] Three pieces attack d4 and only two defend it. The knight is protected. }
+11. Nxd4 { Black wins a pawn: after 11...Bxd4 the queen can't take on d4 because ...Qxd4 would win it, and the bishop on e4 is loose. The study judges the position as slightly better for Black. } *
+
+[Line "4.Bc4 Nf6 5.Qe2 c6! 6.e5 dxe5 7.dxe5 Nd5 8.Bd2"]
+[Section "4.Bg5 and 4.Bc4"]
+[Summary "White prepares e5 with Qe2. Black answers with ...c6, which takes d5 and b5 away from White and meets e5 with a trade on d5."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bc4 Nf6 5. Qe2 { Defends e4 and prepares e5. In the elite database it is uncomfortable for Black after 5...O-O (6.Nf3 and 6.e5 both score above 54% for White) and after 5...Nc6
+(6.e5 scores 67%). } 5... c6! { [%cal Gc6d5,Gd8a5] The best-scoring reply in the elite database (47% for Black against 36% after 5...O-O and 32% after 5...Nc6). The pawn takes d5 and b5 away from White's pieces, meets e5 with ...dxe5 and ...Nd5, and
+prepares ...b5 and ...Qa5. Black castles later, when the bishop on c4 and the queen on e2 are no longer aimed at his kingside. } 6. e5 { The critical test. } 6... dxe5 7. dxe5 Nd5 { [%cal Gd5c3,Gd5b4] The knight
+attacks c3 and takes the sting out of the e5-pawn. } 8. Bd2 { Black has easy development: ...O-O, ...Nb6 or ...Nxc3 and ...Qa5 are all possible, and the e5-pawn is weak. In 29 elite games White scored 34% and Black 52% here. } *

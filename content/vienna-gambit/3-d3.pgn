@@ -1,0 +1,67 @@
+[Line "5.d3 Nxc3 6.bxc3 d4: the Oxford Variation"]
+[Section "3...d5 4.fxe5 Nxe4 5.d3"]
+[Summary "The direct challenge to the knight. Black's accurate 6...d4 stops White's centre and equalises; the variation is worth playing mainly for the two traps in the next lines."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. d3 { [%cal Rd8h4,Rf8b4] The most direct move: the knight
+must be exchanged, and White gets bxc3 and d3-d4 if he is allowed to. It also invites 5...Qh4+ and
+5...Bb4, which look crushing and are not (the next two lines).
+
+**The drawback:** the solid reply in this line equalises without risk, and 5...Bb4 can force a draw.
+Goeller is blunt that 5.d3 'cannot be White's best'. Use it as a surprise weapon against opponents who
+are likely to go for the check. } 5... Nxc3 6. bxc3 d4! { [%cal Rd4c3] The key move, and one many
+opponents do not know. If White gets d3-d4 he has the chain c3-d4-e5 and a free attack; so Black puts
+his own pawn there, fixes d3 and attacks c3. }
+( 6... Be7 7. Nf3 O-O 8. d4 { [%cal Gf1d3,Ge1g1] What White is hoping for: Bd3, O-O and a kingside
+attack in the style of the French Advance, with the f-file thrown in. } )
+7. Nf3 Nc6
+( 7... c5 8. Be2 dxc3 9. O-O Nc6 10. Qe1 { Not 10.Ng5 Nxe5, as in Seret-Spassky, Angers 1990. }
+10... Nd4 11. Bd1 Be7 12. Qxc3 O-O { Equal. } )
+8. Be2 { White ignores c3 and gets castled; the pawn on d4 is the one he wants to remove. }
+( 8. cxd4 { The old main line simply liquidates, and the game is level and simplified. } 8... Bb4+
+9. Bd2 Bxd2+ 10. Qxd2 Nxd4 )
+8... dxc3 { In practice 8...Bc5, keeping the pawn on d4, is played as often. } 9. d4 { The centre is
+built after all, at the cost of a pawn. } 9... Nb4 10. a3 Nd5 11. O-O Be7 { Bronstein-Malaniuk, Hastings
+1996.
+
+**Verdict:** equal. White has the centre and the f-file for the pawn on c3, which is going nowhere;
+Black has a superb knight on d5 and no weaknesses. } *
+
+[Line "5.d3 Bb4: the king walk to e3"]
+[Section "3...d5 4.fxe5 Nxe4 5.d3"]
+[Summary "Black sacrifices the knight for a check on h4. White's king marches to e3, and with exact play the game ends in a repetition."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. d3 Bb4 { [%cal Rd8h4] Leaves the knight to be taken on
+purpose: the pin on c3 and the check on h4 are the compensation. } 6. dxe4 Qh4+ 7. Ke2 { The only
+move. }
+( 7. g3?? { Blocks the check and loses a rook. } 7... Qxe4+ { The c3 knight is pinned and cannot take
+the queen, so h1 falls. } )
+7... Bxc3 8. bxc3 Bg4+ 9. Nf3 dxe4 10. Qd4 { [%cal Gd4e4] The queen comes out with tempo against e4 and
+supports the king's walk. } 10... Bh5 { Keeps the pin and makes room for ...Qg4. } 11. Ke3 { The king
+steps out of the pin and attacks e4 itself. On 11.Kd2 Black has 11...Qg4. } 11... Bxf3 12. gxf3
+( 12. Bb5+ { The usual attempt to avoid the draw. After 12...c6 13.gxf3 the play is very sharp and
+theory has never given a clear verdict; only for those who have prepared it. } )
+12... Qe1+ 13. Kf4 Qh4+ 14. Ke3 { Drawn by repetition, Nunn-Speelman, London 1980. Makarychev-Razuvaev,
+USSR Championship 1979, ended the same way after 11...exf3 12.gxf3 Qe1+ 13.Kf4.
+
+**Verdict:** a draw whenever Black wants one, which Goeller counts as good evidence that 5.d3 is not
+White's most ambitious move. } *
+
+[Line "5.d3 Qh4+: the Würzburger Trap"]
+[Section "3...d5 4.fxe5 Nxe4 5.d3"]
+[Summary "The check that 5.d3 invites. White gives up the h1 rook, wins it back on a8 and comes out on top; the famous finish with a trapped bishop on c2 is one version."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. d3 Qh4+? { The move every opponent sees first, and the
+only real reason to play 5.d3. } 6. g3 Nxg3 7. Nf3 { Developing with tempo on the queen. The knight
+cannot be taken (7.hxg3 Qxh1), so White lets it take the rook and counts on what the c3 knight does
+next. } 7... Qh5 8. Nxd5!
+{ [%cal Gd5c7,Gd5f4] The point. Nxc7+ and Nf4 are both threatened, and Black cannot meet both and save
+the knight on g3. } 8... Bg4 { The best practical try: a pin against the pin. }
+( 8... Nxh1? { Taking the rook. } 9. Nxc7+ Kd8 10. Nxa8 Be7 11. Bg2 { White collects the h1 knight as
+well and is winning (Dobosz-Ganev 1971). } )
+( 8... Na6 { Covers c7. } 9. Nf4 Qh6 10. Ne2 { [%cal Gc1h6] A discovered attack on the queen, and the
+g3 knight is lost. } )
+9. Bg2 { The recommendation of the Encyclopaedia, giving White the better game. The rook is defended,
+the pin on f3 is broken and both Nf4 and Nxc7+ are still in the air. }
+( 9. Nf4 { The move that gave the trap its name. If Black takes on c2 at the end, 12.b3 shuts the
+bishop in and Kd2 or Rh2 collects it. It works only if Black is greedy, which is why 9.Bg2 is
+preferred. } 9... Bxf3 10. Nxh5 Bxd1 11. hxg3 Bxc2 12. b3 ) *

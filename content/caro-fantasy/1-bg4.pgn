@@ -1,0 +1,121 @@
+[Line "Main line: 5...Bg4 6.Bc4 Nd7 7.O-O Ngf6 8.c3 Bd6 9.Bg5 O-O 10.Nbd2"]
+[Section "3...dxe4 4.fxe4 e5 5.Nf3 Bg4"]
+[Summary "Black takes on e4, strikes at d4 and pins the f3 knight; White develops with tempo against f7, castles and builds c3, Bg5, Nbd2. Balanced, with a pawn centre and the f-file to play with."]
+
+1. e4 c6 2. d4 d5 3. f3 { [%cal Gf3e4,Gf1c4,Rd8h4] **Idea:** the pawn guards e4. If Black takes, the f-pawn
+recaptures and White owns e4 and d4 without having moved a piece, with the f-file half open towards f7.
+If Black does not take, White can still build with Nc3 and Be3 or push e5 and f4.
+
+**The price:** f3 takes the natural square of the g1 knight and removes the pawn that shields the king, so
+the e1-h4 and a7-g1 diagonals become Black's targets (...Qh4+, ...Bc5, ...Bg4). It is a practical surprise
+weapon and not a refutation: in the elite database White scores an ordinary first-move result, a little
+over half, after 3.f3. }
+( 3. exd5 { Your usual Exchange: symmetrical, safe, and equal with little to play for unless Black errs.
+3.f3 trades that security for an unbalanced game in which you have the initiative and carry the risks. }
+3... cxd5 )
+3... dxe4 { [%cal Rd5e4] The principled reply and the main line of the studies. Black's other thirds are
+3...e6 (the most common in elite games), 3...Qb6, 3...g6, 3...e5 and 3...Nf6; each has a line of its own
+further on. } 4. fxe4 { [%cal Ge4e5,Gd4e5,Gf1c4] A big centre and an open f-file for nothing but a
+tempo. Black has to hit it now or White will simply play Nc3, Bc4 and Nf3 with a free hand. } 4... e5!
+{ [%cal Re5d4] The only way to fight the centre. Anything slower lets White have e4, d4 and a lead in
+development. } 5. Nf3 { [%cal Gf3e5,Gf3d4] Attacks e5 and adds a second guard to d4. }
+( 5. dxe5?! { Tempting because it wins a pawn, but after 5...Qxd1+ 6.Kxd1 the king is stuck on d1, the
+e-file is open and White's e-pawns are the targets; one study calls the position easier to play for
+Black, and 5...Qh4+ 6.g3 Qxe4+ is no better for White. Develop, do not grab. } 5... Qxd1+ 6. Kxd1 )
+5... Bg4 { [%cal Rg4f3,Re5d4] The most popular fifth move (about half of the games). The bishop pins the
+knight to the queen, so ...exd4 threatens to win a pawn: Nxd4 is impossible, and Qxd4 is met by ...Bxf3. }
+6. Bc4 { [%cal Gc4f7,Gf3e5] Ignores the threat and aims at f7, which has only the king to protect it.
+The pin is not a real one yet: if Black takes on d4 or plays a careless developing move, Bxf7+ and Nxe5+
+come with a fork on the king and the g4 bishop. } 6... Nd7 { [%cal Rd7e5,Rd7f6] The only move that keeps
+everything together. It guards e5, so the fork is gone, and makes room for ...Ngf6. }
+( 6... Nf6? { The tempting developing move loses a pawn at once to the tactic on f7. } 7. Bxf7+ Kxf7
+8. Nxe5+ Kg8 9. Nxg4 Nxg4 10. Qxg4 Qxd4 { The knight lands on e5 with check and attacks the g4 bishop as
+well. White is a pawn up and Black cannot castle. In 35 elite games White won 28. } )
+( 6... exd4 { Takes the pawn, but the pin is not worth it. } 7. Qxd4 Qxd4 8. Nxd4 { The bishop on g4 is now
+simply loose, f7 is soft, and White is ahead in development with an isolated but healthy e-pawn. After
+8...Bxf3 9.Qxd8+ Kxd8 10.gxf3 would be the pawn-centre version; Black has lost the right to castle. } )
+( 6... Bxf3 { Gives up the bishop pair to remove the pin. } 7. Qxf3 { Bc4 and Qf3 both bear on f7, White
+has the bishop pair and the centre is intact. Black has to spend a tempo on ...Qf6 or ...Qh4+ before
+getting on with development. } )
+7. O-O { [%cal Gf1f7] Gets the king out of the e-file before ...exd4 and ...Qe7 ideas begin, and puts
+the rook on the open f-file behind the f7 target. }
+( 7. c3 { The same position arrives by transposition: 7...Ngf6 8.O-O Bd6. About 40% of the games went this
+way; castling first keeps Qe1 and Qb3 available, so it is a matter of taste. } 7... Ngf6 8. O-O Bd6 )
+7... Ngf6 { Develops the second knight, attacks the e4 pawn and prepares ...Bd6 and ...O-O. } 8. c3 { [%cal Gc3d4,Gc4f7] Shores up d4 so that ...exd4 is
+no longer a threat, and keeps the d1-a4 diagonal free for the queen. The e4 pawn is left "en prise" on
+purpose. }
+( 8. dxe5?! { Opens the centre and hands Black easy development with ...Nxe5, hitting the bishop. Elite
+results with 8.dxe5 were poor for White (4 wins in 21). } 8... Nxe5 )
+8... Bd6 { Natural: Black prepares ...O-O and supports e5. }
+( 8... Nxe4? { The bait. } 9. Bxf7+ Kxf7 10. Ng5+ { **Trap:** a double check, by the knight and by the f1
+rook down the open f-file. The king has to move and White then collects the g4 bishop and keeps the e4
+knight under fire. } 10... Ke8 11. Qxg4 )
+9. Bg5 { [%cal Gg5f6,Gd1e1,Ge1h4] Pins the f6 knight to the queen. The key move of the line: the knight that
+guards e4 and h5 is under pressure, Bxf6 and e5 would hit Bd6, and the queen heads for h4 via e1. }
+( 9. Qb3 { Hits b7 and f7 at once. Played in about 7% of elite games, with an even score; it is a
+reasonable alternative if you do not want the pin. } 9... O-O )
+( 9. Qe1 { Goes for Qh4 at once, without the pin on f6. Also about 9% of the games and also even. }
+9... O-O )
+9... O-O ( 9... h6 { The sharpest reply: Black asks the bishop what it wants. } 10. Bh4 g5 11. Bg3 Qe7
+{ Black weakens his king to unpin and prepares ...Nxe4. The elite results here (4 wins for White in
+14) show that White has to know exactly what he is doing; 10.Bxf6 Nxf6 gives up the bishop for a knight
+and the pin. } )
+10. Nbd2 { [%cal Gd2b3,Gd1e1,Ge1h4,Gc4b3] **Position:** the standard Fantasy middlegame. White has the centre
+pawns on d4 and e4, every piece developed and a bishop on c4 that bears on f7. Black has no weaknesses
+but also little space.
+
+**Plans for White:** (a) Qe1 and Qh4, using the Bg5 pin to win the g4 bishop's support or to force
+...Bxf3; (b) Bb3, to keep the bishop safe from ...b5 and keep f7 under fire; (c) the break e4-e5, which
+hits Bd6 and Nf6 together; (d) Rae1 and Nh4, to swing a knight towards the f-file.
+
+**Plans for Black:** ...Qc7 and ...Rae8 against e4 and d4; ...b5 to drive the bishop away; ...h6 followed
+by ...Bh5-g6 to hit e4 from behind. Black can also take on d4 once the pin on f3 has done its job.
+
+**Verdict:** balanced. The studies end here and describe the positions as pleasant for White because Black
+has no obvious plan, but elite results are even, so this is a line for understanding and for the
+traps, not for a forced edge. } *
+
+[Line "Main line continued: 10...Qc7 11.Qe1"]
+[Section "3...dxe4 4.fxe4 e5 5.Nf3 Bg4"]
+[Summary "Black's most popular tenth move, taken from elite games: White swings the queen to h4 and keeps the pin on f6 until Black decides about the g4 bishop. Elite results are not kind to White here, so know the plan."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Bg4 6. Bc4 Nd7 7. O-O Ngf6 8. c3 Bd6 9. Bg5 O-O 10. Nbd2
+Qc7 { [%cal Rc7h2,Rd6h2] The most popular reply (about half of the elite games). The queen and the bishop
+look at h2, which White's king has to remember, and the queen backs up ...exd4. }
+11. Qe1 { [%cal Ge1h4,Gg5f6] Heads for h4, where it attacks the pinned f6 knight and the g4 bishop's
+support. With the queen off d1 the g4 bishop no longer pins the knight, and ...exd4 can be met by cxd4
+with a safe centre. }
+( 11. h3 { Asks the bishop what it wants right away, but 11...Bh5 and the pin on f6 is worth less once
+the bishop is on h5. This also scored poorly (3 wins for White in 12). } 11... Bh5 )
+11... Rae8 { Doubles the pressure on e4 and gets the rook off the a8-h1 diagonal. }
+( 11... Bh5 { Keeps the bishop; the queen goes to h4 anyway. } 12. Qh4 )
+( 11... b5 { Gains space against the bishop. } 12. Bb3 { The bishop retreats to the safest diagonal; ...b5
+has weakened c5 and c6, but Black has gained space. } )
+12. Qh4 { [%cal Gh4g4,Gh4f6,Gg5f6] The idea. Black's bishop is attacked and the f6 knight is pinned twice.
+Black has to choose between ...Bxf3 (giving up the bishop pair) and keeping the bishop with ...Bh5.
+
+**What to know:** do not rush e4-e5. The break only works when the Bd6 is loose; with ...Qc7 and
+...Rae8 Black meets e5 with ...Bxe5 and the pinned pieces slip away. Keep the position tense and wait for
+the bishop to give up the pin.
+
+**Verdict:** a balanced middlegame with the safer king for White and the easier moves for Black. In
+the elite database White scored only 6 wins in 20 games with 11.Qe1, so this position is a warning
+that the line is a way to get a game and not an edge: understand the plan (Qh4, Bb3, Rae1, Nh4) and
+choose it when you are the better-prepared player. } *
+
+[Line "Black changes his set-up: 8...Bh5 and 8...b5"]
+[Section "3...dxe4 4.fxe4 e5 5.Nf3 Bg4"]
+[Summary "Black keeps the bishop for ...Bg6 or breaks with ...b5 before developing the dark bishop. The same Bg5 and Nbd2 set-up works."]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Bg4 6. Bc4 Nd7 7. O-O Ngf6 8. c3 Bh5 { [%cal Rh5g6,Rg6e4]
+Avoids the pin and heads for g6 to hit e4. It costs a tempo, and the f3 knight is free to move: the second
+most popular eighth move (about one game in eight). }
+( 8... b5 { Hits the bishop at once. } 9. Bb3 Bd6 { Black gains queenside space, but the c6 pawn and the
+c5 square are weaker, and the bishop on b3 stays on the a2-g8 diagonal against f7. } )
+9. Bg5 { [%cal Gg5f6,Gd1e1] Back to the same plan. The pin on f6 is still there, and the h5 bishop has no
+way to attack e4 while the f6 knight is pinned. } ( 9. Qe1 { Same idea as in the main line, played
+first. } 9... Bd6 )
+9... Bd6 10. Nbd2 O-O { The main-line position, with the bishop on h5 instead of g4. Black has avoided the
+pin on f3, but also the chance of ...Bxf3 followed by a bishop pair; both sides have fewer options. }
+11. Qe1 { Again the plan of Qh4, now against the h5 bishop. Compare the previous line: the position is the
+same except for the bishop's square. } *

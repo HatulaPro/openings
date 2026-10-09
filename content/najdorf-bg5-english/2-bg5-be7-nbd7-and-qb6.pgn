@@ -1,0 +1,93 @@
+[Line "7...Be7 8.Qf3: Giri's 10...h6"]
+[Section "6.Bg5: 7...Be7, the classical main line"]
+[Summary "Black develops and waits for White to commit his king to the queenside, then answers the g4 push with ...h6, so that the bishop must decide at once. The line is forcing and ends in an ending with opposite-coloured bishops that is about equal."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 { [%cal Ge7f6] The classical move, and
+the one the beginner-oriented study by LeninPerez recommends. The bishop defends the knight on f6, so Bxf6
+can be met by ...Bxf6 with the bishop looking at d4 and b2, and Black can still castle short, leave the king
+in the middle or play ...b5-b4. } 8. Qf3 { [%cal Gf3g3,Gf3a8] The queen goes to the long diagonal, which makes
+...b5 awkward unless the bishop can reach b7 at once, and prepares long castling and the pawn storm. Later
+Qg3 hits d6 and g7. } 8... Nbd7 { [%cal Gd7e5] The knight defends f6 and e5. The other move order, 8...Qc7
+9.O-O-O Nbd7, gives the same position. } 9. O-O-O Qc7 { [%cal Gc7c3] The queen defends e5 and d6 and gets off
+the d-file, where White's rook and queen would otherwise look at her. } 10. g4 { [%cal Gg4g5,Gf4f5] The
+standard pawn storm: g5 drives the f6 knight away and f5 follows. The older 10...b5 11.Bxf6 Nxf6 12.g5 Nd7
+13.f5 is sharp enough to be a line of its own (next game). } 10... h6!? { [%cal Gh6g5] Giri's idea. The bishop
+must decide at once: 11.Bh4? is met by ...g5 and the knight reaches e5, so it takes on f6, and the recapture
+puts Black's bishop on the long diagonal against d4 and b2, where it plays a part in the tactics later. } 11.
+Bxf6 ( 11. Bh4? { Walks into ...g5. } 11... g5 12. fxg5 Ne5 { Black is better: the knight on e5 hits g4, and the study describes the
+position as a bad version of a line White would like to avoid. } ) 11... Bxf6! { Black recaptures with the
+bishop. } ( 11... Nxf6? { The knight recapture leaves the bishop on e7 passive and the pieces uncoordinated. }
+12. h4 g6 13. f5 Qc5 14. g5 hxg5 15. hxg5 Rxh1 16. Qxh1 Nh5 17. Kb1 ) 12. h4 { White continues with g5
+against whatever Black plays: slow moves are punished by ...b5, ...Bb7 and ...Nc5. } 12... Nb6!? { [%cal
+Gb6a4,Gb6c4,Gf6d4] Giri's idea. The knight heads for a4 or c4, and the bishop on f6 takes on d4 at the right
+moment. } ( 12... Qb6?! { The older move, which has gone badly: White's Qh5 and the g6 and f5 pushes come too
+quickly. } 13. Nde2 Nc5 14. g5 Be7 15. Qh5 g6 16. Qf3 hxg5 17. hxg5 Rxh1 18. Qxh1 Bd7 19. Qh8+ Bf8 ) 13. Be2 {
+Keeps the tension. 13.g5 is the most testing and the study reports Giri's analysis of it as roughly equal: }
+( 13. g5 Bxd4 14. Rxd4 Qc5 15. Rd2 Bd7 16. Kb1 O-O-O 17. Be2 Na4 18. Nxa4 Bxa4 19. Rhd1 { Both sides have
+their trumps: White has more space and the pressure on d6, and Black has no weaknesses. } ) 13... Be7!
+{ [%cal Gf6e7] Not 13...Bxd4? 14.Rxd4 Qc5 15.Rhd1, where the rook is no longer hit with tempo and the
+knight's trip to a4 achieves nothing. } ( 13... Bxd4? { Hands White the d-file without a tempo. } 14. Rxd4 Qc5 15. Rhd1 { White gets the d-file for
+nothing. } ) 14. g5 Bd7 { Correct. Taking on g5 loses to Qh7. } ( 14... hxg5? { Opens the h-file for White. } 15. hxg5 Rxh1 16. Qxh1 Bd7 17.
+Qh7 g6 18. f5 { White is much better: the h-file is his and g6 follows. } ) 15. g6 fxg6 16. Qg4 O-O-O! {
+[%cal Gd8d5] The king leaves the centre for the queenside, and the rook on d8 will support the ...d5 break
+that saves the game later. } 17. Nxe6 Bxe6 18. Qxe6+ Kb8 19. Qxg6 d5!! { [%cal Gd5e4,Gc7f4] The key
+resource: White would be completely winning if it were not for this move. The pawn opens the d-file and the
+c7-h2 diagonal for the queen. } 20. Qxg7 Qxf4+ 21. Kb1 Bf6! { Hits the queen. } 22. Qg1 Rd6! { [%cal Gd6d4]
+Another only move: it keeps all the black pieces working. } 23. Nxd5 Nxd5 24. Rxd5 Rxd5 25. exd5 Rd8! { Black
+must attack White's weak pawns at once: after 25...Qe5? 26.Qh2 White trades queens up two pawns. } 26. Qh2 Qxh2
+27. Rxh2 Rxd5 { **Verdict:** about equal. White is a pawn up, but opposite-coloured bishops and Black's
+active rook make the ending very hard to win. Both sides must know the line to the end; that is the price of
+the Giri system. } *
+
+[Line "7...Be7 8.Qf3: the old main line 10...b5 11.Bxf6 Nxf6 12.g5"]
+[Section "6.Bg5: 7...Be7, the classical main line"]
+[Summary "The sharpest version of the pawn storm. White lets the g5 pawn go to open the f-file and the h5 square, and the king in the middle is under fire. Each of Black's 13th moves is risky, which is why Giri's 10...h6 is preferred."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3 Nbd7 9. O-O-O Qc7 10. g4 b5
+{ [%cal Gb5b4,Gc8b7] Black launches the queenside attack at once. It is a race, and Black's king is still in
+the centre. } 11. Bxf6 Nxf6 12. g5 Nd7 13. f5 { [%cal Gf5e6,Rd4e6] The breakthrough: White lets the g5 pawn
+go to open the f-file and the h5 square for the queen. The study I used for this line finds all three of
+Black's tries below better for White. } 13... Bxg5+ { Takes the pawn with check. } ( 13... O-O!? { The modern
+try: Black puts the king on g8 and gets counterplay with ...b4 and ...e5. } 14. Rg1 b4 15. Nce2 e5 16. f6 exd4
+17. fxe7 Re8 18. Nxd4 Ne5 { The knight on e5 is strong, but White has the h-file and g6 ideas. The study
+judges White better. } ) ( 13... Nc5?! { After 14.f6 gxf6 15.gxf6 Bf8 16.Rg1 h5 White keeps the initiative
+with Rg7 and Qh5 ideas against f7. } 14. f6 gxf6 15. gxf6 Bf8 16. Rg1 h5 ) 14. Kb1 Ne5 { [%cal Ge5f3,Ge5c4] The
+knight blocks the e-file and hits the queen. } 15. Qh5 { [%cal Gh5g5,Gh5f7] Pins the f-pawn and hits g5 in
+one move. } 15... h6 16. Nxe6 Bxe6 17. fxe6 g6 18. exf7+ Qxf7 19. Qh3 { **Verdict:** slightly better for
+White, according to the study. Black controls e5, but White controls d5 and has the h-file, and Black's king
+stays in the centre. White's idea is to poke the bishop on g5 with h4 and break through; Black's counter is
+...b4-b3 and the c-file. Black does not have to go into this line: 10...h6 is the alternative. } *
+
+[Line "7...Nbd7: the Anand variation, 9...b5"]
+[Section "6.Bg5: 7...Nbd7 and the immediate Poisoned Pawn"]
+[Summary "Black plays ...b5 at once instead of ...Be7, saving a tempo and getting the bishop to b7. The main line is a long forcing sequence in which White gets three pieces for the queen."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Nbd7 { [%cal Gd7e5,Gd7c5] A more modern
+set-up: the knight defends f6, covers e5 and heads for c5, and the bishop stays free to go to e7 or b7. } 8.
+Qf3 Qc7 9. O-O-O b5 { [%cal Gb5b4,Gc8b7] Black saves the tempo that the main line spends on ...Be7, and the
+bishop can go to b7 at once. The risk is that without a bishop on e7 the e6 and d6 pawns are targets. } 10.
+Bd3 { White develops and prepares Rhe1 and Nd5; the bishop also guards e4, so that the c3 knight is free to
+jump. } 10... Bb7 ( 10... b4? { Too hasty. } 11. Nd5! { Opens the e-file against the king. } 11... exd5 12. Rhe1 Bb7 13. exd5+ Kd8 14. Nc6+ Bxc6 15. dxc6
+{ Black's king is stuck on d8 and White is winning. } ) 11. Rhe1 Qb6!? { The source calls it the main move
+and a serious option: the queen leaves c7, where Nd5 and e5 break-ups would hit her, and attacks the d4
+knight. } 12. Nd5 Qxd4 13. Bxf6 gxf6 14. Bxb5 Qc5 15. b4 Qxb5 16. Nc7+ Ke7 17. Nxb5 axb5 { White has won
+the queen for two knights and a bishop, and the b5 pawn is the first target. } 18. Qd3 Ra6 19. Qxb5 Rb6 20.
+Qd3 Bh6 21. g3 Ra8 22. a3 e5! { Black has to open the centre; otherwise 23.e5 crushes him. } 23. Kb2 exf4 24.
+e5! { Opens the e-file and the b2-h8 diagonal before Black's pieces can come back. } 24... fxe5 25. gxf4 Bg7 26. Qxh7 Bf6 27. fxe5 Nxe5 28. Re3 Rh8 29. Qf5 Bc8 30. Qf4 Be6 31. Kb1 { **Verdict:**
+balanced, as the study I used judges it, with active pieces on both sides and both kings a little exposed.
+It is a long forcing sequence and a hard one to remember. The study notes 27.Re3!? as a possible improvement
+for White. } *
+
+[Line "7...Qb6: the immediate Poisoned Pawn"]
+[Section "6.Bg5: 7...Nbd7 and the immediate Poisoned Pawn"]
+[Summary "The older move order. It reaches the same pawn-grabbing structure, but White keeps the bishop on g5 and has extra options, which is why the delayed order with ...h6 is preferred."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 { [%cal Gb6b2] The Poisoned Pawn,
+Fischer's weapon. } 8. Qd2 { [%cal Gd2b4] 8.Nb3 is the quiet way to guard b2; it is not covered in the studies
+I used. } 8... Qxb2 9. Rb1 Qa3 10. e5 { [%cal Re5f6] } ( 10. f5 { The other main try. } 10... Nc6 11. fxe6
+fxe6 12. Nxc6 bxc6 13. Be2 Be7 { Black's pawns are damaged but the centre and the f-file compensate. } ) 10...
+dxe5 11. fxe5 Nfd7 12. Be2 Bb4 { [%cal Gb4c3,Ga3a5] The bishop pins the knight against the queen, which is why
+the rook goes to b3. } 13. Rb3 Qa5 14. a3 Bc5 15. Nf3 { **Verdict:** Black is a pawn up with a safe-looking
+queen, but the king is in the middle and the pieces are far from the kingside. The studies that give this
+line stop here without a verdict. The point of 7...h6 first is that the bishop has to leave g5: on h4 it is
+loose (...Be7 hits it), and the quiet 9.Nb3 that is possible here would be met by ...Qe3+, which takes the f4 pawn. } *

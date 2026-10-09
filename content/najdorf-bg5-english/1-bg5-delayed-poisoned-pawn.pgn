@@ -1,0 +1,144 @@
+[Line "Delayed Poisoned Pawn: 9.Qd2 Qxb2, the main line"]
+[Section "6.Bg5: the delayed Poisoned Pawn (7...h6)"]
+[Summary "Black takes b2, a2 and e5 with the queen while White develops with tempo. With exact play the pawns are kept, the queens come off and Black has three pawns for the exchange in a safe ending."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 { [%cal Rd4b5,Rc3b5,Rf1b5,Gb7b5] The Najdorf. The pawn
+takes b5 away from both knights and the bishop, and that is what makes ...e5 a real option: after 5...e5
+6.Bb5+ White gets a bind on d5 and a knight on f5. It also prepares ...b5 and ...b4 with tempo, and it is a
+waiting move, because Black sees White's sixth move before committing to a pawn structure. The price is a
+tempo spent on an edge pawn, so slow play later in the opening is punished. } 6. Bg5 { [%cal Rg5f6] The most
+testing sixth move, because it forces Black to choose a structure at once. The threat is Bxf6 followed by
+Nd5 or Nf5 if Black has played ...e5. } 6... e6 { [%csl Yd5,Yf5] Not 6...e5? 7.Bxf6 Qxf6 8.Nd5 Qd8 9.Nf5,
+when two white knights stand on d5 and f5 and no black pawn can ever challenge them. With the pawn on e6 Black
+guards both squares, and Bxf6 can be met by Qxf6. The cost is that the e-pawn no longer hits d4, so Black has
+to find play with ...b5, ...Bb7 and the queenside pawns. } 7. f4 { [%cal Ge4e5,Gd1f3,Gd1d2,Ge1c1] White takes
+e5 under control, so that e4-e5 becomes a threat against the f6 knight, and prepares Qf3 or Qd2 and long
+castling. Black has six serious answers: 7...Be7 (first game of the next file), 7...Qb6 (the immediate
+Poisoned Pawn), 7...Nbd7, 7...b5, 7...Qc7 and the move of this file, 7...h6. } 7... h6 { [%cal Gh7h6] The
+delayed Poisoned Pawn. It asks the bishop a question before the queen goes to b6: 8.Bxf6 gives away the
+bishop pair for nothing, and after 8.Bh4 the bishop can be attacked by ...Be7. It also rules out the quiet Nb3 (9.Nb3 here), which would lose f4 to ...Qe3+ because the bishop no longer
+guards that pawn. The price is that
+after 9.a3 White gets Bf2 with tempo on the queen. } 8. Bh4 { [%cal Gh4d8] White keeps the pin. After 8.Bxf6
+Qxf6 Black gets the bishop pair and the ...g5 plan (fourth game). } ( 8. Bxf6 Qxf6 ) 8... Qb6 { [%cal Gb6b2,Gb6d4] The queen attacks b2 and d4 at once, and White
+must either defend the pawn or give it. All Black's later play depends on the fact that nobody has proved
+the pawn is really poisoned. } ( 8... g5? { A break that comes too early: the king is still in the
+centre and the e6 pawn is the weak point. } 9. fxg5 Nfd7 10. Nxe6! { The standard shot against ...g5 when the
+king is uncastled: after the recapture the queen reaches h5 with check. } 10... fxe6 11. Qh5+ Ke7 12. gxh6+ Nf6
+13. Bxf6+ Kxf6 14. Qh4+ Kf7 15. Qxd8 ) 9. Qd2 { [%cal Gd2b4] The main gambit move. The queen covers c3 and prepares long castling; if
+the pawn is taken the black queen will be offside while White develops with tempo. } ( 9. a3 { The solid
+alternative: it defends b2 and makes Qxb2 impossible, since Na4 traps the queen. } 9... Be7 { Black ignores
+b2 and hits the loose bishop on h4. } 10. Bf2 { The bishop retreats with tempo on b6. } 10... Qc7 { The queen
+has lost two moves, but so has White: a3 and Bf2 are not moves White wanted to make. Third game. } ) 9... Qxb2
+{ [%csl Rb2] Accepting. Black wants three pawns and a safe king, and the sources agree that White cannot
+prove the pawn is poisoned. } 10. Rb1 { The queen is attacked, and the only square that keeps her safe is
+a3. } ( 10. Nb3 { Tried in a dozen games and with poor results: White does not
+have the time to trap the queen. } 10... Be7 { Hits the undefended bishop on h4: if the rook goes to b1 now,
+...Nxe4 wins a pawn, so White has to trade. } 11. Bxf6 Bxf6 12. Na4
+Qa3 13. Nb6 Bxa1 14. Nxa1 Qc5 15. Nxa8 b6 16. Nb3 Qc6 17. Nxb6 Qxb6 { Material is level, but Black has the
+safer king and the better pawns. } ) 10... Qa3 { [%cal Ga3a2,Ga3b4] The only safe retreat. From a3 the queen
+still eyes a2 and b4. } 11. e5 { [%cal Re5f6] The main try, and by a distance the most played. It opens the
+f-file and the e4 square and hits the knight. } ( 11. f5 { An attempt to grab the light squares round e6. }
+11... Be7 12. fxe6 fxe6 13. Bc4 Nxe4 14. Nxe4 Bxh4+ 15. g3 Bg5 16. Nxg5 hxg5 17. O-O Qc5 18. Qf2 Nc6 19. Nxe6
+Qxf2+ 20. Rxf2 Bxe6 21. Bxe6 Rb8 22. Bd5 Ne5 23. Bxb7 Ke7 24. Rb3 { Black has won a knight outpost on e5 and
+the endgame is safe; the e5 knight stops White's g and c pawns from moving. } ) ( 11. Bxf6 gxf6 12. Be2 h5 13.
+O-O Qa5 14. Kh1 Nc6 15. Nxc6 bxc6 16. Qd4 Be7 { White's bishop pair is gone and Black has five pawns in the
+centre; White cannot break them down. } ) 11... dxe5 { [%cal Gf8b4] Always with the pawn: it opens the
+f8-a3 diagonal so that bishop and queen both aim at b4. } 12. fxe5 Nfd7 { [%cal Gf8b4,Gd7e5] The only move
+that does not leave the king exposed. Black does not mind the pawn on e5: the real threat is ...Bb4, which
+would pin and overload the c3 knight. } ( 12... g5?! { Very sharp: after the capture Black's king stays in
+the middle for the rest of the game. } 13. exf6 gxh4 ) ( 12... Nd5?! { Also leaves the king stuck in the
+centre. } 13. Nxd5 exd5 14. e6 Bxe6 15. Nxe6 fxe6 16. Bd3 Be7 17. Bg6+ ) 13. Ne4 { [%cal Rd2b4] The only way
+to stop ...Bb4: the queen on d2 now covers it. } ( 13. Bg3 { Defends e5, but allows the bishop to come out. }
+13... Bb4 14. Rb3 Qa5 { White's pieces are tied up on c3, b3 and the g1-a7 diagonal, and Black can develop
+freely. } ) 13... Qxa2 { [%csl Re5] A second pawn. Not 13...Nxe5? 14.Nb5!, which threatens Qd8 mate and the
+queen at once. } 14. Rd1 Qd5 { Again the e5 pawn is poisoned (15.Nf5 with threats of mate on d7). The queen
+forks the knight on e4 and the pawn on e5, and blocks the d-file. } 15. Qe3 { Keeps e4 defended. 15.Qe2
+would shut the bishop in for ever. } 15... Qxe5 { [%cal Gf8c5,Ge8g8] Three pawns up, but only the queen has
+moved. The next moves are about catching up in development before White's pieces come in. } 16. Be2 ( 16. c3
+{ Caruana's choice against Vachier-Lagrave in the 2021 Candidates, after a year of preparation. The pawn
+supports the knight on d4, so that the bishop can leave f1 for c4 without the d4 knight falling. } 16... Bc5 17. Bg3 Qd5 18. Bc4!!
+{ [%cal Gg3d6] The novelty: the queen is lured off the d-file so that Bd6 comes with decisive force. } ( 18.
+Bd6 { The line played in correspondence games. } 18... Bxd6 19. Nb5 Qxd1+ 20. Kxd1 Be5 21. Nbd6+ Ke7 22. Nc4
+{ Black has too many pawns, but the pieces are still at home and he has to be careful. } ) 18... Qxc4 19. Bd6
+Nf6 { The only way to return material and reduce the pressure. } 20. Nxc5 Nd5 21. Qe5 Rg8 22. Ndxe6 fxe6 23.
+Nxe6 Qxc3+ 24. Qxc3 Nxc3 25. Nc7+ Kf7 26. Rd3 Ra7 27. Rxc3 { Black is two pawns up in the ending, but the
+pieces are all on the queenside and the rooks are tied up. Both sides have to be precise. Black is the one
+with the margin for error. } ) 16... Bc5 { [%cal Gc5d4,Gc5e3] Pins the knight on d4 against the queen and
+develops the bishop with tempo. } 17. Bg3 { [%cal Gg3d6] White's idea: Bd6, which will stop Black castling
+safely. } 17... Qd5 { [%cal Gd5a5] 17...Bxd4 first leads to a very similar position. The text invites 18.c4, which
+leaves the queen no square, and Black has to take on d4 to free the fifth rank for her. } 18. c4 Bxd4 19. Rxd4 Qa5+ 20. Rd2 O-O { Now the king is safe. } 21. Bd6 {
+[%cal Gd6f8,Rd6c5] The bishop attacks the exchange and takes c5 from the queen, so that queens cannot come
+off. With no black piece near his king, White's g4 and h4-g5 would then give a dangerous attack. } 21... f5! {
+[%cal Gd6f8] Black does not waste a tempo retreating the rook: after 21...Rd8 22.g4 Nc6 23.O-O Nde5 24.h4 the
+rook has to be given up anyway, and Black's pieces are still far from the kingside. The counter-punch gives
+back the exchange at once, but it removes the bishop that controls c5 and so makes the queen trade
+possible. } ( 21... Rd8?! { Loses a tempo. } 22. g4 Nc6 23. O-O Nde5 24. h4 Rxd6
+25. Nxd6 b6 26. g5 ) 22. Bxf8 Nxf8 23. Nd6 { The knight is a nuisance, hitting b7 and f7. } 23... Nbd7 24. O-O
+Qc5 { [%cal Gc5d4] Black will trade queens next, and White's attack has nothing left to attack with. } 25. Qd4
+a5 { **Verdict:** good for Black. He has three pawns for the exchange, a king that is finally safe and the
+move that trades queens. The game this follows, Giri against Vachier-Lagrave (Paris rapid, 2019), was won by
+Black. The warning is the huge number of forcing moves that has to be remembered: from 11.e5 on every move
+for Black is a single move. } *
+
+[Line "Delayed Poisoned Pawn: 9.Qd3"]
+[Section "6.Bg5: the delayed Poisoned Pawn (7...h6)"]
+[Summary "A worse version of 9.Qd2: the queen blocks its own bishop. The pawn is taken again, and the sequence that follows is a forced one ending in an ending where Black has the better of it."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 h6 8. Bh4 Qb6 9. Qd3 { Like 9.Qd2, but the queen
+blocks the bishop on f1 and the c4 square, which changes how Black can recapture later. White keeps the
+queenside file open and hopes for f5 and Nd5 tricks against a queen on a3. } 9... Qxb2 10. Rb1 Qa3 11. f5 { [%csl Re6] The usual try: White wants to destroy the
+e6 pawn and hit the light squares. } 11... Be7 { [%cal Ge7h4] Hits the loose bishop. } 12. fxe6 Bxe6 { Here
+Black may recapture with the bishop. With the queen on d2 he usually takes with the f-pawn, because White wants
+Bc4 to press on e6; with the queen on d3 the bishop cannot reach c4, so the bishop recapture is possible
+and trades off White's active knight. } 13. Nxe6 fxe6 14. e5 { White plays this before taking on b7, because
+14.Rxb7 allows ...Nbd7 and Black is fine. } 14... dxe5 15.
+Bxf6 gxf6 16. Rxb7 f5! { [%csl Rg6] Black must stop the queen reaching g6, since otherwise White's attack
+is decisive. } 17. Be2 O-O { Castling looks dangerous with queens and rooks on the board, but it is fine. } 18.
+Qg3+ Kh8 19. Rc7 { White wants Qg6, but at once that would let the black queen take on c3 with check, so the rook
+comes first. } 19... Qd6 20. Qg6 Bh4+ { The check comes first: with the bishop off e7 the rook on c7 can be
+taken without a loose piece being left behind. } 21. g3 Qxc7 22. Qxh6+ Kg8
+23. Bc4 Rf6! { If Black takes on c4, White gives perpetual check. The rook attacks the queen and keeps the
+bishop out of g6. } 24. Bxe6+ Rxe6 25. Qxe6+ Kg7 26. O-O Qd7 27. Qxd7+ Nxd7 28. gxh4 { **Verdict:** a pleasant
+ending for Black. Black has connected passed pawns in the centre, and White's extra pawn is a doubled h-pawn.
+The study this follows judges it favourable for Black. } *
+
+[Line "Delayed Poisoned Pawn: 9.a3, the solid reply"]
+[Section "6.Bg5: the delayed Poisoned Pawn (7...h6)"]
+[Summary "White defends b2 and goes for a kingside attack. Black keeps the king in the centre, plays ...b5 and ...Bb7 and meets g4 with ...g5. The main line is a draw by repetition in practice."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 h6 8. Bh4 Qb6 9. a3 Be7 10. Bf2 Qc7 11. Qf3
+{ [%cal Gf3g3,Ge1c1] The only real setup White has: queen to f3, long castling, g4. Kingside castling is
+bad because the f-pawn has already moved. } 11... Nbd7 12. O-O-O b5 { Black should not castle. Long
+castling is impossible with the open c-file, and short castling walks into the attack. The king stays on
+e8 and Black counterattacks. } 13. g4 { [%cal Gg4g5] } 13... Bb7 { [%cal Gb7h1] The bishop attacks e4 with
+the rook behind it. The other move here is 13...g5, which the text reaches anyway. } 14. Bg2 { Defends e4 and
+so keeps f5 possible. } ( 14. h4 { Prevents ...g5. } 14... Nc5 { [%csl Re4] Piles up on e4. } 15. Bd3 Nxd3+
+16. Rxd3 d5 { [%cal Gf6e4] } 17. e5 { Forced; everything else loses. } 17... Ne4 { The knight cannot be
+taken: Nxe4 dxe4 forks. } 18. Be1 O-O-O { Anand against Vachier-Lagrave in 2018, drawn: the kingside is
+locked, White's pawns are weak and Black's king is relatively safe. } ) 14... g5 { [%cal Gg5f4,Gd7e5] A
+standard pawn sacrifice: Black wants the knight on e5, and the pawn on f4 is the price. } 15. h4 { Prepares g5
+after ...gxf4, so that the h-file opens. } ( 15. f5 { The safer try. } 15... e5 16. Nb3 Rc8 17. Qe2 h5 18. h3 { The kingside is frozen;
+Black pushes ...a5 and ...b4 on the queenside. } ) 15... gxf4 16. g5 Ne5 { [%cal Ge5f3,Ge5g4] The knight
+lands on the best square and the d7 square is free for the other knight. } 17. Qxf4 hxg5 18. hxg5 Rxh1 19.
+Rxh1 Nfd7 { Preparing ...Nf8-g6 if the rook comes down. } 20. Kb1 O-O-O { The king is safe on c8. The only
+thing to watch is g6. } 21. Rh3 Kb8 22. Be3 Rg8 23. Rg3 Rg7 { Now f7 is defended and g6 is no threat. } 24.
+Bh3 Rh7 25. Qf2 Nc5 { **Verdict:** balanced. Black's knights are great on e5 and g6, White has the open h-file
+and some activity. Karjakin against Vachier-Lagrave (London 2017), which this follows, was won by Black in a
+long endgame. } *
+
+[Line "7...h6 8.Bxf6: the ...g5 pawn sacrifice"]
+[Section "6.Bg5: the delayed Poisoned Pawn (7...h6)"]
+[Summary "If White gives up the bishop at once, Black recaptures with the queen, plays ...Nc6 and ...g5, and gets the bishop pair and the e5 outpost for a pawn."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 h6 8. Bxf6 Qxf6 { [%cal Gf6d4] White has
+given up the bishop on f6 without making a threat. The queen develops with a threat on d4, and f4 is
+loose. } 9. Qd2 Nc6 { Threatens ...Nxd4. If White captures on c6, ...bxc6 gives Black a huge centre. } 10. Nf3 {
+[%csl Yf4] } 10... g5! { [%cal Gg5f4,Gc6e5] The point. Black gives a pawn to get the knight to e5 and open
+lines for the bishop pair. } 11. g3 { White declines the pawn. } ( 11. fxg5 hxg5 { Not 12.Nxg5? Bh6, which pins the knight to the
+queen. } 12. Qxg5 Qxg5 13. Nxg5 b5 14. Nf3 Bb7 15. O-O-O Ke7 { The king sits on e7 for good, but White has
+no way to attack it without his dark-squared bishop, and Black's bishop pair is strong. } ) 11... gxf4 12. gxf4
+Ne5 { [%cal Ge5f3] The knight on f3 has lost its defender. } 13. Qe3 ( 13. Nxe5 dxe5 14. fxe5 Qh4+ 15. Qf2
+Qxf2+ 16. Kxf2 { Black regains the pawn with the bishop pair. } ) ( 13. fxe5 Qxf3 14. Bg2 Qg4 { Black wins the
+pawn back and is better. } ) 13... Nxf3+ 14. Qxf3 Qh4+ 15. Qg3 Qxg3+
+16. hxg3 Bg7 { **Verdict:** Black will get two bishops and regain the pawn with ...b5 and ...Bb7. Equal, with
+chances to press. } *

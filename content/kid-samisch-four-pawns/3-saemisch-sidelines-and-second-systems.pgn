@@ -1,0 +1,63 @@
+[Line "6.Bg5 c5 7.d5 e6 8.Qd2 h6: the bishop must decide"]
+[Section "Saemisch sidelines"]
+[Summary "White pins the f6-knight with Bg5. Black plays the same ...c5 and ...e6 break, and ...h6 forces the bishop to choose between h4 and e3, so the game transposes into the Benoni structures of the main lines."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 { [%cal Rg5f6] The second most popular sixth move (about one game in five). The bishop pins the f6-knight against the queen and keeps open the plan Bxf6 to damage Black's dark squares; it also avoids the exchange sacrifice and the tempo loss ...Nh5 after Be3. } 6... c5 { The same central break as in the main line. 6...h6, 6...a6, 6...Nc6 and 6...Nbd7 are all played, but ...c5 is the move that keeps the chapter's structures. }
+7. d5 e6 8. Qd2 { Almost always played (89% of games). The queen protects the bishop and prepares O-O-O. }
+( 8. Nge2?! { Commits the knight before the structure is clear. } 8... h6 9. Be3 exd5 10. cxd5 Nbd7 11. Qd2 Ne5 12. Ng3 h5 { Black has the usual play: the knight on e5, the pawn against g3, and ...Rb8 and ...b5 on the queenside. } )
+8... h6 { [%cal Gh7h6] The study's move: it forces the bishop to declare itself at once (it is played in about one game in twelve; the usual move is 8...exd5). The bishop cannot take on h6 safely, and on e3 it has lost two tempi relative to the main line, while the pawn on h6 is useful for the later ...h5. }
+( 8... exd5 { The more common move order, playable too: 9.cxd5 h6 follows. } )
+9. Be3 { The usual move (98%). }
+( 9. Bxh6?! { Wins a pawn for the moment. } 9... Nxe4 10. Nxe4 Qh4+ 11. g3 Qxh6 12. Qxh6 Bxh6 13. Nxd6 Na6 { Black has given up a pawn but has a lead in development and an active bishop on h6; the study judges the counterplay sufficient. White hardly ever tries it. } )
+9... exd5 10. cxd5 a6 11. a4 Re8 12. Nge2 Nbd7 13. Ng3 h5 { The knight on g3 has the same problem as before. } 14. Be2 h4 15. Nf1 Ne5 { The knight is in the centre, and Black's plan is ...Nh5, ...f5 or ...Rb8 and ...b5. The position is the Saemisch Benoni with the pawn on h6 already advanced, which is one tempo less for the pawn storm and a free tempo for the bishop move Bg5-e3. Equal. } *
+
+[Line "6.Nge2 c5 7.d5 e6 8.Ng3: the knight development, and 6.Bd3"]
+[Section "Saemisch sidelines"]
+[Summary "White develops the knight before the bishop. Black plays ...c5 as always; against 7.d5 the h-pawn again goes against the knight on g3, and 7.Be3 transposes into the main line."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 { [%cal Re2g3] The knight develops first (about 11% of games) and the bishop's square, e3 or g5, is chosen later. White hopes to avoid the problem of a knight that has no square: Ng3 is available at once. }
+( 6. Bd3 c5 7. d5 e6 8. Nge2 exd5 9. cxd5 ( 9. exd5 Nbd7 10. Bf4 Ne5 11. Bxe5 dxe5 12. O-O Ne8 ) 9... Nbd7 10. O-O Ne5 { Black trades the bishop on d3 and has the standard play with ...a6 and ...b5; the second knight can come to e5 via d7. } )
+6... c5 { [%cal Gc7c5] The same break. }
+( 6... a6 { The study's choice: the pawn prepares ...b5 and sacrifices a pawn for play. After 7.Be3 Nc6 8.Qd2 Rb8 it is the Panno (last game of this file). } 7. Be3 Nc6 8. Qd2 Rb8 )
+7. d5 { }
+( 7. Be3 Nc6 )
+7... e6 8. Ng3 { The knight goes to g3 at once (71% of games): no more Ne2, and the bishop on c1 still has the choice. } 8... exd5 9. cxd5 h5 { [%cal Gh5h4] The h-pawn goes forward against the knight; with the bishop still on c1, the pawn on h4 forces Nf1 and the knight is then stranded. } 10. Be2 ( 10. Bg5 h4 11. Bxh4 Nxe4 { Black gets the e4-pawn back. } ) 10... h4 11. Nf1 a6 { [%cal Ga6b5] The knight on f1 is out of play, so Black turns to the queenside with ...Rb8 and ...b5, and keeps ...Nbd7-e5 in reserve. The elite games from here also include ...Nh7 and ...Nh5, but there is nothing to choose between the plans; the structure is the same as in the first file. } *
+
+[Line "6...e5 7.d5 Nh5 8.Qd2 f5: the closed centre and the race"]
+[Section "Saemisch 6...e5"]
+[Summary "The classical set-up. Black closes the bishop in and plays on the kingside: ...Nh5, ...f5 and later ...f4 and ...g5, while White castles long. A race in which the pawns on f3 and e4 are the targets."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5
+7. d5 { 7.Nge2 is the other main move (next game). } 7... Nh5 { [%cal Gh5f4,Gf7f5] The knight goes to f4, the square that the pawn on e5 gives it. White's bishop is on e3, so Nf4 will be answered by Bxf4 exf4, which gives Black a pawn on f4 and an open e-file. }
+8. Qd2 { }
+( 8. Nge2 f5 9. Qd2 ( 9. exf5 gxf5 ) 9... f4 { The same pawn race: ...f4 gains a tempo against the bishop on e3. } 10. Bf2 g5 )
+8... f5 { [%cal Gf7f5] The pawn break is the main line (about two thirds of the games). }
+( 8... Qh4+?! { The Bronstein queen sacrifice. } 9. g3 Nxg3 10. Qf2 Nxf1 11. Qxh4 Nxe3 12. Qf2 Nxc4 13. Qe2 { Black gets two bishops and two pawns for the queen, but White scored well in the elite games here, and the king on e1 is not in as much danger as it looks. An adventure, not a repertoire move. } )
+9. O-O-O { [%cal Gc1b1] White castles into the pawn storm. 9.Nge2 f4 10.Bf2 g5 is the other main line and leads to the same pawn race. }
+( 9. Nge2 f4 10. Bf2 g5 { Black has gained time with ...f4 and the bishop on f2 is passive. } )
+9... a6 { [%cal Ga6b5] Black prepares ...b5 to open lines against the king on c1. }
+( 9... f4 { The immediate storm, played in about one game in eight: it gains time with ...f4 and attacks before White has castled further, but it leaves the queenside alone. A reasonable alternative when White has no good plan against it. } 10. Bf2 g5 )
+10. Kb1 Nd7 { [%cal Gd7c5] } 11. Bd3 Nc5 { The knight lands on c5, hits the bishop and prepares ...b5. } 12. Bc2 b5 { [%cal Gb5c4] The break. } 13. cxb5 axb5 14. Nxb5 Ba6 15. Nc3 Qb8 { [%cal Gb8b4] The queen goes to b4, hits the pawn on b2 and eyes the knight. } 16. Nge2 Qb4 17. Bxc5 Qxc5 18. Rhe1 { Black has the bishop pair and White has an extra pawn: the d5-pawn, the e4-pawn and the king on b1 are targets. The study stops here. } *
+
+[Line "6...e5 7.Nge2 c6 8.Qd2 Nbd7 9.d5: Black in a flexible Benoni"]
+[Section "Saemisch 6...e5"]
+[Summary "The other main line against 6...e5. With ...c6 Black prepares ...exd4 and ...a6, and meets d5 with ...cxd5 and ...a6. White's long castling and Bh6 are dangerous, so the structure needs care."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5 7. Nge2 { The most flexible: the d-pawn can go to d5 (the first game) or stay and keep the e5 tension. } 7... c6 { [%cal Gc6d5] The pawn on c6 supports ...d5 or ...exd4 and prevents Nb5. It keeps the centre flexible; the cost is that the knight on b8 has fewer squares. }
+8. Qd2 { About two thirds of the games. } 8... Nbd7 { }
+9. d5 { The most common (79 games in the book), preferring the clear structure to long castling. } ( 9. O-O-O a6 10. Bh6 b5 11. Bxg7 Kxg7 12. g4 { White's attack is quicker than Black's counterplay: the king on g7 is exposed, and the elite games from here favour White heavily. So the pawn break against long castling needs care. } ) 9... cxd5 10. cxd5 a6 { [%cal Ga6b5] }
+11. Nc1 { }
+( 11. g4 b5 12. Ng3 Nb6 )
+11... Nh5 { [%cal Gh5f4] The knight heads for f4, which the pawn on e5 supports; White's knight on c1 can do nothing about it. } *
+
+[Line "6...Nc6 7.Nge2 a6 8.Qd2 Rb8 9.Nc1 e5: the Panno"]
+[Section "Panno"]
+[Summary "The Panno: Black prepares ...b5 and meets d5 with a knight to d4. A sharper alternative to 6...c5; here it is a single game."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nc6
+7. Nge2 a6 { [%cal Ga6b5] Prepares ...Rb8 and ...b5. The knight on c6 is attacked after d5, so Black's pieces must be ready. }
+8. Qd2 Rb8 { [%cal Gb7b5] The rook goes behind the pawn so that the break ...b5 comes with a tempo. }
+( 8... Na5 { The other main move. The knight hits c4, and the book shows 9.b3 b5 and 9.Nc1 Nd7 as the usual replies. } )
+9. Nc1 { }
+( 9. Rc1 Bd7 10. Nd1 b5 11. c5 )
+9... e5 { [%cal Ge5d4] Black closes the centre and plans the knight jump to d4. } 10. d5 Nd4 { [%cal Gd4c2,Gd4f3] The knight is strong on d4: Bxd4 gives up the dark bishop for it and exd4 leaves White without a centre. } 11. N1e2 c5 { [%cal Gc5d4] } 12. dxc6 bxc6 { Black opens the b-file and the e-file together. } 13. Nxd4 exd4 14. Bxd4 Re8 { [%cal Re8e4] Black has sacrificed a pawn for open lines and the pressure on e4. } 15. Be2 { Black has played this in elite games with a fair score, but it is sharp. The Panno is a good second weapon only for a player ready to learn it as a separate opening. } *

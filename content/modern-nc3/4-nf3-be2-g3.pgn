@@ -1,0 +1,48 @@
+[Line "4.Nf3 a6 5.a4 Nf6 6.Be2 O-O 7.O-O Nc6 8.h3 e5 9.d5 Ne7"]
+[Section "4.Nf3, 4.Be2, 4.g3: King's Indian structures"]
+[Summary "The classical set-up. White stops ...b5 with a4, Black switches to ...Nf6, ...O-O, ...Nc6 and ...e5 and reaches a Mar del Plata-like structure without the c-pawn on c4."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 { The second most popular move. White develops the knight, defends d4 and keeps Be3, Be2 and h3 in reserve. Black is now free to bring out the knight, because e5 can be met by dxe5. }
+4... a6 { [%cal Gb7b5] Why not 4...Nf6 at once, which reaches the Pirc Classical? That is also fine (62% of the games). 4...a6 is chosen because it keeps the Tiger structure available: against 5.Be3 and 5.Be2 Black plays
+...b5, and against the quiet 5.a4 he switches to the King's Indian plan. } ( 4... Nf6 { Also good: it goes straight into the Pirc Classical, and one would choose it to avoid the Tiger structures altogether. } 5. Be2 O-O 6. O-O { The Pirc Classical. The repertoire reaches this structure by 6...a6 against 4.Be2. } )
+5. a4 { [%cal Ga4b5] Stops ...b5 for good, since ...b5 axb5 axb5 loses the pawn or the rook to Rxa8. It is White's most popular reply (33%). } ( 5. Be3 b5 { The 150-type position. Black plays ...Bb7 and ...Nd7, see the 4.Be3 chapter. } )
+5... Nf6 { The knight finally develops. e5 can now be met by ...dxe5 dxe5 Ng4 with equal play, and White's most dangerous plan is not available. } 6. Be2 O-O 7. O-O { [%cal Gf6e4] } 7... Nc6! { [%cal Gc6d4,Ge7e5]
+The key move, and the critical moment of the system: Black needs a plan, and this is it. ...Nc6 puts a second attacker on d4 and prepares ...e5. White has to choose between d5, Be3 and h3. }
+8. h3 { Takes g4 away, and makes ...Bg4 and ...Ng4 impossible. Black plays ...e5 anyway. } ( 8. d5 Nb4 9. h3 e6 10. Be3 exd5 11. exd5 Re8 { Black has strong play against e4: the knight on b4 hits d5 and c2. } )
+8... e5 { [%cal Ge5d4] } 9. d5 { The main line. 9.Be3 exd4 10.Nxd4 Re8 and 9.dxe5 dxe5 are equal too. } ( 9. Be3 exd4 10. Nxd4 Re8 11. f3 d5 { Black strikes in the centre and e4 is the weakness. } )
+( 9. dxe5 dxe5 10. Bc4 Qe7 11. Nd5 Nxd5 12. exd5 Nd4 13. Nxd4 exd4 { Black has a clear plan: ...Bf5, ...c5, and a pawn on d4 that hampers the bishop on c1. } )
+9... Ne7 { [%cal Gf6h5,Gf7f5,Gc8d7] As in the Mar del Plata, the knight goes to e7: it supports ...f5 and from there to g6 or c8 if the position needs it. Black has two plans: **...Nh5 and ...f5**
+(play on the kingside, the knight lands on f4) or **...Bd7 and ...c6** (open the queenside). White's plans are Nd2-c4, Bg5 and the lever c2-c4 followed by c5. } 10. Re1 Nh5 { [%cal Gh5f4,Gf7f5] Prepares ...f5. The knight on h5 eyes f4 and g3, and the
+f-pawn is free to advance. The position is a typical Mar del Plata type: White will try c4-c5 on the other wing, and Black has the f5 break. Equal, with chances for both, and it suits a King's Indian player. } *
+
+[Line "4.Nf3 a6 5.Be2 b5 6.O-O Bb7 7.Re1 Nd7 8.Bf1 c5 9.d5"]
+[Section "4.Nf3, 4.Be2, 4.g3: King's Indian structures"]
+[Summary "Against the quiet Be2 and O-O Black plays the full Tiger plan. After White blocks the centre with d5, ...Ngf6 and ...b4 give Black a Benoni structure with play on the queenside."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 a6 5. Be2 { Develops and keeps a4 in reserve; the pawn push a4 comes later. } 5... b5 { [%cal Gb5b4,Gc8b7] } ( 5... Nf6 { A fully good alternative: after 6.a4 it transposes into the previous game, and Black chooses it when he prefers the King's Indian structures to the queenside expansion. } 6. a4 O-O 7. O-O Nc6 )
+6. O-O Bb7 { The bishop goes to b7 before the knight goes to d7: it hits e4 at once, so White has to keep the pawn protected and has no time for d5. } 7. Re1 { Defends e4 and prepares e5 and Bf1. } 7... Nd7 { [%cal Gd7c5,Gc7c5] The same plan as against the 150 Attack. } 8. Bf1 { Unblocks the rook on e1, so that e4-e5 gets support, and keeps the bishop out of reach of a later ...c4. } 8... c5 { [%cal Gc5d4] Hits the centre before e5 can be prepared. } 9. d5 { Blocks the bishop on b7, but takes the pawn out of d4's firing line. } 9... Ngf6 { The knight finally comes out:
+e5 is controlled by the d6-pawn and the bishop, so the move can't be punished. } 10. a4 { The most dangerous try: it forces ...b4 and gives the knight the c4-square. } 10... b4 11. Nb1 { [%cal Gb1d2,Gd2c4]
+The knight starts its trip to c4, where Black has no pawn that can hit it. } 11... O-O 12. Nbd2 Qc7 { [%cal Ge7e6] Prepares ...e6, to break the d5-pawn. } 13. Nc4 a5 { Stops a4-a5 and the knight reaching b6. } 14. Rb1 { Protects the b2-pawn so that the knight can leave c4. }
+14... Ba6 { [%cal Gb7a6] The bishop heads for c4: trading the strong knight is the only way to deal with it. } 15. Bf4 Nh5 { The knight challenges the bishop. } 16. Bg5 Rfe8 { Black has a solid game. The position is roughly equal; both sides
+have their play, and the main strategic idea is Black's bishop pair against the white knight on c4. } *
+
+[Line "4.Be2 Nf6 5.Nf3 O-O 6.O-O a6: transposing to the Nf3 lines"]
+[Section "4.Nf3, 4.Be2, 4.g3: King's Indian structures"]
+[Summary "Against 4.Be2 Black plays the Pirc Classical with ...Nf6 and ...O-O and uses ...a6 and ...Nc6 to reach the same positions as after 4.Nf3. 4.Nge2 and 4.h4 are covered in the variations."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be2 { A modest move, popular in the elite games (68% of them are answered by ...Nf6). }
+( 4. Nge2 Nf6 5. g3 O-O 6. Bg2 { Transposes to the 4.g3 line below. } )
+( 4. h4 h5 { The pawn must be stopped at once. The weakness on g5 can be a problem, but the knight on f3 is pinned by ...Bg4 and Black's structure has no weaknesses. } 5. Nf3 Bg4 )
+4... Nf6 { Black does not need the Tiger structure here: there is no threat. }
+5. Nf3 O-O 6. O-O a6 { [%cal Gb7b5,Gb8c6] The same move as in the previous games. It prepares ...b5, and after 7.a4 it keeps the options of ...Nc6 and ...e5 open. 6...c6, 6...Nc6 and 6...Bg4 are all playable alternatives. }
+7. a4 Nc6 8. h3 e5 { The position of the first game of this file. } *
+
+[Line "4.g3 Nf6 5.Bg2 O-O 6.Nge2 e5 7.h3 Nc6 8.Be3 exd4 9.Nxd4 Bd7"]
+[Section "4.Nf3, 4.Be2, 4.g3: King's Indian structures"]
+[Summary "The fianchetto line is a King's Indian with the knight on e2. Black plays ...Nf6 and ...e5, exchanges on d4 and trades White's strong knight; the play is level."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. g3 Nf6 { 4...a6 is also played, but against the fianchetto the Pirc move is natural, because the bishop on g2 is not hitting anything and the knight on f6 pressures e4. }
+5. Bg2 O-O 6. Nge2 { The knight keeps the f-pawn and the long diagonal of the bishop free. } ( 6. Nf3 Nc6 7. O-O e5 { The normal King's Indian: the plan is ...e5 and the d4-exchange. } )
+6... e5 { [%cal Ge5d4] Black strikes in the centre at once: with the knight on e2 there is no d5 and Nd2 plan available, and the game is open. } 7. h3 { Prepares Be3 and stops ...Ng4; 7.O-O is the other main line. }
+7... Nc6 { [%cal Gc6d4] } 8. Be3 { [%cal Ge3d4] } 8... exd4 9. Nxd4 Bd7 { [%cal Gd7c6,Gf6e4] Unpins the knight and prepares ...Nxd4 and ...Bc6. } 10. O-O Re8 { [%cal Gf6e4,Ge8e4] The rook adds pressure on e4. } 11. Re1 Nxd4 { Black trades the white knight, which was his most active piece. }
+12. Bxd4 { Black continues ...Bc6: the pieces are traded off, and the pressure on e4 and the open e-file give Black an easy game. Level. } *

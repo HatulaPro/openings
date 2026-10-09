@@ -1,0 +1,118 @@
+[Line "9.Nd2 a5: the old main line"]
+[Section "Mar del Plata: other ninth moves"]
+[Summary "White's knight heads for c4 and the queenside attack is a move faster. Black slows it with ...a5, regroups with ...Kh8 and ...Ng8 and sacrifices on g3."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Nd2 { [%cal Rd2c4,Rb2b4]
+The knight is going to c4 once c5 has been played, to attack d6, and f3 is possible without moving it
+again. On the queenside White is a tempo ahead of the 9.Ne1 lines. On the kingside the knight defends
+less than it would from e1 or f3, and it blocks the bishop for the moment. } 9... a5 { [%csl Yb4]
+Because White is faster, Black first makes b4 cost two preparatory moves, a3 and Rb1, and after
+...axb4 he will have the a-file as well. }
+( 9... Nd7?! { The straightforward race is too slow here. } 10. b4 { After ...f5 White plays c5 and Nc4
+at once and d6 is under fire before Black's attack has started. } )
+( 9... c5 { The other reputable system. Black closes the queenside completely and plays ...Ne8 and
+...f5. It is solid, but after Rb1 and b4 White has the only open file and Black has little to bite on;
+the choice of players who want a slow game. } )
+10. a3 { Preparing Rb1 and b4. }
+( 10. Rb1 Nd7 11. a3 { The same position by the other move order. } 11... f5 12. b4 Kh8 )
+( 10. b3 { White plans Ba3 and b4 without a3. } 10... Nd7 11. Ba3 Nc5 { The knight provokes b4 and then
+steps aside. } 12. b4 axb4 13. Bxb4 Na6 14. Ba3 b6 { The c5-square is secured, the bishop on a3 has moved
+three times and Black continues with ...f5 and ...Nc5. Equal. } )
+10... Nd7 { Now that b4 has been delayed the knight releases the f-pawn in the usual way. }
+( 10... Bd7 { Kotronias's repertoire move. The idea is to answer 11.Rb1 with 11...a4, fixing the queenside
+so that b4 can be taken en passant, and 11.b3 with ...c6 or ...c5. It is the choice for those who
+would rather restrain White than race him. } )
+11. Rb1 f5 12. b4 Kh8 { [%cal Ge7g8,Gg8f6,Gg7h6] The move that defines this line. The e7-knight has no
+future on g6, because White has not played f3 and there is nothing on f4 to attack; from g8 it comes to
+f6 or h6 and frees the bishop's path to h6. The king is also off the diagonal on which c5 and Qb3 would
+come with check. Note that Black keeps the tension on f5: ...f4 is not played until it gains something. }
+13. f3 { White secures e4. 13.Qc2 Ng8 usually comes to the same thing. } 13... Ng8 14. Qc2 Ngf6 { Both
+knights now watch e4 and h5. } 15. Nb5 { [%cal Rc4c5,Rb5c7] Preparing c5. } 15... axb4 16. axb4 Nh5
+{ [%cal Gh5f4] The knight threatens to settle on f4. } 17. g3 { Keeping it out, and giving Black a target. }
+17... Ndf6 18. c5 Bd7 { A developing move with tempo on the knight. } 19. Rb3 { The rook defends the
+knight's retreat and, along the third rank, the pawn on g3. } 19... Nxg3 { [%csl Rg3,Rh2] The thematic
+sacrifice. Black cannot make progress by quiet means once g3 is covered, and White's queenside is about to
+break through, so the pawn cover goes now. The quieter 19...Bh6, offering the exchange of bishops first, is
+also played. } 20. hxg3 Nh5 { The second knight follows, and g3 cannot be held: ...Nxg3 and ...f4 are both
+threatened. } 21. f4 { The only way to keep some lines closed. } 21... exf4 22. c6 { White counterattacks
+rather than recapture. } 22... bxc6 23. dxc6 Nxg3 24. Rxg3 fxg3 25. cxd7 g2 { Karpov-Kasparov, Tilburg 1991.
+Black has a rook and four pawns for three minor pieces, and one of the pawns is on g2. The game became a
+famous marathon that was eventually drawn.
+
+**Verdict:** the sacrifice on g3 is sound and gives Black at least equal chances; White's best practical
+policy is to avoid it with an earlier deviation, which is why 9.Nd2 lost its place as the main line to
+9.b4 and 9.Ne1. } *
+
+[Line "Rare ninth moves: 9.Bg5, 9.Bd2, 9.Be3, 9.a4, 9.Kh1"]
+[Section "Mar del Plata: other ninth moves"]
+[Summary "Developing and waiting moves. Black answers with ...Nh5 or ...Ng4 where that gains time, and otherwise with the normal ...Nd7 and ...f5."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Bg5 { White is ready to
+give up the bishop: after 9...h6 10.Bxf6 Bxf6 11.b4 he has gained time for the queenside and Black's
+bishop pair is slow to count. That is the most common line and a perfectly good one for Black. }
+( 9. Bd2 { A modest developing move that connects the rooks and prepares Rc1 and b4. } 9... Nh5 { The
+knight is aimed at f4 and the f-pawn is free without the knight having had to retreat. } 10. g3 f5
+11. exf5 Nxf5 { The knight is heading for d4 and the other one returns to f6. Black's pieces are active
+and the weakening g3 gives him something to play against. Equal. } )
+( 9. Be3 { This walks into a tempo. } 9... Ng4 10. Bd2 f5 { Black has ...f5 in with the knight actively
+placed on g4, from where it drops back to f6 when asked. He is at least equal. } )
+( 9. a4 { White wants a5 before deciding on anything else. } 9... a5 { With the a-pawns fixed White's
+b4 is gone for good and c5 needs long preparation with b3 and Ba3. Black plays ...Nd7 and ...f5 with
+an extra tempo's worth of safety on the queenside. } )
+( 9. Kh1 { A waiting move with a point: after the knight leaves f6 White plays g4 and Rg1, discouraging
+...f5. } 9... Nd7 { Black develops as usual and decides after seeing g4 whether to play ...f5 anyway
+or to switch to ...a5 and ...Nc5; the king on h1 and the pawn on g4 are not obviously useful then. } )
+9... Nh5 { [%cal Gh5f4,Gh7h6] The active choice, in keeping with the rest of the repertoire. The knight
+avoids being exchanged on f6, heads for f4 and leaves the bishop on g5 with nothing to pin. } 10. Ne1
+{ Uncovering the bishop against h5. } 10... Nf4 11. Nd3 Nxe2+ 12. Qxe2 h6 13. Be3 f5 { [%cal Gf5f4,Gg6g5]
+**Verdict:** Black has the bishop pair and the usual kingside advance, and White's light-squared
+bishop, his best defender of g2 and h3, has gone. White is quick with c5 because his knight is already
+on d3. A normal Mar del Plata race with chances for both sides. } *
+
+[Line "8.Be3: White keeps the tension"]
+[Section "Eighth-move deviations"]
+[Summary "White defends d4 instead of closing the centre. Black chases the bishop with ...Ng4 and ...f6 and then strikes with ...f5."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. Be3 { White avoids the Mar del
+Plata by defending d4 once more. The bishop is exposed on e3, and that is what Black plays on. }
+8... Ng4 { The fighting move: the bishop is hit before h3 can be played. }
+( 8... Re8 { The solid alternative, and Pavlovic's recommendation. The rook makes ...exd4 a threat to e4,
+so White must act, and the point is seen if he closes the centre. After 9.dxe5 dxe5 10.Qxd8 the ending
+is equal but gives Black little to play for, which is why the repertoire prefers 8...Ng4. } 9. d5 Nd4
+{ The knight cannot be driven away and taking it costs the e-pawn. } 10. Nxd4 exd4 11. Bxd4 Nxe4 { Black
+has regained the pawn with a freer game. } )
+9. Bg5 f6 { Blocking the bishop for a moment, but the pawn will go on to f5. } 10. Bc1 { White claims that
+the knight on g4 and the pawn on f6 are misplaced. Black has gained two moves, and uses them. }
+( 10. Bh4 { The bishop stays active and can be chased. } 10... g5 { Gaining space with tempo; the knight
+will come back via h6 to f7, where it guards e5 and d6. The price is the f5-square. } 11. Bg3 Nh6 12. dxe5
+( 12. d5 { The Mar del Plata structure with White's bishop outside the chain. } 12... Ne7 { Black is
+ready for ...f5; the knight on h6 supports ...g4 and covers f7 and f5. } )
+12... fxe5 { [%cal Gg5g4,Gc6d4] Towards the centre, opening the f-file. Black has ...g4 and ...Nd4 to
+come and the bishop on g3 bites on e5. White will try c5 to open lines before Black is coordinated.
+Chances are equal. } )
+10... f5 { [%cal Rf5e4] Black has ...f5 in without having had to retreat the knight first, and e4 is
+attacked. } 11. dxe5
+( 11. Bg5 { A third visit. } 11... Qe8 { The queen steps out of the attack and keeps an eye on e5 and h5.
+Black threatens ...h6 and ...f4. } )
+( 11. d5 Ne7 { A Mar del Plata in which ...f5 is already played and White's bishop has gone home.
+After 12.Ng5 Nf6 Black is comfortable. } )
+11... Ngxe5 { [%cal Gc8f5] [%csl Ye5,Yd4] The knight returns to the centre with gain of time.
+
+**Verdict:** after 12.exf5 Bxf5 or 12.Nxe5 Nxe5 Black's pieces are all active, he has e5 and d4 for
+his knights and the f-file for his rook. White's only trump is the d5-square, and it is not enough for
+an advantage. } *
+
+[Line "8.dxe5: the delayed exchange"]
+[Section "Eighth-move deviations"]
+[Summary "White exchanges on e5 with the knight already committed to c6. Black trades queens, gives a bishop for the f3-knight and plants a knight on d4."]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. dxe5 dxe5 9. Bg5 { The only move
+with any bite: the pin threatens Nd5. }
+( 9. Qxd8 Rxd8 10. Bg5 Rf8 { The rook steps out of the pin and covers f6 and f7. After 11.Nd5 Nxd5 12.cxd5
+Nd4 Black has no problems. } )
+9... Qxd1 { The simplest. 9...Bg4, keeping the queens on, is the alternative for those who need to win. }
+10. Rfxd1 Bg4 { [%cal Gg4f3,Gc6d4] [%csl Yd4] Black intends to remove the knight that guards d4 and to
+occupy the square. } 11. h3 Bxf3 12. Bxf3 Nd4 { **Verdict:** the knight on d4 is as good as either of
+White's bishops, which have nothing to attack. Black covers c7 with ...c6 or ...Ne8 against Nd5 and
+Nb5 and brings the rooks to the d-file. The position is equal and dry, and Black should not expect more
+than half a point against accurate play. } *

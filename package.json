@@ -1,0 +1,39 @@
+{
+  "name": "openings",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/*.test.ts",
+    "content:check": "node scripts/check-content.ts",
+    "data:repertoire": "node scripts/build-repertoire.ts",
+    "data:book": "node --max-old-space-size=4096 scripts/build-book.ts",
+    "data:engine": "node scripts/fetch-engine.ts",
+    "android:sync": "pnpm build && cap sync android",
+    "android:apk": "pnpm android:sync && node scripts/gradle.ts assembleDebug",
+    "android:install": "pnpm android:sync && node scripts/gradle.ts installDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.2",
+    "@lichess-org/chessground": "^10.4.2",
+    "chessops": "^0.15.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "fflate": "^0.8.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}

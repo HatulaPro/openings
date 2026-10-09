@@ -1,0 +1,56 @@
+[Line "7...b5: the Polugaevsky Variation"]
+[Section "6.Bg5: other systems and White's 7th moves"]
+[Summary "Black ignores the threat of e5 and gets the queen to e5 with check, trading a knight for the bishop and winning time. The line is razor sharp and the study I used judges it slightly better for White."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 b5 { [%cal Gd8c7,Gc7e5] The Polugaevsky
+Variation. Black lets White play e5 on purpose: the knight on f6 is given up for the bishop, and the queen
+lands on e5 with check. } 8. e5 dxe5 9. fxe5 Qc7! { [%cal Gc7e5,Gc7g3] The point: the queen hits the e5 pawn
+and the bishop on g5 at once. } ( 9... h6? { Wrong: the pawn move does not address the double attack on the
+rook and the bishop. } 10. Bh4 g5 11. exf6 gxh4 12. Qf3 { White wins: the rook on a8 is hit and h4 is no
+help. } ) 10. exf6 Qe5+ 11. Be2 Qxg5 12. O-O Ra7! { An odd-looking only move: the rook leaves the long
+diagonal to avoid Bf3 with tempo, and it will swing along the seventh rank. } ( 12... Bb7? { Natural but it
+loses to a combination on e6. } 13. Bf3 Qe3+ 14. Kh1 Bxf3 15. Rxf3 Qe5 16. Nxe6! { Breaks open the king. } 16... fxe6 17. f7+ Ke7 { White
+wins. } ) 13. Qd3 Rd7 14. Ne4 Qe5 15. Nf3 Rxd3 16. Nxe5 Rd4 17. fxg7 Bxg7 18. Nxf7 O-O! { Castling saves the king and the game: 18...Rf8? 19.c3 and White wins. } 19. Nfg5 Rxf1+ 20.
+Kxf1 h6 21. c3 Ra4 22. Nd6 hxg5 23. Nxc8 Rf4+ 24. Kg1 { **Verdict:** slightly better for White, as the
+study I used judges it. White must avoid trading down into an opposite-coloured bishop ending, which would
+give Black a draw, but otherwise has chances to win. A line for those who want a risk, not one to rely
+on. } *
+
+[Line "7...Qc7: 8.Bxf6 gxf6, a Richter-Rauzer structure"]
+[Section "6.Bg5: other systems and White's 7th moves"]
+[Summary "Black accepts doubled f-pawns for the bishop pair and counterplay on the b-file. White tries to attack the king in the centre; the line is playable but slightly easier for White."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qc7 { The queen steps off the d-file and
+prepares ...b5 and ...Nc6, but it allows White to wreck the pawns at once. } 8. Bxf6 gxf6 { [%csl Rf6,Re6] The
+Rauzer structure: doubled pawns in front of the king, but the bishop pair and the g-file. White now
+continues as in the Richter-Rauzer. } 9. Qf3 b5 10. a3 Nc6 11. Nxc6 Qxc6 12. O-O-O Rb8! { [%cal Gb8b4] The rook
+prepares ...b4. } ( 12... Bb7?! { Loses time and the light squares. } 13. f5! { Always an important move: it pressures e6 and the light squares. } )
+13. f5 b4 14. axb4 Rxb4 15. fxe6 fxe6 16. Qxf6 Rg8 17. Be2 { **Verdict:** a little better for White. Black
+has plenty of counterplay with the rooks on the b- and g-files, but White has Bh5+ and Rhf1 on the way and
+the black king is in the centre. } *
+
+[Line "White's quieter 7th moves: 7.Qf3, 7.Qd3, 7.Qe2, 7.Qd2 and the bishop moves"]
+[Section "6.Bg5: other systems and White's 7th moves"]
+[Summary "If White delays f4, Black develops with ...Nbd7 and ...Qc7 and uses the tempo for ...b5. Against the queen moves the pawn storm on the queenside is faster, and against the bishop moves Black can simply castle."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. Qf3 { [%cal Gf3g3,Ge1c1,Rf3a8] It blocks the
+f-pawn, which looks unnatural, but the study I used calls it the strongest of the four queen moves: it does
+not block the bishop on f1, allows long castling and hits a8, so that ...b5 is not free. } ( 7. Qd3 b5 8. f4 Nbd7
+{ Not 8...Be7 and then ...Nbd7: Nc6 would take away the bishop and the right to castle, because the knight on d7
+is the only guard of c6. } 9. O-O-O b4 10. Nce2 ( 10. Nd5 exd5 11. exd5 Nc5 12. Re1+ Kd7 13. Qc4 Bb7 { Black is
+a piece up and the king is safe on d7. } ) 10... Qa5 { Unpins the knight and hits a2. } 11. Bxf6 Nxf6 12. e5 Nd5
+13. Kb1 dxe5 14. fxe5 Bb7 15. Ng3 O-O-O { Kovalev against Bologan, Minsk 2000, which Black won. With the queen
+on d3 Black gives up the Poisoned Pawn, since White would castle long, and uses the tempo for ...b5-b4. } ) (
+7. Qe2 h6 8. Bh4 Be7 9. O-O-O { With the queen no longer guarding d4, Bxf6 would lose a tempo to ...Qxf6, so
+Black simply develops. } ) ( 7. Qd2 h6 8. Bxf6 Qxf6 { Black has the bishop pair; after f4 this is the fourth game
+of the first file. } ) ( 7. Be2 Be7 8. O-O O-O 9. Qd3 b5 10. Bf3 Nfd7 11. Bxe7 Qxe7 12. Qd2 Bb7 { An ordinary
+equal middlegame. } ) ( 7. Bd3 Be7 8. Qf3 Nbd7 9. O-O { Equal and quiet. } ) ( 7. Bc4 Be7 8. Bb3 O-O 9. Qf3 Nbd7
+10. Qg3 Nc5 11. Bh6 Ne8 { This is the Fischer-Sozin structure; 10...Nc5 removes any chance of a Bxe6
+sacrifice. } ) 7... Nbd7 { [%cal Gd7c5,Gb7b5] } 8. O-O-O Qc7 9. Qg3 b5 { Black answers Qg3 with ...b5 because the
+queen has left the long diagonal. } 10. a3 { Stops ...b4. } ( 10. Bxb5 axb5 11. Ndxb5 Qb8 12. Nxd6+ Bxd6 13. Qxd6
+Qxd6 14. Rxd6 h6 15. Bf4 e5 16. Bg3 Nh5 { Black has a piece for three pawns; after ...Nxg3 the ending should be
+equal. } ) 10... Rb8 { [%cal Gb8b1,Gb5b4] } 11. f3 { Defends e4 in case the c3 knight is chased away. } 11... Be7
+12. Be3 O-O { White has spent a lot of tempi on queen moves, and Black can castle without fear. } 13. h4 b4 {
+Black counterattacks instead of defending. } 14. axb4 Rxb4 15. h5 Bb7 16. h6 g6 { **Verdict:** better for
+Black, according to the study. White has no real threats on the kingside, while Black's rooks, bishop and
+queen all point at the white king. } *

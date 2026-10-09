@@ -1,0 +1,42 @@
+[Line "5.Nf3 b5 6.Bd3 Bb7 7.O-O Nd7 8.a4 b4 9.Ne2 c5 10.c3"]
+[Section "4.Be3 a6 with Nf3"]
+[Summary "White develops normally and keeps the bishop on d3. Black expands with ...b4 and ...c5; the exchange on c3 leaves White with an isolated a-pawn and a weak c3, and Black has ...Ngf6 and pressure on e4."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Nf3 { The flexible developing move. It reaches the same position as 4.Nf3 a6 5.Be3. }
+( 5. a4 b6 { When White prevents ...b5 with a4, the pawn goes to b6 instead. The bishop still goes to b7 and the structure is a calm
+Hippo-style one. } 6. Qd2 Bb7 7. f3 Nd7 )
+5... b5 { [%cal Gb5b4,Gc8b7] } 6. Bd3 { Now e4 is covered, so ...b4 does not win a pawn. } 6... Bb7 7. O-O Nd7 { [%cal Gd7c5,Gc7c5] The same set-up as against the 150 Attack:
+the queen's knight to d7, the king's knight at home. } 8. a4 { [%cal Ga4b5] Challenges the pawn on b5. Black may play ...b4, and this is the route that costs White the c3-knight's best square. }
+8... b4 9. Ne2 { Retreats to the centre; the knight will be able to go to g3 and cover e4. } ( 9. Nd5 Bxd5 10. exd5 Ngf6 { The knight takes on d5 and Black wins a pawn: the white pawn on d5 is
+attacked by the knight and has no good defender. } ) 9... c5 { [%cal Gc5d4,Gb7e4] Strikes at the centre while the knight is still on e2. The pawn on d4 is attacked by c5 and g7, and White must resolve it. }
+10. c3 { White attacks the b4-pawn and tries to open lines before ...c4 or ...Ngf6 comes. } 10... bxc3 11. bxc3 Qc7 { [%cal Gg8f6,Gf6e4,Gb7e4] The queen eyes c3 and the pawn on e5 break, and ...Ngf6 comes next, adding a second attacker to e4.
+White has a weak c3-pawn and an isolated a4-pawn. He must defend e4 with Ng3 (12.Qc2? runs into ...c4, and the bishop on d3, blocked by the knight on e2, has no good retreat). The study gives White a slight edge, but Black has
+real play in the centre and on the queenside in return. } *
+
+[Line "5.Nf3 b5 6.a3 Bb7 7.Bd3 Nd7 8.O-O c5 9.Re1 cxd4 10.Bxd4 e5"]
+[Section "4.Be3 a6 with Nf3"]
+[Summary "White spends a tempo on a3 to stop ...b4. Black plays ...c5 anyway, opens the position and answers Bxd4 with ...e5, getting a Dragon-like centre with pressure on e4."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Nf3 b5 6. a3 { Stops ...b4, but it costs a tempo and does nothing for the centre. Compare with the previous game, where the pawn went to a4 only when it was needed. }
+6... Bb7 7. Bd3 Nd7 8. O-O c5 { [%cal Gc5d4] Black does not wait. } 9. Re1 { Defends e4 once more; 9.Qd2 cxd4 10.Bxd4 is the other main try. } 9... cxd4 10. Bxd4 e5!? { [%cal Ge5d4,Gb7e4,Gg8f6]
+The ambitious reply, and the one Hillarp Persson favours. The bishop is attacked and has to retreat to e3, and Black gets a pawn centre with the a1-h8 diagonal closed for the moment. The bishop on b7 and the knight
+on f6 will hit e4 together. }
+( 10... Ngf6?! { Natural, but 11.e5 opens the position at the right moment for White. The structural advantage that Black has gained (the d6/e7 pawns against an unopposed e-pawn) is gone. } 11. e5 )
+( 10... Bxd4 { Simpler. } 11. Nxd4 Ngf6 { Also good and simpler: Black trades the bishop that was attacking his position, develops with tempo on e4 and keeps a healthy structure. } )
+11. Be3 { The bishop cannot stay: after ...exd4 it would be lost, and Bxe5 loses it to ...dxe5. } 11... Ngf6 { [%cal Gf6e4,Gb7e4] Two pieces attack e4, and White cannot move the bishop on d3 without losing the pawn. } 12. Qd2 O-O { The king is safe: the
+centre is blocked, so there is no quick opening for White. } 13. Rad1 Rc8 { [%cal Gc8c3] The rook takes the open c-file and hits the knight on c3, which only the b2-pawn and the queen defend. }
+14. Bg5 Qb6 { [%cal Gb6b2,Gb6d4] The queen hits b2 and d4 and Black can answer 15.Bf1 with the exchange sacrifice ...Rxc3, as the study game did. A
+dynamic position with equal chances and the more active pieces for Black. } *
+
+[Line "Second option: 4...Nf6 5.f3 c6 6.Qd2 b5 7.O-O-O Nbd7 8.Kb1 Qa5"]
+[Section "4.Be3 Nf6: the Pirc second option"]
+[Summary "A Czech-Pirc set-up against the 150 Attack. Black plays ...c6, ...b5, ...Nbd7 and ...Qa5, delays short castling and counterattacks on the queenside."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 { The Pirc order. It can be chosen when White has shown his hand: 4...Nf6 is as common as 4...a6 in the elite games, and the structures are
+close relatives. The price is that Bh6 and the pawn storm now have a target, so Black must handle his king with care. } 5. f3 { The 150 Attack proper. } ( 5. Qd2 c6 6. f3 b5 { Transposes. } )
+5... c6 { [%cal Gb7b5,Gd8a5,Gb8d7] The Czech-Pirc move, and the one the study recommends against the 150 Attack: ...c6 prepares ...b5 and ...Qa5, and it keeps the king in the centre for now. The study stresses:
+against this attack, delay short castling. After 5...O-O 6.Qd2 White has a famous attacking pattern with Bh6, h4-h5 and Qg5, and Black has to know it exactly. }
+6. Qd2 b5 { [%cal Gb5b4] } 7. O-O-O { White commits his king to the queenside, where Black is about to attack. } 7... Nbd7 { [%cal Gd7b6,Gd7e5] Develops without blocking the queen's route and prepares ...Qa5. From d7
+the knight also covers b6 and e5, and it supports ...b4. } 8. Kb1 { Takes the king off the c-file, where a queen on a5 would otherwise be annoying.
+Other tries: 8.h4 h5 9.Nh3 and 8.Bh6 Bxh6 9.Qxh6 Qa5. } 8... Qa5 { [%cal Ga5c3,Gb5b4] The queen hits c3 and a2 and prepares ...b4, which would drive the knight from c3 and weaken e4. Both kings are on the queenside and the pawn storms run
+in opposite directions: Black's on the queenside, White's with g4 and h4 on the other wing. Unbalanced and with chances for both; the book scores are nearly even, and Black's king can still choose between castling short and staying put. } *

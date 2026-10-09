@@ -1,0 +1,170 @@
+[Line "Topalov Variation: 13.Nd5, the main line"]
+[Section "9.Bc4: Topalov Variation"]
+[Summary "White trades knights and bishops to slow the queenside down. Black sacrifices the b-pawn for the a- and c-files, and the main line runs to a position that elite practice has shown to be a draw."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 { [%cal Rf2f3,Rd1d2,Re1c1,Rh2h4] The first
+move of the Yugoslav Attack. White will play f3 and Qd2, castle long and push the h-pawn. Compared with
+the Sämisch King's Indian the centre is half open: White already has the d-file and Black the c-file, so
+both attacks arrive sooner. } 6... Bg7
+( 6... Ng4?? { Hunting the bishop at once loses a piece: the knight on d4 no longer blocks the queen's
+diagonal, and b5 is available with check. } 7. Bb5+ Bd7 ( 7... Nc6 8. Nxc6 bxc6 9. Bxc6+ { White wins the
+exchange and a pawn. } ) 8. Qxg4 { The bishop on d7 is pinned and cannot take the queen. } )
+7. f3 { [%csl Yg4,Ye4] Now ...Ng4 is ruled out for good and e4 is solid, which frees the c3-knight to
+jump to d5 later. } 7... O-O
+( 7... Nc6 { Equally good: after 8.Qd2 O-O it is the same position, and Black keeps the option of
+leaving the king in the centre for a move or two with ...Bd7 and ...Rc8. Just do not mix it with ...a6,
+which belongs to a different set-up (see the Dragadorf line). } 8. Qd2 O-O )
+8. Qd2 Nc6 9. Bc4 { [%cal Rc4f7] [%csl Yd5] The bishop stops ...d5 and takes the a2-g8 diagonal, where it
+attacks f7 and will later shield the king from b3. It will cost White three moves in all, and Black's
+whole counterattack is built on that time. } 9... Bd7 { The c8-square is needed for a rook, and d7 is the
+square from which the bishop does not get in the way; on e6 it could be exchanged at once. }
+( 9... Nxd4 { Giri's recommendation, heading for 10.Bxd4 Be6. It is a complete alternative to everything
+that follows and has its own line. } 10. Bxd4 Be6 )
+10. O-O-O { White can also start with 10.h4 or 10.Bb3. Against 10.h4 Black has to reply 10...h5 and play
+the Soltis Variation; the move orders are sorted out in the first Soltis line. } 10... Rc8 { [%cal
+Gc6d4,Gc8c4] With a threat: 11...Nxd4 12.Bxd4 Rxc4. } 11. Bb3 { The third move of this bishop. }
+11... Nxd4 { [%cal Gb7b5,Ga7a5,Ga5a4] The Topalov Variation. Black gives up the knight that was heading
+for c4 in order to play ...b5 with tempo: with no knight on d4 the pawn cannot be taken, and ...a5-a4 will
+trap the bishop unless White reacts.
+
+**Why not 11...Ne5:** it is the classical move and fully playable, but it allows 12.Kb1, the line with
+the best reputation for White in the whole 9.Bc4 complex. This move order takes that away, which is why
+Jones makes it his main weapon. }
+( 11... Ne5 { The other great system. See the Soltis and 12.Kb1 lines. } )
+12. Bxd4
+( 12. Qxd4? { The queen steps into a discovered attack. } 12... Ng4 { [%cal Gg7d4,Gg4e3] } 13. Qd2 Nxe3
+14. Qxe3 { Black has the bishop pair and every dark square on the board. } )
+12... b5 { [%cal Ga7a5,Ga5a4] [%csl Rb3] The point. The threat is ...a5-a4, and after a3 the lever ...b4
+opens a file. The bishop on d4 looks imposing, but it is the piece Black's bishop wants to meet: once the
+dark-squared bishops come off, White's attack has lost Bh6 and Black's queenside play simply goes on. }
+13. Nd5 { [%csl Yd5] The most testing reply, and the reason the line is so heavily analysed. White removes
+the knight that ...b4 would have chased, exchanges our best defender on f6 and gets the bishops off.
+Every other move lets Black attack for nothing (see the next two lines). } 13... Nxd5 { Nothing else:
+Black cannot allow Nxf6+ followed by Bxf6, which would leave the kingside pawns in ruins. } 14. Bxg7
+( 14. exd5 Bxd4 15. Qxd4 a5 16. a3 b4 { This is the position of the note with 17.Qd4 below, reached by
+another route. } )
+14... Kxg7 15. exd5 { [%cal Rh1e1,Re1e7] [%csl Re7] Now the structure is fixed: White gets the e-file and
+a target on e7, Black the c-file and a bishop on b3 that is blocked by its own pawn. }
+( 15. Bxd5 { Keeps the pawn structure healthy but leaves the bishop exposed. } 15... a5 { [%cal
+Gb5b4,Ge7e6] Black carries on with ...b4 and can gain time with ...e6 when it suits. Without pressure on
+the e-file White has nothing to play for. } )
+( 15. Qxd5 { The queen is misplaced in front of the bishop. } 15... a5 { The threat of ...a4 costs White
+another tempo, and Black has scored very well from here. } )
+15... a5 { [%cal Ga5a4] Threatening to win the bishop. } 16. a3 { [%csl Ya2] Making room on a2. 16.a4
+bxa4 just loses a pawn. } 16... Kg8 { [%cal Gb5b4] The least obvious move in the line. Black is going to
+sacrifice the b-pawn in any case, and with the king on g7 the white queen would take on b4 or go to d4
+with check, gaining the tempo that decides whether the e-file pressure or the a-file counterplay comes
+first. So the king steps back first.
+
+The older move order 16...b4 17.axb4 axb4 18.Qxb4 Rb8 19.Qd4+ Kg8 has scored clearly better for White. }
+17. Rhe1 { [%cal Re1e7] The natural move: the rook attacks e7 and White plans Re3 and Rde1. }
+( 17. Qd4 { Centralising, to answer ...b4 by keeping the queenside closed. } 17... b4 18. axb4 axb4
+19. Kb1 { White does not take: 19.Qxb4 would open the b-file onto b2 with his own queen standing in
+front of it. } 19... Qa5 { [%cal Ga5a2,Gf8a8] Black has the a-file for nothing and the better game. } )
+( 17. h4 { Too slow now that the bishops are gone: there is no Bh6 to follow h5. } 17... b4 18. axb4 axb4
+19. Qxb4 Rc5 { [%cal Gd8a8] The same set-up as in the main line, with ...Qa8 to come, and White has spent
+on the h-pawn a move that he needed for the e-file. } )
+17... Rc5 { [%cal Gc5d5,Gd8a8,Gb5b4] Active defence. The rook attacks d5, which keeps the bishop on b3 and
+the queen tied to that pawn, and it clears the back rank so that the queen can reach a8 in one move after
+...b4. The passive 17...Re8 is what White is hoping for: he doubles on the e-file, pushes the h-pawn, and
+Black has no counterplay to show for it. } 18. Re3 { Preparing to double. 18.g4, taking f5 from the
+bishop, is met by the same sacrifice 18...b4. } 18... b4 { The thematic pawn sacrifice: a pawn for two
+open files against a king that has no minor piece near it. } 19. axb4 axb4 20. Qxb4 Qa8 { [%cal
+Ga8a1,Gf8b8] The queen takes the a-file with ideas of ...Qa1+ and ...Rb8. White's extra pawn is the one
+on b2, and it is pinned down for the rest of the game. } 21. Bc4 { The bishop finally leaves b3: it
+blocks the c-file in front of c2 and frees b3 for the pawn, so that the king has air. } 21... Bf5 {
+[%cal Gf5c2] The bishop finds its diagonal and attacks c2. } 22. Ra3 { White uses the tempo on the queen
+to contest the a-file. } 22... Qc8 { [%cal Gc5c4] Lining up behind the rook against c4 and c2. } 23. b3
+Qc7 24. Qd2 Rc8 { All three heavy pieces are on the c-file and White is tied to c2 and c4. } 25. g4 Bd7
+26. Ra2 Bb5 { Exchanging the piece that holds White's queenside together. } 27. Bxb5 Rxb5 28. Kb1 Qc3 {
+**Verdict:** equal, and in practice a draw: of the many elite games that have reached this position
+almost every one was drawn. Black's queen and rooks dominate the dark squares around the king, and White
+cannot make the extra pawn count because his rooks stay tied to b3 and c2.
+
+This is what the Topalov Variation promises against best play: a forcing sequence that has to be known by
+heart, at the end of which White has nothing. Whatever White tries earlier is more dangerous for him than
+for Black. } *
+
+[Line "Topalov Variation: 13.h4"]
+[Section "9.Bc4: Topalov Variation"]
+[Summary "White ignores the queenside and Black wins the race to the bishop on b3. The lines are sharp but short, and the natural defensive tries 14.a4 and 14.a3 both fail."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O
+Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. h4 { The move White wants to play in every Dragon. Here it carries no
+threat for two more moves, and that is too slow. } 13... a5 { [%cal Ga5a4] Black does not defend. The
+bishop on b3 has no retreat, so White must deal with ...a4 at once. }
+( 13... h5?! { The Soltis reflex is misplaced. It spends the tempo that makes ...a5 strong, and White
+opens the kingside with g4 anyway. Black has done badly with it. } 14. g4 )
+14. h5 { The consistent move: White lets the bishop be attacked and counts on the h-file. }
+( 14. a4? { The natural way to stop ...a4 loses material. } 14... bxa4 15. Nxa4 Bxa4 16. Bxa4 Rc4 { [%cal
+Gc4a4,Gc4d4] Hitting both bishops. } 17. Bb3 Nxe4! { [%cal Gg7d4] The rook is immune because of 18.Bxc4
+Nxd2, and 18.fxe4 Rxd4 wins a pawn, since 19.Qxd4 Bxd4 20.Rxd4 would leave White with rook and bishop
+for the queen. } 18. Qe3 Rxd4 { After the exchanges on d4 Black is a sound pawn up, and it is White's
+king that has lost its cover. } )
+( 14. a3 { Giving the bishop a square, but also giving Black a lever. } 14... b4 15. axb4 axb4 16. Nd5
+Nxd5 17. Bxg7 Kxg7 18. exd5 Qa5 { [%cal Ga5a1,Gf8a8] Compare the main line with 13.Nd5: Black has opened
+the a-file without giving up a pawn. } 19. Qd4+ Kg8 20. h5 Bf5 { The bishop covers the king from f5 and
+attacks c2. Black is better. } )
+14... a4 15. Bxf6 { White gives up his fine bishop to remove the defender of h7 and to gain a move for the
+other bishop. 15.Bd5 has also been tried; Black replies 15...e6 or 15...b4, and there are too few games
+for a verdict. } 15... exf6 { [%cal Gf6f5,Gg7b2] The recapture that looks wrong. The pawn keeps the bishop
+on g7, where it covers h8 and h6 after the h-file opens, and ...f5 will open the long diagonal onto b2
+with tempo against e4. The doubled pawns do not matter while the game is this sharp. }
+( 15... Bxf6 { The natural move, and the risky one: the bishop leaves the king. Jones beat Judit Polgar
+with it in 2013, but in elite games since then White has scored heavily. } 16. hxg6 e6 17. e5 Bg7 18. Rxh7
+{ White has a dangerous attack for the piece he is about to lose on b3. } )
+16. Bd5 { The bishop escapes to the square the knight was meant to use. }
+( 16. h6 { Shutting the bishop in before taking on d6. } 16... Bh8 17. Qxd6 axb3 18. Qxd7 bxa2 { White has
+won a pawn and buried the bishop on h8, but the pawn on a2 threatens to queen and the files in front of
+his king are open. The few games played have gone Black's way. } )
+16... b4 17. Ne2 f5 { [%cal Gg7b2] The bishop is opened and e4 is attacked. } 18. hxg6 hxg6 19. Nd4 {
+**Verdict:** good for Black. The h-file is open, but h8 is covered and White has no dark-squared bishop
+left to challenge the one on g7, which now rules the long diagonal. Black continues with ...Qf6 or ...Qa5
+and ...Rc5; White's bishop on d5 is handsome and attacks nothing. } *
+
+[Line "Topalov Variation: 13.Kb1, 13.Bxa7 and other 13th moves"]
+[Section "9.Bc4: Topalov Variation"]
+[Summary "Everything except 13.Nd5 and 13.h4. Against slow moves Black plays ...a5 and ...b4, against 13.Bxa7 the a-pawn is a sacrifice, and 13.e5 leads to an ending that is pleasant for Black."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O
+Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. Kb1 { A useful move in nearly every Dragon, but it does nothing about
+...a5. }
+( 13. a3 { Giving the bishop its square in advance. } 13... a5 { Black plays the same way: 14.Kb1 is the
+main line of this game, and 14.h4 b4 is the note with 14.a3 in the previous one. } )
+( 13. Bxa7 { White takes a pawn and dares Black to prove something. Jones compares it with the main line:
+the pawn is a different one, but Black's compensation is the same. } 13... b4 { [%cal Gd8a5,Gc8a8] The
+knight is driven off and the a-file is open for the queen and rook. } 14. Nd5
+( 14. Ne2 { Keeping the knight for the defence. } 14... Qa5 15. Bd4 Ba4 { [%cal Ga4b3] Removing the
+bishop that covers a2 and c2. } 16. Kb1 Bxb3 17. cxb3 Ra8 18. Nc1 Rfc8 { Black has the a- and c-files and
+targets on a2 and b3 for the pawn; White is tied up but solid, and has held his own in practice. } )
+14... Nxd5 15. exd5 Qa5 { [%cal Ga5a2] Hitting a2 and the bishop on a7 together. } 16. Qe3
+( 16. Bd4?! { The natural retreat allows a combination. } 16... Rxc2+! { [%cal Ga5a2] The bishop is dragged
+off b3, the square from which it guarded a2. } 17. Bxc2 Qxa2 { The king is caught in the corner with
+...Qa1+ and ...Rc8 coming, and Black has won most of the games from here. } )
+16... Ba4 17. Bd4 Bxb3 18. Qxb3 { **Verdict:** White has kept the pawn and Black has the a-file, the
+c-file and a queenside that White can never use. Jones judges the compensation to be full; in elite
+games White has scored well from here, so this is the line of the Topalov to look at again before playing
+it in a serious game. } )
+( 13. e5 { An attempt to simplify by opening the d-file against the bishop on d7. } 13... dxe5 14. Bxe5
+Bc6 { The bishop steps out of the pin and offers the queen exchange on Black's terms. } 15. Qxd8
+( 15. Qe3 { Keeping the queens on is riskier for White. } 15... Qa5 { [%cal Gb5b4] With ...b4 next, and
+White's bishops on b3 and e5 are both loose. } )
+15... Rfxd8 16. Rxd8+ Rxd8 17. Rd1 Bh6+ { An in-between check that sends the king to b1, further from the
+centre, before the rooks come off. } 18. Kb1 Rxd1+ 19. Nxd1 Nd7 20. Bd4 a5 21. c3 Bf4 { Jones's
+suggestion, followed by ...a4 and ...f5. Black has the more mobile pawn majority and the more active
+pieces in the ending, and the bishop on b3 risks being shut out by ...e6. } )
+( 13. g4 { This puts no pressure on Black at all in the Topalov Variation. } 13... a5 14. g5 Nh5 15. Bxg7
+Kxg7 { The knight stays on h5, where it blocks the h-file for good, and ...b4 and ...a4 come next. White's
+kingside pawns will be weak in any ending. } )
+13... a5 14. a3
+( 14. a4? { The same mistake as after 13.h4. } 14... bxa4 15. Nxa4 Bxa4 16. Bxa4 Rc4 { [%cal Gc4a4,Gc4d4]
+Both bishops are attacked, and 17.Bb3 Nxe4 follows as before. } )
+14... b4 { A pawn sacrifice once more: White will be able to win b4, and Black gets the a-file and the
+long diagonal. } 15. axb4 axb4 16. Na2 { [%cal Ra2b4] The critical move, going after the pawn. }
+( 16. Nd5 { This makes little sense when b4 is not hanging. } 16... Nxd5 17. Bxg7 Kxg7 18. exd5 Qa5 {
+[%cal Ga5a1,Gf8a8] The main line of the first game with the a-file opened for nothing. Black is better. } )
+16... Qc7 { [%cal Gf8a8,Gd7e6] Jones's move. The queen keeps an eye on c2 and makes room for the rook;
+the pawn is left to its fate. } 17. Nxb4 Ra8 { **Verdict:** excellent compensation. Black follows with
+...Rfb8, ...Qa5 and ...Be6 to exchange the bishop that holds a2 and c2 together, and every black piece has
+a file or a diagonal leading to the white king. White's extra pawn plays no part, and finding the
+defensive moves over the board is very hard. } *

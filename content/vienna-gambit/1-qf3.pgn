@@ -1,0 +1,194 @@
+[Line "5.Qf3 Nc6 6.Bb5: the queenless ending"]
+[Section "3...d5 4.fxe5 Nxe4 5.Qf3"]
+[Summary "Black's most popular defence forces the queens off. White gets the healthier pawns and a knight on d4 against the bishop pair; equal, but easier to play for White."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 { [%cal Gf4e5,Rd7d5] A King's Gambit in which Black's knight is already on f6,
+so that fxe5 and e4-e5 will come with tempo. That is why taking the pawn is a mistake here (see the line
+on 3...exf4) and why only one reply holds the balance. } 3... d5! { [%cal Rf6e4] The only move that
+equalises. Black answers the wing thrust in the centre and makes sure that after fxe5 the knight has e4
+to go to and not g8. Every other third move lets White play fxe5 or e5 with gain of time. } 4. fxe5
+{ This capture puts the pawn on e5, where it takes f6 and d6 from Black's pieces for the rest of the
+game, and half opens the f-file. }
+( 4. exd5 { Really a King's Gambit: 4...exf4 5.Nf3 is the Modern Defence by transposition, and 4...Nxd5
+is simple and good. The independent try is the Falkbeer-style 4...e4. Payne and Read give 4.exd5 three
+chapters as a surprise weapon; it is not the repertoire because Black chooses the kind of game. } 4... e4
+5. d3 Bb4 6. Bd2 e3 { The point of Black's play: the pawn is returned to disturb White's development. }
+7. Bxe3 O-O { Sharp, with White's king in the middle for a while. Goeller's survey calls it generally
+favourable to White, but it has to be known by heart. } )
+4... Nxe4 { [%cal Rd8h4,Gd1f3,Bg1f3,Bd2d3] [%csl Ye4] The position the chapter turns on. Black threatens
+...Qh4+ and the knight on e4 cramps White; White has the e5 wedge and the f-file. The knight has to be
+questioned at once: by 5.Qf3 (this line and the next three), 5.Nf3 or 5.d3 (their own lines below). }
+5. Qf3 { [%cal Gf3e4,Gc1f4,Ge1c1] Spielmann's move, and the choice of most current sources: the
+Sveshnikovs' repertoire book, Illingworth, and the first three model games of Andrew Martin's course.
+
+**Why here:** the knight is attacked twice, so Black must decide about it now; the check has lost its
+sting (5...Qh4+ 6.g3 Nxg3 7.Qxg3); and the g1 knight is kept for e2, from where it reaches d4 or f4
+without blocking the f-file.
+
+**The price:** the natural square of the g1 knight is taken, which matters in the 5...f5 line. }
+( 5. Nxe4?! { The obvious capture is the worst of the natural moves. The e4 pawn takes f3 from the
+knight, the d-pawn cannot advance without leaving something behind, ...Qh4+ is still in the air and e5
+will be hit by ...Nc6. } 5... dxe4 { Black has at least equalised. } )
+5... Nc6 { [%cal Rc6e5,Rc6d4] The most popular reply and the most forcing: it attacks e5 and sets a trap
+based on ...Nd4. } 6. Bb5 { [%cal Gb5c6] The only good move. The pin removes the pressure on e5 and the
+...Nd4 trick together, and Bxc6 will split Black's queenside. }
+( 6. Nxe4? { What 5.Qf3 seemed to prepare, and a classic error. } 6... Nd4! { [%cal Rd4f3,Rd4c2] The
+queen is hit and c2 would fall with check, so there is no time to save the knight on e4. } 7. Qd3 dxe4
+8. Qxe4 Bf5 { The queen must give up c2 and ...Nxc2+ wins a rook. Other queen moves avoid the worst,
+but the opening advantage has changed hands. } )
+6... Nxc3 { The knight is attacked twice and cannot be supported, so Black cashes it in. } 7. dxc3!
+{ [%cal Gc1f4,Ge1c1,Rd8h4] Paulsen's recapture, away from the centre. The c1 bishop and the queen's rook
+come into play at once (Bf4, O-O-O), the d-file bears on d5, and White's king will be safe on the
+queenside. The doubled pawns do not matter: they cannot be attacked. }
+( 7. bxc3?! { The structural move, given by many older books, is worse here: the queen exchange follows
+all the same and the recapture has opened nothing. } 7... Qh4+ 8. g3 Qe4+ 9. Qxe4 dxe4 10. Bxc6+ bxc6
+11. Ne2 { The ending of the main line with the c1 bishop still shut in and a2, c3 and e5 all weak.
+Goeller rates it slightly better for Black. } )
+7... Qh4+ { [%cal Rh4e4] Played in about seven games out of ten. The check provokes g3 so that ...Qe4+
+forces the queens off, and Black gets an ending with the bishop pair. Keeping the queens on with 7...Be7
+is the next line. }
+( 7... a6 { Putting the question to the bishop first. } 8. Bxc6+ bxc6 9. Ne2 { [%cal Ge2d4,Gc1e3] The
+structure of the main line with queens on: Nd4 or Nf4, Be3 and castling follow. If Black now checks,
+9...Qh4+ 10.g3 Qe4 11.Qxe4 dxe4 is the main-line ending with ...a6 thrown in. } )
+8. g3 Qe4+ 9. Qxe4 { White has no reason to avoid the exchange: the ending is where the better structure
+counts. } 9... dxe4 10. Bxc6+ { Goeller's preferred order: take while Black has to recapture with the
+pawn. }
+( 10. Ne2 { The other main move. Black avoids the split pawns but has to spend ...Bd7 on it, and White
+blockades with Nd4 and Be3. Illingworth quotes this as a balanced line from engine practice. Choose it
+if you prefer a firm blockade to a target on c6. } 10... Bd7 11. Bxc6 Bxc6 12. Rf1 Bc5 13. Nd4 )
+10... bxc6 11. Be3 { [%cal Gg1e2,Ge2d4,Ge1c1] [%csl Re4,Rc6,Rc7] The key ending.
+
+**Structure:** Black has the bishop pair but three pawn islands. The e4 pawn has lost its supporting
+d-pawn and c6 and c7 are fixed targets. White's only weakness is e5.
+
+**Plan:** Ne2-d4 (the knight cannot be driven away and eyes c6 and e6), O-O-O, a rook to e1 or f1, then
+c4 and the capture of e4.
+
+**Why the bishop first:** after 11.Ne2 Black plays 11...Bc5 and takes the g1-a7 diagonal. Lysyj and
+Ovetchkin then give 12.Nd4 Bb6 13.a4 a5 14.Bf4 h6 15.h4 Bg4 with the initiative for Black. }
+11... Be7
+( 11... h5 { The most common move in recent elite games: Black wants ...h4 to open the h-file for the
+rook. } 12. O-O-O { White simply finishes development. After 12...h4 13.gxh4 Rxh4 the file is open, but
+all of White's pieces are out and Ne2-d4 follows as usual. } )
+( 11... Bg4 { Stops Ne2 and castling for a move. } 12. h3 Bh5 13. g4 Bg6 { The bishop has been driven
+to a square where it only defends e4, and Ne2 comes with a choice of d4 and f4. } )
+( 11... Bd7 12. Ne2 O-O-O 13. Rf1 { [%cal Gf1f7] The f-file at work. 13...Re8 14.Rxf7 Rxe5 15.Bd4 was
+unclear in Lederle-Pfuetzner 2007. } )
+12. Ne2 O-O 13. Nd4 Bd7 14. O-O-O a5 15. Rhe1 a4 16. c4 Rfd8 17. a3 { Stops ...a3, which would loosen the
+king's cover. } 17... Ra5 18. Bd2 Rxe5 19. Bf4 Rh5 20. Rxe4 { Lagarde-Bouget, Avoine 2012. White has
+exchanged his weak pawn for Black's and keeps the better structure and the dominant knight; the bishops
+have nothing to attack, and c7 and a4 stay weak. White won.
+
+**Verdict:** equal with best play, in Illingworth's words 'an equal position where the stronger player
+will win'. That is the fair summary of the whole 5...Nc6 line: no advantage, but a position where White
+knows what to do. } *
+
+[Line "5.Qf3 Nc6 6.Bb5 Nxc3 7.dxc3 Be7: queens stay on"]
+[Section "3...d5 4.fxe5 Nxe4 5.Qf3"]
+[Summary "Black refuses the ending and castles short. White plays Bf4 and O-O-O; Black needs the accurate 9...Bg5 to equalise, otherwise the kingside attack plays itself."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Qf3 Nc6 6. Bb5 Nxc3 7. dxc3! Be7 { Goeller's
+recommendation for Black, who 'should equalise' this way. Black keeps the queens on because White's king
+has not decided where to live either. } 8. Bf4 { [%cal Ge1c1,Gf3g3] Overprotects e5 and clears the way
+for castling. } 8... O-O 9. O-O-O { [%cal Gf3g3,Gh2h4,Gg1f3] Castling on opposite sides with White's
+pieces already aimed at the king. } 9... Bg5! { The equaliser. The f4 bishop is the piece that holds
+e5 and leads the attack, so Black exchanges it and follows with ...f6. }
+( 9... Be6?! { The natural developing move is too slow. } 10. Qg3 { [%cal Gf4h6,Gh2h4] Threatening
+Bh6. } 10... Bh4 11. Qe3 a6 12. Bd3 b5 13. Nf3 Be7 14. h4 Na5 15. Ng5 Bxg5 16. hxg5 { Paulsen-Schiffers,
+Breslau 1889. The h-file is open, the bishop on d3 aims at h7 and White won in 35 moves. The model
+attack for this structure, and still the plan. } )
+10. Bxc6 { Removing the piece that attacks e5 before the bishops come off. } 10... bxc6 11. h4 Bxf4+
+12. Qxf4 f6 { The freeing break. } 13. Nf3 fxe5 14. Qxe5 Bg4 15. c4 { [%cal Gd1d5] The d-file pin again:
+the d5 pawn is attacked and exchanging on c4 is not attractive. Sofronie-Scetinin, Cappelle la Grande
+2002, went 15...Bxf3 16.gxf3 Qf6 17.Qxf6 Rxf6 18.cxd5 cxd5 19.Rxd5 Rxf3 20.Rc5 and White's more active
+rooks won a long ending.
+
+**Verdict:** equal. Black has solved his problems, but he had to find 9...Bg5 and is left with the
+worse pawns. } *
+
+[Line "5.Qf3 Nxc3 6.dxc3: development first"]
+[Section "3...d5 4.fxe5 Nxe4 5.Qf3"]
+[Summary "Black exchanges knights at once. White again takes away from the centre, plays Bf4 and O-O-O and uses the pin on the d-file; a sharp middlegame with castling on opposite sides."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Qf3 Nxc3 { As common as 5...Nc6. Black gives up the
+outpost at once so that nothing hangs and he can choose his set-up. Illingworth is 'not convinced' it is
+best: White gets his ideal recapture for nothing. } 6. dxc3 { [%cal Gc1f4,Ge1c1,Gf3g3] Illingworth's
+choice, and the same rule as in the main line: with the d-pawn, for the bishop, the d-file and
+queenside castling. }
+( 6. bxc3 { The classical recapture, a little more common in practice and fully playable. White wants
+d4, Bd3, Ne2 and O-O with a broad centre and a kingside attack. Its drawback is theoretical: Black can
+hit the centre at once with 6...c5, or follow the old equalising line given here. } 6... Be7 7. d4 O-O
+8. Bd3 f6 { Challenging the wedge before White has castled. } 9. Qh5 g6 10. Bxg6 hxg6 11. Qxg6+ Kh8
+{ Theory gives a draw by perpetual check (Qh6+, Qg6+). } )
+6... Be6 { The most common move. Black covers d5 before a rook arrives on d1 and keeps ...c5 and ...Nc6
+in reserve. }
+( 6... Qh4+ { Trying for the ending of the first line. } 7. g3 Qe4+ 8. Qxe4 dxe4 9. Bg2 { [%cal Gg2e4]
+A worse version for Black: White still has both bishops and e4 is attacked before Black has developed.
+Illingworth: a reliable advantage thanks to the more active pieces. } )
+( 6... Be7 { Illingworth's 'most solid' choice. } 7. Bf4 O-O 8. O-O-O { The set-up of the 7...Be7 line
+without having spent a move on Bb5. Qg3, Bd3 and h4 follow. } )
+( 6... c5 7. Bf4 Nc6 8. O-O-O Be6 { Transposes to the main line. } )
+( 6... Nc6 7. Bb5 { Transposes to the first line. } )
+7. Bf4 { [%cal Ge1c1,Gf3g3] }
+( 7. Qg3 { Illingworth's move order. The queen ties the f8 bishop to g7 before Black has decided on
+...Be7, so that normal kingside development costs something. It often transposes after Bf4 and
+O-O-O. } )
+7... c5 { The active plan: space, ...Nc6 and ...Qa5, with the king staying in the centre or going long. }
+( 7... Be7 8. O-O-O Nd7 9. Qg3 { [%cal Gh2h4] The standard follow-up in practice: the queen leaves the
+f-file to the rook, looks at g7 and the h-pawn starts to run. } )
+8. O-O-O Nc6 9. Bc4 { [%cal Gd1d5,Gf3d5] The tactical point of the whole set-up. The d5 pawn is attacked
+three times and defended twice, and it is pinned to the queen, so it cannot take the bishop. Black has
+to release the tension with 9...d4 (when Bxe6 damages his pawns) or defend passively with 9...Ne7.
+
+**Verdict:** an unbalanced middlegame with no settled theory. In elite online games Black has scored
+well with the ...c5 plan, so do not play it on general principles: remember the pin on the d-file, Qg3
+against g7, and that the e5 pawn must stay protected by the f4 bishop. } *
+
+[Line "5.Qf3 f5: the Bardeleben Variation"]
+[Section "3...d5 4.fxe5 Nxe4 5.Qf3"]
+[Summary "Black supports the knight. After 6.d3 Nxc3 7.bxc3 d4 White plays 8.Qg3 and gives up the c3 pawn for the bishops and the light squares. Objectively equal and the line to know best."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Qf3 f5 { [%csl Ye4] The knight stays where it is. This is
+the one line where the queen on f3 is slightly in the way, because Nf3 is not available. Illingworth
+calls it the reply that would stop him from playing the gambit in slow games, while rating it only
+'objectively equal'. } 6. d3 { The only way to put the question to the knight. 6.exf6 Nxf6 just
+develops Black and gives up the wedge. } 6... Nxc3 7. bxc3 { Forced this time, and it has a point: White
+threatens d4 with the ideal chain c3-d4-e5, followed by Bd3. } 7... d4! { [%cal Rd4c3] The thematic
+answer, the same as in the 5.d3 line. Black gives White no time for d3-d4, fixes the d3 pawn and
+attacks c3. Against anything slower (7...Be7, 7...Be6) White plays 8.d4 and has everything he wants. }
+8. Qg3! { [%cal Gf1e2,Ge2h5] [%csl Rg7] Bangiev's move, the key to the line. The queen ties the f8 bishop
+to g7 and vacates f3: Be2 is coming with the threat of Bh5+, then Bf3 and Ne2. White is ready to give
+up c3. }
+( 8. Bd2? { Defending the pawn loses time to a small combination. } 8... dxc3 9. Bxc3 Bb4!
+{ [%cal Rd8h4] The bishop cannot be taken for free: the check on h4 forks king and b4. } 10. Bxb4 Qh4+ { The bishop is regained and Black is better: White's king has lost its
+shelter and e5 is weak. } )
+8... Nc6
+( 8... dxc3 { Taking at once. } 9. Be2 { [%cal Ge2h5] Nothing is recaptured: the threat is Bh5+ and a
+sacrifice on g6. } 9... g6 10. Bf3 Bg7 11. Ne2 { Unclear according to Bangiev. White wins c3 back with
+the knight and owns the long diagonal; Black has had to fianchetto into the e5 pawn. } )
+9. Be2 Be6
+( 9... Qd5 10. Bf4 Be6 11. c4 Bb4+ 12. Kf2 Qd7 13. Rb1 { Hromadka-Schreiber, Munich 1936. The king is
+safe on f2, Bf3 and Ne2 follow and the b-file belongs to White. } )
+10. Bf3 { [%cal Gg1e2,Ge1g1,Gf3c6] The bishop takes the long diagonal that 7...d4 opened. }
+( 10. c4 { Keeps the pawn but lets Black develop with check: 10...Bb4+ 11.Kd1 O-O. Illingworth finds the
+result chaotic and easier for Black to play, with White's king stuck in the centre. } )
+10... Qd7
+( 10... Bd5 { Offering to exchange White's best piece. } 11. Ne2 { The bishop may be taken: White
+recaptures with the queen and the f5 pawn falls. } 11... Bxf3 12. Qxf3 dxc3 13. Qxf5 Qd5 14. O-O g6
+15. Qh3 Bc5+ 16. Kh1 { Clearly better for White (Goeller). The f-file is open against a king that
+cannot castle short, and 14...Qxe5 would have lost to 15.Qf7+ Kd8 16.Bf4. } )
+11. Ne2 dxc3! { The critical test: Black takes the pawn before White can castle and play c4. }
+( 11... Bc5 12. Rb1 Bb6 13. cxd4 Bxa2 14. Rb2 Be6 15. c3 { White has the centre he wanted from the
+start. } )
+( 11... O-O-O 12. O-O Bc5 13. c4 { [%cal Ge2f4,Ga1b1] The old main line. White keeps the pawn, puts the
+knight on f4 and attacks down the b-file. 13...Bxc4 14.Nf4 led to great complications in
+Vorotnikov-Kapengut 1975 and Vankov-Angelov (corr. 1992), where the analysis of Bangiev and van der Tak
+favours White. } )
+12. Bxc6! { Goeller's improvement on Bangiev's 12.Be3, which runs into 12...Nb4! against c2 and d3.
+With the knight gone, ...Nb4 and ...Nd4 disappear and c3 is easy to collect. } 12... Qxc6 13. Be3 O-O-O
+14. O-O Bc5 15. Qf2 Bxe3 16. Qxe3 { [%cal Ge2c3,Ge3a7,Ga1b1] White has full compensation for the pawn
+(Goeller). Nxc3 or Qxa7 comes next, the b-file is open against the king and the knight has d4 and f4,
+while Black's bishop is hemmed in by its own f5 pawn.
+
+**Verdict:** balanced, and unexplored compared with the other lines. White must be willing to play a
+pawn down for a few moves; in return every one of his pieces has a job. } *

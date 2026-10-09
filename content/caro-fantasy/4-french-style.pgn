@@ -1,0 +1,68 @@
+[Line "3...e6 4.Nc3 Bb4 5.Bf4 Ne7 6.Qd3 b6 7.Nge2 Ba6"]
+[Section "3...e6"]
+[Summary "Black builds a French-style position and pins the knight. White develops with Bf4 and Qd3, aiming at e5 and queenside castling while Black tries to free his bad bishop."]
+
+1. e4 c6 2. d4 d5 3. f3 e6 { [%cal Rc8f5] The most common reply in elite games (about a third). It does not
+take on e4, so White has played f3 for a move that does little, and the position is a French Defence in
+which the c8 bishop is buried behind ...e6 and waits for a square. The f3 pawn is no longer a recapturing
+pawn: it will go to f4 after e5, which is the usual plan. } 4. Nc3 { [%cal Gc3e4,Gc3d5] The main move (about
+two thirds of the games): the knight adds a defender to e4 and a second attacker on d5. Black's choices are
+4...Bb4 (the pin), 4...Nf6 (the next game), 4...Qb6 and 4...Nd7. } 4... Bb4 { [%cal Rb4c3] Pins the knight and
+takes the pressure off e4. Almost half of the games. }
+( 4... dxe4 { Rare in elite play. } 5. fxe4 e5 { Black plays ...e5 anyway, two moves later than in the main
+line. } 6. Nf3 { The centre is still White's, the knight is on f3 at last and Black has no developed piece. } )
+( 4... Qb6 { The queen hits b2 and d4. } 5. a3 { By far the most played reply (168 elite games), but the
+sample is a warning: 5...Nf6 6.Be3 won for White 16 times in 26 games, while 5...Nd7 won for Black 41 times
+in 59. If Black finds ...Nd7 you are not getting an advantage. } 5... Nf6 6. Be3 )
+5. Bf4 { [%cal Gf4c7,Gf4b8,Gd1d3] The study's choice, in about 12% of elite games: the bishop eyes c7 and
+the b8-h2 diagonal and gets out before ...Nf6-e4 or ...Bxc3 bxc3 spoils the structure. The more common
+alternatives are 5.Bd2 (a third of the games) and 5.a3 (a quarter), which both score around 54% for White. }
+5... Ne7 { [%cal Re7f5] The knight heads for f5 or g6 to challenge the f4 bishop. } 6. Qd3 { [%cal Gd3c3,Gd3b5]
+Backs up the pinned knight (so that ...Bxc3+ can be recaptured with the queen), eyes the b1-h7 diagonal and
+leaves d1 for the rook. } 6... b6 { [%cal Rc8a6] Prepares ...Ba6 to hit the queen and bring the bishop out.
+Black's whole problem in this line is the c8 bishop, and the b6-a6 plan solves it. } 7. Nge2
+{ [%cal Gg1e2,Ge2c3] Develops the last piece so that ...Bxc3 can be met by Nxc3 and the structure stays
+healthy, and clears the way for long castling. } 7... Ba6 { **Verdict:** balanced. Black has freed his bishop;
+White has the centre and the queen has to step aside from d3. Aim for e5 followed by f4 once Black's pieces
+are committed, and castle long. } *
+
+[Line "3...e6 4.Nc3 Nf6 5.e5 Nfd7 6.f4 c5 7.Nf3 Nc6 8.Be3: a Steinitz French"]
+[Section "3...e6"]
+[Summary "After 4...Nf6 5.e5 the Fantasy turns into the Steinitz Variation of the French Defence, with an extra move for each side. The chain e5-f4 gives White space and a kingside attack."]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Nc3 Nf6 { [%cal Rf6e4] Challenges e4 at once. } 5. e5 { [%cal Ge5f6,Gf3f4] Gains a
+tempo on the knight and prepares f4: the f3 pawn becomes the support of the e5 pawn, a better use of it
+than in any other line. } 5... Nfd7 6. f4 { [%cal Gf3f4] White now has the Steinitz chain e5-f4. The study
+says Black is "down in development" here; in fact each side has used one extra pawn move (f2-f3-f4
+against c7-c6-c5), so the position is the French Steinitz Variation with the same player to move. } 6... c5
+{ [%cal Rc5d4] The French break against the base of the chain. } 7. Nf3 { [%cal Gf3d4] Develops and guards d4. }
+( 7. dxc5 { Gives up the tension. Black regains the pawn at once with ...Nxc5 or ...Bxc5, and the chain
+loses its point. } 7... Nxc5 )
+7... Nc6 { Black adds a second attacker to d4. } ( 7... cxd4 { The study's move order. } 8. Nxd4 { The exchange
+on d4 hands Black the c-file, but gives White an outpost and quick development. } 8... Nc6 )
+8. Be3 { [%cal Ge3d4,Gd1d2] **Position:** the main-line position of the French Steinitz (it arises in some
+15,000 elite games). White supports d4 with the bishop and Qd2, castles long or short, and keeps a space
+advantage.
+
+**Plans for White:** Qd2 and O-O-O (or Be2 and O-O), then g4 and f5 or a kingside storm; keep d4 supported
+and answer ...cxd4 with Nxd4. **Plans for Black:** pressure on d4 with ...cxd4 Nxd4 and ...Qb6 (or ...Bc5,
+...O-O); ...f6 to undermine the e5 pawn; ...a6, ...Be7 and ...Rb8 on the queenside.
+
+**Verdict:** equal with accurate play; the main French theory applies. The Fantasy move order suits
+players who like these positions and know the French well, and it is no better than a normal French for
+White. } *
+
+[Line "4.Be3: an alternative fourth move"]
+[Section "3...e6"]
+[Summary "The bishop move keeps the c3 square free and meets 4...Nf6 5.e5 with the same Steinitz set-up. 4...dxe4 is the sharp reply."]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Be3 { [%cal Ge3c5] The second most popular fourth move (15%): the bishop supports d4
+and keeps c3 free, so ...Bb4 has no pin. The price is that ...Qb6 hits b2 and the bishop is exposed to
+...Nf6-g4 ideas. } 4... Nf6
+( 4... dxe4 { The sharp reply. } 5. fxe4 Qh4+ { Black gets in the check at once. } 6. g3 Qxe4 7. Qe2
+{ [%cal Ge2e4,Gf1g2] A pawn sacrifice: Qe2 prepares Bg2 against the queen on e4, and the greedy 7...Qxh1
+8.Bg2 Qxh2 keeps Black's queen alive. The elite results are very good for White (36 wins in 54 games), but
+this is the one line in the chapter for which I found no published explanation, so learn it only if you
+want to risk it. } 7... Nf6 8. Bg2 )
+5. e5 Nfd7 6. f4 c5 7. Nc3 Nc6 8. Nf3 { **Verdict:** the same Steinitz position as in the previous line.
+Prefer 4.Nc3 unless you like the gambit. } *

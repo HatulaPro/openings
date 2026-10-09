@@ -1,0 +1,65 @@
+[Line "Austrian Attack: 4...Nf6 5.Nf3 O-O 6.Bd3 Nc6 7.e5 dxe5 8.fxe5 Nh5"]
+[Section "4.f4: the Austrian Attack"]
+[Summary "The main line of the Pirc Austrian. White pushes e5 to cramp Black, Black takes twice and pins the f3-knight, aiming at the base of the e5-pawn with ...f6."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 { The Austrian Attack, 16% of the elite games after 3...d6. White builds a pawn centre and prepares e5. The two plans
+are an attack on the kingside (Nf3, Bd3, O-O, Qe1-h4) and a pawn push to e5 followed by a space advantage. } 4... Nf6 { [%cal Gf6e4]
+The Pirc move order. Against 4.f4 the repertoire does not use the Tiger set-up as its first choice, because the knight on f6 pressures e4 at once and White has to make up his mind.
+4...a6 is the second option (see the last game of this file). } 5. Nf3 { [%cal Gf3e5,Gf3g5] } ( 5. Bd3 O-O 6. Nf3 { Transposes. } )
+5... O-O { Black castles: against the Austrian the king is safer than the centre, because White's pieces are not yet aimed at g7. The fianchetto bishop will become strong
+once the e5 push has been dealt with. } 6. Bd3 { Supports e4 and prepares O-O. The other tries are 6.e5, 6.Be3 and 6.Qe1 (see the next games). }
+6... Nc6 { [%cal Gc6d4,Ge7e5] The most popular reply: the knight puts a second attacker on d4 and prepares ...e5 or ...Bg4. 6...Na6 is the alternative, aimed at ...c5 and ...Nb4, and it answers e5 with ...Nd7. }
+7. e5 { The most testing. White cramps Black and expects the knight on f6 to run away. } ( 7. O-O e5! { [%cal Ge7e5] White has castled, so Black
+strikes in the centre. } 8. fxe5 dxe5 9. d5 Nd4 10. Nxe5 Nxe4 11. Nxe4 Bxe5 12. c3 Nf5 { The exchanges leave Black with a healthy game: the knight escapes to f5 and the bishop on e5 is strong. } )
+( 7. d5 Nb4 8. Be2 c6 9. a3 Na6 10. Be3 { Black's knight is bounced around, but it lands on a6 and c5 is a good square; the pawn on c6 hits d5. } )
+7... dxe5 { Taking is the main line: it opens the d-file and the diagonal of the bishop on g7. } 8. fxe5 { 8.dxe5 is also played; the resulting positions after ...Qxd1 are drawish. }
+8... Nh5 { [%cal Gh5f4,Gf7f6] The knight steps off the attacked square. From h5 it covers f4 and g3, and it clears f6 for the pawn. } 9. Be3 Bg4 { [%cal Gg4f3,Gc6e5,Gg7e5] The pin on f3 makes e5 a real target: it is attacked by the
+knight, by the bishop and soon by the f-pawn. } 10. Be2 { Breaks the pin. } 10... f6 { [%cal Gf6e5] The pawn undermines the base of the chain. After the exchange of the bishops on e2 and f3 Black
+has a good game; the position is dynamic, and the book scores 46% for Black against 41% for White. } *
+
+[Line "6.e5 dxe5 7.fxe5 Nd5 8.Bc4 Nxc3 9.bxc3 c5"]
+[Section "4.f4: the Austrian Attack"]
+[Summary "The Unzicker Attack. Black takes the pawn, hits the c3-knight and breaks the centre with ...c5."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. e5 { The Unzicker Attack, 36% of the games here. The pawn attacks the knight at once. }
+6... dxe5 { Taking. The other knight retreat gives White a lasting space advantage. }
+( 6... Nfd7?! { Passive: the knight blocks the bishop and White keeps the space. } 7. h4 { A useful extra move, and White scores more than 55% in the elite database. } ) 7. fxe5 { [%cal Ge5f6] } ( 7. dxe5 Qxd1+ 8. Kxd1 Nh5 { [%cal Gh5f4] The knight hits f4 and the bishop hits e5, so White's centre is
+the one under pressure; the queenless middlegame is equal. (After 8...Ng4 9.Ke1 White scores well in the book.) } )
+7... Nd5 { [%cal Gd5c3,Gd5f4] } 8. Bc4 { Attacks the knight on d5 a second time, so Black has to decide what to do with it. } 8... Nxc3 { [%cal Gc3d1] The exchange doubles the white pawns and opens the b-file, and it is the main choice of the elite players. }
+( 8... Be6?! { The line of one of the studies. } 9. Nxd5 Bxd5 10. Bxd5 Qxd5 11. Qe2 b5 { Playable, but the book shows White scoring better, and Black's queen has been drawn to d5 without
+a concrete aim. } ) 9. bxc3 c5 { [%cal Gc5d4,Gg7e5] The break. White's pawn centre is lopsided: the pawn and the queen both hit d4, and once the e5-pawn is gone the bishop on g7 joins in. } 10. O-O Bg4 { [%cal Gg4f3,Gb8c6] The pin on f3 weakens the support of the e5-pawn, and ...Nc6 will pile up on it. Black has equal
+chances and a flexible position; White has two bishops and a pawn centre but weaknesses on c3 and e5. } *
+
+[Line "6.Be3 c6: the solid answer"]
+[Section "4.f4: the Austrian Attack"]
+[Summary "White develops with Be3 and Qd2. Black plays ...c6, ...Nbd7 and ...Nd5 and gets a very solid, drawish position."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 { Prepares Qd2 and long castling. 6...Ng4 is available but the white bishop is happy to go to g1; the Kurajica line 6...b6
+is critical but difficult for Black. } 6... c6 { [%cal Gc6d5,Gb8d7] The pawn prepares ...Nbd7 and ...Qa5, and takes d5 away from White's knight. }
+( 6... b6?! { The Kurajica line. } 7. Qd2 Bb7 8. e5 Ng4 9. O-O-O c5 10. dxc5 bxc5 11. Bxc5 Qa5 12. Ba3 dxe5 13. Nd5 Qxd2+ 14. Rxd2 { White's pieces are more active and
+Black's weaknesses on e7, c7 and b7 are hard to hold; the study's author thinks that Black can only hope to draw. } ) 7. h3 { Prevents ...Ng4 and ...Bg4. } 7... Nbd7 { [%cal Gd7b6,Gd7c5] } 8. e5 Nd5 { [%cal Gd5e3,Gd5c3] The knight attacks both the bishop on e3 and the knight on c3. }
+9. Nxd5 cxd5 { Black has a healthy pawn on d5, which blocks the e5-pawn, and the open c-file. } 10. Bd3 Qb6 { [%cal Gb6b2,Gb6d4] The queen hits b2 and d4. White has to defend the pawn, and the position is exceptionally balanced: in the elite
+database this line is drawn in about 85% of the games. A reasonable choice when a draw would do; the alternative is 6...Nc6 for a sharper game with more risks. } *
+
+[Line "Second option: 5...c5 (the Dragon formation)"]
+[Section "4.f4: the Austrian Attack"]
+[Summary "Black strikes at once with ...c5. After dxc5 Qa5 the bishop on g7 has an open diagonal, and the forcing lines with Bb5+ lead to a draw or better."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 c5 { [%cal Gc5d4,Gg7d4] The Dragon formation. It trades the c-pawn for White's d-pawn and removes the cramping chain at its base. In the elite database Black scores 44% against 45% for
+White, better than after 5...O-O (40%), and it is the more active choice; its price is theory. } 6. dxc5 { [%cal Gc5d6] }
+( 6. Bb5+ Bd7 { [%cal Gd7b5] } 7. e5 Ng4 8. e6 fxe6 9. Ng5 Bxb5 10. Nxe6 Bxd4 11. Nxd8 Bf2+ 12. Kd2 Be3+ 13. Ke1 Bf2+ { Black forces a draw by repetition. White can avoid it with 11.Nxb5 Qa5+, which is sharper. } )
+( 6. Bb5+ Bd7 7. e5 Ng4 8. Bxd7+ Qxd7 9. d5 dxe5 10. h3 e4 11. Nxe4 Nf6 12. Nxf6+ Bxf6 13. O-O O-O { Black has the bishop pair against a weakened centre. } )
+6... Qa5 { [%cal Ga5c5,Ga5c3] The queen hits the knight on c3 and the pawn on c5 will be taken back next move. } 7. Bd3 Qxc5 { [%cal Gc5c3] } 8. Qe2 O-O 9. Be3 { Hits the queen. } 9... Qa5 10. O-O Bg4 { [%cal Gg4f3,Gb8c6] Black pins the knight and brings the queenside knight out
+to c6. White has better development; Black has the bishop pair's diagonal, a firm centre and the usual Dragon play. The book scores 49% for Black here against 34% for White. } *
+
+[Line "Second option: 4...a6 (the Tiger against the Austrian)"]
+[Section "4.f4: the Austrian Attack"]
+[Summary "Black meets the Austrian with the same set-up as against the 150 Attack: ...a6, ...b5, ...Nd7 and ...c5, saving the king's knight for later."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 a6 { [%cal Gb7b5] The Tiger's Modern against the f4 set-up. The knight stays on g8, so e5 attacks nothing, and ...b5 and ...c5 start the counterplay. } 5. Nf3 b5 { [%cal Gb5b4,Gc8b7] }
+6. Bd3 Nd7 { [%cal Gd7c5,Gc7c5] The knight prepares ...c5 and keeps the bishop's diagonal open; 6...Bb7 is the other main choice and is more popular; 6...Nd7 keeps ...c5 in one move. } 7. O-O { White castles. }
+( 7. e5 c5 8. Be4 Rb8 { The rook leaves the long diagonal. Black's pieces come out with ...Bb7 and ...Ngf6. } )
+( 7. e5 c5 8. Ng5 Nh6 9. e6 Nf6 10. dxc5 dxc5 11. Be3 Bxe6 12. Bxc5 Nd5 13. Nxd5 Qxd5 14. Be3 Rc8 { A line from one of the studies. White has lost the e6-pawn, Black's pieces become active, and the white attack has run out of steam. } )
+( 7. a4 b4 8. Ne2 Bb7 9. O-O c5 10. c3 Ngf6 { The same plan as against 4.Be3: ...b4 and ...c5. } )
+7... c5 { [%cal Gc5d4] Strikes at the centre before White has found a plan. } 8. dxc5 Nxc5 { [%cal Gc5e4,Gg8f6,Gc8b7] The e4-pawn is attacked and the knight on c5 can't be hit by a pawn. White's pawns on e4 and f4 are now targets. Black has equalised: the next moves are ...Ngf6, ...Bb7 and ...O-O,
+with pressure on e4. } *

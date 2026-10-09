@@ -1,0 +1,151 @@
+[Line "5.Nf3 Be7 6.Qe2: the Breyer line"]
+[Section "3...d5 4.fxe5 Nxe4 5.Nf3"]
+[Summary "The classical fifth move as a second weapon. Against the solid 5...Be7 White plays Qe2, takes on c3 with the d-pawn and castles long; the Adams-Anand line is level but full of play."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Nf3 { [%cal Gd1e2,Gd2d3] The traditional main move. It
+stops ...Qh4+, protects e5 and keeps every option open. It gets full coverage here because the positions
+differ in kind from 5.Qf3: the queen goes to e2, the knight is already on its natural square, and there
+is no queenless ending.
+
+**Its problem** is theoretical. 5...Bc5 (third line of this section) is the critical reply, and Finkel's
+survey in Yearbook 110 argues that it puts 5.Nf3 in doubt. Against everything else White is at least
+comfortable. } 5... Be7 { Breyer's quiet move: Black castles first and decides about the knight later. }
+6. Qe2 { [%cal Ge2b5,Gd2d3,Ge1c1] 'If in doubt, play Qe2' is Gary Lane's slogan for White in these lines,
+and Jonny Hector made the move his speciality. The queen attacks e4 a second time and prepares d3, it
+allows dxc3 and queenside castling, and Qb5+ is often available against an undefended b7. It also keeps
+the d-pawn at home, so ...Bb4 has no target. }
+( 6. d4 { The natural move, building the centre, gives Black two good replies. The first is the old
+main line shown here, where taking twice on e4 runs into the pin ...Re8. The second is Goeller's point
+6...Bb4!, which reaches the 5...Bc5 6.d4 Bb4 line, where in his view only Black can be better. }
+6... O-O 7. Bd3 f5 8. exf6 Bxf6 )
+6... Nxc3
+( 6... Ng5 { Karpov's way: exchange the f3 knight. } 7. d4 c6 8. Be3 { Better than 8.Qf2 Nxf3+ 9.Qxf3
+Qb6!, when Black had counterplay in Hellers-Karpov, Haninge 1990. } 8... O-O 9. O-O-O Na6 10. h4 Nxf3
+11. gxf3 { Adams-Xu Jun, Cap d'Agde 1994. The g-file is open and the pawns roll with f4 and h5; White
+has the initiative, though Black held the draw. } )
+( 6... f5 { Supporting the knight, Bardeleben style. } 7. d3 Nxc3 8. bxc3 { Unclear. This is the one
+Qe2 line where the b-pawn takes back, because the d-pawn has already moved; White continues g3, Bg2 and
+later d4 or c4. } )
+7. dxc3 { [%cal Gc1f4,Ge1c1] The same rule as after 5.Qf3: open the bishop and the d-file, castle
+long. }
+( 7. bxc3?! { Here the structural recapture is simply slow. } 7... O-O 8. g3 f6 { Black opens the
+f-file first and is slightly better (Goeller). } )
+7... c5 { Space on the queenside and a square for the knight. Black delays castling on purpose, as the
+next note shows. }
+( 7... O-O 8. Bf4 c5 9. O-O-O Nc6 10. c4! { The standard break when a rook on d1 faces the queen: the d5
+pawn cannot take. } 10... d4 11. Qe4 { Janosevic-Gligoric, Belgrade 1964. The d-pawn is blocked, Bd3
+comes with tempo against h7 and White is clearly better. } )
+( 7... Nc6 8. Bf4 Be6 9. O-O-O Qd7 10. Qe3 a6 11. Bg5 { [%cal Gf3d4] Exchanging the defender of the dark
+squares. } 11... O-O-O 12. Nd4 { Slightly better for White, Janosevic-Reshevsky, Maribor 1967. } )
+8. Bf4 Nc6 9. O-O-O Be6 10. h4 { [%cal Gh4h5,Gg2g3,Gf1g2] Gains space and rules out ...g5 against the
+bishop; the pawn will go to h5 to fix g7. } 10... h6 11. g3 { The bishop is going to g2 (or h3) to press
+on d5 and e6. } 11... Qd7 12. Bg2 O-O-O 13. h5 { Adams-Anand, Linares 1994, drawn after 13...Na5 14.b3
+Nc6 15.Qf2 Qc7. Both kings are safe and the centre is fixed. White plays for Nh4 and Bh3 or for the c4
+break, Black for ...d4.
+
+**Verdict:** level, with all the pieces on. Goeller suggests 13.Qf1 intending Bh3 as another try. } *
+
+[Line "5.Nf3 Bc5: the critical test"]
+[Section "3...d5 4.fxe5 Nxe4 5.Nf3"]
+[Summary "The reason theory prefers other fifth moves. 6.Qe2 is the best try: after 6...Bf2+ the king stands well on d1, but 6...Bf5 followed by ...d4 is a real problem."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Nf3 Bc5 { [%cal Rc5f2,Re4f2] The move that Tseitlin and
+Glazkov, and later Finkel, single out as the challenge to 5.Nf3. Black threatens ...Bf2+ and ...Nf2 and
+makes White solve a problem before he has castled. } 6. Qe2 { [%cal Ge2e4] Goeller's choice after working
+through the literature. The queen attacks e4, and after a check on f2 the king is not badly placed on
+d1. }
+( 6. d4 { By far the most common move, and Lane's recommendation. After 6...Bb4 7.Bd2 the bishop has
+taken two moves to reach b4, but White's centre is under pressure from ...c5 and ...Bg4. Goeller thinks
+only Black can be better; this is the safest line he gives. In current practice Black more often plays
+7...c5. } 6... Bb4 7. Bd2 Bg4 8. Be2 Nc6 9. O-O O-O 10. Qe1 Nxd2 11. Qxd2 f6 12. exf6 )
+6... Bf2+ { The forcing line, and the one a surprised opponent will choose. }
+( 6... Bf5 { [%cal Rd5d4] Mamedyarov's move against Jobava (Warsaw 2013) and the real test: Black just
+defends the knight and keeps his threats. } 7. Nd1 { [%cal Gd2d3,Gd1e3] Covers f2 and frees the d-pawn:
+d3 will drive the e4 knight away, and the knight on d1 comes back via e3 or f2. } 7... Nc6
+( 7... d4! { The critical move according to Finkel. It takes e3 from the knight and c3 from the pawn,
+so White cannot untangle normally. } 8. g4 Bg6 9. Bg2 { White's only consistent plan (d3 comes next),
+but Finkel's analysis ends in Black's favour. This is the main reason the chapter prefers 5.Qf3. } )
+8. d3 Qe7 9. Be3 { Jobava played 9.Ne3 and was gradually outplayed. } 9... O-O-O 10. dxe4 dxe4 11. Nd2 Nd4
+12. Bxd4 Bxd4 13. c3 Bxe5 14. Qf2 { Benjamin and Finkel: slightly better for White, who has a piece for
+two pawns and is about to consolidate. } )
+( 6... Nf2? { Wins the exchange and loses the game. } 7. d4 Bxd4 8. Nxd4 Nxh1 9. g3 c5 10. Nf3 Nc6 11. Bg2
+{ The knight in the corner is lost. White will have two pieces for a rook and pawn, with the centre. } )
+7. Kd1 { The queen cannot take: the knight defends f2. } 7... Nxc3+ 8. bxc3 { [%cal Gd2d4,Gc1a3] The
+exception to the recapture rule. }
+( 8. dxc3?! { 8...Bh4! brings the bishop out on the kingside with tempo, and Black is slightly
+better. } )
+8... Bc5
+( 8... Bb6 { Marshall's attempt to save a tempo against d4. } 9. Ba3! { Goeller's improvement on
+Torre's 9.d4. The bishop takes the diagonal that Black's has abandoned and Black cannot castle. } )
+9. d4 { 9.Qb5+ Nd7 10.d4 c6 11.Qb3 is Velasco's suggestion, about equal. } 9... Be7 10. Qf2
+{ [%cal Gf1d3,Gf2g3] The queen clears e2 for the king's bishop and heads for g3. } 10... O-O 11. Bd3 Bg4
+( 11... f6 12. Qh4 g6 13. Qh6 fxe5 14. Bxg6 hxg6 15. Qxg6+ Kh8 16. Nxe5 Bf5 17. Qh6+ Kg8 18. Ng6
+{ A forced draw. } )
+12. h3 Bh5 13. g4 Bg6 14. Bf5 c5 15. h4 Qa5 16. Qe3 cxd4 17. cxd4 Na6 18. Bd2 Qa4 19. Qb3 { Bangiev:
+slightly better for White. The king is safe on d1 behind the pawn centre, the kingside pawns have
+gained space with tempo and the queens come off on White's terms.
+
+**Verdict:** the 6...Bf2+ line is fine for White. The whole variation stands or falls with 6...Bf5 and
+7...d4, and there the published analysis favours Black. } *
+
+[Line "5.Nf3 Bg4 6.Qe2: the Kaufmann line"]
+[Section "3...d5 4.fxe5 Nxe4 5.Nf3"]
+[Summary "The pin invites two famous traps, Euwe-Yates and Spielmann-Flamberg. If Black avoids them with 6...Nxc3, White castles long with a pleasant game."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Nf3 Bg4 { Natural, and a favourite at club level. } 6. Qe2!
+{ [%cal Ge2b5,Gc3e4] Arthur Kaufmann's move. Black has to decide about the e4 knight at once, and with the
+bishop gone from c8 the check on b5 picks up b7 in several lines. }
+6... Nxc3 { The only move that keeps the balance. }
+( 6... Nc6? { The common error: it develops and seems to defend everything. } 7. Nxe4 Nd4
+( 7... dxe4 8. Qxe4 Qd7 9. Bb5 { White is a clean pawn up. } )
+8. Qd3 Bxf3 9. Ng3! { The quiet retreat that is easy to miss: Euwe-Yates, The Hague 1921. The bishop on
+f3 and the knight on d4 are both attacked and Black loses a piece. In the 1925 theme tournament Smirka
+played 9.gxf3 and Torre escaped. } )
+( 6... Nc5?! { Keeps the knight but loses time. } 7. d4 Bxf3 8. Qxf3 Qh4+ 9. g3 Qxd4 10. Be3 Qxe5
+11. O-O-O { Two pawns down, with every piece out and the black queen in the firing line. } 11... c6
+12. Nxd5! { The d-file is opened by force. } 12... cxd5 13. Rxd5 Qe6 14. Bc4 Qe4 15. Bxc5
+{ Spielmann-Flamberg, Mannheim 1914: 15...Qxf3 16.Re1+ and mate follows. Black should prefer 8...Ne6
+9.Be3, when White is only much better. } )
+( 6... Ng5 7. d4 { Goeller thinks 7.h4 may be stronger still. } 7... Nxf3+ 8. gxf3 Qh4+ 9. Qf2 Qxf2+
+10. Kxf2 Be6 11. Be3 { Barle-Pavasovic, Ljubljana 1994: a slightly better ending thanks to the centre
+and the open g-file. } )
+7. dxc3 { 7.bxc3 is playable too (Tholfsen-Torre 1925), but the d-pawn is consistent: Bf4 and O-O-O. }
+7... c6
+( 7... Nc6 8. Bf4 Qd7 9. O-O-O O-O-O 10. Qe3 { With h3 and Bb5 to come. Mallahi-Quintero, Yerevan 1999,
+was clearly better for White once the pin was broken and c4 was played. } )
+8. Bf4 Qa5 { Discouraging O-O-O by looking at a2. } 9. h3 { Asks the bishop where it is going before
+White commits his king. } 9... Qa4?! { Norwood's move in the model game. It hits f4 and stops c4, but it
+costs a tempo and White simply improves the bishop. } 10. Bg5 { [%cal Ge5e6] Torre's idea. The bishop
+keeps Black's king in the centre (no ...O-O-O, no ...Be7) and supports e5-e6. } 10... Be6 { The most
+solid reply according to Goeller. } 11. Nd4 Bc5 12. Nxe6 fxe6 13. b4 Bb6 14. Qh5+ g6 15. Qg4 Kd7 16. Bd3
+{ Slightly better for White (Goeller): two bishops, and a black king that has to live on d7. } *
+
+[Line "5.Nf3 Nc6 6.Bb5, and 5...Bb4"]
+[Section "3...d5 4.fxe5 Nxe4 5.Nf3"]
+[Summary "Against the knight move White pins first and then plays Qe2; the knight is chased to e6 and White keeps a small plus. 5...Bb4 6.Qe2 can end in a queen sacrifice."]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5! 4. fxe5 Nxe4 5. Nf3 Nc6 { Development with an eye on e5. }
+( 5... Bb4 { Pinning the knight that attacks e4. } 6. Qe2! { Once more. After the exchange on c3 the
+d-pawn recaptures and the bishop pair is White's. } 6... Bxc3 7. dxc3 O-O 8. Bf4 f6? { The thematic
+break fails tactically here. }
+( 8... c6 9. O-O-O Qa5 10. Kb1 { Slightly better for White (Goeller): after 10...Qb6 11.Qe1 the knight
+on e4 is short of squares. } )
+9. O-O-O fxe5 10. Qxe4! { A queen sacrifice that Spielmann missed against Cohn in 1908 (he took on e5
+and won anyway). } 10... dxe4 11. Bc4+ Kh8 12. Rxd8 Rxd8 13. Nxe5 { Nf7+ is threatened and Black cannot
+meet it properly; Goeller gives the position as winning. } )
+6. Bb5 { [%cal Gb5c6] The pin comes first: it secures e5 and makes ...Bc5 less effective. The immediate
+6.Qe2 Bf5 gave White nothing in Berg-Spassky, Bundesliga 1987. } 6... Be7
+( 6... Bc5 { The most common move in practice. } 7. d4 Bb6
+( 7... Bb4 8. O-O { White has castled and ...Bxc3 only strengthens his centre. } )
+8. O-O O-O 9. Na4 { Removing the bishop that presses on d4. } )
+7. Qe2 Nc5
+( 7... Nxc3 8. dxc3 O-O 9. Bf4 { The familiar set-up. The break 9...f6 fails to 10.O-O-O fxe5
+11.Rxd5!. } )
+( 7... Ng5 8. d4 Nxf3+ 9. Qxf3 O-O 10. Be3 { Turner-Motwani, British Championship 1994. White has the
+centre and castles long. } )
+8. d4 Ne6 9. Be3 O-O 10. O-O
+( 10. h4 { Bangiev's sharper recommendation: 10...h6 11.O-O-O Nb4 12.Qd2 c6 13.Be2 Re8 14.g4 with the
+initiative. The choice when a win is needed. } )
+10... a6 11. Ba4 Na5 12. Qf2 Nc4 13. Bb3 Nxe3 14. Qxe3 c6 15. Ne2 { Yegiazarian-Estrada Nieto, Linares
+1999: slightly better for White. Black has the bishops but no pawn break, while White can play c4
+against d5 and use the f-file. } *

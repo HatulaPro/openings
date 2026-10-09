@@ -1,0 +1,94 @@
+[Line "150 Attack: 5.Qd2 b5 6.f3 Bb7 7.O-O-O Nd7 8.h4 h6"]
+[Section "4.Be3 a6: the 150 Attack"]
+[Summary "White sets up Qd2, f3, long castling and a pawn storm. Black delays ...Ngf6 and short castling so that Bh6 has nothing to hit, kills the storm with ...h6 and strikes with ...Rc8 and ...c5."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 { White's most flexible move. The Modern is built on not showing the knights early, so Black
+does not hurry either. } 3... d6 { [%cal Gd6e5] The standard order. With the pawn on d6 and the king's knight still at home,
+e4-e5 has no target and only costs White time. }
+( 3... Nf6?! { Natural, but it hands White a tempo-gaining pawn move. } 4. e5 Ng8 { White has gained two tempi with
+the pawn and Black has a worse version of a Pirc. } )
+4. Be3 { [%cal Gd1d2,Ge3h6] The 150 Attack. Qd2 and Bh6 aim to trade off Black's fianchettoed bishop, f3 and O-O-O
+prepare the king, and h4-h5 comes against whatever Black has built. Against a Pirc set-up (...Nf6 and ...O-O) it is
+the most dangerous system for Black, because the castled king and the knight on f6 are the targets. } 4... a6 { [%cal Gb7b5,Gb5b4,Gc8b7]
+The Tiger's Modern, named by Hillarp Persson, with a logic borrowed from the Najdorf. ...a6 prepares ...b5 and ...b4, which
+drives the c3-knight away from the defence of e4, and the bishop on b7 then hits the pawn. It also takes b5 away from White.
+Above all it is a waiting move: Black commits his knights and his king only when the position has shown what White is doing. }
+5. Qd2 b5 { [%cal Gb5b4,Rb4c3] } 6. f3 { Protects e4 against ...b4 and ...Bxe4, and prepares g4 and Nge2 or Nh3. }
+6... Bb7 7. O-O-O Nd7 { [%cal Gd7c5,Gc7c5,Gg8f6] The queen's knight goes to d7, not the king's knight to f6. From d7 it supports
+...c5 and ...e5. The king's knight stays at home until the d4-pawn has been exchanged: then e4-e5 is no longer a lever and Bh6
+no longer hits a castled king. With the king on e8, Bh6 Bxh6 Qxh6 only trades a pair of bishops and puts the white queen on the edge of
+the board. }
+( 7... Ngf6?! { Too early. Now e4-e5 comes with tempo, and with ...O-O to follow the Bh6 and h4-h5 attack is on. } )
+8. h4 { [%cal Gh4h5,Rh5g6] White starts the storm before Black has done anything: h5 and hxg6 would open the h-file. }
+( 8. Bh6 Bxh6 9. Qxh6 Ngf6 { [%cal Gf6e4] Nothing has been won by the trade. The queen on h6 stops short castling, but it is far from the
+centre, Black develops with a threat on e4, and the king is not going to castle short in the next moves anyway. Equal. } )
+( 8. g4 h6 9. h4 { Transposes to the main line. } )
+8... h6 { [%cal Rh4h5,Gg6g5] The right reply. The pawn takes h6 away from the bishop (Bh6 is gone for good) and g5 from the knight
+(Ng5 is gone too), and if White plays h5 the answer ...g5 locks the wing. White has to find his play in the centre or on the c-file,
+where Black is ready. }
+( 8... h5!? { [%cal Gh7h5] The other way to stop h5. It leaves g5 as a hole for a white knight, which is the main line of the
+next game, where the same structure arises from the move order 7.h4. } 9. Nh3 Rc8 )
+9. Kb1 { Takes the king off the c-file, which is about to open, and guards a2 and c2. Other tries: 9.Nh3 Rc8 10.g4 c5 (Black's move order
+is the same) or 9.g4 Rc8. } 9... Rc8 { [%cal Gc8c5,Gc7c5] The rook belongs on the c-file for the break that is coming: after ...c5 and dxc5 the knight
+recaptures with a gain of time (it hits e4) and the rook already stands behind it. } 10. g4 { White gains space on the
+kingside, but he has now spent several moves on the wing where his own king is not. }
+10... c5 { [%cal Gc5d4,Gb7e4] The break. Whatever White does about the pawn on d4, Black gets the e5-square under control and can then
+bring out the king's knight without fear of e5. } 11. dxc5 { [%cal Rd2d7] } 11... Nxc5 { [%cal Gc5e4,Gb7e4] Two pieces now hit e4.
+White's king's bishop is still at home and the b2-b3 and Nge2 moves needed to cover everything cost time. } 12. Bd4 { Hits the knight and
+the bishop on g7 at once. } ( 12. Nh3 Qa5 { Pressure on c3 and a2, and ...b4 comes next. } ) 12... Bxd4 { Black takes the bishop that
+White would like to keep, so that the knight on c5 cannot be harassed and the d4-square belongs to nobody. } 13. Qxd4 { The knight on c5 is
+defended by the rook on c8. Black continues with ...Ngf6, ...Qc7 or ...e5, depending on the move. The position is balanced: White has
+the more advanced pawns, Black has the more active pieces and the open c-file, and his king, still in the centre, is in no danger. } *
+
+[Line "Critical test: 7.h4 h5 8.Nh3 Nd7 9.Ng5, the knight on g5"]
+[Section "4.Be3 a6: the 150 Attack"]
+[Summary "White plays h4 before castling, Black stops h5 with ...h5, and the white knight lands on g5. Black ignores it, plays ...Rc8 and ...c5 and gets sharp counterplay."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Qd2 b5 6. f3 Bb7 7. h4 { Before castling. Black cannot allow h5 for free. } 7... h5 { [%cal Rh4h5]
+The pawn stops h5 for good. The cost is the g5-square, which a white knight can use and which Black cannot control with a pawn. This is
+the critical test of 7...h5, because a knight on g5 cannot be challenged by a pawn. }
+( 7... h6 { [%cal Gh6h5] The Semi-Hippo way. Without the g5-hole for a knight, the pawn on h6 meets h5 with ...g5 and the wing is locked.
+It is also good, and the safer choice if the sharp knight line below does not appeal; the price is that White has gained space with h4-h5 and
+the pawn on g5 can become a target for f3-f4. } 8. h5 g5 )
+8. Nh3 { [%cal Gh3g5] The knight heads for g5, where it is safe from pawns and hits e6 and f7. It does not block the f-pawn. } 8... Nd7 9. Ng5 { [%cal Rg5f7,Rg5e6] } 9... Rc8 { [%cal Gc7c5] Black does not chase the knight
+(there is no good way to). He lets it stand where it is and starts the counter-break; the knight on g5 is far from d4 and the centre. }
+10. O-O-O c5 { [%cal Gc5d4,Gb7e4] } 11. dxc5 { 11.Kb1 is the other main choice and also met by ...cxd4. } 11... Nxc5 { [%cal Gc5e4,Gb7e4,Gc5a4] }
+12. Bd4 { The bishop takes the best diagonal and pins down the g7-bishop's activity. } 12... Nf6 { [%cal Gf6e4,Gf6g4] The king's knight can finally
+come out: after ...Nxc5 the e5-lever is gone, and from f6 it adds to the pressure on e4 and will let the king castle. } 13. Kb1 O-O { Castling is possible
+now: the pawn on h5 keeps the h-file shut and the knight on g5 has nothing to bite on. }
+14. g3 { A useful waiting move: it covers f4 and h4 and prepares Bg2. } 14... e5 { [%cal Ge5d4] The central break comes with a threat to the bishop on d4. } 15. Be3 b4
+{ [%cal Gb4c3,Gc5e4] Now c3 is under attack and the e4-pawn is overloaded. } 16. Ne2 Ncxe4!? { [%cal Ge4d2,Ge4g5] The point of the whole sequence.
+After the exchange the knight on e4 attacks both the queen and the knight on g5. } 17. fxe4 Nxe4 { The knight forks Qd2 and Ng5. The study continues with
+18.Qxb4 Qc7 and finds strong compensation for Black. The sequence is forcing and double-edged, so it should be checked at the board before it is relied on. A calmer
+path is 14...Qc7 (the move most often played) with a normal game. } *
+
+[Line "Quiet 6.Bd3: 6...Bb7 7.Nf3 Nd7 8.O-O c5"]
+[Section "4.Be3 a6: the 150 Attack"]
+[Summary "White protects e4 with the bishop and develops normally. Black treats it as a Najdorf-type position and strikes at once with ...c5, before White's king is safe."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Qd2 b5 6. Bd3 { Defends e4 with the bishop, which makes ...b4 harmless. Against it, Black develops the
+same pieces and prepares the same break. } 6... Bb7 { [%cal Gb7e4] } 7. Nf3 Nd7 { [%cal Gd7c5,Gc7c5] The knight prepares ...c5 and keeps the other
+knight at home. Moving it to f6 now would run into e5. } 8. O-O c5! { [%cal Gc5d4] Hit the centre before the white pieces are placed. If White waits
+(9.Rfe1 cxd4 10.Nxd4 Ngf6 11.f3 O-O), Black has a good version of the Dragon: the knights are developed, the king is safe and the long diagonal is
+open. }
+9. dxc5 { The most common reply. White opens the d-file and wants to harass the knight. } ( 9. Rfd1 Qc7! { Stops the e5 trick and prepares
+...cxd4. } ( 9... Ngf6? { Natural, but it walks into the pin on the d-file. } 10. dxc5 dxc5 11. e5 Ng4 12. e6! { Black loses material: the knight on d7
+is attacked and the queen on d2 stands on the same file as the rook on d1, so ...Qxd2 does not save it. } ) )
+9... Nxc5 { [%cal Gc5d3,Gc5e4] } 10. b4 { Wins a tempo on the knight but loosens the queen's wing. } 10... Nxd3 11. cxd3 Ngf6 { The bishop pair
+is gone, but White's pawn structure has holes on b4 and d3, and the pressure on e4 is back with tempo. Black has a comfortable game: he
+castles, plays ...O-O, ...Rc8 and ...Qb6 or ...Nd5 depending on the move. Equal. } *
+
+[Line "5.h4: 5...h5 and the Semi-Hippo 5...h6"]
+[Section "4.Be3 a6: the 150 Attack"]
+[Summary "White starts the h-pawn storm at move five. Black stops it with ...h5, and if White goes for Nh3-g5 he trades the knight with ...Bxh3."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. h4 { White starts the storm before developing. The point is that ...Nf6 now runs into h5. }
+5... h5 { [%cal Gh7h5] Stops the pawn. It is the same idea as in the previous game, and the structure often comes out the same way. }
+( 5... h6!? { Semi-Hippo. If White plays h5 Black answers ...g5 and has a very solid wall. After 6.Qd2 b5 the play is like the
+main line with the h-pawns locked. } 6. Qd2 b5 )
+6. Nh3 { [%cal Gh3g5] The knight prepares Ng5. } ( 6. Qd2 b5 7. f3 Bb7 { Transposes to the previous game. } )
+6... Bxh3 { [%cal Gc8h3] Black swaps off the knight before it reaches g5. It gives up the bishop pair, but White's rook on h3 is badly placed,
+the h-pawn is stuck and Black's structure has no weaknesses. } 7. Rxh3 { [%cal Rh3h5] } 
+7... Nf6 { [%cal Gf6e4,Gf6g4] } ( 7... Nd7 { Playable too. } ) 8. f3 { Defends e4 and covers g4. } 8... Nbd7 { Black has completed his development
+and can still choose between castling and keeping the king in the centre. The game is balanced; the typical plan is ...c5 or ...b5 and
+...Qc7 followed by long-term pressure on e4. } *

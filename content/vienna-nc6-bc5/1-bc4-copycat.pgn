@@ -1,0 +1,91 @@
+[Line "3...Bc5 4.Qg4 g6 5.Qf3: the copycat reply"]
+[Section "2...Nc6 3.Bc4 Bc5 4.Qg4"]
+[Summary "Black copies White and puts the bishop on c5, leaving g7 undefended. 4.Qg4 hits it; after 4...g6 the queen retreats to f3 with the threat of Qxf7 and White builds Nge2, d3, Qg3 and Bg5 against a loosened king side."]
+
+1. e4 e5 2. Nc3 Nc6 { [%cal Gf1c4,Gf2f4] The most popular reply, which simply copies White. White has two serious answers: 3.Bc4 (the main line of this chapter) and 3.f4, the Vienna Gambit proper, which gets its own lines further on. The choice of 3.Bc4 is practical: it keeps one set of ideas for both 2...Nf6 and 2...Nc6, because the natural 3...Nf6 simply transposes into the sibling chapter on 3.Bc4, while every other third move allows a queen raid or a quick f4. }
+3. Bc4 { [%cal Gc4f7,Gd1g4] The bishop eyes f7, the one square that only the king guards while Black is uncastled. The g1 knight stays at home on purpose: Nf3 would sit on the d1-g4 diagonal and block the queen from reaching g4, and the knight is better placed on e2 anyway, where it does not stand in front of the f-pawn. }
+3... Bc5 { [%cal Rc5f2] The copycat. The bishop eyes f2, but it has left f8 and with it the last defender of g7. That is the whole point of White's next move. }
+( 3... Nf6 { By far Black's soundest and most common reply. After 4.d3 we are in the sibling chapter "Vienna with 3.Bc4", so the lines stop here. } )
+4. Qg4! { [%cal Gg4g7,Rh8g8] The point of the setup. The queen attacks g7 and with it the rook on h8, and Black has no way to keep both his pawn and his development in order. Every sensible reply weakens something: ...g6 loosens the dark squares, ...Kf8 gives up castling, ...Qf6 walks into a knight jump and ...Nd4 loses a tempo to a queen trade. }
+( 4. Nf3 { The quiet alternative. It is perfectly playable and gives an Italian-style game, but Black equalises without difficulty: 4...Nf6 5.d3 d6 6.Bg5 h6 is the standard picture, and the Vienna sting is gone. Qg4 is the reason to put the bishop on c4 and keep the knight on g1. } 4... Nf6 5. d3 d6 6. Bg5 h6 { Level. } )
+4... g6 { The solid-looking reply: the pawn move itself defends g7. What it costs is the dark squares: f6 and h6 are now permanent holes and the bishop on c5 no longer guards anything on that side. }
+( 4... Kf8 { The studies single this out as Black's most accurate reply: the king guards g7 and Black gives up castling. They treat the plans against ...g6 and ...Kf8 as the same, because the queen goes back to f3 in each case. } 5. Qf3 { [%cal Gf3f7,Gc4f7] Mate threat on f7, again. 5...Nd4 would lose at once to Qxf7#. } 5... Nf6 6. Nge2 d6 7. d3 Bg4 8. Qg3 h5 9. h4 { [%cal Gg3e5] The same set-up as in the main line. The h-pawn is stopped: ...h4 would have chased the queen off g3. Black has no castling rights and a bishop that is shut out of the kingside by its own pawns, while White plays Bg5 or Nd5, then Bd2 and O-O-O. } )
+5. Qf3 { [%cal Gf3f7,Gc4f7] The queen retreats with a mate threat: f7 is attacked twice and defended only by the king, so Qxf7# is on. Black must block the f-file or defend f7 at once, which gives White a free move to develop. Note that the queen now stands in the way of the g1 knight, which is another reason Ne2 is the right square for it. }
+5... Nf6 { Blocks the f-file. }
+( 5... Nd4?? { The knight attacks the queen but unblocks the f-file. A very common mistake in this line. } 6. Qxf7# )
+( 5... Qf6?! { Stopping Qxf7 by offering a queen trade, but White does not have to accept it passively. } 6. Nd5 { [%cal Gd5f6,Gd5c7] The knight hits the queen and c7 at once. } 6... Qxf3 7. Nxf3 { The exchange has not removed the problems: Nxc7+ is threatened and the pawn on g6 leaves f6 and h6 weak. } 7... Bb6 8. a4 a5 9. Nxb6 cxb6 10. d4 Nxd4 11. Nxd4 exd4 12. Bf4 { Black's structure is wrecked: pawns on b6, b7, d4 and d7 are all weak and f7 is under the bishop's eye. White's task in the ending is to collect them. } )
+6. Nge2 { [%cal Ge2d4,Ge2g3] Prevents ...Nd4. After 6...Nd4 White simply takes, and the knight on e2 also keeps c2 safe, which matters because ...Nd4 would otherwise fork the queen and attack c2. The knight can later go to g3, from where it supports the pressure on the king side. }
+6... d6 7. d3 { [%cal Gc1g5,Ge2g3] Opens the diagonal for the c1 bishop. Bg5 pins the f6 knight against the queen and Black's king side has no pieces to answer it. }
+( 7. h3 { Bosburp's preference: h3 takes g4 away from the bishop and the knight in advance, so that the queen never has to leave f3. } 7... Be6 8. d3 { Not 8.Bxe6, which hands Black the half-open f-file after ...fxe6. } 8... Bxc4? { The most popular reply and a blunder. } 9. Bg5! { [%cal Gg5f6,Gf3f6] The knight on f6 is attacked twice and defended once. } 9... Nd4 10. Nxd4 exd4 11. Bxf6 Qd7 12. Bxh8 dxc3 13. dxc4 cxb2 14. Bxb2 { White comes out a full rook up. } )
+7... Bg4 { Attacks the queen and prepares ...Qd7 and long castling. }
+8. Qg3 { [%cal Gg3e5,Gc1g5,Gg5h4,Gc3d5] The queen steps out of the attack with tempo and keeps an eye on e5. If Black takes on e2, the knight recaptures and keeps d4 covered. The threat now is Bg5, Qh4 and Nd5 winning the pinned knight, so Black has to spend moves on it. }
+8... Qd7 9. Qh4 { [%cal Gh4f6,Gc1d2] Pins the knight again and stops long castling: if the knight ever leaves f6, the queen looks straight at d8. Short castling means putting the king on a weakened g-file, so Black's king has no good home. Next come Bd2, O-O-O and f4, with the usual Vienna attack on a king that has not found a place.
+
+**Verdict:** White is clearly the one with the easier game here. The line is a model for the dark-square weaknesses after ...g6; the practical risk for White is small as long as the queen is not trapped by ...h5-h4 or ...Nd4. } *
+
+[Line "4.Qg4 Qf6?! 5.Nd5: the poisoned f2 pawn"]
+[Section "2...Nc6 3.Bc4 Bc5 4.Qg4"]
+[Summary "Black defends g7 with the queen and threatens f2. White offers the pawn: 5.Nd5 Qxf2+ 6.Kd1 and the king survives while the queen is nearly trapped and both g7 and c7 are loose."]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 Bc5 4. Qg4 Qf6?! { [%cal Rf6f2] The most natural-looking defence: the queen guards g7 and adds to the pressure on f2 (bishop, queen) at once. It is the move that costs the most at club level, but it is not refuted by force: the Wikibooks table gives White only a slight edge here, so it is a trap, not a refutation. }
+5. Nd5! { [%cal Gd5f6,Gd5c7,Rf6f2] A counter-sacrifice. The knight attacks the queen and the c7 pawn (a fork of king and rook is in the air after Nxc7+), and White does not care about f2. }
+5... Qxf2+ 6. Kd1 { [%cal Gg4g7,Gd5c7] The only move. The king is exposed, but White now threatens two things at once: Qxg7, attacking the rook on h8, and Nxc7+, forking king and rook on a8. Black has one move to meet both. }
+6... Kf8 { The only move that meets both threats: the king guards g7 and leaves the e-file, so that Nxc7 is no longer check. }
+( 6... g6? { Loses the queen's retreat: she gets trapped on d4. } 7. Nh3 { [%cal Gh3f2] The knight hits the queen and f2 is covered twice, so the queen has one square left: d4. } 7... Qd4 8. d3 { [%cal Gc1e3] The queen is almost trapped: c3 and Be3 are coming. } 8... d6 9. Qh4 Bxh3 10. Qxh3 Qf2 11. Nxc7+ Kd8 12. Nxa8 { White wins the rook on a8 and comes out well ahead. } )
+( 6... d6? { Defends neither g7 nor c7. } 7. Qxg7 { Takes g7 with an attack on the rook h8, and the fork on c7 is still on the board. Black cannot meet both threats. } 7... Nd4 8. Ne2 Nxe2 9. Bxe2 { White has won g7 back for the f2 pawn and the rook on h8 is still attacked. } )
+( 6... Nf6? { Develops, but g7 is simply lost. } 7. Qxg7 { The knight on f6 is attacked and the rook is hit. } 7... Nxd5 8. Qxh8+ Bf8 { White has won the rook for a knight and the queen on h8 attacks the bishop, though it is far from its own king. } )
+7. Nh3 { [%cal Gh3f2,Gh3g5] The knight comes to the f2 square, attacking the queen and giving the rook the f-file. }
+7... h5 { Attacks the queen. } 8. Qg5 { [%cal Gg5h5,Gg5e7] The queen goes to g5, from where it attacks h5 and covers e7 and d8. }
+8... Qd4 { The only safe square. } 9. d3 { [%cal Gc1e3,Gc2c3] The queen on d4 is short of squares: c3 or Be3 will harass her. }
+9... Be7 { The bishop attacks the queen on g5 and gives the black queen the c5 square. } 10. Qg3 { [%cal Gg3g7,Gg3e5] The queen retreats and again looks at g7 and e5. The Vienna System study continues 10...b5 or 10...Nf6 11.c3, when the black queen is short of room.
+
+**Verdict:** White has the initiative in return for one pawn, and the black king is stuck on f8. The Wikibooks table marks this as a slight advantage (+/=), which is the fair summary: a good line to play against a player who will walk into 5...Qxf2+ without knowing the follow-up, but not a forced win. } *
+
+[Line "4.Qg4 Nd4 5.Qxg7: the queen trade"]
+[Section "2...Nc6 3.Bc4 Bc5 4.Qg4"]
+[Summary "Black attacks c2 with the knight. White ignores the fork and takes g7, because Qxf7 is mate; after 5...Qf6 the queens come off and White is a pawn up in an open position."]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 Bc5 4. Qg4 Nd4 { [%cal Rd4c2] Black counter-attacks: the knight eyes c2 and f3. A natural idea, since Nxc2+ would fork king and rook. }
+5. Qxg7! { [%cal Gg7h8,Gg7f7,Gc4f7] Ignores the threat. The queen attacks the rook on h8 and, with the bishop on c4, the f7 pawn. If Black takes on c2 now, Qxf7# is mate. }
+( 5. Qxg7 Nxc2+ 6. Kd1 Nxa1 7. Qxf7# { Black has no time to take the rook. } )
+5... Qf6 { Black has to defend f7 and meet the threat on h8 with one move; the queen trade does both. }
+6. Qxf6 Nxf6 7. Bd3 { [%cal Gd3c2] The bishop guards c2 against the fork. White is a pawn up and has to consolidate. }
+( 7. Bb3 { The other way to meet ...Nxc2+: trade the bishop for the knight. } 7... Nxb3 8. axb3 Rg8 9. g3 Ng4 10. Nh3 d6 11. d3 { The structure is a little worse, and the bishop pair is gone, but the a-file is open. Bd3 is more natural because it keeps the bishop. } )
+7... Rg8 { [%cal Rg8g2] The rook uses the open g-file at once; Black's compensation is activity and the g2 pawn. }
+8. g3 { Closes the file. } 8... c6 9. Nce2 { [%cal Ge2d4,Gc2c3] The knight heads for d4, where it can swap the strongest black piece, and c3 can follow. }
+9... d5 10. Nxd4 Bxd4 { With the strong knight gone, White has a pawn more, a solid position and a bishop on d3 against a bishop on d4 that still hits b2 and f2.
+
+**Verdict:** White is a pawn up and has the easier game, but Black has the g-file and the bishop pair for a while, so the extra pawn must be converted with care. The studies stop at this point. } *
+
+[Line "3...d6 4.a3: a quiet set-up"]
+[Section "2...Nc6 3.Bc4 other third moves"]
+[Summary "After the passive 3...d6 White takes b4 away from Black's pieces and keeps the bishop with Ba2, then d3 and f4 in the Vienna manner."]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 d6 { A cautious reply that does not threaten anything. Black avoids the Qg4 idea, but he has given up the chance to develop the bishop actively and the c8 bishop is now free to be exchanged on c4 or e6. }
+4. a3 { [%cal Ga3b4,Gc4a2] A prophylactic move that sounds slow and has three jobs: it stops ...Nb4 and ...Bb4 with a pin or an attack on c2, it gives the bishop the a2 square if Black plays ...Na5, and it prepares b4 for a queen-side advance. }
+( 4. d3 { A fully playable second choice: after 4...Nf6 5.f4 we reach the structure of the sibling chapter on 3.Bc4 by transposition, so one may prefer it if one wants to avoid learning anything new against 3...d6. } 4... Nf6 5. f4 )
+4... Nf6 { The most natural development. }
+( 4... Na5 5. Ba2 { The bishop keeps the diagonal; without a3 White would have to trade on a5. } )
+5. d3 { [%cal Gf2f4,Gc1e3] The central pawn structure for the Vienna: d3, e4 and f4 later. White has the plan Nf3, Be3 and a break with f4 or d4. }
+5... Nd4 { The most active reply: the knight uses d4 before White can control it. }
+( 5... Be6 6. Nf3 Bxc4 7. dxc4 Na5 8. Qe2 Be7 9. Be3 O-O { A typical structure for the Bxc4 lines: White has a half-open d-file and the bishop pair is gone. The knight on a5 is badly placed, and c4 is weak but defended. } )
+6. Nge2 { [%cal Ge2d4,Gc4f7] Challenges the knight at once and keeps the bishop on c4. }
+6... Nxe2 7. Qxe2 { The queen recaptures, not the knight: the c3 knight stays on its good square and the queen supports e4 and the coming f-pawn break. } 7... c6 8. f4 { [%cal Gf4e5] With the knights traded the f-pawn can challenge e5 at once; the queen on e2 backs the advance and the f-file opens for White's rooks. }
+8... Be7 9. fxe5 Bg4 10. Qf2 { [%cal Gf2f7] The queen steps out of the attack onto the open f-file, with the bishop on c4 behind her. } 10... dxe5 11. Be3 O-O 12. O-O b5 13. Bb3 c5 14. Nd5 { With ...c5 played, no black pawn watches d5 any more and the knight takes the outpost. } 14... Nxd5 15. Bxd5 { [%cal Gd5a8] The bishop on d5 hits the rook on a8; White has the more active pieces and the f-file.
+
+**Verdict:** roughly level, but with the easier plans for White. The studies end here; the position is typical for the 3...d6 line: White uses the f-pawn and the central squares, while Black's pieces are passive. } *
+
+[Line "3...h6 4.d3: a waiting move"]
+[Section "2...Nc6 3.Bc4 other third moves"]
+[Summary "3...h6 prepares to meet Qg4 with ...Qf6, but the queen goes to g3 and a messy fight on the queen-side follows."]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 h6 { Black prepares the copycat set-up without the g7 weakness: if the bishop goes to c5, ...Qf6 or ...g5 follows. The move is a slight loss of time. }
+4. d3 { Prepares Be3 and avoids the knight jump to d4 for a while. } 4... Bc5 5. Qg4 { [%cal Gg4g7] The same idea as in the main line, only now g7 is undefended even without the bishop leaving f8. }
+5... Qf6 { Defends g7 and eyes f2. }
+( 5... g5 6. Qg3 d6 7. Be3 Bxe3 8. fxe3 Na5 9. Bb3 Nxb3 10. axb3 Qe7 11. d4 exd4 12. exd4 Be6 13. Nge2 { A calm position in which White has the half-open f-file and a firm centre. } )
+( 5... g6 6. Qg3 d6 7. Nge2 a6 8. Be3 Nd4 9. O-O Nxc2 10. Bxc5 Nxa1 11. Rxa1 dxc5 12. Qxe5+ Kf8 13. Qxh8 { A tactical line in which White comes out ahead: the rook on h8 falls. } )
+6. Qg3 { [%cal Gg3g7,Gg3e5] The queen steps out of the way, still attacking g7 and e5. The sacrifice 6.Nd5 Qxf2+ is not the same trick as in the 4...Qf6 line, and the study avoids it. }
+6... Nge7 7. Be3 d6 8. Nge2 Nd4 { [%cal Rd4c2] } 9. Nb5 { [%cal Gb5c7,Gb5d4] Counter-attacks: the knight eyes c7 and d4 and ignores the fork on c2. }
+9... Nxc2+ 10. Kd2 Nxa1 11. Nxc7+ Kd8 12. Nxa8 Bb4+ 13. Nc3 { A mutual rook swap: both kings are exposed and both sides have a knight on the edge, the one on a1 and the one on a8. The line is a coin-flip melee and I would only enter it with preparation.
+
+**Verdict:** unclear. The study shows how rich the position is but does not give a clear assessment; the safer course against 3...h6 is the plain development with Nf3 or Nge2, d3 and Be3, keeping the Qg4 idea in reserve. } *

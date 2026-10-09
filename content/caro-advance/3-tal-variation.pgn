@@ -1,0 +1,87 @@
+[Line "Tal Variation: 4.h4 h5 5.Bd3"]
+[Section "3...Bf5 4.h4: the Tal Variation (second weapon)"]
+[Summary "After ...h5 White exchanges bishops after all, puts the other bishop on g5 and opens the centre with c4. The g5-square and the pawn on h5 are permanent assets."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 { [%cal Gg2g4,Gh4h5] The Tal Variation, and Shaw's repertoire choice. The
+threat is g4 followed by h5, winning the bishop, so Black must do something about the h-pawn at once. }
+4... h5 { The main move: it stops g4 for good. The price is the g5-square and a target on h5. }
+( 4... e6?? { The natural developing move loses a piece. } 5. g4 Be4 6. f3 Bg6 7. h5 { The bishop has no
+square: h7 is occupied, and g4 and f3 cover the rest. } )
+5. Bd3 { [%cal Gc1g5] In the Short System this exchange was a mistake. Here it is the modern main line, because
+the pawn moves have changed the balance: Black can never play ...h6, so g5 belongs to White's bishop, the pawn
+on h5 needs constant protection, and the queen on d3 looks at g6. }
+( 5. c4 { The older main line, and the one Shaw gives in Playing 1.e4: White keeps the bishops and opens the
+c-file. Black chooses between 6...Ne7 followed by ...Nd7, and 6...dxc4 7.Bxc4 Nd7 (Eljanov), playing for the
+d5-square. A good alternative if you prefer more pieces on the board. } 5... e6 6. Nc3 )
+5... Bxd3 6. Qxd3 e6
+( 6... Qa5+ { The move Eljanov's repertoire for Black calls essential: before ...e6 the queen checks and heads
+for a6 to offer an exchange. } 7. Nd2 { 7.b4 is a serious pawn sacrifice (7...Qxb4+ 8.Nd2 e6 9.Rb1 Qe7 10.c4),
+for those who want more. } 7... e6 8. Ngf3 Nh6 9. O-O Nf5 10. Nb3 Qa6 11. Qd1 { White keeps the queens on.
+Eljanov considers 11...b6 followed by ...c5 satisfactory for Black. The position is balanced, but Black still
+has to solve the problem of the king: castling short leaves h5 weak, and Bg5 is always available. } )
+7. Bg5 { [%csl Yg5] The point of exchanging on d3. The bishop sits outside its pawn chain on a square from which
+no pawn can drive it, and it cramps the whole kingside: ...Ne7 walks into a pin, ...Be7 offers Black's better
+bishop for exchange, and ...f6 weakens e6 and g6. }
+7... Qb6 { The main reply: the queen leaves the bishop's diagonal, attacks b2 and prepares ...Qa6. }
+( 7... Be7 { Black accepts the exchange of dark-squared bishops to free the position. } 8. Nf3 Nh6 9. Nbd2
+{ White does not hurry to take on e7. After the exchange the d6-square and the pawn on h5 stay weak, and
+Bxh6 is an extra option now that the knight has gone there. } )
+8. Nd2 { The b-pawn is offered: after 8...Qxb2 9.Rb1 and 10.Rxb7 the rook is on the seventh rank before Black
+has developed a kingside piece. The knight supports c4 and will be followed by the other one on f3. }
+8... Qa6 { Black offers queens to get rid of the pressure on the light squares. }
+( 8... c5 { The other main move. } 9. c4 { The same break. With both c-pawns advanced the centre is blown open
+while Black's kingside is still at home. The usual reply, 9...Qxb2, leads to wild play after 10.Rd1 or
+10.Rb1. } )
+9. c4 { [%cal Gd2c4] White refuses, since after Qxa6 Nxa6 Black's game is easy, and uses the queen's position to
+open the centre. If Black takes, Nxc4 brings the knight towards d6. }
+9... Nd7 10. Ngf3 Ne7 11. O-O { **Plan:** rooks to the c- and d-files, then cxd5 or c5 according to where
+Black's king goes. A knight heading for f4 attacks h5 and e6.
+
+**Verdict:** White is the more comfortable: more space, the better minor pieces, and a weakness on h5 that will
+still be there in the ending. This is the line that has made 4.h4 the most popular fourth move in elite online
+play. } *
+
+[Line "Tal Variation: 4.h4 h6 5.g4"]
+[Section "3...Bf5 4.h4: the Tal Variation (second weapon)"]
+[Summary "Black keeps g5 covered but lets White gain space with tempo. The bishop either retreats to d7, with a French where White owns the kingside, or allows the pawn sacrifice e6."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 { Black gives the bishop a retreat on h7 and keeps g5 under control. The
+cost is that g4 now comes with tempo. } 5. g4 { White takes the space for nothing. The bishop has three squares,
+and only the most modest one avoids the e6 sacrifice. }
+5... Bd7 { Played by Leko and Ivanchuk (Silman). Black admits that the bishop went to f5 for nothing and plays a
+French with ...c5, counting on White's advanced kingside pawns to become targets. }
+( 5... Be4 { Provoking f3 first, which takes that square from the knight. } 6. f3 Bh7 7. e6! { [%csl Rg6,Re6] The
+thematic sacrifice. If Black takes, the e6-pawn blocks the f8-bishop and the whole kingside, and Bd3 exchanges
+the only piece that covers g6. } 7... Qd6 { The usual reply, attacking the pawn and threatening ...Qg3+. }
+8. exf7+ Kxf7 9. f4 { Closes the diagonal to g3 and takes e5 for the knight. Material is level, Black's king has
+lost the right to castle and the bishop on h7 is shut out; Nf3-e5+ and Bd3 follow. } )
+( 5... Bh7 { The retreat the bishop was given h7 for. } 6. e6! { The same idea without f3 included. }
+6... fxe6 7. Bd3 { White is a pawn down for a lasting bind: after the exchange of bishops the queen comes to
+g6 with check, the king has to stay in the centre, and Nf3-e5 follows. } )
+6. h5 { [%csl Rg7] Fixes the kingside pawns and, above all, stops Black from ever undermining g4 with ...h5.
+The same move is right against 4...Qb6 for the same reason. }
+6... e6 7. f4 c5 8. c3 Nc6 9. Nf3 { **Plan:** a French Advance in which Black's bishop is back on d7 and White
+has been given g4, h5 and f4 for nothing. White defends d4 (Na3-c2, with Rh2 to cover b2 after ...Qb6), puts
+the king on f2 and prepares f5.
+
+**Verdict:** more space and the initiative for White. The thing to respect is White's own king, which has no
+pawn cover: do not let ...Qb6 and ...cxd4 open the centre before the queenside is developed. } *
+
+[Line "Tal Variation: 4...Qb6, 4...a6 and 4...c5"]
+[Section "3...Bf5 4.h4: the Tal Variation (second weapon)"]
+[Summary "Black sidesteps the h-pawn question with a useful move. White plays g4 and h5 anyway and reaches the French structure with extra space, or takes on c5."]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 Qb6 { The queen eyes b2 and d4. The idea is to answer g4 with ...Bd7 and then
+hit the pawn chain with ...h5 and ...c5, arguing that White's pawns have gone too far. }
+( 4... a6 { The third most popular move in elite online games: a pure waiting move that prepares ...c5 and keeps
+the bishop's options. } 5. g4 Bd7 6. h5 { Again the French structure with extra space. Black continues ...c5,
+and ...a6 turns out to be only moderately useful. } )
+( 4... c5 { Striking at d4 with the bishop already out. } 5. dxc5 Nc6 { 5...e6 still loses the bishop to g4. }
+6. Bb5 { White pins the knight, holds the pawn with Be3 or b4 and keeps g4 in reserve to gain more time. The
+main reply is 6...Qc7, when 7.Nf3 e6 follows. } )
+5. g4 Bd7 { The bishop must go all the way back: 5...Be4 6.f3 Bg6 7.h5 traps it, as after 4...e6. }
+6. h5 { Stops ...h5, which would undermine g4 and win f5 for a knight. }
+6... e6 7. f4 c5 8. c3 { **Plan:** the structure of the 4...h6 line, with one difference in White's favour: the
+h-pawn can go on to h6. White continues Nf3 and Na3-c2, covering d4 and b2.
+
+**Verdict:** White has the space, and the queen's sortie has not changed the assessment. } *

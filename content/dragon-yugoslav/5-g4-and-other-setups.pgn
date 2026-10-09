@@ -1,0 +1,87 @@
+[Line "9.g4 Be6 10.Nxe6"]
+[Section "9.g4 and other set-ups"]
+[Summary "White stops ...d5 with the g-pawn and takes the bishop on e6. Black gets the f-file and control of d5 in return for doubled pawns, and plays ...Ne5, ...Qc8 and ...Nc4."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. g4 { [%cal
+Rg4g5,Rh2h4] The third main move. The pawn discourages ...d5, because g5 would drive away the knight
+that supports it, and it prepares h4-h5 without spending time on Bc4. What it gives up is the f3-pawn's
+stability and the option of answering ...Be6 with a bishop already on b3. } 9... Be6 { [%csl Yd5,Yc4]
+The established reply, recommended by Jones and by Giri. The bishop takes the diagonal White left
+empty, covers d5 and c4, and makes ...d5 a threat again. Black does not mind Nxe6: the doubled pawns
+guard d5 and f5, and the f-file opens against f3. }
+( 9... Nxd4 { A move order that avoids Nxe6: after 10.Bxd4 Be6 11.O-O-O Qa5 Black is in the next line. } )
+10. Nxe6 { The most popular move. White takes the bishop pair and a long-term target on e6. }
+10... fxe6 11. O-O-O Ne5 { [%cal Ge5f3,Ge5g4,Ge5c4] The knight hits f3 and g4 at once and forces the
+bishop to a passive square. } 12. Be2 Qc8 { [%cal Gc8c4,Ge5c4] The queen supports ...Nc4, keeps an eye on
+g4 and leaves d8 free. The natural 12...Rc8 is less accurate, because 13.Nb5 hits a7 and d6 while the
+rook is in the queen's way. } 13. h4 Nfd7 { [%cal Gf8f3,Gd7b6] Opening the f-file and the bishop's
+diagonal together. The f3-pawn is now attacked twice, and the knight is ready to recapture on e5 or go
+to b6 and c4. } 14. h5
+( 14. f4 { Chasing the knight where it wants to go. } 14... Nc4 15. Bxc4 Qxc4 { Black has exchanged the
+bishop that held White's position together, and the pawns on e4 and g4 are loose. } )
+14... Nc4 15. Bxc4 Qxc4 { **Verdict:** balanced, with the unusual structure Jones warns about. White has
+the h-file and the bishop pair is gone; Black has the queen on c4, the c- and f-files, and the knight
+coming to e5. The doubled e-pawns are a strength while the queens are on, since nothing can settle on
+d5 or f5. Black's plan is ...Rac8, ...Ne5 and ...b5; if White opens the h-file, ...hxg6 keeps the rook
+on f8 for the defence. Practice slightly favours Black. } *
+
+[Line "9.g4 Be6 10.0-0-0 and 10.h4"]
+[Section "9.g4 and other set-ups"]
+[Summary "White keeps the knight and castles. Black exchanges on d4, plays ...Qa5 and ...Rfc8 with a sacrifice on c3 in the air, and the main line ends in an equal ending."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. g4 Be6 10. O-O-O {
+White ignores the bishop and completes development. }
+( 10. h4 { Attacking before castling leaves the centre unguarded. } 10... d5 { The break White's ninth
+move was meant to prevent works after all, because the bishop on e6 holds d5. } 11. g5 Nh5 { The knight
+blocks the h-pawn and the centre is about to open with White's king still on e1. Black has scored very
+well here. } )
+10... Nxd4 { Before White can play Nxe6 under better circumstances. } 11. Bxd4 Qa5 { [%cal
+Gf8c8,Ga5a2,Gb7b5] The set-up of the 9.0-0-0 Nxd4 lines, with the difference that White has spent a move
+on g4. } 12. Kb1 { Necessary sooner or later: 12.h4 would lose a pawn to 12...Bxa2. 12.a3 comes to the
+same thing after 12...Rfc8 13.Kb1. } 12... Rfc8 { [%cal Gc8c3] Threatening the sacrifice on c3. } 13. a3 {
+[%csl Ya2] Taking the sting out of it: with no pawn on a2 the queen has nothing to capture after the rook
+is given. }
+( 13. h4? { White cannot ignore the threat. } 13... Rxc3 { [%cal Ga5a2] } 14. Qxc3 Qxa2+ 15. Kc1 { The
+king has been driven into the open, Black already has a pawn for the exchange, and the bishops and the
+other rook join in. Black has won most of the games from here. } )
+13... Rab8 { [%cal Gb7b5,Gb5b4] Now the pawn on a3 is a target for the b-pawn. } 14. h4 b5 15. Nd5 { The
+standard reply to ...b5: with the king on b1 the queen exchange is not check, so White can choose how to
+recapture. }
+( 15. Bxf6 Bxf6 16. Nd5 Qxd2 17. Nxf6+ Kg7 { The in-between move. } 18. Rxd2 Kxf6 { The king is perfectly
+placed in the centre of an ending, and Black has the c-file and the better bishop. } )
+15... Qxd2 16. Nxf6+
+( 16. Rxd2 Bxd5 { The bishop takes, keeping the knight for the dark squares. } 17. exd5 a5 { Black is
+comfortable: the white bishops have nothing to aim at and the queenside pawns are rolling. } )
+16... Bxf6 17. Rxd2 Bxd4 18. Rxd4 Rc5 { **Verdict:** an equal ending in which Black still has to be
+careful. Material and structure are level and Black has the c-file, but White has more space on the
+kingside and has won more than his share of the games, usually by pushing the h-pawn. Black should
+centralise the king, keep a rook on the fifth rank and play ...a5 and ...b4 only when it creates a
+target. } *
+
+[Line "Dragadorf and the early ...h5"]
+[Section "9.g4 and other set-ups"]
+[Summary "An alternative to the whole main-line complex: ...a6 and ...b5 with the king left in the centre, and ...h5 to stop g4 and Bh6 before they happen."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 a6 { [%cal Gb7b5,Gc8b7,Gb8d7] The
+Dragadorf: Dragon bishop, Najdorf queenside. Black does not castle and does not put the knight on c6.
+With no king on g8 the h-file attack has no target, and the b-pawn comes to b5 before White has decided
+where his own king is going. } 8. Qd2 h5 { [%csl Yg4,Yh5] The modern refinement, and the version Giri
+gives in his bonus chapter. The pawn stops g4 for good, and Bh6 loses most of its point while there
+is no king on g8 to attack. The same idea can be played a move earlier with the knight
+on c6 (6...Nc6 7.f3 h5), which Ward covers under the same heading. }
+( 8... Nbd7 { The original Dragadorf set-up, keeping the h-pawn at home: after 9.O-O-O b5 10.g4 Bb7 11.h4
+Black usually has to play ...h5 or ...h6 anyway. It has scored well in practice, and it is the choice
+for a player who wants to keep ...h5 in reserve. } )
+9. O-O-O { The natural move, and the one that worries Black least. }
+( 9. Bc4 { Aiming at f7 and e6 before Black is developed. } 9... Nbd7 10. O-O-O b5 11. Bb3 Bb7 { The
+standard set-up: ...Rc8, ...Nc5 or ...Ne5 and ...Qc7 follow, and the king decides late whether to castle
+short or stay on e8. Chances are about level. } )
+( 9. Be2 { The positional treatment, and the most uncomfortable one in practice. White castles short,
+where the pawn on h5 is a weakness in front of Black's king instead of a defender, and plays in the
+centre. } 9... Nbd7 { Black develops in the same way, but has to accept a slightly worse game. } )
+9... b5 10. Kb1 Bb7 { **Verdict:** a playable system with its own character. Black has avoided the
+h-file attack, the Bh6 exchange and nearly all the theory of this chapter; the knight goes to d7 and
+then c5 or b6, the rook to c8, and ...b4 or ...Qa5 starts the attack. The price is that ...d5 is hard to
+arrange and that the king has no entirely safe home. Black's results against 9.O-O-O are good; the test
+is the quiet 9.Be2. It is worth having as a surprise weapon and as a way of understanding why, in the
+main lines, Black so often wishes the h-pawn were on h5 before White's reached h4. } *

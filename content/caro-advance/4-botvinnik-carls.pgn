@@ -1,0 +1,72 @@
+[Line "3...c5 4.dxc5 e6 5.a3: main line"]
+[Section "3...c5: the Botvinnik-Carls (Arkell-Khenkin) Variation"]
+[Summary "White takes on c5 and uses a3 and b4 to gain time on the bishop. The set-up Bb2, Bd3, castles and Re1 overprotects e5 against ...f6 and ...Ng6."]
+
+1. e4 c6 2. d4 d5 3. e5 c5 { [%cal Rc8g4] Black hits d4 before White has developed and keeps the bishop
+flexible: if allowed, it goes to g4, a better square than f5. Botvinnik used the move against Tal in 1961;
+Arkell and Khenkin made it respectable. }
+4. dxc5 { [%csl Ye5] The critical move and by far the most popular. White gives up the pawn that supports e5 but
+wins time: Black has to spend moves regaining c5, and with ...e6 the c8-bishop is shut in after all. 4.Nf3 is
+the main alternative, which Johnsen and Hansen consider the most critical; it is sharper and needs more
+theory. }
+( 4. c3?! { The French move is what Black hopes for. } 4... Nc6 5. Nf3 Bg4 { A French Advance with the bishop
+outside the chain and pinning the defender of d4: the lost tempo does not matter (Silman, quoting Houska). } )
+4... e6 { Black shuts the bishop in voluntarily in order to win the pawn back with the other one. 4...Nc6 is the
+next line. }
+5. a3 { [%cal Gb2b4,Gc1b2] Dreev's choice, and the most popular move in practice. It prepares b4, which hits the
+bishop as soon as it arrives on c5, and the bishop on b2 then protects e5. The obvious 5.Be3 holds the pawn for
+a while (Efimenko recommends it) but the bishop gets in the way there; 5.Nf3 Bxc5 6.a3 comes to the same
+thing. }
+5... Bxc5
+( 5... Nc6 { Developing first changes nothing. } 6. Nf3 Bxc5 7. b4 )
+6. Nf3 { 6.b4 first is more common and usually transposes. 6.Qg4 is an independent and sharper try, attacking g7
+before Black has castled; Idani's repertoire for Black gives it a chapter of its own. }
+6... Nc6
+( 6... f6 { The immediate attack on e5, the main line of Idani's repertoire for Black. } 7. b4 Be7 8. Bb2 a5
+9. b5 Nd7 10. Bd3 { White keeps e5 overprotected and does not take on f6 voluntarily, and the pawn on b5 takes c6
+from Black's knight. Black usually continues ...Nh6-f7 to add pressure; White castles and supports the pawn
+with Re1 and Qe2. } )
+7. b4 { With tempo: the queenside pawns gain space and b2 is cleared for the bishop. } 7... Bb6 { The active
+square, aiming at f2 and at d4 once e5 comes under fire. }
+( 7... Be7 { The same plan from e7. } 8. Bb2 f6 9. Bd3 Nh6 10. O-O { The knight goes to f7 to attack e5 a third
+time. White holds the pawn with Re1 and Qe2; if Black ever takes on e5, a piece recaptures and the e5-square
+belongs to White. } )
+8. Bb2 Nge7
+( 8... f6 { Black can also attack the pawn at once. } 9. Bd3 { White develops and lets Black take: after
+...fxe5 the knight recaptures and e5 becomes a square for the pieces. } )
+9. Bd3 { The bishop takes the b1-h7 diagonal unopposed, a small echo of the 3...Bf5 lines, where Black would
+exchange it. } 9... Ng6 { The standard manoeuvre: the knight attacks e5 and can jump to f4. }
+10. O-O O-O 11. Re1 { **Plan:** e5 is overprotected, so ...f6 only opens lines for White's pieces. Nbd2 and c4
+come next, opening the long diagonal and the c-file, and g3 keeps the knight out of f4 if necessary.
+
+**Verdict:** a normal, healthy edge: more space, the wedge on e5, and Black's c8-bishop is still a problem
+piece. Black's counterplay is ...f6 and ...a5; neither should be ignored, and neither equalises on its own. } *
+
+[Line "3...c5 4.dxc5 Nc6 5.Nf3 Bg4"]
+[Section "3...c5: the Botvinnik-Carls (Arkell-Khenkin) Variation"]
+[Summary "Black develops the bishop to g4 before ...e6 and wins the e5-pawn. White keeps c5 with c3 and Be3 and gets the bishop pair and a queenside majority."]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 Nc6 { Black develops first and wants the bishop on g4 before playing ...e6:
+the pawn on e5 is then attacked twice and its defender pinned. Efimenko calls the move dubious and answers
+5.f4; the natural 5.Nf3 is Dreev's repertoire and is followed here. }
+5. Nf3 Bg4 { The point. If Black now gets ...e6 and ...Bxc5 in, it is a French with the good bishop outside, so
+White has to do something about c5. }
+( 5... e6 { Black changes his mind about the bishop. } 6. a3 { Back in the main line with 5.a3, since
+6...Bxc5 7.b4 follows. } )
+6. c3 { [%cal Gb2b4,Gc1e3] The solid way to keep the pawn: Be3 and b4 will defend c5. White accepts that e5 will
+fall and takes the bishop pair and the queenside majority for it. }
+( 6. Bb5 { The sharp alternative, covered at length by Johnsen and Hansen. White keeps the pawn with b4, but
+after ...Bxf3 gxf3 the structure is ragged and both kings are exposed. Rich, and much more to learn. }
+6... Qa5+ 7. Nc3 e6 8. Be3 )
+6... e6 7. Be3 { Protects c5; 7.b4 is the alternative. Black now chooses how to win e5. }
+7... Bxf3
+( 7... a6 { Ruling out the check on b5 before taking. } 8. Nbd2 Nxe5 9. Be2 { The pin is broken and White
+castles next. Material is level; the c5-pawn cramps Black and b4 will support it. } )
+( 7... Nge7 { Aiming at the bishop on e3 before taking the pawn. } 8. Nbd2 Nf5 9. Bd4 { The bishop keeps both c5
+and e5 covered, and Black has to exchange the knight to make progress. } )
+8. Qxf3 Nxe5 9. Bb5+ { A check that gains time: the knight has to go back to block. } 9... Nc6 10. c4
+{ [%csl Rd5,Rc6] White strikes at d5 while the pin on c6 lasts. 10...dxc4 11.Bxc6+ bxc6 12.Qxc6+ drives the king
+to e7.
+
+**Verdict:** White has the two bishops, the more active pieces and a mobile queenside majority led by the
+c5-pawn. Black has an extra centre pawn and needs two more moves to castle. Practice favours White. } *
