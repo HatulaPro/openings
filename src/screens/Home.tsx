@@ -60,7 +60,22 @@ export function Home({ rep, navigate }: HomeProps) {
   };
 
   return (
-    <Screen title="Openings" subtitle={`My repertoire: ${rep.chapters.length} chapters, ${lineCount} lines`} scrollKey="home">
+    <Screen
+      title="Openings"
+      subtitle={`My repertoire: ${rep.chapters.length} chapters, ${lineCount} lines`}
+      scrollKey="home"
+      // The tools stay in reach however long the repertoire above them grows.
+      footer={
+        <>
+          <button className="btn" onClick={() => navigate({ screen: 'study', side: 'white', path: [] })}>
+            Analysis board
+          </button>
+          <button className="btn" onClick={() => navigate({ screen: 'coords' })}>
+            Coordinates
+          </button>
+        </>
+      }
+    >
       {resume && (
         <section>
           <h2>Continue</h2>
@@ -144,30 +159,6 @@ export function Home({ rep, navigate }: HomeProps) {
           ))}
         </section>
       ))}
-
-      <section>
-        <h2>Tools</h2>
-        <ul className="list">
-          <li>
-            <button className="row" onClick={() => navigate({ screen: 'study', side: 'white', path: [] })}>
-              <span className="row-main">
-                <span className="row-title">Analysis board</span>
-                <span className="row-sub">Any position, with your notes, elite games and Stockfish</span>
-              </span>
-              <span className="row-side">›</span>
-            </button>
-          </li>
-          <li>
-            <button className="row" onClick={() => navigate({ screen: 'coords' })}>
-              <span className="row-main">
-                <span className="row-title">Coordinates</span>
-                <span className="row-sub">Tap the named square against the clock, from either side</span>
-              </span>
-              <span className="row-side">›</span>
-            </button>
-          </li>
-        </ul>
-      </section>
 
       <p className="credits muted">
         Notes from Lichess studies and the sources each chapter lists. Games from the Lichess Elite Database.
