@@ -44,6 +44,7 @@ The app covers only the openings he picks; the old catalogue of every named open
 
 - **Usage is limited (Claude Pro).** Research and other delegable tasks go to weaker models (Sonnet,
   Haiku), a few agents at a time, never a large parallel batch. Have agents write files early.
-- He tests on his own phone: `pnpm android:install` (USB debugging). Verify in the preview first.
+- He tests on his own phone: `pnpm android:install` (USB debugging). Verify in the preview first,
+  then reinstall after every app change without being asked, if the phone is connected.
 - Report sourcing gaps and untested parts plainly; he would rather know a chapter is a draft.
 - Commit and push after every major step
