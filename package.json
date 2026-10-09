@@ -13,6 +13,7 @@
     "data:repertoire": "node scripts/build-repertoire.ts",
     "data:book": "node --max-old-space-size=4096 scripts/build-book.ts",
     "data:engine": "node scripts/fetch-engine.ts",
+    "data:sounds": "node scripts/fetch-sounds.ts",
     "android:sync": "pnpm build && cap sync android",
     "android:apk": "pnpm android:sync && node scripts/gradle.ts assembleDebug",
     "android:install": "pnpm android:sync && node scripts/gradle.ts installDebug"

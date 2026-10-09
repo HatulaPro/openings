@@ -111,7 +111,7 @@ export function Board({ fen, orientation, interactive = false, preview = false, 
     const before = heard.current;
     heard.current = fen;
     if (preview || fen === before || !lastMove) return;
-    playMoveSound(pos.isCheck() ? 'check' : pieceCount(fen) < pieceCount(before) ? 'capture' : 'move');
+    playMoveSound(pieceCount(fen) < pieceCount(before) ? 'capture' : 'move');
   }, [fen]);
 
   return (

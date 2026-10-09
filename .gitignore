@@ -6,3 +6,6 @@ data/raw/
 
 # The full book of elite games; the app ships the part trimmed to the repertoire (public/book.bin)
 data/book-full.bin
+
+# Move sounds from Lichess, not free to redistribute; fetch with `pnpm data:sounds`
+public/sound/
