@@ -1136,8 +1136,8 @@ section > h2.plain {
 
 /*
  * The way the files and ranks count up, made to be read without looking at it: a
- * chevron by every square, growing towards the h-file and the eighth rank, with a
- * light running along them. Light chevrons from White's side, dark ones from Black's.
+ * chevron by every square, growing towards the h-file and the eighth rank, where the
+ * last one is pink. Light chevrons from White's side, dark ones from Black's.
  */
 .coords-arrow {
   --turn: 0deg;
@@ -1160,19 +1160,13 @@ section > h2.plain {
   background: currentColor;
   clip-path: polygon(0 0, 45% 0, 100% 50%, 45% 100%, 0 100%, 55% 50%);
   transform: rotate(var(--turn)) scale(calc(0.45 + var(--i) * 0.08));
-  opacity: 0.3;
-  animation: coords-flow 1.4s linear infinite;
-  animation-delay: calc(var(--i) * 0.11s - 1.4s);
+  opacity: calc(0.4 + var(--i) * 0.08);
 }
 
-@keyframes coords-flow {
-  15% {
-    opacity: 1;
-  }
-
-  45% {
-    opacity: 0.3;
-  }
+/* The last one, at the h-file or the eighth rank, is what the eye catches. */
+.coords-arrow i:last-child {
+  background: #ff3d9a;
+  opacity: 1;
 }
 
 .coords-arrow.files {

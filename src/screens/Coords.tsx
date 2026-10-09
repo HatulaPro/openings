@@ -169,24 +169,27 @@ export function Coords({ back }: { back: () => void }) {
             <span className="coords-target">{running ? target.square : ''}</span>
             <span className="coords-time">{clock(limit ? limit - elapsed : elapsed)}</span>
           </div>
-          <div className={arrows ? 'coords-field arrows' : 'coords-field'}>
-            {arrows > 0 && <Arrow kind="ranks" pov={orientation} />}
-            <div className="coords-board">
-              <Board fen={INITIAL_FEN} orientation={orientation} preview coordinates={false} />
-              <div className="coords-touch" onPointerDown={onTap}>
-                {marks.map(mark => (
-                  <span
-                    key={mark.id}
-                    className={mark.miss ? 'coords-mark bad' : 'coords-mark good'}
-                    style={{ left: `${mark.col * 12.5}%`, top: `${mark.row * 12.5}%` }}
-                  >
-                    {mark.miss}
-                  </span>
-                ))}
+          {/* Kept out of sight until the first run, so the first square is found on a board not yet studied. */}
+          {phase !== 'setup' && (
+            <div className={arrows ? 'coords-field arrows' : 'coords-field'}>
+              {arrows > 0 && <Arrow kind="ranks" pov={orientation} />}
+              <div className="coords-board">
+                <Board fen={INITIAL_FEN} orientation={orientation} preview coordinates={false} />
+                <div className="coords-touch" onPointerDown={onTap}>
+                  {marks.map(mark => (
+                    <span
+                      key={mark.id}
+                      className={mark.miss ? 'coords-mark bad' : 'coords-mark good'}
+                      style={{ left: `${mark.col * 12.5}%`, top: `${mark.row * 12.5}%` }}
+                    >
+                      {mark.miss}
+                    </span>
+                  ))}
+                </div>
               </div>
+              {arrows > 0 && <Arrow kind="files" pov={orientation} />}
             </div>
-            {arrows > 0 && <Arrow kind="files" pov={orientation} />}
-          </div>
+          )}
         </>
       }
       footer={
