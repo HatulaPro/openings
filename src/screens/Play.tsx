@@ -92,6 +92,7 @@ export function Play({ rep, book, chapter, line, navigate, back }: PlayProps) {
           fen={last?.fenAfter ?? INITIAL_FEN}
           orientation={side}
           interactive={!replying && !over}
+          premove={replying && !over}
           lastMove={last?.squares}
           onMove={move => setMoves(prev => [...prev, uciOf(pos, move)])}
         />

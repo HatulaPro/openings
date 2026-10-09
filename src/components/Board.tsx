@@ -7,7 +7,7 @@ import { Chess, normalizeMove } from 'chessops/chess';
 import { chessgroundDests } from 'chessops/compat';
 import { parseFen } from 'chessops/fen';
 import type { NormalMove, Role } from 'chessops/types';
-import { parseSquare } from 'chessops/util';
+import { opposite, parseSquare } from 'chessops/util';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Color } from '../chess/game';
 import { playMoveSound } from '../sound';
@@ -25,6 +25,11 @@ export interface BoardProps {
    * read when the board is created, so it cannot be combined with `interactive`.
    */
   preview?: boolean;
+  /**
+   * The other side is about to move by itself: let the player queue an answer
+   * meanwhile. It is played, if still legal, as soon as the board turns `interactive`.
+   */
+  premove?: boolean;
   lastMove?: [Key, Key];
   shapes?: DrawShape[];
   onMove?: (move: NormalMove) => void;
@@ -41,7 +46,16 @@ function pieceCount(fen: string): number {
   return fen.split(' ')[0]!.replace(/[^a-z]/gi, '').length;
 }
 
-export function Board({ fen, orientation, interactive = false, preview = false, lastMove, shapes, onMove }: BoardProps) {
+export function Board({
+  fen,
+  orientation,
+  interactive = false,
+  preview = false,
+  premove = false,
+  lastMove,
+  shapes,
+  onMove,
+}: BoardProps) {
   const host = useRef<HTMLDivElement>(null);
   const api = useRef<Api | null>(null);
   const [promotion, setPromotion] = useState<{ from: Key; to: Key } | null>(null);
@@ -60,12 +74,13 @@ export function Board({ fen, orientation, interactive = false, preview = false, 
       check: pos.isCheck(),
       lastMove,
       movable: {
-        color: interactive ? pos.turn : undefined,
+        color: interactive ? pos.turn : premove ? opposite(pos.turn) : undefined,
         dests: interactive ? chessgroundDests(pos) : new Map(),
       },
+      premovable: { enabled: premove },
       drawable: { autoShapes: shapes ?? [] },
     }),
-    [fen, orientation, interactive, lastMoveSig, shapesSig],
+    [fen, orientation, interactive, premove, lastMoveSig, shapesSig],
   );
 
   const latest = useRef({ pos, config, onMove });
@@ -82,7 +97,6 @@ export function Board({ fen, orientation, interactive = false, preview = false, 
       ...initial,
       viewOnly: preview,
       animation: { duration: 180 },
-      premovable: { enabled: false },
       drawable: { ...initial.drawable, enabled: false },
       movable: {
         ...initial.movable,
@@ -103,6 +117,9 @@ export function Board({ fen, orientation, interactive = false, preview = false, 
   useEffect(() => {
     setPromotion(null);
     api.current?.set(config);
+    // A queued move goes through `movable.events.after` like one made by hand.
+    if (interactive) api.current?.playPremove();
+    else if (!premove) api.current?.cancelPremove();
   }, [config]);
 
   // Every move that reaches the board is heard: yours, the opponent's, and stepping through a line.

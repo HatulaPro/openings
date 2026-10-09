@@ -201,6 +201,7 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
             fen={wrong?.fenAfter ?? last?.fenAfter ?? INITIAL_FEN}
             orientation={side}
             interactive={phase === 'ask'}
+            premove={phase === 'opponent'}
             lastMove={wrong?.squares ?? last?.squares}
             shapes={shapes}
             onMove={onMove}
