@@ -157,6 +157,15 @@ export function Home({ rep, navigate }: HomeProps) {
               <span className="row-side">›</span>
             </button>
           </li>
+          <li>
+            <button className="row" onClick={() => navigate({ screen: 'coords' })}>
+              <span className="row-main">
+                <span className="row-title">Coordinates</span>
+                <span className="row-sub">Tap the named square against the clock, from either side</span>
+              </span>
+              <span className="row-side">›</span>
+            </button>
+          </li>
         </ul>
       </section>
 

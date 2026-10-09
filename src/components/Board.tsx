@@ -30,6 +30,8 @@ export interface BoardProps {
    * meanwhile. It is played, if still legal, as soon as the board turns `interactive`.
    */
   premove?: boolean;
+  /** Label the files and ranks along the edges. Only read when the board is created. */
+  coordinates?: boolean;
   lastMove?: [Key, Key];
   shapes?: DrawShape[];
   onMove?: (move: NormalMove) => void;
@@ -52,6 +54,7 @@ export function Board({
   interactive = false,
   preview = false,
   premove = false,
+  coordinates = true,
   lastMove,
   shapes,
   onMove,
@@ -96,6 +99,7 @@ export function Board({
     const cg = Chessground(host.current!, {
       ...initial,
       viewOnly: preview,
+      coordinates,
       animation: { duration: 180 },
       drawable: { ...initial.drawable, enabled: false },
       movable: {

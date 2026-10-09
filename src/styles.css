@@ -1049,3 +1049,171 @@ section > h2.plain {
   line-height: 1.5;
   opacity: 0.7;
 }
+
+/* Coordinates: the square asked for, the board to tap, and arrows along its edges */
+
+.screen.coords {
+  --chrome: 330px;
+  --gutter: 20px;
+}
+
+.coords-head {
+  flex: none;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.coords-score {
+  display: flex;
+  gap: 12px;
+}
+
+.coords-target {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.coords-time {
+  text-align: right;
+  font-weight: 600;
+}
+
+.coords-field {
+  flex: none;
+}
+
+.coords-field.arrows {
+  --board-size: min(100vw - var(--gutter), 560px - var(--gutter), 100dvh - var(--chrome) - var(--inset-top) - var(--inset-bottom));
+  display: grid;
+  grid-template-columns: var(--gutter) var(--board-size);
+  grid-template-rows: var(--board-size) var(--gutter);
+  justify-content: center;
+}
+
+.coords-board {
+  position: relative;
+  width: var(--board-size);
+  margin: 0 auto;
+}
+
+.coords-touch {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  touch-action: none;
+}
+
+.coords-mark {
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.coords-mark.good {
+  background: rgba(139, 195, 74, 0.85);
+  animation: coords-fade 0.45s forwards;
+}
+
+.coords-mark.bad {
+  background: rgba(229, 96, 77, 0.9);
+}
+
+@keyframes coords-fade {
+  to {
+    opacity: 0;
+  }
+}
+
+/* The way the files and ranks count up: light arrows from White's side, dark ones from Black's. */
+.coords-arrow {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: #7a7772;
+  color: #f3f1ec;
+}
+
+.coords-arrow.black {
+  color: #111;
+}
+
+.coords-arrow::before,
+.coords-arrow::after {
+  content: '';
+}
+
+.coords-arrow::before {
+  flex: 1;
+  background: currentColor;
+}
+
+.coords-arrow::after {
+  border: 6px solid transparent;
+}
+
+.coords-arrow.files {
+  grid-column: 2;
+}
+
+.coords-arrow.files::before {
+  height: 3px;
+}
+
+.coords-arrow.files.white::after {
+  border-right-width: 0;
+  border-left: 9px solid currentColor;
+}
+
+.coords-arrow.files.black {
+  flex-direction: row-reverse;
+}
+
+.coords-arrow.files.black::after {
+  border-left-width: 0;
+  border-right: 9px solid currentColor;
+}
+
+.coords-arrow.ranks {
+  flex-direction: column-reverse;
+}
+
+.coords-arrow.ranks::before {
+  width: 3px;
+}
+
+.coords-arrow.ranks.white::after {
+  border-top-width: 0;
+  border-bottom: 9px solid currentColor;
+}
+
+.coords-arrow.ranks.black {
+  flex-direction: column;
+}
+
+.coords-arrow.ranks.black::after {
+  border-bottom-width: 0;
+  border-top: 9px solid currentColor;
+}
+
+.coords-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 16px 0;
+  font-size: 0.8rem;
+}
+
+.coords-options .segmented {
+  margin-bottom: 6px;
+  font-size: 1rem;
+}

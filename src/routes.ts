@@ -17,7 +17,8 @@ export type Route =
       review?: boolean;
     }
   | { screen: 'train'; chapter: string; line?: number }
-  | { screen: 'play'; chapter: string; line?: number };
+  | { screen: 'play'; chapter: string; line?: number }
+  | { screen: 'coords' };
 
 export type Navigate = (route: Route, options?: { replace?: boolean }) => void;
 
