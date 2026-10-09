@@ -10,6 +10,7 @@ import type { NormalMove, Role } from 'chessops/types';
 import { parseSquare } from 'chessops/util';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Color } from '../chess/game';
+import { playMoveSound } from '../sound';
 import '@lichess-org/chessground/assets/chessground.base.css';
 import '@lichess-org/chessground/assets/chessground.brown.css';
 import '@lichess-org/chessground/assets/chessground.cburnett.css';
@@ -35,6 +36,10 @@ const PROMOTIONS: { role: Role; glyph: string }[] = [
   { role: 'rook', glyph: '♜' },
   { role: 'bishop', glyph: '♝' },
 ];
+
+function pieceCount(fen: string): number {
+  return fen.split(' ')[0]!.replace(/[^a-z]/gi, '').length;
+}
 
 export function Board({ fen, orientation, interactive = false, preview = false, lastMove, shapes, onMove }: BoardProps) {
   const host = useRef<HTMLDivElement>(null);
@@ -99,6 +104,15 @@ export function Board({ fen, orientation, interactive = false, preview = false, 
     setPromotion(null);
     api.current?.set(config);
   }, [config]);
+
+  // Every move that reaches the board is heard: yours, the opponent's, and stepping through a line.
+  const heard = useRef(fen);
+  useEffect(() => {
+    const before = heard.current;
+    heard.current = fen;
+    if (preview || fen === before || !lastMove) return;
+    playMoveSound(pos.isCheck() ? 'check' : pieceCount(fen) < pieceCount(before) ? 'capture' : 'move');
+  }, [fen]);
 
   return (
     <div className="board">

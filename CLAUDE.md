@@ -8,7 +8,7 @@ a strong and experienced player. Everything below is what he has said he wants f
 - **A fast, interactive way to memorise lines.** It should play like a quick game, not read like a
   study. Training must not force one fixed line: the opponent varies, and any move of the repertoire
   is accepted where there is more than one.
-- **Understanding, not just moves.** For every position: the ideas, the plans, and above all *why* a
+- **Understanding, not just moves.** For every position: the ideas, the plans, and above all _why_ a
   move is good or bad. Theory often plays an unintuitive move, and knowing why matters most there.
 - **Easy to figure out, no intrusive popups.** Information sits inline, under and on the board. The
   UX has to carry a lot of explanation without getting in the way.
@@ -46,4 +46,4 @@ The app covers only the openings he picks; the old catalogue of every named open
   Haiku), a few agents at a time, never a large parallel batch. Have agents write files early.
 - He tests on his own phone: `pnpm android:install` (USB debugging). Verify in the preview first.
 - Report sourcing gaps and untested parts plainly; he would rather know a chapter is a draft.
-- Commit and push after every major step: a finished, working feature or chapter, not each file edit.
+- Commit and push after every major step
