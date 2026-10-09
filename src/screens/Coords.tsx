@@ -1,5 +1,5 @@
 import { INITIAL_FEN } from 'chessops/fen';
-import { type PointerEvent, useEffect, useRef, useState } from 'react';
+import { type CSSProperties, type PointerEvent, useEffect, useRef, useState } from 'react';
 import type { Color } from '../chess/game';
 import { Board } from '../components/Board';
 import { Screen } from '../components/Screen';
@@ -63,6 +63,17 @@ function pick(pov: Pov, previous?: string): Target {
 function clock(ms: number): string {
   const seconds = Math.ceil(ms / 1000);
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
+}
+
+/** Chevrons along an edge of the board, from the a-file to the h-file or the first rank to the eighth. */
+function Arrow({ kind, pov }: { kind: 'files' | 'ranks'; pov: Color }) {
+  return (
+    <span className={`coords-arrow ${kind} ${pov}`} aria-hidden>
+      {Array.from(FILES, (_, index) => (
+        <i key={index} style={{ '--i': index } as CSSProperties} />
+      ))}
+    </span>
+  );
 }
 
 /**
@@ -159,7 +170,7 @@ export function Coords({ back }: { back: () => void }) {
             <span className="coords-time">{clock(limit ? limit - elapsed : elapsed)}</span>
           </div>
           <div className={arrows ? 'coords-field arrows' : 'coords-field'}>
-            {arrows > 0 && <span className={`coords-arrow ranks ${orientation}`} aria-hidden />}
+            {arrows > 0 && <Arrow kind="ranks" pov={orientation} />}
             <div className="coords-board">
               <Board fen={INITIAL_FEN} orientation={orientation} preview coordinates={false} />
               <div className="coords-touch" onPointerDown={onTap}>
@@ -174,7 +185,7 @@ export function Coords({ back }: { back: () => void }) {
                 ))}
               </div>
             </div>
-            {arrows > 0 && <span className={`coords-arrow files ${orientation}`} aria-hidden />}
+            {arrows > 0 && <Arrow kind="files" pov={orientation} />}
           </div>
         </>
       }

@@ -1054,7 +1054,7 @@ section > h2.plain {
 
 .screen.coords {
   --chrome: 330px;
-  --gutter: 20px;
+  --gutter: 26px;
 }
 
 .coords-head {
@@ -1134,76 +1134,64 @@ section > h2.plain {
   }
 }
 
-/* The way the files and ranks count up: light arrows from White's side, dark ones from Black's. */
+/*
+ * The way the files and ranks count up, made to be read without looking at it: a
+ * chevron by every square, growing towards the h-file and the eighth rank, with a
+ * light running along them. Light chevrons from White's side, dark ones from Black's.
+ */
 .coords-arrow {
+  --turn: 0deg;
   display: flex;
   align-items: center;
-  padding: 5px;
+  justify-content: space-around;
   color: #f3f1ec;
 }
 
 /* Black on the dark page, so it is drawn with a thin light edge. */
 .coords-arrow.black {
   color: #000;
-  filter: drop-shadow(1px 0 0 #a8a5a0) drop-shadow(-1px 0 0 #a8a5a0) drop-shadow(0 1px 0 #a8a5a0) drop-shadow(0 -1px 0 #a8a5a0);
+  filter: drop-shadow(1px 0 0 #c8c5c0) drop-shadow(-1px 0 0 #c8c5c0) drop-shadow(0 1px 0 #c8c5c0) drop-shadow(0 -1px 0 #c8c5c0);
 }
 
-.coords-arrow::before,
-.coords-arrow::after {
-  content: '';
-}
-
-.coords-arrow::before {
-  flex: 1;
+.coords-arrow i {
+  flex: none;
+  width: calc(var(--gutter) - 6px);
+  aspect-ratio: 1;
   background: currentColor;
+  clip-path: polygon(0 0, 45% 0, 100% 50%, 45% 100%, 0 100%, 55% 50%);
+  transform: rotate(var(--turn)) scale(calc(0.45 + var(--i) * 0.08));
+  opacity: 0.3;
+  animation: coords-flow 1.4s linear infinite;
+  animation-delay: calc(var(--i) * 0.11s - 1.4s);
 }
 
-.coords-arrow::after {
-  border: 6px solid transparent;
+@keyframes coords-flow {
+  15% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 0.3;
+  }
 }
 
 .coords-arrow.files {
   grid-column: 2;
 }
 
-.coords-arrow.files::before {
-  height: 3px;
-}
-
-.coords-arrow.files.white::after {
-  border-right-width: 0;
-  border-left: 9px solid currentColor;
-}
-
 .coords-arrow.files.black {
+  --turn: 180deg;
   flex-direction: row-reverse;
 }
 
-.coords-arrow.files.black::after {
-  border-left-width: 0;
-  border-right: 9px solid currentColor;
-}
-
-.coords-arrow.ranks {
+.coords-arrow.ranks.white {
+  --turn: -90deg;
   flex-direction: column-reverse;
 }
 
-.coords-arrow.ranks::before {
-  width: 3px;
-}
-
-.coords-arrow.ranks.white::after {
-  border-top-width: 0;
-  border-bottom: 9px solid currentColor;
-}
-
 .coords-arrow.ranks.black {
+  --turn: 90deg;
   flex-direction: column;
-}
-
-.coords-arrow.ranks.black::after {
-  border-bottom-width: 0;
-  border-top: 9px solid currentColor;
 }
 
 .coords-options {
