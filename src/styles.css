@@ -1139,12 +1139,13 @@ section > h2.plain {
   display: flex;
   align-items: center;
   padding: 5px;
-  background: #7a7772;
   color: #f3f1ec;
 }
 
+/* Black on the dark page, so it is drawn with a thin light edge. */
 .coords-arrow.black {
-  color: #111;
+  color: #000;
+  filter: drop-shadow(1px 0 0 #a8a5a0) drop-shadow(-1px 0 0 #a8a5a0) drop-shadow(0 1px 0 #a8a5a0) drop-shadow(0 -1px 0 #a8a5a0);
 }
 
 .coords-arrow::before,
