@@ -159,6 +159,11 @@ export function Home({ rep, navigate }: HomeProps) {
           </li>
         </ul>
       </section>
+
+      <p className="credits muted">
+        Notes from Lichess studies and the sources each chapter lists. Games from the Lichess Elite Database.
+        Stockfish, chessground and chessops are GPLv3.
+      </p>
     </Screen>
   );
 }
