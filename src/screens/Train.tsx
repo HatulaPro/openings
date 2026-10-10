@@ -20,6 +20,22 @@ const KNOWN_WEIGHT = 0.2;
 /** How strongly a position pulls the opponent towards it. */
 const DUE: Record<Standing, number> = { missed: 3, fading: 2, untested: 1, learning: 1, solid: 0 };
 
+/** The next line that is not solid yet: further down this chapter first, then through the rest of the repertoire. */
+function nextLine(rep: Repertoire, chapter: Chapter, scope?: number): { chapter: Chapter; line: Line } | undefined {
+  const now = Date.now();
+  const count = rep.chapters.length;
+  for (let c = 0; c < count; c++) {
+    const other = rep.chapters[(chapter.index + c) % count]!;
+    const from = c === 0 ? (scope ?? -1) + 1 : 0;
+    for (let l = 0; l < other.lines.length; l++) {
+      const line = other.lines[(from + l) % other.lines.length]!;
+      const mastery = masteryOf(other.side, rep.puzzles(other, line.index).map(puzzle => puzzle.key), now);
+      if (mastery.solid < mastery.total) return { chapter: other, line };
+    }
+  }
+  return undefined;
+}
+
 /** What is said about a move that was not accepted. */
 interface Feedback {
   label: string;
@@ -59,6 +75,12 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
   const [run, setRun] = useState({ asked: 0, missed: 0 });
   const [streak, setStreak] = useState(0);
   const [open, setOpen] = useState(-1);
+  const [nudged, setNudged] = useState(false);
+
+  const mastery = masteryOf(side, asked);
+  // Nothing left to learn here: say so, and point at a line that still needs work.
+  const solid = mastery.total > 0 && mastery.solid === mastery.total;
+  const next = useMemo(() => (solid ? nextLine(rep, chapter, scope) : undefined), [solid, rep, chapter, scope]);
 
   const { steps, keys } = useMemo(() => trace(path), [path]);
   const pos = useMemo(() => positionAfter(path), [path]);
@@ -74,6 +96,7 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
     setReveal(false);
     setFailed(false);
     setOpen(-1);
+    if (solid) setNudged(true);
   };
 
   /** The opponent's move: any covered reply, weighted by how much below it is still to be learned. */
@@ -109,7 +132,8 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
         setReveal(failed);
       }, WRONG_MS);
     }
-    if (phase === 'done' && run.asked > 0 && run.missed === 0) timer = setTimeout(newRun, NEXT_MS);
+    // The first run that ends with everything solid waits, so the way on to another line is seen.
+    if (phase === 'done' && run.asked > 0 && run.missed === 0 && (!solid || nudged)) timer = setTimeout(newRun, NEXT_MS);
     return () => clearTimeout(timer);
     // The handlers only read state that cannot change while a phase is on screen.
   }, [phase, key]);
@@ -158,7 +182,6 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
     })
     .sort((a, b) => Number(b.own) - Number(a.own));
 
-  const mastery = masteryOf(side, asked);
   const last = steps.at(-1);
   const lastNote = recent.find(entry => entry.ply === path.length - 1)?.view;
   const sideName = side === 'white' ? 'White' : 'Black';
@@ -237,6 +260,20 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
     >
       <div className="train">
         <p className={`train-status ${tone}`}>{status}</p>
+        {solid && (
+          <button
+            className="train-note good"
+            disabled={!next}
+            onClick={() => next && navigate({ screen: 'train', chapter: next.chapter.id, line: next.line.index }, { replace: true })}
+          >
+            <span className="train-move">
+              Solid: you know all {mastery.total} positions of this {line ? 'line' : 'chapter'}
+            </span>
+            {next
+              ? `Move on to “${next.line.name}”${next.chapter === chapter ? '' : ` in ${next.chapter.title}`} ›`
+              : 'So is the rest of your repertoire.'}
+          </button>
+        )}
         {feedback && phase !== 'done' && (
           <div className={`train-note ${feedback.tone}`}>
             <span className="train-move">{feedback.label}</span>
