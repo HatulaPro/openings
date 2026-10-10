@@ -1,5 +1,5 @@
 import { INITIAL_FEN } from 'chessops/fen';
-import { type CSSProperties, type PointerEvent, useEffect, useRef, useState } from 'react';
+import { type PointerEvent, useEffect, useRef, useState } from 'react';
 import type { Color } from '../chess/game';
 import { Board } from '../components/Board';
 import { Screen } from '../components/Screen';
@@ -65,13 +65,12 @@ function clock(ms: number): string {
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
 }
 
-/** Chevrons along an edge of the board, from the a-file to the h-file or the first rank to the eighth. */
+/** An arrow along an edge of the board, from the a-file to the h-file or the first rank to the eighth. */
 function Arrow({ kind, pov }: { kind: 'files' | 'ranks'; pov: Color }) {
   return (
     <span className={`coords-arrow ${kind} ${pov}`} aria-hidden>
-      {Array.from(FILES, (_, index) => (
-        <i key={index} style={{ '--i': index } as CSSProperties} />
-      ))}
+      <i className="shaft" />
+      <i className="head" />
     </span>
   );
 }
