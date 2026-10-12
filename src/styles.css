@@ -365,8 +365,9 @@ section > h2.plain {
 }
 
 /*
- * Dragging by finger, measured off chess.com: the piece doubles in size and stands
- * on the finger rather than under it, and the square it would land on is ringed.
+ * Dragging by finger, measured off chess.com: once the finger moves, the piece
+ * doubles in size and stands on the finger rather than under it, and the square it
+ * would land on is ringed. A press alone changes nothing.
  */
 .drag-target {
   position: absolute;
@@ -381,7 +382,7 @@ section > h2.plain {
 }
 
 @media (pointer: coarse) {
-  cg-board piece.dragging {
+  cg-board piece.dragging.lifted {
     width: 25%;
     height: 25%;
     margin: -18.75% 0 0 -6.25%;

@@ -103,8 +103,9 @@ export function Board({
       coordinates,
       ranksPosition: 'left',
       animation: { duration: 180 },
-      // The square a piece is lifted from stays empty, as on chess.com.
-      draggable: { showGhost: false },
+      // As on chess.com: a drag begins once the finger has moved Android's touch
+      // slop, every time, and the square the piece is lifted from stays empty.
+      draggable: { showGhost: false, distance: 8, autoDistance: false },
       drawable: { ...initial.drawable, enabled: false },
       movable: {
         ...initial.movable,
@@ -120,30 +121,47 @@ export function Board({
     });
     api.current = cg;
 
-    // While a piece is held, ring the square under the finger. Chessground
-    // has no event for it, so the drag is read once a frame until it ends.
+    // Chessground has no events for a drag in progress, so it is read once a
+    // frame until it ends: the piece is lifted once the finger moves, the square
+    // under the finger is ringed, and let go, the piece slides into its square.
     let frame = 0;
-    let lifted: { piece: HTMLElement; from: DOMRect } | undefined;
-    // Let go, the piece shrinks and slides into its square instead of jumping there.
-    const settle = ({ piece, from }: NonNullable<typeof lifted>) => {
-      cg.state.dom.redrawNow();
-      if (!piece.isConnected) return;
-      const to = piece.getBoundingClientRect();
-      const dx = from.left + from.width / 2 - to.left - to.width / 2;
-      const dy = from.top + from.height / 2 - to.top - to.height / 2;
-      const start = `translate(${dx}px, ${dy}px) ${piece.style.transform} scale(${from.width / to.width})`;
-      piece.animate([{ offset: 0, transform: start, zIndex: 11 }], { duration: 60, easing: 'ease-out' });
-    };
+    let held: { piece: HTMLElement; at: DOMRect } | undefined;
+    const centre = (rect: DOMRect) => [rect.left + rect.width / 2, rect.top + rect.height / 2] as const;
     const track = () => {
       const drag = cg.state.draggable.current;
       const piece = typeof drag?.element === 'function' ? drag.element() : drag?.element;
-      if (piece) lifted = { piece, from: piece.getBoundingClientRect() };
-      else if (lifted) {
-        settle(lifted);
-        lifted = undefined;
-      }
-      const key = drag && cg.getKeyAtDomPos(drag.pos);
       const ring = target.current;
+      if (drag && piece) {
+        if (drag.started && !piece.classList.contains('lifted')) {
+          const before = piece.getBoundingClientRect();
+          piece.classList.add('lifted');
+          const after = piece.getBoundingClientRect();
+          const [x0, y0] = centre(before);
+          const [x, y] = centre(after);
+          // Added to the transform that follows the finger, so it keeps up with it.
+          piece.animate(
+            [
+              { transform: `translate(${x0 - x}px, ${y0 - y}px) scale(${before.width / after.width})`, composite: 'add' },
+              { transform: 'translate(0, 0) scale(1)', composite: 'add' },
+            ],
+            { duration: 40 },
+          );
+        }
+        held = { piece, at: piece.getBoundingClientRect() };
+      } else if (held) {
+        const { piece, at } = held;
+        held = undefined;
+        piece.classList.remove('lifted');
+        for (const lift of piece.getAnimations()) lift.cancel();
+        cg.state.dom.redrawNow();
+        const [x0, y0] = centre(at);
+        const [x, y] = centre(piece.getBoundingClientRect());
+        if (piece.isConnected && (x0 !== x || y0 !== y)) {
+          const start = `translate(${x0 - x}px, ${y0 - y}px) ${piece.style.transform}`;
+          piece.animate([{ offset: 0, transform: start, zIndex: 11 }], { duration: 50, easing: 'ease-out' });
+        }
+      }
+      const key = drag?.started && cg.getKeyAtDomPos(drag.pos);
       if (ring && key) {
         const file = key.charCodeAt(0) - 97;
         const rank = Number(key[1]) - 1;
@@ -155,13 +173,13 @@ export function Board({
       frame = drag ? requestAnimationFrame(track) : 0;
     };
     // Chessground picks the piece up after this event, before the next frame.
-    const held = () => {
+    const touched = () => {
       if (!frame) frame = requestAnimationFrame(track);
     };
     const el = host.current!;
-    el.addEventListener('pointerdown', held);
+    el.addEventListener('pointerdown', touched);
     return () => {
-      el.removeEventListener('pointerdown', held);
+      el.removeEventListener('pointerdown', touched);
       cancelAnimationFrame(frame);
       cg.destroy();
     };
