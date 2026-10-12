@@ -1,4 +1,4 @@
-import { Chessground } from '@lichess-org/chessground';
+﻿import { Chessground } from '@lichess-org/chessground';
 import type { Api } from '@lichess-org/chessground/api';
 import type { Config } from '@lichess-org/chessground/config';
 import type { DrawShape } from '@lichess-org/chessground/draw';
@@ -38,10 +38,10 @@ export interface BoardProps {
 }
 
 const PROMOTIONS: { role: Role; glyph: string }[] = [
-  { role: 'queen', glyph: '♛' },
-  { role: 'knight', glyph: '♞' },
-  { role: 'rook', glyph: '♜' },
-  { role: 'bishop', glyph: '♝' },
+  { role: 'queen', glyph: 'â™›' },
+  { role: 'knight', glyph: 'â™ž' },
+  { role: 'rook', glyph: 'â™œ' },
+  { role: 'bishop', glyph: 'â™' },
 ];
 
 function pieceCount(fen: string): number {
@@ -132,7 +132,7 @@ export function Board({
       const dx = from.left + from.width / 2 - to.left - to.width / 2;
       const dy = from.top + from.height / 2 - to.top - to.height / 2;
       const start = `translate(${dx}px, ${dy}px) ${piece.style.transform} scale(${from.width / to.width})`;
-      piece.animate([{ offset: 0, transform: start, zIndex: 11 }], { duration: 120, easing: 'ease-out' });
+      piece.animate([{ offset: 0, transform: start, zIndex: 11 }], { duration: 60, easing: 'ease-out' });
     };
     const track = () => {
       const drag = cg.state.draggable.current;
