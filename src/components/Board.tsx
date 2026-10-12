@@ -123,8 +123,25 @@ export function Board({
     // While a piece is held, ring the square under the finger. Chessground
     // has no event for it, so the drag is read once a frame until it ends.
     let frame = 0;
+    let lifted: { piece: HTMLElement; from: DOMRect } | undefined;
+    // Let go, the piece shrinks and slides into its square instead of jumping there.
+    const settle = ({ piece, from }: NonNullable<typeof lifted>) => {
+      cg.state.dom.redrawNow();
+      if (!piece.isConnected) return;
+      const to = piece.getBoundingClientRect();
+      const dx = from.left + from.width / 2 - to.left - to.width / 2;
+      const dy = from.top + from.height / 2 - to.top - to.height / 2;
+      const start = `translate(${dx}px, ${dy}px) ${piece.style.transform} scale(${from.width / to.width})`;
+      piece.animate([{ offset: 0, transform: start, zIndex: 11 }], { duration: 120, easing: 'ease-out' });
+    };
     const track = () => {
       const drag = cg.state.draggable.current;
+      const piece = typeof drag?.element === 'function' ? drag.element() : drag?.element;
+      if (piece) lifted = { piece, from: piece.getBoundingClientRect() };
+      else if (lifted) {
+        settle(lifted);
+        lifted = undefined;
+      }
       const key = drag && cg.getKeyAtDomPos(drag.pos);
       const ring = target.current;
       if (ring && key) {
