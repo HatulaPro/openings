@@ -1,4 +1,4 @@
-﻿import { Chessground } from '@lichess-org/chessground';
+import { Chessground } from '@lichess-org/chessground';
 import type { Api } from '@lichess-org/chessground/api';
 import type { Config } from '@lichess-org/chessground/config';
 import type { DrawShape } from '@lichess-org/chessground/draw';
@@ -38,10 +38,10 @@ export interface BoardProps {
 }
 
 const PROMOTIONS: { role: Role; glyph: string }[] = [
-  { role: 'queen', glyph: 'â™›' },
-  { role: 'knight', glyph: 'â™ž' },
-  { role: 'rook', glyph: 'â™œ' },
-  { role: 'bishop', glyph: 'â™' },
+  { role: 'queen', glyph: '♛' },
+  { role: 'knight', glyph: '♞' },
+  { role: 'rook', glyph: '♜' },
+  { role: 'bishop', glyph: '♝' },
 ];
 
 function pieceCount(fen: string): number {
