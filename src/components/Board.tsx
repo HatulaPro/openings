@@ -61,6 +61,7 @@ export function Board({
 }: BoardProps) {
   const host = useRef<HTMLDivElement>(null);
   const api = useRef<Api | null>(null);
+  const target = useRef<HTMLDivElement>(null);
   const [promotion, setPromotion] = useState<{ from: Key; to: Key } | null>(null);
 
   const pos = useMemo(() => Chess.fromSetup(parseFen(fen).unwrap()).unwrap(), [fen]);
@@ -100,7 +101,10 @@ export function Board({
       ...initial,
       viewOnly: preview,
       coordinates,
+      ranksPosition: 'left',
       animation: { duration: 180 },
+      // The square a piece is lifted from stays empty, as on chess.com.
+      draggable: { showGhost: false },
       drawable: { ...initial.drawable, enabled: false },
       movable: {
         ...initial.movable,
@@ -115,7 +119,35 @@ export function Board({
       },
     });
     api.current = cg;
-    return () => cg.destroy();
+
+    // While a piece is held, ring the square under the finger. Chessground
+    // has no event for it, so the drag is read once a frame until it ends.
+    let frame = 0;
+    const track = () => {
+      const drag = cg.state.draggable.current;
+      const key = drag && cg.getKeyAtDomPos(drag.pos);
+      const ring = target.current;
+      if (ring && key) {
+        const file = key.charCodeAt(0) - 97;
+        const rank = Number(key[1]) - 1;
+        const white = cg.state.orientation === 'white';
+        ring.style.left = `${(white ? file : 7 - file) * 12.5 + 6.25}%`;
+        ring.style.top = `${(white ? 7 - rank : rank) * 12.5 + 6.25}%`;
+      }
+      ring?.classList.toggle('on', !!key);
+      frame = drag ? requestAnimationFrame(track) : 0;
+    };
+    // Chessground picks the piece up after this event, before the next frame.
+    const held = () => {
+      if (!frame) frame = requestAnimationFrame(track);
+    };
+    const el = host.current!;
+    el.addEventListener('pointerdown', held);
+    return () => {
+      el.removeEventListener('pointerdown', held);
+      cancelAnimationFrame(frame);
+      cg.destroy();
+    };
   }, []);
 
   useEffect(() => {
@@ -138,6 +170,7 @@ export function Board({
   return (
     <div className="board">
       <div ref={host} className="board-host" />
+      {!preview && <div ref={target} className="drag-target" />}
       {promotion && (
         <div
           className="promotion"
