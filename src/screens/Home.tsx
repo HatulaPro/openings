@@ -3,6 +3,7 @@ import type { Chapter, Line, Repertoire } from '../chess/repertoire';
 import { MasteryBar, MasteryNote } from '../components/Mastery';
 import { Screen } from '../components/Screen';
 import type { Navigate } from '../routes';
+import { drillsOf, useChoices } from '../choices';
 import { type Mastery, masteryOf, needOf } from '../progress';
 import { loadBookmark } from '../storage';
 
@@ -29,6 +30,7 @@ export function Home({ rep, navigate }: HomeProps) {
     return chapter && line ? { bookmark: bookmark!, chapter, line } : undefined;
   }, [rep]);
 
+  const choices = useChoices();
   // How each chapter stands, and the lines that most need another look. A position
   // several lines share counts for the first of them, so it is not listed twice.
   const { standing, work } = useMemo(() => {
@@ -36,17 +38,17 @@ export function Home({ rep, navigate }: HomeProps) {
     const standing = new Map<string, Mastery>();
     const work: { chapter: Chapter; line: Line; mastery: Mastery }[] = [];
     for (const chapter of rep.chapters) {
-      const puzzles = rep.puzzles(chapter);
-      standing.set(chapter.id, masteryOf(chapter.side, puzzles.map(puzzle => puzzle.key), now));
+      const drills = drillsOf(rep, chapter);
+      standing.set(chapter.id, masteryOf(chapter.side, drills, now));
       for (const line of chapter.lines) {
-        const own = puzzles.filter(puzzle => puzzle.line === line.index).map(puzzle => puzzle.key);
+        const own = drills.filter(drill => drill.line === line.index);
         const mastery = masteryOf(chapter.side, own, now);
         if (needOf(mastery) > 0) work.push({ chapter, line, mastery });
       }
     }
     work.sort((a, b) => needOf(b.mastery) - needOf(a.mastery));
     return { standing, work: work.slice(0, WORK_ROWS) };
-  }, [rep]);
+  }, [rep, choices]);
 
   const groupsOf = (side: Chapter['side']) => {
     const groups = new Map<string, Chapter[]>();

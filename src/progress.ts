@@ -45,8 +45,26 @@ function load(): Entries {
   return cache;
 }
 
+/**
+ * One thing to know: the move to find in a position. Where the repertoire
+ * gives a choice of moves, each of them is known or not on its own.
+ */
+export interface Drill {
+  key: number;
+  /** The move, only where the position is a choice. */
+  uci?: string;
+  /** The line the position was first listed under. */
+  line?: number;
+  /** Answers given before moves were told apart count for this one: the main move of a choice. */
+  legacy?: boolean;
+}
+
 // The same position can be in a White chapter and a Black one, with different moves to find.
-const idOf = (side: Color, key: number) => `${side[0]}${key}`;
+const idOf = (side: Color, drill: Drill) => `${side[0]}${drill.key}${drill.uci ? `:${drill.uci}` : ''}`;
+
+function entryOf(entries: Entries, side: Color, drill: Drill): Entry | undefined {
+  return entries[idOf(side, drill)] ?? (drill.legacy ? entries[idOf(side, { key: drill.key })] : undefined);
+}
 
 /** The entry after one more answer. */
 export function answered(prev: Entry | undefined, firstAttempt: boolean, now: number): Entry {
@@ -64,14 +82,13 @@ export function standingAt(entry: Entry | undefined, now: number): Standing {
   return now - at > HOLD_DAYS[Math.min(streak, MAX_STREAK)]! * DAY ? 'fading' : 'solid';
 }
 
-export function standingOf(side: Color, key: number, now = Date.now()): Standing {
-  return standingAt(load()[idOf(side, key)], now);
+export function standingOf(side: Color, drill: Drill, now = Date.now()): Standing {
+  return standingAt(entryOf(load(), side, drill), now);
 }
 
-export function recordAnswer(side: Color, key: number, firstAttempt: boolean): void {
+export function recordAnswer(side: Color, drill: Drill, firstAttempt: boolean): void {
   const entries = load();
-  const id = idOf(side, key);
-  entries[id] = answered(entries[id], firstAttempt, Date.now());
+  entries[idOf(side, drill)] = answered(entryOf(entries, side, drill), firstAttempt, Date.now());
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
   } catch {
@@ -86,11 +103,11 @@ export interface Mastery extends Record<Standing, number> {
   last?: number;
 }
 
-export function masteryOf(side: Color, keys: readonly number[], now = Date.now()): Mastery {
-  const mastery: Mastery = { solid: 0, learning: 0, fading: 0, missed: 0, untested: 0, total: keys.length };
+export function masteryOf(side: Color, drills: readonly Drill[], now = Date.now()): Mastery {
+  const mastery: Mastery = { solid: 0, learning: 0, fading: 0, missed: 0, untested: 0, total: drills.length };
   const entries = load();
-  for (const key of keys) {
-    const entry = entries[idOf(side, key)];
+  for (const drill of drills) {
+    const entry = entryOf(entries, side, drill);
     mastery[standingAt(entry, now)]++;
     if (entry && entry[1] > (mastery.last ?? 0)) mastery.last = entry[1];
   }

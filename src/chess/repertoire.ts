@@ -185,26 +185,43 @@ export class Repertoire {
     );
   }
 
+  /** The side's repertoire moves from a position, across all chapters, in the order the notes first give them. */
+  repertoireMoves(side: Color, key: number): RepMove[] {
+    return (this.at(side, key)?.moves ?? []).filter(move =>
+      move.occurrences.some(occurrence => occurrence.kind === 'repertoire' && occurrence.live),
+    );
+  }
+
+  /** A position where the repertoire gives the side more than one move: a choice of its own to make. */
+  isChoice(side: Color, key: number): boolean {
+    return this.repertoireMoves(side, key).length > 1;
+  }
+
   /**
    * Positions of a chapter (or one of its lines) where its side has a repertoire
    * move to find, in reading order. The moves every line of the chapter starts
-   * with are what defines the chapter, so they are not asked.
+   * with are what defines the chapter, so they are not asked. Moves for which
+   * `skip` is true are left out, and so is everything that only they lead to.
    */
-  puzzles(chapter: Chapter, lineIndex?: number): Puzzle[] {
+  puzzles(chapter: Chapter, lineIndex?: number, skip?: (key: number, uci: string) => boolean): Puzzle[] {
     const puzzles = new Map<number, Puzzle>();
     const lines = lineIndex === undefined ? chapter.lines : chapter.lines.filter(line => line.index === lineIndex);
     for (const line of lines) {
       const keys = [posKey(Chess.default())];
       const trail = [Chess.default()];
+      /** Whether the position at each ply is only reached through a skipped move. */
+      const cut = [false];
       walkLine(line, chapter.side, ({ node, path, kind }) => {
         const ply = path.length - 1;
         const from = keys[ply]!;
         const after = trail[ply]!.clone();
         after.play(moveFromUci(node.uci));
-        trail.length = keys.length = ply + 1;
+        trail.length = keys.length = cut.length = ply + 1;
         trail.push(after);
         keys.push(posKey(after));
-        if (kind !== 'repertoire' || ply < chapter.root) return;
+        const skipped = cut[ply]! || (kind === 'repertoire' && ply >= chapter.root && !!skip?.(from, node.uci));
+        cut.push(skipped);
+        if (kind !== 'repertoire' || ply < chapter.root || skipped) return;
         let puzzle = puzzles.get(from);
         if (!puzzle) {
           puzzle = { key: from, path: path.slice(0, -1).map(step => step.uci), answers: [], line: line.index };

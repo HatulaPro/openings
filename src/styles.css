@@ -1286,3 +1286,93 @@ section > h2.plain {
   margin-bottom: 6px;
   font-size: 1rem;
 }
+
+/* A choice of moves: the slots in training, the settings in a chapter. */
+
+.choice-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.slot {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px dashed var(--border);
+  border-radius: 15px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.slot.found {
+  border-style: solid;
+  color: var(--text);
+}
+
+.train-note .turn-on {
+  display: block;
+  margin: 8px 0 0;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 16px 12px;
+  border-bottom: 1px solid var(--surface);
+}
+
+.choice.off {
+  opacity: 0.55;
+}
+
+.choice-where {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.choice-moves {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.choice-move {
+  display: grid;
+  grid-template-columns: 4.5em 3em 1fr;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.choice-move .segmented button {
+  min-height: 32px;
+  font-size: 0.8rem;
+}
+
+.choice-move.main .segmented button.on {
+  color: var(--good);
+}
+
+.choice-move.off > .moves {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.line-item.off .row-title {
+  color: var(--muted);
+}
+
+.off-note {
+  color: var(--warn);
+}
