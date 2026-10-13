@@ -87,6 +87,8 @@ export function Coords({ back }: { back: () => void }) {
 
   const [phase, setPhase] = useState<'setup' | 'run' | 'done'>('setup');
   const [target, setTarget] = useState<Target>(() => pick(pov));
+  /** Shown beside the asked square, so the eye can move on before the tap lands. */
+  const [next, setNext] = useState<Target>(() => pick(pov, target.square));
   const [hits, setHits] = useState(0);
   const [misses, setMisses] = useState(0);
   const [elapsed, setElapsed] = useState(0);
@@ -105,7 +107,9 @@ export function Coords({ back }: { back: () => void }) {
     setElapsed(0);
     setMarks([]);
     setResult(null);
-    setTarget(pick(pov));
+    const first = pick(pov);
+    setTarget(first);
+    setNext(pick(pov, first.square));
     setPhase('run');
   };
 
@@ -141,7 +145,8 @@ export function Coords({ back }: { back: () => void }) {
     if (square === target.square) {
       setHits(count => count + 1);
       setMarks([{ id, col, row }]);
-      setTarget(pick(pov, square));
+      setTarget(next);
+      setNext(pick(pov, next.square));
       playMoveSound('move');
     } else {
       setMisses(count => count + 1);
@@ -165,7 +170,6 @@ export function Coords({ back }: { back: () => void }) {
               <span className="level good">✓ {hits}</span>
               <span className={misses ? 'level bad' : 'muted'}>✗ {misses}</span>
             </span>
-            <span className="coords-target">{running ? target.square : ''}</span>
             <span className="coords-time">{clock(limit ? limit - elapsed : elapsed)}</span>
           </div>
           {/* Kept out of sight until the first run, so the first square is found on a board not yet studied. */}
@@ -175,6 +179,14 @@ export function Coords({ back }: { back: () => void }) {
               <div className="coords-board">
                 <Board fen={INITIAL_FEN} orientation={orientation} preview coordinates={false} />
                 <div className="coords-touch" onPointerDown={onTap}>
+                  {running && (
+                    <div className="coords-prompt" aria-live="polite">
+                      <span key={hits} className="coords-current">
+                        {target.square}
+                        <span className="coords-next">{next.square}</span>
+                      </span>
+                    </div>
+                  )}
                   {marks.map(mark => (
                     <span
                       key={mark.id}
