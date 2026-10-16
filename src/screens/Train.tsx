@@ -7,8 +7,8 @@ import { shapesOf } from '../chess/shapes';
 import { Board } from '../components/Board';
 import { RichText, teaser } from '../components/RichText';
 import { Screen } from '../components/Screen';
+import { LineDot } from '../components/LineDot';
 import { MasteryBar } from '../components/Mastery';
-import { colourOfLine } from '../lineColour';
 import { masteryOf, recordAnswer, type Standing, standingOf } from '../progress';
 import type { Navigate } from '../routes';
 
@@ -97,7 +97,6 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
     const lines = rep.linesOf(chapter, path);
     return lines.length === 1 ? lines[0]! : undefined;
   }, [rep, chapter, scope, path]);
-  const colour = inLine === undefined ? undefined : colourOfLine(rep, chapter, inLine);
 
   const newRun = () => {
     setPath(start);
@@ -270,14 +269,7 @@ export function Train({ rep, chapter, line, navigate, back }: TrainProps) {
     >
       <div className="train">
         <p className={`train-status ${tone}`}>
-          {colour && (
-            <span
-              className="line-dot"
-              style={{ background: colour }}
-              aria-label={`Line: ${chapter.lines[inLine!]!.name}`}
-              role="img"
-            />
-          )}
+          {inLine !== undefined && <LineDot rep={rep} chapter={chapter} line={inLine} />}
           {status}
         </p>
         {solid && (

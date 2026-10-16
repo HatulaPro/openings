@@ -5,6 +5,7 @@ import { type Chapter as ChapterType, type Line, linePgn, lineStart, type Repert
 import type { SectionData } from '../chess/repertoireFormat';
 import { shapesOf } from '../chess/shapes';
 import { Board } from '../components/Board';
+import { LineDot } from '../components/LineDot';
 import { MasteryBar, MasteryLegend, MasteryNote } from '../components/Mastery';
 import { RichText } from '../components/RichText';
 import { Screen } from '../components/Screen';
@@ -138,7 +139,10 @@ export function Chapter({ rep, chapter, navigate, back }: ChapterProps) {
                 <li key={line.index} className="line-item">
                   <button className="row" onClick={() => openLine(chapter, line, navigate)}>
                     <span className="row-main">
-                      <span className="row-title">{line.name}</span>
+                      <span className="row-title">
+                        <LineDot rep={rep} chapter={chapter} line={line} />
+                        {line.name}
+                      </span>
                       <span className="row-sub moves">{linePgn(line, Math.min(lineStart(chapter, line), line.main.length - 1), 7)}</span>
                       <span className="row-note">{line.summary}</span>
                       <MasteryBar mastery={lineMastery[line.index]!} />

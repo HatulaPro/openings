@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import type { Chapter, Line, Repertoire } from '../chess/repertoire';
+import { LineDot } from '../components/LineDot';
 import { MasteryBar, MasteryNote } from '../components/Mastery';
 import { Screen } from '../components/Screen';
 import type { Navigate } from '../routes';
@@ -98,7 +99,10 @@ export function Home({ rep, navigate }: HomeProps) {
                 }
               >
                 <span className="row-main">
-                  <span className="row-title">{resume.line.name}</span>
+                  <span className="row-title">
+                    <LineDot rep={rep} chapter={resume.chapter} line={resume.line} />
+                    {resume.line.name}
+                  </span>
                   <span className="row-sub">{resume.chapter.title}</span>
                 </span>
                 <span className="row-side">›</span>
@@ -116,7 +120,10 @@ export function Home({ rep, navigate }: HomeProps) {
               <li key={`${chapter.id}:${line.index}`}>
                 <button className="row" onClick={() => navigate({ screen: 'train', chapter: chapter.id, line: line.index })}>
                   <span className="row-main">
-                    <span className="row-title">{line.name}</span>
+                    <span className="row-title">
+                      <LineDot rep={rep} chapter={chapter} line={line} />
+                      {line.name}
+                    </span>
                     <span className="row-sub">{chapter.title}</span>
                   </span>
                   <span className="row-side">
