@@ -137,6 +137,10 @@ and it gives exact moves with explanations, which book excerpts and articles rar
     node scripts/study.ts show <id>                       a study's likes and its chapters
     node scripts/study.ts chapter <id> 3 4                chapters as PGN, without engine evaluations
 
+Since October 2026 Lichess answers `search` and `topic` from a script with 403; `show` and `chapter` still
+work. Search from a browser instead: the topic pages (`https://lichess.org/study/topic/Pirc Defense/popular`)
+are sorted by likes, which the plain search is not. Some studies refuse downloads; those cannot be read.
+
 Try several wordings: a study called "Vienna Repertoire" does not turn up under "vienna gambit". Build
 a chapter from two to four studies with hundreds of likes or more, cross-checked against one another,
 and never from a study with only a handful. List each study under `## Sources` with its title, author,

@@ -9,3 +9,6 @@ data/book-full.bin
 
 # Move sounds from Lichess, not free to redistribute; fetch with `pnpm data:sounds`
 public/sound/
+
+# chess.com games fetched by `pnpm coverage`
+data/games/

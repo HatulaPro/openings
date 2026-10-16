@@ -16,7 +16,8 @@
     "data:sounds": "node scripts/fetch-sounds.ts",
     "android:sync": "pnpm build && cap sync android",
     "android:apk": "pnpm android:sync && node scripts/gradle.ts assembleDebug",
-    "android:install": "pnpm android:sync && node scripts/gradle.ts installDebug"
+    "android:install": "pnpm android:sync && node scripts/gradle.ts installDebug",
+    "coverage": "node scripts/coverage.ts"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",
