@@ -10,6 +10,8 @@
 // Where the chapter's side is to move in a position the notes cover, only the
 // moves in the notes are followed, so the book keeps everything the opponent
 // can try against the repertoire but not the openings the repertoire avoids.
+// Past the notes it is followed for BEYOND_NOTES plies: 1...g6 against every
+// first move would otherwise keep most of the elite games.
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -31,6 +33,9 @@ const { values } = parseArgs({
     'skip-broken': { type: 'boolean', default: false },
   },
 });
+
+/** How many plies past the last position of the notes the trimmed book still follows. */
+const BEYOND_NOTES = Number(process.env.BEYOND_NOTES ?? 12);
 
 const contentDir = fileURLToPath(new URL('content/', root));
 const full = values['no-book'] ? undefined : loadFullBook();
@@ -87,12 +92,17 @@ function trimBook(book: Book, chapters: ChapterData[]): void {
   for (const side of ['white', 'black'] as const) {
     // What the notes let this side play, by position.
     const noted = new Map<number, Set<number>>();
-    const queue: Chess[] = [];
+    /** Every position the notes of this side reach. */
+    const inNotes = new Set<number>();
+    /** Positions to follow, with how many plies they lie past the notes. */
+    const queue: { pos: Chess; beyond: number }[] = [];
     for (const chapter of chapters.filter(candidate => candidate.side === side)) {
       const walk = (nodes: NodeData[], pos: Chess) => {
         for (const node of nodes) {
           const after = pos.clone();
           after.play(moveFromUci(node.uci));
+          inNotes.add(posKey(pos));
+          inNotes.add(posKey(after));
           if (pos.turn === side) {
             const key = posKey(pos);
             if (!noted.has(key)) noted.set(key, new Set());
@@ -109,15 +119,17 @@ function trimBook(book: Book, chapters: ChapterData[]): void {
         pos.play(moveFromUci(uci));
         keep.add(posKey(pos));
       }
-      queue.push(pos);
+      queue.push({ pos, beyond: 0 });
     }
 
-    const seen = new Set<number>();
+    // A position is expanded once, from the closest it was reached to the notes.
+    const seen = new Map<number, number>();
     while (queue.length) {
-      const pos = queue.pop()!;
+      const { pos, beyond } = queue.pop()!;
       const key = posKey(pos);
-      if (seen.has(key)) continue;
-      seen.add(key);
+      if ((seen.get(key) ?? Infinity) <= beyond) continue;
+      seen.set(key, beyond);
+      if (beyond >= BEYOND_NOTES) continue;
       const allowed = pos.turn === side ? noted.get(key) : undefined;
       for (const entry of book.moves(pos)) {
         const after = pos.clone();
@@ -125,7 +137,8 @@ function trimBook(book: Book, chapters: ChapterData[]): void {
         const afterKey = posKey(after);
         if (allowed && !allowed.has(afterKey)) continue;
         keep.add(afterKey);
-        if (!seen.has(afterKey)) queue.push(after);
+        const next = inNotes.has(afterKey) ? 0 : beyond + 1;
+        if ((seen.get(afterKey) ?? Infinity) > next) queue.push({ pos: after, beyond: next });
       }
     }
   }

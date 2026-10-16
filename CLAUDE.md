@@ -23,7 +23,12 @@ The app covers only the openings he picks; the old catalogue of every named open
   Caro-Kann (1.e4 c6 2.d4 d5) he used to exchange and play Be3 or Nf3 for an equal game, and wants
   better weapons.
 - **Black:** Modern and King's Indian style positions. He wants to learn Sicilian positions such as
-  the Dragon and the Najdorf.
+  the Dragon and the Najdorf. He answers everything with 1...g6 and ...Bg7, ...d6: against 1.d4 he goes
+  into the King's Indian when White allows it (c4, Nc3, e4 and ...Nf6) and plays Modern set-ups
+  against the London, Nf3/g3 and other systems.
+- **Coverage over depth.** He meets one of the app's lines in too few games. New lines are chosen by
+  how often his opponents play them: `pnpm coverage` and `pnpm coverage tree` read his chess.com games
+  (hatulapro). Wide before deep, sourced moves only, and a plan note where the sources stop.
 - Chapters planned but not written: Vienna with 3.Bc4, Caro-Kann Exchange with 4.Bd3, King's Indian
   Makogonov/Averbakh, Fianchetto and d-pawn systems, Modern without Nc3, Dragon Classical/Levenfish,
   Najdorf 6.Be2/6.Bc4/6.h3. Do not start them unless asked.

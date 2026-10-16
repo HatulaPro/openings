@@ -1,0 +1,125 @@
+[Line "1.c4 g6 2.Nc3 Bg7 3.g3 d6 4.Bg2 Nf6 5.e4: the Botvinnik set-up"]
+[Section "1.c4 g6 2.Nc3 Bg7 3.g3"]
+[Summary "White builds the Botvinnik bind with e4, Nge2, d3 and f4 and no pawn on d4. Black answers at once with ...c5 and ...Nc6, then starts queenside play with ...Rb8, ...a6 and ...b5: the Closed Sicilian with the colours reversed."]
+
+1. c4 { 22 of his games. After 1...g6 the English has two faces. If White plays d4 or e4 with a big centre, Black enters the King's Indian (see the d4 game below). If White plays g3 and keeps the centre flexible, Black plays a King's Indian or Closed Sicilian set-up with the colours reversed: the first three games here. }
+1... g6 2. Nc3 { 11 of his games; 2.Nf3 is the same thing by transposition, since 1.c4 g6 2.Nf3 Bg7 3.Nc3 and 1.Nf3 g6 2.c4 Bg7 3.Nc3 reach one position. } 2... Bg7
+3. g3 { 5 games. White keeps both d4 and e4 in hand and develops the king's side first. After 3...d6 4.Bg2 Nf6 the elite games continue 5.d4 (36%, a Fianchetto King's Indian, not written here), 5.Nf3 (28%, the next game) and 5.e4 (21%, this game). }
+3... d6 { The habit move: it keeps both ...Nf6 and ...e5 available, so Black can still choose between a King's Indian and the ...e5 set-up of the third game. }
+4. Bg2 Nf6 { [%cal Gf6e4] } 5. e4 { 3 games. The Botvinnik system, borrowed from the Closed Sicilian: the pawns on c4 and e4 cover d5, and White plans Nge2, d3, f4 and Be3 for a kingside advance without ever playing d4. }
+5... O-O
+6. Nge2 { The knight keeps the f-pawn free to advance and covers d4. } ( 6. d3 { A move-order point: 6...c5 7.Nge2 Nc6 8.O-O is the same line. } )
+6... c5! { [%cal Gc5d4,Gb8c6,Ga8b8] The point of the whole set-up in the source: the Botvinnik structure leaves a hole on d4, and Black has to take control of it immediately with the pawn, before the knights and bishops arrive. The attack on the d4 square is then kept up with ...Nc6 and, later, ...Bg4 against the knight on e2. The same structure as the Closed Sicilian with the colours reversed: whoever knows those plans knows these. }
+7. O-O Nc6 { [%cal Gc6d4,Gb7b5] The elite games choose this in 92% of cases. }
+8. d3 { [%cal Gf2f4,Gc1e3] The Botvinnik position is on the board. White prepares f4, Be3 and Qd2 and a pawn advance on the kingside. }
+8... Rb8! { [%cal Gb7b5,Ga7a6] **Plan:** expand on the queenside and create counterplay in case of a kingside attack; ...a6 and ...b5 are the pawn moves, and the rook belongs on the b-file behind them. }
+( 8... Ne8!? { The knight heads for c7 and e6 to control d4 and e5. The source prefers to play this a move earlier and, in the end, does not recommend it: Black falls behind in development, is exposed to f4, and has no concrete plan after it. } 9. Be3 Nc7 10. Qd2 Ne6 )
+9. Rb1 { Prepares b4. } ( 9. h3 a6 10. a4 ( 10. Be3 b5 11. cxb5 axb5 12. d4 b4 13. Nd5 Nd7 14. e5 cxd4 15. Nxd4 Nxd4 ) )
+( 9. f4 Bg4! { **Idea:** the fight is for d4, and the knight on e2 is White's best defender; the bishop on g4 wants to trade itself for it. } 10. h3 Bxe2 11. Nxe2 Nd7! { Black prepares ...b5. With the knight still on f6, ...b5 would run into e5, hitting two pieces; from d7 the knight also hits e5 and f6 is free. White's kingside attack is hard to carry further. } )
+9... a6 { [%cal Gb7b5] }
+10. a3 ( 10. a4 { White stops ...b5, which is the point of the rook move. } 10... Bg4! { The dark squares and d4 are the fight, so the knight on e2 matters more than the light-squared bishop. } 11. f3 ( 11. h3 Bxe2 12. Qxe2 { White cannot prevent ...b5 now, and the bishop on g2 has little to do. } ) 11... Bd7 12. Be3 Ne8 { The typical reroute: the knight goes to c7, where it supports ...b5 and watches over d5. } 13. d4 cxd4 14. Nxd4 Nxd4 15. Bxd4 b5 { f3 has weakened the king and shut the bishop on g2 in: Black is doing well. } )
+10... b5 11. cxb5 axb5 12. b4 cxb4 13. axb4 e5!? { An odd-looking move: in this symmetrical structure the knight on f6 does more for the centre than the one on e2, so Black takes e5 and White's only active plan is the pawn advance f4. } 14. h3 { Takes g4 from the bishop, so that Be3 and f4 can come without ...Bg4 trading the knight on e2. } 14... Be6 { [%cal Gd6d5] Prepares ...d5. } 15. f4 exf4 16. gxf4 ( 16. Nxf4 Nh5! { Works because it uncovers an attack on the knight on c3, and the knight on f4 is attacked as well. } ) 16... Ne7!? { A complicated position, and not what White hoped for from the quiet start: he has staked everything on a kingside advance. Black continues with ...f5 or ...d5 in the centre. } 17. Be3 Qd7 18. Kh2 Nh5 { Karlsson - Grigore, Sitges 2008, drawn: the source ends here. Balanced, with chances for both sides; the Botvinnik pawn centre is stretched, and Black has the faster play on the queenside. } *
+
+[Line "4...Nf6 5.Nf3 O-O 6.O-O c5: the quiet English"]
+[Section "1.c4 g6 2.Nc3 Bg7 3.g3"]
+[Summary "White develops without committing the pawns. Black plays the same ...c5 and ...Nc6 set-up with ...Rb8, ...a6 and ...b5 as the plan; if White opens the centre with d4 the game becomes the Fianchetto King's Indian."]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 d6 4. Bg2 Nf6 5. Nf3 { 28% of the elite games at this point. White waits: d4 would give a Fianchetto King's Indian, d3 with e4 a slow Botvinnik, and Rb1 with b4 the English queenside play. } 5... O-O
+6. O-O { The quiet way. } ( 6. d4 { The Fianchetto King's Indian with a knight on c3: not written here, but the line is in 1-d4.pgn (4.Nf3 Nf6 5.g3 O-O 6.Bg2 Nc6 7.O-O Bg4); the position of that line arises after 6...Nc6 7.O-O. } 6... Nc6 7. O-O Bg4 8. h3 Bxf3 9. Bxf3 Nd7 10. e3 e5 11. d5 Ne7 12. e4 f5 )
+6... c5 { [%cal Gc5d4,Gb8c6] The same idea as against the Botvinnik: the pawn takes d4 from the knights and starts the Sicilian structure. Black's other moves here are 6...e5 (30% of the elite games) and 6...Nc6 (24%); ...c5 is 20% and is the source's choice. }
+7. d3 ( 7. d4 { The source lists this without a continuation. The structure is that of a Maroczy bind or an open Sicilian after ...cxd4 and Nxd4, with the fianchetto bishop on g2 instead of e2. } )
+7... Nc6 { [%cal Ga8b8,Ga7a6,Gb7b5] The same plan as in the Botvinnik game: ...Rb8, ...a6 and ...b5 against Rb1 and b4, with the bishop to d7 or g4 as needed. The source stops at 7...Nc6, so the moves after it are a gap; the plan is clear but nothing concrete is sourced. Equal. } *
+
+[Line "4...e5 5.Nf3 Nc6 6.d3 Nf6 7.O-O O-O 8.Rb1 a5: the reversed KID"]
+[Section "1.c4 g6 2.Nc3 Bg7 3.g3"]
+[Summary "A four-knights English in which Black has the King's Indian pieces: pawns on e5 and d6, knights on c6 and f6. White plays Rb1 and b4; Black stops b4 with ...a5 and has a firm grip on the centre."]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 d6 4. Bg2 e5 { [%cal Ge5d4,Gb8c6,Gg8f6] 4...e5 is the second most played move in the elite games (18%). Black takes the centre at once and builds a King's Indian set-up that White cannot attack with d4. }
+5. Nf3 { 35% of the elite games here. } 5... Nc6 6. d3 { [%cal Gc1e3,Ga1b1,Gb2b4] White keeps the pawn on d3 and prepares Rb1 and b4, or Be3 and e4. } 6... Nf6 7. O-O O-O
+8. Rb1 { [%cal Gb2b4,Ga2a3,Ge2e4,Gc1e3] **Plan:** the queenside advance with a3 and b4; pieces to e3 and, later, d2 and e4. The source describes White as preparing an attack on the queenside with Rb1 and b4, and Black as going either for a strong grip in the centre or for an attack on the king. }
+8... a5 { [%cal Ga5b4] Stops b4 at once. The source continues with White playing a3 first, then b4 anyway or e4 and Bg5 / Be3 as the plan. The other plan for Black is ...Be6, ...Qd7 and ...Rfd8, with ...Nd4 or ...Nh5 followed by ...f5; the sources give no concrete moves here, so this is a gap. A beginners study (English Opening!, 8990 likes) reaches 1.c4 Nf6 2.g3 Nc6 3.Bg2 g6 4.Nc3 Bg7 5.d3 O-O 6.Nf3 d6 7.O-O Bd7 8.Bd2 and calls it better for White, but that is a version without ...e5. } *
+
+[Line "3.d4 d6 4.e4 Nf6 5.Nf3 O-O 6.Be2 e5: into the King's Indian"]
+[Section "1.c4 g6 2.Nc3 Bg7 3.d4"]
+[Summary "White takes the full centre at once. Black answers 3...d6 and 4...Nf6 and is in the King's Indian chapters: Classical with 5.Nf3, Saemisch with 5.f3, Four Pawns with 5.f4."]
+
+1. c4 g6 2. Nc3 Bg7 3. d4 { 3 of his games, and the most played third move in the elite games (63%). It offers the King's Indian: after 3...d6 4.e4 Nf6 the position is the one of 1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6, so this is a route, not a new set-up. The same position arises from 1.d4 g6 2.c4 Bg7 3.Nc3 (see 1-d4.pgn) and from 1.e4 g6 2.d4 Bg7 3.c4 d6 4.Nc3 Nf6 in the Modern chapters. }
+3... d6 4. e4 Nf6 5. Nf3 O-O 6. Be2 e5 *
+
+[Line "1.Nf3 g6 2.c4 Bg7 3.Nc3 d6 4.g3 Nf6 5.Bg2 O-O 6.O-O c5: the quiet English again"]
+[Section "1.Nf3 g6 2.c4"]
+[Summary "The Réti move order into the same set-ups: 4.d4 Nf6 5.e4 is the King's Indian, 4.g3 the quiet English of the previous section."]
+
+1. Nf3 { 20 of his games. It transposes into most of this file, and into the 1.d4 file after 2.d4. }
+1... g6
+2. c4 { 7 games: the same positions as 1.c4 g6 2.Nf3. After 2.d4 Bg7 the game is in 1-d4.pgn; 2.e4 Bg7 is a Modern line (1.e4 g6 2.Nf3 Bg7 3.d4 d6 is in modern-no-nc3), and 2.g3 is the Réti below. }
+2... Bg7 3. Nc3 { 6 games. 90% of the elite games continue 3...d6 4.d4. }
+3... d6
+4. g3 ( 4. d4 Nf6 5. e4 O-O 6. Be2 e5 ) ( 4. e4 Nf6 5. d4 O-O 6. Be2 e5 )
+4... Nf6 5. Bg2 O-O 6. O-O c5 *
+
+[Line "1.c4 g6 2.g3 Bg7 3.Bg2 d6 4.Nc3 Nf6: the English by transposition"]
+[Section "1.c4 g6 2.g3"]
+[Summary "White fianchettoes first and chooses the knights later. 2.g3 Bg7 3.Bg2 d6 4.Nc3 is the 2.Nc3 Bg7 3.g3 position, 4.Nf3 the Réti, 4.d4 the Fianchetto King's Indian."]
+
+1. c4 g6 2. g3 { 5 of his games. The 2.Nc3 Bg7 3.g3 position with the move order left open: White may still choose Nc3, Nf3 or d4. }
+2... Bg7 3. Bg2 d6
+4. Nc3 { 59% of the elite games: the English of the first three games of this file. } ( 4. Nf3 Nf6 5. O-O O-O 6. Nc3 c5 ) ( 4. d4 Nf6 5. Nc3 O-O 6. Nf3 Nc6 7. O-O Bg4 8. h3 Bxf3 9. Bxf3 Nd7 )
+4... Nf6 5. Nf3 O-O 6. O-O c5 *
+
+[Line "1.Nf3 g6 2.g3 Bg7 3.Bg2 d6 4.O-O Nf6 5.d3 O-O 6.e4 c5 7.Re1 Nc6 8.c3 e5: the Reti"]
+[Section "1.Nf3 g6 2.g3"]
+[Summary "The King's Indian Attack set-up with the pawns on d3 and e4. Black treats it as a Closed Sicilian with the colours reversed: ...c5, ...Nc6 and ...e5 take d4 away, ...b5 follows once White has committed to a3 and b4."]
+
+1. Nf3 g6 2. g3 { 6 of his games. White builds a King's Indian Attack or a Catalan-like set-up. The move order does not matter yet: 2...Bg7 3.Bg2 d6 is Black's usual answer, and after 4.O-O Nf6 White's choice is d4, c4 or d3. }
+2... Bg7 3. Bg2 d6
+4. O-O { 3 games; 32% of the elite games, behind 4.d4 (50%, 3 games of his). } ( 4. d4 { A 1.d4 g6 position (1.d4 g6 2.Nf3 Bg7 3.g3 d6 4.Bg2): after 4...Nf6 5.O-O O-O 6.c4 Nc6 7.Nc3 it is the Fianchetto King's Indian that 1-d4.pgn covers. } 4... Nf6 5. O-O O-O 6. c4 Nc6 7. Nc3 )
+4... Nf6
+5. d3 { 3 games. White builds the King's Indian Attack set-up: pawns on d3 and e4, knight to d2 and the f-pawn can follow once the f3-knight is out of the way. 12% of the elite games. 5.d4 and 5.c4 are the choices that transpose elsewhere. }
+( 5. c4 { Transposes to the quiet English game: 5...O-O 6.Nc3 c5 is the position of 1.c4 g6 2.Nc3 Bg7 3.g3 d6 4.Bg2 Nf6 5.Nf3 O-O 6.O-O c5. } 5... O-O 6. Nc3 c5 7. d3 Nc6 )
+( 5. d4 { 3 games, the most played move in the elite games (64%): the Fianchetto King's Indian after 5...O-O 6.O-O or 6.c4 Nc6 7.Nc3, as written in 1-d4.pgn (it is the same position). Nothing new is added here. } 5... O-O 6. c4 Nc6 7. Nc3 )
+5... O-O
+6. e4 { [%cal Gb1d2,Gf1e1] White takes the centre. This is a Closed Sicilian with the colours reversed, so the Sicilian plans apply, with the colours switched. } ( 6. Nbd2 c5 7. e4 Nc6 8. Re1 e5 )
+6... c5! { [%cal Gc5d4,Gb8c6,Ge7e5] **Plan:** the pawn on c5 grabs d4, the knight comes to c6, and ...e5 (the Botvinnik set-up as Black in the Closed Sicilian) takes full control of d4 so that White's usual break d3-d4 is gone. }
+7. Re1 { [%cal Ga2a3,Gb2b4] } ( 7. c3 Nc6 8. Re1 e5 ) ( 7. Nc3 Nc6 8. h3 Rb8! { The Closed Sicilian plan: the rook goes to b8 and the b-pawn advances. } 9. Be3 b5 10. a3 a5 )
+7... Nc6 8. c3 e5! { [%csl Yd4] The key move: Black gets full control of d4, and now White has two plans: a3-b4 on the queenside, or Nbd2-f1-e3 to take control of the weak d5 square. }
+9. a3 { Prepares b4. } ( 9. Nbd2 h6 { Black is in time to get rid of the d5 weakness with ...d5 before White gets a knight to the outpost. } 10. a4! { White tries to get the knight to c4 and stop ...b5. } 10... Be6 11. Nc4 Re8 { The plan is to break through with ...d5, and it is hard for White to stop it. } ) ( 9. h3 h6 10. Be3 Be6 11. Nbd2 Qd7! { The queen supports ...d5 and keeps an eye on h3. } )
+9... b5! { [%cal Gb5b4] Stops White's queenside play and grabs the initiative on that side. The source warns against 9...a5: it creates too many light-square weaknesses, and White continues with a4 and Na3, getting the b5 square. }
+10. b4 a5 { White no longer has the a4 resource, since the pawn stands on b5. } 11. bxc5 dxc5 { The source stops here. The queenside has opened with the d6-pawn recaptured on c5, and Black has a firm hold on d4; the play goes on with ...Be6, ...Qc7 and a break in the centre. }
+*
+
+[Line "1.b4 g6 2.Bb2 Nf6 3.e3 Bg7 4.Nf3 d6 5.c4 e5: the Polish"]
+[Section "Rare first moves"]
+[Summary "The Polish or Sokolsky. The bishop on b2 already looks at g7, so Black blocks the diagonal with ...Nf6 first and then plays the usual set-up with ...e5."]
+
+1. b4 { 3-4 games. A flank move: White grabs space and puts the bishop on the long diagonal against the king's bishop that Black wants to play to g7. } 1... g6
+2. Bb2 { With the g-pawn gone the diagonal runs straight to the rook on h8. } 2... Nf6! { [%cal Rb2g7,Gf6e4] 98% of the elite games. The knight blocks the diagonal first; the bishop goes to g7 only afterwards, once the knight stands between the two bishops. } ( 2... Bg7? { Loses a piece: nothing defends g7, so 3.Bxg7 wins the bishop and still hits h8. } 3. Bxg7 Nf6 4. Bxh8 )
+3. e3 { Prepares Nf3 and c4. } ( 3. Bxf6?! { Gives up the strong bishop and Black recaptures with the e-pawn, getting the centre and the bishop pair. } 3... exf6 4. c3 d5 )
+3... Bg7 4. Nf3 d6 5. c4 e5 { [%cal Ge5e4,Gb8d7] Black has the King's Indian centre and White's pawn on b4 does nothing for his own centre. } 6. d3 O-O 7. Be2 { A single study (68 likes), not cross-checked; the moves agree with the elite games (49% of them have 5.c4 here). Equal. In general terms: the bishop on b2 is blocked by the pawn on e5, and ...a5 is available against b4. } *
+
+[Line "1.f4 g6 2.Nf3 Bg7 3.e3 Nf6 4.Be2 O-O: the Bird"]
+[Section "Rare first moves"]
+[Summary "The Bird: White plays the f-pawn and builds with Nf3, e3, Be2 or g3, Bg2. Black develops the same way as against the Réti and keeps ...d6 and ...c5 for later; the e4 Modern set-up is another route."]
+
+1. f4 { 3-4 games. } 1... g6
+2. Nf3 { 64% of the elite games. } ( 2. e4 Bg7 3. Nf3 d6 4. d4 { The Modern with f4: the same position as 1.e4 g6 2.f4 Bg7 3.Nf3 d6 4.d4, which is covered in modern-no-nc3. } )
+2... Bg7
+3. e3 { The quiet set-up: the bishop to e2, then O-O. } ( 3. g3 Nf6 4. Bg2 O-O 5. O-O d5 6. d3 c5 7. Qe1 { The set-up of the Bird with the fianchetto: the queen goes to e1 to support e4. A single study says it is equal, with chances for both sides, and does not give more. The study's move order is 1.f4 d5 2.Nf3 g6 3.g3 Bg7 4.Bg2 Nf6 5.O-O O-O 6.d3 c5 7.Qe1: the position is the same. } )
+3... Nf6 4. Be2 O-O { Wikibooks gives this position as equal and says that 1.f4 Nf6 2.Nf3 g6 3.e3 Bg7 4.Be2 O-O usually arises by transposition. Plan: ...d6 and ...c5, or ...d5 and ...c5 if White commits to Be2; No further line is given in any source used here. } *
+
+[Line "1.g3 g6 2.Bg2 Bg7 3.e3 Nf6 4.Ne2 O-O 5.O-O d5 6.d3 e5"]
+[Section "Rare first moves"]
+[Summary "Fianchetto against fianchetto. White plays g3 and keeps all options open; the real tests are 2.Nf3 (the Réti) and 2.c4 (the English), which transposes to the earlier lines."]
+
+1. g3 { 3-4 games. The move is flexible: 46% of the elite games continue 2.Nf3 (the Réti, see the Réti game above) and 27% 2.c4 (the English). } 1... g6
+2. Bg2 Bg7 { 3.c4 d6 4.Nc3 Nf6 and 3.Nf3 d6 4.O-O are the English and Réti games of this file. }
+3. e3 { The knight goes to e2 and not to f3, and the f-pawn stays free. } 3... Nf6 4. Ne2 O-O 5. O-O d5 { Wikibooks rates this line =/+ (the page does not define its symbols). With ...d6 instead of ...d5 the position is a King's Indian set-up as well, but no source gives that line. } 6. d3 e5 *
+
+[Line "1.e3 g6 2.Nf3 Bg7 3.b4 Nf6 4.Bb2 O-O 5.c4 d6 6.d4"]
+[Section "Rare first moves"]
+[Summary "A quiet beginning that usually transposes: 2.d4 gives the 1.d4 lines, and the Nf3, b4, Bb2, c4 set-up leads to a King's Indian structure."]
+
+1. e3 { 3-4 games. A waiting move; the elite games continue 2.d4 (35%), 2.Nf3 (23%) and 2.c4 (12%). } 1... g6
+2. Nf3 ( 2. d4 Bg7 3. Nf3 d6 { The 1.d4 lines: see 1-d4.pgn. } ) ( 2. c4 Bg7 3. Nc3 d6 { The English, as in the first games of this file. } )
+2... Bg7 3. b4 { A source gives this set-up (with a different move order: 1...Nf6 2.Nf3 g6 3.b4 Bg7 4.Bb2 O-O 5.c4 d6 6.d4) and says that play reaches a King's Indian type of position. } 3... Nf6 4. Bb2 O-O 5. c4 d6 6. d4 { A single source, Wikibooks. No further line is given; Black plays ...Nbd7 with ...e5 or ...c5 as in the King's Indian chapters. }
+*
