@@ -1,7 +1,7 @@
 // How far recent chess.com games stay in the notes, and which moves they meet
 // once they leave them: the list that decides what the repertoire covers next.
 //
-//   pnpm coverage [--user name] [--months 6] [--refresh]
+//   pnpm coverage [--user name] [--months 6] [--refresh] [--top 40]
 //       per side, how many games stay in the notes to move 6 and move 8, and
 //       the moves most games leave the notes with
 //   pnpm coverage tree <white|black> [SAN moves ...] [--min 3] [--depth 8]
@@ -123,7 +123,7 @@ function summary(): void {
     exits.set(key, entry);
   }
   console.log('\nWhere games leave the notes (the last move is the one the notes do not have):');
-  for (const [key, { count, mine, side }] of [...exits].sort((a, b) => b[1].count - a[1].count).slice(0, 40)) {
+  for (const [key, { count, mine, side }] of [...exits].sort((a, b) => b[1].count - a[1].count).slice(0, Number(option('top', '40')))) {
     console.log(`${String(count).padStart(4)}  ${side.padEnd(5)}  ${mine ? 'my move  ' : 'their move'}  ${key.split('|')[1]}`);
   }
 }
