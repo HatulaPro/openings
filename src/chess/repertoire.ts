@@ -166,6 +166,16 @@ export class Repertoire {
     return this.graphs[side].get(key);
   }
 
+  /**
+   * The repertoire move that leads to a position, if one does: the position is
+   * one the side reaches by playing its own repertoire, by whatever move order.
+   */
+  aimedAt(side: Color, key: number): RepMove | undefined {
+    return this.at(side, key)?.arrivals.find(move =>
+      move.occurrences.some(occurrence => occurrence.kind === 'repertoire'),
+    );
+  }
+
   /** The move from one position, if the side's notes have it. */
   move(side: Color, from: number, uci: string): RepMove | undefined {
     return this.at(side, from)?.moves.find(move => move.uci === uci);
@@ -239,6 +249,19 @@ export function viewOf(move: RepMove, chapter?: number): MoveView {
     chapter: best.chapter,
     line: best.line,
   };
+}
+
+/**
+ * Where a move belongs, when that is one chapter or one opening: 1.e4 starts
+ * every White chapter, so naming any one of them would mislead.
+ */
+export function placeOf(rep: Repertoire, move: RepMove, repertoireOnly = false): string | undefined {
+  const chapters = new Set(
+    move.occurrences.filter(occurrence => !repertoireOnly || occurrence.kind === 'repertoire').map(occurrence => occurrence.chapter),
+  );
+  if (chapters.size === 1) return rep.chapters[[...chapters][0]!]!.title;
+  const groups = new Set([...chapters].map(chapter => rep.chapters[chapter]!.group));
+  return groups.size === 1 ? [...groups][0] : undefined;
 }
 
 /** Where reading a line starts: at the first move that earlier lines of the chapter do not already play. */

@@ -67,6 +67,9 @@ export function Home({ rep, navigate }: HomeProps) {
       // The tools stay in reach however long the repertoire above them grows.
       footer={
         <>
+          <button className="btn" onClick={() => navigate({ screen: 'games' })}>
+            My games
+          </button>
           <button className="btn" onClick={() => navigate({ screen: 'study', side: 'white', path: [] })}>
             Analysis board
           </button>

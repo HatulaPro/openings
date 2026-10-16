@@ -13,12 +13,15 @@ export type Route =
       path: string[];
       /** How many moves of the path are on the board; all of them when left out. */
       cursor?: number;
-      /** The path is a game just played against the book. */
+      /** The path is a game played against the book or on chess.com. */
       review?: boolean;
+      /** Names the game under review, like "vs Opponent, blitz". */
+      title?: string;
     }
   | { screen: 'train'; chapter: string; line?: number }
   | { screen: 'play'; chapter: string; line?: number }
-  | { screen: 'coords' };
+  | { screen: 'coords' }
+  | { screen: 'games' };
 
 export type Navigate = (route: Route, options?: { replace?: boolean }) => void;
 

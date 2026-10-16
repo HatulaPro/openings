@@ -5,6 +5,7 @@ import type { RepertoireData } from './chess/repertoireFormat';
 import { useRoute } from './routes';
 import { Chapter } from './screens/Chapter';
 import { Coords } from './screens/Coords';
+import { Games } from './screens/Games';
 import { Home } from './screens/Home';
 import { Play } from './screens/Play';
 import { Study } from './screens/Study';
@@ -45,6 +46,7 @@ export function App() {
   const home = <Home rep={rep} navigate={navigate} />;
   if (route.screen === 'home') return home;
   if (route.screen === 'coords') return <Coords key={visit} back={back} />;
+  if (route.screen === 'games') return <Games key={visit} rep={rep} navigate={navigate} back={back} />;
 
   const chapterId = route.screen === 'chapter' ? route.id : route.chapter;
   const chapter = chapterId ? rep.chapter(chapterId) : undefined;
@@ -62,6 +64,7 @@ export function App() {
         path={route.path}
         cursor={route.cursor}
         review={route.review}
+        gameTitle={route.title}
         navigate={navigate}
         back={back}
       />

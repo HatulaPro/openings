@@ -1286,3 +1286,40 @@ section > h2.plain {
   margin-bottom: 6px;
   font-size: 1rem;
 }
+
+/* My games */
+
+.field {
+  min-height: 46px;
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.field:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.games-error {
+  color: var(--bad);
+}
+
+.games-filter {
+  padding-top: 4px;
+}
+
+.row-title.bad,
+.row-note.bad {
+  color: var(--bad);
+}
+
+.row-title.warn,
+.row-note.warn {
+  color: var(--warn);
+}
+
+.row .tag {
+  flex: none;
+}

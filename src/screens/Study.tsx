@@ -3,7 +3,8 @@ import type { NormalMove } from 'chessops/types';
 import { useEffect, useMemo, useState } from 'react';
 import type { Book } from '../chess/book';
 import { type Color, formatShare, moveNumber, positionAfter, trace, uciOf } from '../chess/game';
-import { type Chapter, type Line, lineStart, type MoveView, rankMoves, type Repertoire, viewOf } from '../chess/repertoire';
+import { checkGame, toneOf } from '../chess/gameCheck';
+import { type Chapter, type Line, lineStart, type MoveView, placeOf, rankMoves, type Repertoire, viewOf } from '../chess/repertoire';
 import { shapesOf } from '../chess/shapes';
 import { Board } from '../components/Board';
 import { EnginePanel } from '../components/EnginePanel';
@@ -25,6 +26,7 @@ interface StudyProps {
   path: string[];
   cursor?: number;
   review?: boolean;
+  gameTitle?: string;
   navigate: Navigate;
   back: () => void;
 }
@@ -33,27 +35,12 @@ const sideName = (color: Color) => (color === 'white' ? 'White' : 'Black');
 const moverOf = (ply: number): Color => (ply % 2 === 0 ? 'white' : 'black');
 
 /**
- * Marks the side's own moves worth a second look: 'bad' where the notes call
- * the move a mistake, 'warn' where the notes had a repertoire move and
- * something else was played.
- */
-function markPath(rep: Repertoire, side: Color, scope: number | undefined, path: readonly string[], keys: readonly number[]) {
-  return path.map((uci, ply) => {
-    if (moverOf(ply) !== side) return undefined;
-    const move = rep.move(side, keys[ply]!, uci);
-    if (move) return viewOf(move, scope).kind === 'mistake' ? ('bad' as const) : undefined;
-    const known = rep.at(side, keys[ply]!)?.moves.some(other => viewOf(other, scope).kind === 'repertoire');
-    return known ? ('warn' as const) : undefined;
-  });
-}
-
-/**
  * The board every chapter is read on. It shows what the notes say about the
  * position, the moves from it (noted moves first, then what elite players
  * play), and Stockfish when it is switched on. Any move can be played, so it
  * is also the analysis board.
  */
-export function Study({ rep, book, side: initialSide, chapter, line, path: initialPath, cursor: initialCursor, review, navigate, back }: StudyProps) {
+export function Study({ rep, book, side: initialSide, chapter, line, path: initialPath, cursor: initialCursor, review, gameTitle, navigate, back }: StudyProps) {
   const [side, setSide] = useState(initialSide);
   const [path, setPath] = useState(initialPath);
   const [cursor, setCursor] = useState(() => {
@@ -61,7 +48,7 @@ export function Study({ rep, book, side: initialSide, chapter, line, path: initi
     if (!review) return initialPath.length;
     // A review opens on the first move that left the notes.
     const scope = chapter?.side === initialSide ? chapter.index : undefined;
-    const first = markPath(rep, initialSide, scope, initialPath, trace(initialPath).keys).findIndex(Boolean);
+    const first = checkGame(rep, initialSide, scope, initialPath, trace(initialPath).keys).flags.findIndex(Boolean);
     return first === -1 ? initialPath.length : first + 1;
   });
   const [engineOn, setEngineOn] = usePref('engine', false);
@@ -79,7 +66,8 @@ export function Study({ rep, book, side: initialSide, chapter, line, path: initi
     if (chapter && line) saveBookmark({ chapter: chapter.id, line: line.index, path, cursor });
   }, [chapter, line, path, cursor]);
 
-  const marks = useMemo(() => markPath(rep, side, scope, path, keys), [rep, side, scope, path, keys]);
+  const flags = useMemo(() => checkGame(rep, side, scope, path, keys).flags, [rep, side, scope, path, keys]);
+  const marks = flags.map(toneOf);
 
   const here = rep.at(side, keys[cursor]!);
   const last = steps[cursor - 1];
@@ -120,8 +108,13 @@ export function Study({ rep, book, side: initialSide, chapter, line, path: initi
     const share = book.moves(before).find(entry => entry.uci === path[ply])?.share;
     const parent = rep.at(side, keys[ply]!);
     const expected = moverOf(ply) === side && parent ? rankMoves(parent.moves, scope).filter(row => row.view.kind === 'repertoire') : [];
-    return { share, expected, covered: parent !== undefined };
-  }, [cursor, arrived, path, book, rep, side, keys, scope]);
+    const flag = flags[ply];
+    return { share, expected, covered: parent !== undefined, missed: flag?.kind === 'missed' ? flag.moves : [] };
+  }, [cursor, arrived, path, book, rep, side, keys, scope, flags]);
+
+  // The repertoire moves the last move departed from, also when the notes allow it as a second choice.
+  const lastFlag = cursor > 0 ? flags[cursor - 1] : undefined;
+  const leftFrom = lastFlag?.kind === 'left' ? lastFlag.expected : [];
 
   let covered = cursor;
   while (covered > 0 && !rep.at(side, keys[covered]!)) covered--;
@@ -180,7 +173,7 @@ export function Study({ rep, book, side: initialSide, chapter, line, path: initi
       <section className="note">
         {cursor === 0 || !last ? (
           <>
-            <h2>{line ? line.name : review ? 'Your game' : 'Starting position'}</h2>
+            <h2>{line ? line.name : review ? (gameTitle ?? 'Your game') : 'Starting position'}</h2>
             {line ? (
               <p className="muted">{line.summary}</p>
             ) : (
@@ -203,11 +196,13 @@ export function Study({ rep, book, side: initialSide, chapter, line, path: initi
                   ? 'This is not the move in your notes.'
                   : stray.covered
                     ? 'Your notes do not mention this move.'
-                    : 'Outside your notes.'}
+                    : stray.missed.length > 0
+                      ? 'Outside your notes, but another move would have brought the game back into them.'
+                      : 'Outside your notes.'}
                 {stray.share !== undefined && ` Elite players choose it in ${formatShare(stray.share)} of games here.`}
               </p>
             )}
-            {stray?.expected.map(({ move, view: expectedView }) => (
+            {leftFrom.map(move => (
               <button
                 key={move.uci}
                 className="chip good"
@@ -216,7 +211,18 @@ export function Study({ rep, book, side: initialSide, chapter, line, path: initi
                 }}
               >
                 Show {moveNumber(cursor - 1)} {move.san}
-                {expectedView.glyph}, the repertoire move
+                {viewOf(move, scope).glyph}, the repertoire move
+              </button>
+            ))}
+            {stray?.missed.map(move => (
+              <button
+                key={move.uci}
+                className="chip good"
+                onClick={() => {
+                  setPath([...path.slice(0, cursor - 1), move.uci]);
+                }}
+              >
+                Show {moveNumber(cursor - 1)} {move.san}, into {placeOf(rep, move.aimed, true) ?? 'your notes'}
               </button>
             ))}
             {transposed && note?.text && (
