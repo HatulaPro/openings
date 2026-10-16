@@ -1323,3 +1323,13 @@ section > h2.plain {
 .row .tag {
   flex: none;
 }
+
+/* The colour a drilled line is remembered by, beside "White to move". */
+.line-dot {
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  vertical-align: baseline;
+}

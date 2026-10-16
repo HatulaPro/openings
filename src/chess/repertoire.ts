@@ -196,6 +196,29 @@ export class Repertoire {
   }
 
   /**
+   * The chapter's lines that contain a whole path, so that a drill knows which
+   * line it is in. Every line of the chapter holds the moves they all start
+   * with, and the answer narrows as the path branches away from the others.
+   */
+  linesOf(chapter: Chapter, path: string[]): number[] {
+    let live: number[] | undefined;
+    const pos = Chess.default();
+    for (const uci of path) {
+      const move = this.move(chapter.side, posKey(pos), uci);
+      pos.play(moveFromUci(uci));
+      const here = new Set<number>();
+      for (const occurrence of move?.occurrences ?? []) {
+        if (occurrence.live && occurrence.chapter === chapter.index) here.add(occurrence.line);
+      }
+      if (!here.size) continue;
+      // A move the chapter reaches by another move order must not empty the answer.
+      const narrowed = live === undefined ? [...here] : live.filter(line => here.has(line));
+      if (narrowed.length) live = narrowed;
+    }
+    return live ?? chapter.lines.map(line => line.index);
+  }
+
+  /**
    * Positions of a chapter (or one of its lines) where its side has a repertoire
    * move to find, in reading order. The moves every line of the chapter starts
    * with are what defines the chapter, so they are not asked.
