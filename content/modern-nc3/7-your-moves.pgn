@@ -1,0 +1,45 @@
+[Line "Your move: 6...c6 against the Classical (5.Be2), 7.a4 Nbd7"]
+[Section "Your moves: ...c6 in the Classical"]
+[Summary "Your habit after 5.Be2 O-O 6.O-O: the pawn goes to c6 and the knight to d7, ...e5 follows. The first of three games on 6...c6 (each answer to 7.a4 has its own game); sourced to a 237-like study, so a draft."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Be2 O-O 6. O-O c6 { [%cal Gc6b5,Gd8c7,Ge7e5] **Your move.** The pawn takes b5 and d5 away from White's knight (no Nb5-c7, no Nd5) and keeps the queen free for ...Qc7 behind a later ...e5. Four sources agree on it: three Lichess studies (cClOocCO 237 likes, jNUkcl81 133, vHgQBd27 63) and John Donaldson's review of Lakdawala's *The Modern Defence: Move by Move* (Everyman, 2012), which says the book recommends 4...Nf6 5.Nc3 O-O 6.O-O c6 against 4.Be2. In the elite book it is 17% of the games after 6.O-O (6...Nc6 27%, 6...a6 21%), and Black scores 46%.
+It hits d4 more slowly than 6...Nc6, so the central break has to be prepared; the three sources prepare it in three different ways (this game, then the next two). }
+7. a4 { 52% of the elite games after 6...c6. It stops ...b5, which is the plan ...c6 was meant to support, so Black plays for ...e5 instead. }
+7... Nbd7 { [%cal Ge7e5,Gd8c7] The knight guards e5 before the pawn goes there, and it keeps the c8-bishop's diagonal open. }
+8. h3 { Takes g4 away, so ...Bg4 is out, and prepares Be3. In the elite games this is by far White's most common reply (58%). }
+8... e5 { The source's choice. The elite book is less kind to it: after 9.dxe5 dxe5 Black scored 22% in 25 games, and the same position with the queen already on c7 (8...Qc7 first, 76 games, 47% for Black) does better. No source I could read gives moves after 8...Qc7, so this branch is a gap; ...e5 at once is the line you can learn move by move. }
+( 8... Qc7 { The elite players' order (76 games). Same plan, one move earlier on the queen; no source gives the continuation, so it is not drilled. } )
+9. dxe5 { The elite games split between this (35%) and 9.Be3 (33%). } 9... dxe5 { The structure is symmetrical and the d-file is open. Black has no weakness; the a4 pawn only fixes b5 now. }
+10. Be3 Qe7 { The queen guards e5 and c7 and leaves d8 free for a rook. }
+11. Qd3 { Eyes the d-file and f5. } 11... Nh5 { [%cal Gh5f4,Gf7f5] **Plan:** ...Nf4 forces White to give up the bishop pair or the knight on f3's support of the centre, and ...f5 follows if White lets it. The source's point is that King's Indian plans work in the Pirc too: the e5 pawn is solid and the knight lands on f4 with tempo on the queen. The study ends here; the position is level, and White's most testing tries are Bc4 and Nd5 (nobody I read covers them: a gap). } *
+
+[Line "Your move: 6...c6 7.a4 Bg4 8.Be3 Nbd7 9.Qd2 Qc7"]
+[Section "Your moves: ...c6 in the Classical"]
+[Summary "The second way to prepare ...e5 after 6...c6 7.a4: pin the knight first. Sourced to a 133-like study that marks every Black move with an exclamation mark; it stops after 9...Qc7, so a draft."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Be2 O-O 6. O-O c6 7. a4 Bg4 { [%cal Gg4f3,Ge7e5] **Idea:** pin the knight so that d4 and e5 lose a defender, then ...Nbd7 and ...Qc7 get ...e5 in with the bishop already outside the pawn chain. Compare 7...Nbd7 8.h3, where h3 takes this square away: here the bishop goes first. }
+8. Be3 { 18 of the 28 elite games; 8.h3 is the other (12). } 8... Nbd7 { [%cal Gd8c7,Ge7e5] }
+9. Qd2 { The queen goes behind the bishop: Bh6, trading Black's fianchetto bishop, is the idea. } 9... Qc7 { [%cal Ge7e5,Gc7e5] The queen supports the coming ...e5, which is next, and the pin on f3 makes it hard for White to keep d4 and e5 under control. Lichess study jNUkcl81 stops here and marks every one of Black's moves from 6...c6 on with "!". The elite book has no game this deep, so treat it as a model of the set-up and not as a forced line. } *
+
+[Line "Your move: 6...c6 7.a4 Qc7 (the elite players' choice)"]
+[Section "Your moves: ...c6 in the Classical"]
+[Summary "The queen goes to c7 at once. It is the best-scoring seventh move in the elite book (98 games, 54% for Black), but the only source (63 likes) draws the plan and gives no further moves: a stub."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Be2 O-O 6. O-O c6 7. a4 Qc7 { [%cal Gb8d7,Gb7b6,Gc8b7,Ge7e5] **Plan** (vHgQBd27, 63 likes): the queen supports e5 and the knight can come to d7 behind it; ...b6 and ...Bb7 are the other way to develop the c8-bishop, since ...Bg4 is not always available. In the elite book it is the most successful answer to 7.a4 (54% for Black in 98 games against 41% for 7...a5 and 39% for 7...Nbd7); White usually answers 8.h3 (59%). No source I read gives moves after 7...Qc7, so the game stops here. } *
+
+[Line "Your move: 6...c6 against 5.Bc4 (3.Nf3 d6 4.Bc4 Nf6 5.Nc3 O-O 6.O-O c6)"]
+[Section "Your moves: ...c6 in the Classical"]
+[Summary "Against the bishop on c4 the same pawn goes to c6, then ...Nbd7 and a slow ...e5. Two 51-like studies (one author) give it as the alternative to 6...Bg4; the elite book is not kind to it. A draft with a warning."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Bc4 O-O 6. O-O c6 { [%cal Gc6d5,Gd8c7,Ge7e5] **Your move**, and a poor-scoring one: in the elite book it is 20% of the games here, but Black scores only 35% (131 games), against 55% for 6...Nc6 and 59% for 6...Bg4 (see the Mad Dog game and the Bg4 lines). The sources say 6...c6 is the move "when the bishop move is not possible", i.e. when ...Bg4 does not work. It takes d5 away from the bishop and prepares ...Qc7 and ...e5. }
+7. Re1 { Not the main reply: 7.e5 (31%), 7.Bb3 (18%), 7.a4 and 7.h3 are all more common, and no source covers them. This is a gap, listed in the notes. }
+7... Nbd7 { [%cal Ge7e5,Gd8c7,Gf8e8,Gd7f8] **Plan** (FwXo3Qhq and mByTdJ4k, both from Robert Ramirez's video, 51 likes each): claim the centre with ...e5 at some point, supported by ...Qc7 and ...Re8; the knight can drop back to f8 later to reopen the c8-bishop's diagonal. The sources stop here. } *
+
+[Line "Your move: 5...c6 against the Austrian Attack"]
+[Section "Your moves: ...c6 in the Austrian"]
+[Summary "After 5.Nf3 the pawn goes to c6 and Black answers 6.e5 by taking, then trading the knights. One 61-like study and a thin elite sample (179 games); the more common 6.Bd3 and 6.Be3 are not covered. A draft."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 c6 { [%cal Gc6d5,Gd8b6] **Your move.** The study (bTeaoi2q, "pirc defense", 61 likes) draws both 5...c5 and 5...c6 and gives lines for both; this is the Pirc version of the Czech set-up. In the elite book 5...c6 is 4% (179 games) and Black scores 42% (against 50% for 5...c5, the Dragon formation in the Austrian game above). The source only deals with 6.e5; White's more common sixth moves, 6.Bd3 (36%) and 6.Be3 (31%), have no source. }
+6. e5 { 20% of the elite games. } 6... dxe5 { The knight on f6 is attacked, and taking first leaves White with the choice of recapture. (In the elite book 6...Nd5 is more common than 6...dxe5, 37 games to 14; no source I read follows it.) }
+7. fxe5 { The more common recapture (11 of 15). } ( 7. dxe5 Nd5 8. Nxd5 cxd5 { The same trade of the knights. } )
+7... Nd5 { [%cal Gd5c3,Gd5b4] } 8. Nxd5 cxd5 { [%cal Gg7e5,Gb8c6] The pawn structure is symmetrical, the pawn on d5 holds the centre, and the e5 pawn is the target: the g7-bishop already hits it and ...Nc6 adds a second attacker. The study stops here with the position level. } *

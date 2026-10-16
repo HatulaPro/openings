@@ -1,0 +1,9 @@
+[Line "Your move: 6...e5 against the Botvinnik set-up (1.c4 g6 2.Nc3 Bg7 3.g3 d6 4.Bg2 Nf6 5.e4 O-O 6.Nge2 e5)"]
+[Section "Your moves: the English"]
+[Summary "Instead of 6...c5, the pawn goes to e5 and the knight to c6, then ...Be6 and ...Qd7 to trade White's g2-bishop. A second choice: the elite book prefers 6...c5 (47% for Black against 42%). Sourced to a 133-like study, a draft."]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 d6 4. Bg2 Nf6 5. e4 O-O 6. Nge2 e5 { [%cal Ge5d4,Gb8c6] **Your move**, and the second set-up the Lichess study jNUkcl81 (133 likes, "King's Indian Defense") gives against the English: a King's Indian pawn structure instead of the Closed-Sicilian-in-reverse of 6...c5. The pawn takes d4 away from White's knights and fights for the centre at once, so d3-d4 is no longer a free break. In the elite book it is 20% of the games here (439) and Black scores 42%, while 6...c5 is 59% (1293 games) and scores 47%; that is why the notes keep 6...c5 as the main line. }
+7. O-O Nc6 { [%cal Gc6d4,Gc8e6] The elite games play this in 92% of the cases. }
+8. d3 { 83% of the elite games. } 8... Be6 { [%cal Ge6h3,Gd8d7] **Idea:** the bishop heads for h3 with ...Qd7 behind it, to trade White's best piece, the g2-bishop; ...Nd7 (20%) and ...Bg4 (15%) are the more common eighth moves in the elite games but no source gives lines after them. }
+9. Be3 { The source's choice. The elite games play 9.h3 (25 of 30) here, which stops ...Bh3 for good; no source I read answers it, so the line is a gap, listed in the notes. }
+9... Qd7 { [%cal Gd7h3,Ga7a6,Gb7b5,Ga8b8] **Plan:** ...Bh3 with the queen on the same diagonal behind it (the study draws exactly this), and meanwhile the queenside expansion ...a6, ...b5 and ...Rb8 as in the Closed Sicilian with the colours reversed. The study stops here; I found no second source for the line. } *
