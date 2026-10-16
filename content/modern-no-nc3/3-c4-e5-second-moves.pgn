@@ -1,0 +1,141 @@
+[Line "3.c4 d6 4.Nc3 Nf6: into the King's Indian"]
+[Section "2.d4 Bg7 3.c4"]
+[Summary "White takes the third pawn and Black treats it as a King's Indian. 4...Nf6 reaches Saemisch, Four Pawns and Classical positions that other chapters cover; 4...e5 keeps the knight at home."]
+
+1. e4 g6 2. d4 Bg7 3. c4 { [%cal Gd7d6,Gg8f6] White takes a third central pawn. The usual Modern plan (...a6, ...b5, ...c5) does not fit: against the c4-pawn ...a6 only weakens the queenside, and ...c5 meets d5 with a Benoni structure that favours White. So Black plays what a King's Indian player plays: 3...d6 keeps the king's bishop and ...Nf6 flexible. 3...Nc6 (Levy's choice) has its own game below. One study lists the immediate 3...c5 as possible; no line is given here. }
+3... d6 4. Nc3 { The usual move (80% of the elite games). }
+( 4. Nf3 Nf6 5. Nc3 O-O { Transposes to the Classical King's Indian (4.Nf3 is the second most played move, 14% of the elite games). } )
+4... Nf6 { [%cal Gf6e4] The King's Indian Defence with 4.e4 d6, reached with the Modern move order: it is the same position as 1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6. From here the repertoire is the **King's Indian chapters**: 5.f3 is the Saemisch (see the Saemisch chapter), 5.f4 the Four Pawns Attack, 5.Nf3 the Classical with ...O-O and ...e5.
+Not yet written: the Makogonov 5.h3 (11% of the elite games), 5.Bg5 and 5.Bd3. Switching to ...e5 at once is the way to avoid that King's Indian theory, see the next game. }
+( 4... Nc6?! { The Kotov: the knight goes to c6 before ...Nf6. One source calls it playable but demanding and does not recommend it: d5 gains time. } 5. d5 Ne5 6. f4 Nd7 7. Nf3 Nc5 8. Bd3 Nxd3+ 9. Qxd3 Nf6 10. O-O { The source marks this as clearly better for White: the knight has been driven around, and White's space advantage is real. }
+)
+( 4... c5?! { Black wants the usual Modern break, but d5 changes the structure to a Benoni in which the d6-pawn is a long-term weakness. } 5. d5 e6 6. Nf3 exd5 7. cxd5 { Benoni structure with the king's bishop already on g7. The source advises against it unless you know the Benoni. } )
+*
+
+[Line "4.Nc3 e5: the accelerated King's Indian"]
+[Section "2.d4 Bg7 3.c4"]
+[Summary "Black plays ...e5 before developing the king's knight. After 5.d5 the plan is ...a5, ...Na6-c5 and ...Ne7 followed by ...f5, without a knight on f6 to get out of the way."]
+
+1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 e5 { [%cal Ge5d4,Gf7f5] **Accelerated King's Indian.** The point of delaying ...Nf6 is that the f-pawn is free to advance, and the knights come out when they are needed. One source calls 4...e5 the only move that equalises without transposing into the main King's Indian. }
+5. d5 { The thematic move: White fixes the centre and plans b4, a4 and c5 on the queenside. }
+( 5. Nf3 Nc6 { Hits d4 again. } 6. d5 ( 6. dxe5 Nxe5 7. Nxe5 Bxe5 { Keep the queens on: White's centre has been exchanged, Black's pieces are developing with ...Nf6 and ...O-O, and the bishop can be traded on c3, doubling the pawns. } )
+( 6. Be3 Bg4 7. d5 Nd4 8. Be2 Bxf3 9. Bxf3 c5 { After the pin the knight reaches d4, and ...c5 anchors it there. } )
+6... Nce7 { [%cal Ge7g6,Gf7f5] The knight is on e7 and f5 is prepared. } 7. Be2 f5 8. O-O Nf6 9. Nd2 f4 { [%cal Gg6g5,Gh7h5] The King's Indian attack with the king's knight arriving on f6 at the very last moment. } )
+( 5. dxe5 dxe5 6. Qxd8+ Kxd8 { White usually goes for this because Black loses the right to castle, but it has no force. Black's pawn structure is better, there is the outpost d4, and a later ...c6 stops Nd5. } 7. Bg5+ ( 7. Be3 Be6 8. O-O-O+ Nd7 9. Nf3 f6 { Prevents Ng5 for good. } 10. Be2 Bh6 11. Bxh6 Nxh6 12. Rd2 c6 )
+( 7. f4 Nc6 8. Nf3 Be6 9. Be3 Nf6 10. h3 Kc8 { ...Kc8 sidesteps the d-file and guards c7 against Nb5. } )
+7... f6 8. O-O-O+ Nd7 9. Be3 Bh6! { [%cal Gh6e3] The usual trick in this structure: the bishop is locked in behind its own pawns, so it is traded off. } 10. Bxh6 Nxh6 11. f3 c6 { Rock-solid. White has no targets, Black will centralise the king and finish development. } )
+5... a5 { [%cal Ga5a4,Ga6c5,Ge7f5] Takes queenside space with tempo: ...a5 gives the knight the square c5 (b4 can no longer kick it) and slows White's b4. } ( 5... f5 { The immediate break, as played in the other study. } 6. exf5 gxf5 7. Qh5+ Kf8 8. g3 Qe8 9. Qd1 Nf6 { This is how one of the studies plays it. The price is the king: after Qh5+ it cannot castle. The ...a5 set-up of the other study gets ...f5 without that concession, and with Nxe4 tactics in the end. } )
+6. Bd3 { Natural development. } ( 6. Nge2 h5!? { Prevents Ng3 and prepares to trade the bad bishop with ...Bh6. } 7. Be3 Bh6 8. Bxh6 Nxh6 )
+6... Na6 { [%cal Ga6c5] } 7. a3 { Prepares b4. } ( 7. h4 h5 8. Bg5 f6 9. Bd2 Bh6! { White sets up to castle long and storm, but Black happily gives the bishop back with ...Bh6 and then plays on the dark squares: the pawns on e5, d6 and f6 are a chain, the knight goes to c5. } )
+7... Nc5 8. Bc2 Ne7 { Keeps ...f5 available and the knight flexible. } 9. Rb1 f5 10. b4 axb4 11. axb4 Nxe4 12. Nxe4 fxe4 { [%cal Ge8g8,Ge7f5,Gc8f5] The thematic combination: the e4-pawn was only defended by a knight that was needed on c3. Black has open lines for the rooks, good squares for the pieces and a healthy structure; the position is equal and easy to play. } *
+
+[Line "3.c4 Nc6!?: the knight hits d4 at once"]
+[Section "2.d4 Bg7 3.c4"]
+[Summary "Levy's recommendation and the choice of a second study: ...Nc6 followed by ...e5. After d5 the knight jumps to d4 and a pawn lands there, which gives Black a clamp on d4 and the f5 break."]
+
+1. e4 g6 2. d4 Bg7 3. c4 Nc6!? { [%csl Gd4] Pressure on d4 straight away, ready to jump into the centre. Two studies recommend it (the Levy line in the Modern repertoire study and the e4-d4-c4 study), always followed by ...e5 so that a d5 push can be answered by ...Nd4. It avoids the main King's Indian theory. }
+( 3... d6 { The King's Indian way of the first game, which transposes to chapters already written. Choose 3...Nc6 when you would rather avoid the Saemisch and the Makogonov. } )
+4. Nf3 { White defends d4. This is the most played reply (26%). }
+( 4. d5 Nd4 5. Be3 ( 5. Ne2 c5 6. Nxd4 cxd4 7. Bd3 d6 8. O-O Nf6 { The knight has been exchanged, but the pawn on d4 is a thorn: White's pieces are cramped and Black can play ...Nd7-e5. } )
+5... c5 { This is the whole point: the knight is anchored on d4, and the queen supports it. } 6. dxc6 dxc6 7. Nc3 e5 8. Nge2 f5 { [%cal Gf5f4] } )
+( 4. Be3 e5 5. Ne2 exd4 6. Nxd4 Qf6! { The queen hits d4 and b2 at once. } 7. Nxc6 dxc6 8. Nc3 Qe7! { The queen has done its job, and f6 is free for the knight. } 9. Be2 Nf6 10. f3 O-O 11. O-O Nd7! { Black aims for ...Nc5 and ...f5. } 12. Qc2 Nc5 13. Rad1 f5 )
+4... e5 { [%csl Gd4][%cal Ge5d4] } 5. d5 { Gains time on the knight, but loses control of d4. } ( 5. dxe5 Nxe5 6. Nxe5 Bxe5 7. Be2 d6 8. O-O Ne7 { Roughly equal (the source adds that Black scores better at amateur level). The knight comes to c6 and from there to b4 or d4. } )
+5... Nd4 { [%cal Gd4f3] The knight jumps in instead of retreating to e7: it can only be removed by an exchange, and the recapture gives Black a pawn on d4. } 6. Nxd4 exd4 7. Bd3 d6 { Black freezes the centre and plays ...c5, ...Ne7 and ...Nf6 next. The source's verdict: level, and the pawn on d4 is hard to attack and annoying for White. } *
+
+[Line "3.h4 d5 4.e5 c5 5.c3 Nc6 6.h5 cxd4 7.cxd4 Qb6 8.h6 Nxh6!!"]
+[Section "Rare third moves: 3.h4"]
+[Summary "Fischer's idea of opening the h-file. Black strikes in the centre at once with ...d5 and ...c5, and meets h5-h6 with a knight sacrifice that wins material."]
+
+1. e4 g6 2. d4 Bg7 3. h4 { [%cal Gh4h5,Gh5g6] Fischer's suggestion: h5 and hxg6 to open the g-file against a king that has no pawn cover. Black's king is still in the centre, but White has spent a tempo on the rook's pawn. } 3... d5! { [%cal Gd5e4,Gc7c5] The principled answer: strike while the h-pawn has done nothing. ...h5 is also a fine reply (it shuts the file for good) and the sources call it the easy way out, but ...d5 gives more. }
+( 3... h5 { Safe and simple, and the most played reply among the strong players (47% of the elite games): the h-pawn is frozen for good, and the weakness on g5 is not hard to live with. } )
+4. e5 { The principled move: it gains space and prepares h5 under the cover of a closed centre. } ( 4. exd5 Qxd5 { An improved Scandinavian: the queen comes out with gain of time, and the h4 pawn is a liability, not an asset. } 5. Nf3 Bg4 6. Nc3 Qh5 { [%cal Gh5f3] The queen adds to the pressure on the pinned f3-knight. } 7. Be2 Nc6 8. Be3 Nf6 9. Qd2 O-O-O 10. O-O-O h6 )
+4... c5 { [%cal Gc5d4] } 5. c3 Nc6 { [%cal Gc6d4,Gc8g4] The base of the pawn chain is d4, so it is attacked a second time. } 6. h5 { The critical test: White's attack is only dangerous if he is allowed to play h6 for free. } ( 6. Be3 f6! { [%cal Gf6e5] The second thematic break: e5 is hit from the side too, and White cannot play h5 with the bishop on e3 hanging to tactics. } 7. exf6 ( 7. f4 Nh6! { [%cal Gh6f5,Gf6e5] The knight heads for f5, and e5 is attacked from two sides. } 8. Be2 Qb6 9. Qd2 cxd4 10. cxd4 fxe5 11. dxe5 d4 12. Bf2 Ng4 13. Bxg4 Bxg4 14. Ne2 O-O 15. Na3 Bxe2 16. Qxe2 Rxf4 ) 7... Nxf6 8. dxc5 Ng4 9. h5 Nxe3 10. fxe3 Qc7! { [%cal Gc7c5,Gc7h2] The queen hits c5 and the h2 square down the diagonal, and White's pawns are broken (doubled on the e-file, h5 loose). } 11. Ne2 Bf5 )
+6... cxd4 7. cxd4 Qb6 { [%cal Gb6d4,Gb6b2] Piles up on d4 and b2. } 8. h6 { White goes through with it. } ( 8. Ne2 Bf5 9. a3 f6! { [%cal Gf6e5] Again the second break against e5, while Bf5 holds e4 and c2. } 10. h6 Bf8 11. exf6 Nxf6 12. Nbc3 e5 )
+8... Nxh6!! { [%cal Gh6g4,Gb6b2] Black gives a knight to remove the pawn and the bishop that carry White's attack: after Bxh6 Bxh6 Rxh6 the rook is stranded on h6 while the queen eats on b2. } 9. Bxh6 Bxh6 10. Rxh6 Qxb2 { [%csl Rb2,Ra1] The queen attacks the rook on a1 and the knight on b1. } 11. Nd2 Nxd4 { [%cal Gd4c2,Gd4e2] } 12. Rc1 ( 12. Bd3 Qc3 13. Qb1 Bg4 ) 12... Bf5 { [%csl Gf5][%cal Gf5c2] Black wins material: the rook on h6 and the king in the centre are both loose. } *
+
+[Line "2.h4: 2...d5 3.exd5 Nf6 4.Nc3 Bg7 5.d4 Nxd5"]
+[Section "Rare second moves: 2.h4"]
+[Summary "The rook's pawn is thrown forward on move two. ...d5 hits the centre at once, and the h-pawn pushes either lose time or lose material."]
+
+1. e4 g6 2. h4 { [%cal Gh4h5,Gh5g6] An aggressive try. White has not developed a piece and hopes for h5 and hxg6. } 2... d5 { [%cal Gd5e4] Strike in the centre while the h-pawn has done nothing; the h-pawn is not a threat yet. ...h5 is also a reasonable answer, but ...d5 is more active. }
+( 2... h5 { A decent reply that freezes the pawn, chosen by about a quarter of the elite games against 2.h4; less ambitious than ...d5. } )
+3. exd5 ( 3. h5 { Calling the bluff. } 3... dxe4 4. hxg6 fxg6 { [%cal Gg8f6] } 5. Nc3 Nf6 6. Qe2 { White cannot win the e4-pawn back. } 6... Bf5 { Black is better: the e4-pawn is held. } )
+( 3. e5 Bg7 4. d4 { Transposes to 2.d4 Bg7 3.h4 d5 4.e5, the previous game. } )
+3... Nf6 { [%cal Gf6d5] } 4. Nc3 Bg7 5. d4 { The main idea of the sources: White develops and the h-pawn becomes a liability. } ( 5. h5 Nxh5 6. Rxh5 gxh5 7. Qxh5 Nd7 { White has only two pawns for the exchange sacrifice, and no attack: Black can castle long or short and play ...Nf6. Do not get scared, and do not treat the position as won either: the king is not very safe. } )
+( 5. Bc4 c6 6. dxc6 Nxc6 7. Nf3 Bg4 8. O-O O-O 9. Be2 e5 10. d3 Nh5 11. Bg5 Qd7 12. Nh2 Bxe2 13. Qxe2 f5 { Black has a comfortable position with the standard ...f5 break. } )
+5... Nxd5 6. Nxd5 Qxd5 7. c3 Nc6 8. Nf3 Bg4 { [%cal Gg4f3] The pinned knight makes d4 hard to hold. Black has an easy game, with ...O-O-O or ...O-O and ...e5 to come. } *
+
+[Line "2.Nc3 Bg7 3.Nf3 d6 4.d4: back to the Nf3 lines"]
+[Section "2.Nc3"]
+[Summary "After 2.Nc3 Bg7 White usually plays d4 and the game transposes. The quiet 3.d3 and 3.Bc4, and the set-ups with 3.g3 and 3.f4 (next games), are the real second-move systems."]
+
+1. e4 g6 2. Nc3 { Played for move-order reasons: White keeps d4, f4 and g3 in hand. Against the quieter set-ups Black can get the ...e5 formation that the Modern avoids against 2.d4. } 2... Bg7 { [%cal Gg7c3] 2...c5 is a Closed Sicilian and out of this chapter's scope; the repertoire keeps the Modern. }
+3. Nf3 { The commonest third move after 3.d4 (769 elite games, ahead of 3.g3 and 3.f4). }
+( 3. d3 d6 { 3.d3 has come up three times in your games. No source gives a line against it; the general advice of the Modern study for sidelines is to develop as usual and to get ...e5 in: ...d6, ...Nc6 (or ...Ne7), ...e5, ...Nf6 and ...O-O, with ...f5 as the break. White has given up the central tension, so there is no hurry. } )
+( 3. Bc4 d6 4. d4 { Transposes to the Mad Dog chapter: 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Bc4. } )
+3... d6 { [%cal Gd6e5] } 4. d4 { 97% of the elite games. Black has not committed the g8-knight, so this is 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3, and every line of the Nf3 chapter applies: 4...a6 (the Tiger) or 4...Nf6 (the Pirc Classical). } *
+
+[Line "2.Nc3 Bg7 3.g3 e5 4.Bg2 Ne7: the ...e5 set-up"]
+[Section "2.Nc3"]
+[Summary "With the white bishop on g2 and no pawn on d4 the Modern can play ...e5 at once. The knight goes to e7, castling comes first, and ...c5 with ...Nbc6 builds a bind on d4."]
+
+1. e4 g6 2. Nc3 Bg7 3. g3 { White fianchettoes and leaves the centre alone. With no pawn on d4 the e5 square is uncontested. } 3... e5 { [%cal Ge5d4] Only possible because White has not played d4. The pawn blocks our own bishop, which the source accepts. } 4. Bg2 Ne7 { Flexible: the f-pawn can advance, and the knight can go to c6 or g6 later. } 5. Nge2 O-O 6. O-O c5 { [%cal Gc5d4,Ge5d4] A bind on d4: with ...c5 and ...e5 the d4 square is controlled twice, so White cannot play d4 without losing a pawn or the centre. } 7. d3 Nbc6 8. Be3 d6 { [%csl Ge5,Gd6,Gc5][%cal Gc8e6,Gd8d7,Gc6d4] Black has a compact formation. The plan: ...Be6, ...Qd7 and a knight to d4. }
+*
+
+[Line "2.Nc3 Bg7 3.f4 a6 4.a4 c5: a Sicilian with ...g6"]
+[Section "2.Nc3"]
+[Summary "Against the Vienna-style f4 Black can play the Tiger idea ...a6 and ...b5, but if White stops it with a4 the position becomes a good version of a Grand Prix Sicilian."]
+
+1. e4 g6 2. Nc3 Bg7 3. f4 { Vienna or Grand Prix style. It makes ...e5 impossible, so Black goes for the queenside expansion instead. 3...d6 4.Nf3 is also possible, but it enters the Austrian structure when White gets d4 in. } 3... a6 { [%cal Ga6b5,Gc8b7] Aims for ...b5.  } ( 3... d6 { Playable: it keeps the Pirc/Austrian structure. } 4. Nf3 { Playable, but White can still play d4 with a pure Austrian Attack in which Black has not got the extra ...a6. Choose it only if you know that chapter. } )
+4. a4 { Stops ...b5 for good, but the move is slow. } ( 4. d4 d6 { Transposes to the Tiger against the Austrian Attack: 3.Nc3 d6 4.f4 a6, see the Austrian Attack chapter. } )
+4... c5 { [%cal Gc5d4,Gb8c6] Now the position is a Sicilian Defence in which Black has the extra useful move ...Bg7 and White the extra move a4. } 5. Nf3 Nc6 6. Bc4 { The Grand Prix set-up. } ( 6. g3 d6 7. Bg2 e6 { Solid: the knight comes to e7 and castling follows. } )
+6... e6 { [%cal Gd7d5,Gg8e7] Blocks the bishop's diagonal at once. The plan is ...Nge7, ...d5 to hit the bishop, and ...O-O. } *
+
+[Line "2.Bc4 Bg7 3.Qf3 e6 4.d4 Bxd4: the Monkey's Bum"]
+[Section "2.Bc4 and 3.Bc4"]
+[Summary "Bc4 and Qf3 threaten Qxf7 mate at once. 3...e6 stops it, and White's pawn sacrifice on d4 buys only some development."]
+
+1. e4 g6 2. Bc4 { A Scholar's-mate set-up played against the Modern: Bc4 and Qf3 aim at f7. } 2... Bg7 { [%cal Gg7d4,Gg7b2] The bishop eyes b2 and d4. } 3. Qf3 { [%cal Gf3f7,Gc4f7] The threat is Qxf7 mate: two attackers against f7, which only the king guards, and d7 is still occupied. } 3... e6! { [%csl Gf7][%cal Ge6c4] Blocks the bishop's diagonal and so ends the mating idea in one move; it is the only move played in the elite games (all 90). The cost is that e6 and g6 together leave the dark squares round the king without a pawn guard, but the bishop on g7 stands in for them. }
+4. d4 { White sacrifices a pawn for the lead in development. } ( 4. Ne2 { A quieter move. Black can continue with the set-up of the Bishop Attack game below: ...Nc6, ...Nge7, ...d6 and ...O-O, and ...e5 when ready. } )
+4... Bxd4 { Taking is the main line in the sources (Wikipedia and Wikibooks both give it). } 5. Ne2 Bg7 { The bishop retreats and keeps the pawn. } 6. Nbc3 { White has the better development, but Wikipedia calls his compensation tenuous, and Black is a clean pawn up. Black's plan is to finish development (...Ne7, ...Nbc6, ...O-O) and give nothing away on the dark squares; there are no sourced moves beyond this point. } *
+
+[Line "2.Bc4 Bg7 3.Nf3 d6 4.d4: the Bishop Attack by transposition"]
+[Section "2.Bc4 and 3.Bc4"]
+[Summary "Other third moves after 2.Bc4 lead to the Bishop Attack: 3.Nf3 d6 4.d4 and 3.d4 d6 4.Nf3 both reach 2.d4 Bg7 3.Bc4 d6 4.Nf3."]
+
+1. e4 g6 2. Bc4 Bg7 3. Nf3 { Also common (31%): the knight takes f3 away from the queen. The elite games answer mostly 3...c5, but the repertoire keeps ...d6. } 3... d6 { [%cal Gd6e5] } 4. d4 *
+
+[Line "3.Bc4 d6 4.Qf3 e6 5.Ne2 Nc6 6.c3 Nge7 7.O-O O-O 8.Nd2 e5!"]
+[Section "2.Bc4 and 3.Bc4"]
+[Summary "The Bishop Attack with the queen coming out early. 4...e6 stops Qxf7 and Black reaches ...e5 with a pleasant position."]
+
+1. e4 g6 2. d4 Bg7 3. Bc4 { The Bishop Attack: Bc4 hits f7 and tempts Black into ...e6, which is the weakening of the dark squares the sources talk about. } 3... d6 { [%cal Gd6e5] The commonest reply (42% of the elite games) and the one that keeps your usual set-up. One study calls the resulting positions equal but with little play for Black; 3...c6 (see the last game) is its pick as the best reply. }
+4. Qf3 { The queen joins the f7 attack. } 4... e6! { Stops Qxf7+ and the Bxf7 ideas. } ( 4... Nf6?! { Natural, but it allows a tempo-gaining thrust. } 5. e5 dxe5 6. dxe5 { The knight is attacked and the Qf3 + Bc4 battery on f7 is still there: winning for White according to the source. } )
+5. Ne2 { Develops and guards d4. } 5... Nc6 { [%cal Gc6d4] Hits d4, White's central pillar. } 6. c3 Nge7 { [%cal Ge7f5,Ge6e5] The knight comes out where it does not block the f-pawn. } ( 6... Nf6 { Also fine; this is how the other study plays it, with the e5 break prepared by ...h6. } 7. Bg5 h6 8. Bh4 e5 9. h3 g5 10. Bg3 O-O 11. Nd2 exd4 12. Nxd4 { Equal, with ...e5 played. } )
+7. O-O O-O 8. Nd2 e5! { [%cal Ge5d4] Strikes at once, before White can untangle his pieces. } 9. d5 Nb8 { The study marks the position as slightly better for Black: ...e5 has been played for free and White's attack on f7 has come to nothing. } *
+
+[Line "3.Bc4 d6 4.Nf3 Nf6: into the Nf3 lines"]
+[Section "2.Bc4 and 3.Bc4"]
+[Summary "After 3.Bc4 d6 4.Nf3 Nf6 the position is the one from 3.Nf3 d6 4.Bc4 Nf6 in the Nf3 lines, where 5.Qe2 is covered. 3...c6, from the Topalov-Carlsen game, is the second choice."]
+
+1. e4 g6 2. d4 Bg7 3. Bc4 d6 ( 3... c6 { [%cal Gd7d5] The study's pick as the best reply: it prepares ...d5 and makes Black very solid, at the price of dark-square weaknesses once ...e6 is played. Carlsen played it against Topalov. } 4. Nc3 d6 5. Nf3 Nf6 6. Bb3 O-O 7. O-O Bg4 8. h3 Bxf3 9. Qxf3 Nbd7 10. Rd1 Qc7 { Black is solid; ...Qc7 and ...e5 come next. } )
+4. Nf3 { 81% of the elite games after 3...d6. } 4... Nf6 *
+
+[Line "3.e5 d6: hit the head of the chain"]
+[Section "Rare third moves: 3.e5"]
+[Summary "White grabs space and shuts the bishop in. Black undermines the e5-pawn with ...d6 at once. A draft: no published guide in the sources covers this move."]
+
+1. e4 g6 2. d4 Bg7 3. e5 { The pawn blocks the bishop's diagonal and takes d6 and f6 away, but the chain d4-e5 is also a target: the head e5 can be hit by ...d6 and ...f6, the base d4 by ...c5 and ...Nc6. No source read for this chapter treats this move, so the lines below go only as far as the elite games confirm them, and then the plan is given. It is rare among strong players (about 70 games). } 3... d6 { [%cal Gd6e5] Undermines e5 at once, before White can support it with f4. The strong players answer with ...d6 and ...c6 equally often (25 games each), so the choice is open. }
+4. exd6 { The commonest reply, 15 of the 35 games. } ( 4. f4 c5 { The reply you have played: the head is supported by f4 and the base is hit by ...c5. After 5.c3 the fight is over e5, with ...dxe5 fxe5 and ...Nc6. No source covers it, and the plan is all I can give: hit e5 and d4 before White brings the knights to their squares. } )
+4... cxd6 { [%cal Gg7d4] Black's structure is healthy and the bishop is open again: the d6-pawn is the only weakness, and it is not an easy one to attack. The elite games with this move: Black won 8 of 13. } 5. Nf3 { The knight guards d4 and e5; Black develops with ...Nf6 or ...Nc6 and ...O-O, and the bishop on g7 is back in the game. } *
+
+[Line "2.d4 d6: what changes against the Modern move order"]
+[Section "2...d6 move order"]
+[Summary "Playing 2...d6 first keeps the transpositions to the covered chapters, but invites 3.Nc3 Nf6-type Pirc play and does not stop White from choosing the set-up."]
+
+1. e4 g6 2. d4 d6 { The move order you use in some games. It is the same as 2...Bg7 and 3...d6 for nearly everything. } 3. c4 { Transposes to the first game. }
+( 3. Nc3 Bg7 { Transposes to the Standard Line: the Nf3, Be3, Austrian and Bc4 chapters. 3...Nf6 is the Pirc instead; avoid it if the Modern plans (...a6, ...b5, ...Nd7-c5) are what you want, because the knight on f6 allows e5 ideas and the Austrian Attack becomes the Pirc version. } )
+( 3. Bc4 Bg7 { Transposes to the Bishop Attack games. } )
+( 3. Nf3 Bg7 4. Nc3 )
+3... Bg7 { 3.c4 Bg7 4.Nc3 Nf6 is the King's Indian, reached via the Pirc move order. } *
+
