@@ -1,0 +1,157 @@
+[Line "6.a3 c4: 7.Nbd2 Na5 8.g3 (main line)"]
+[Section "5...Qb6 6.a3: the main line"]
+[Summary "White takes b4 away from Black and prepares b2-b4. Black closes the queenside with ...c4; White regroups with Nbd2 and g3 and goes for h4, Bh3 and a kingside squeeze."]
+
+1. e4 e6 2. d4 d5 3. e5 { [%cal Rc7c5,Rf7f6] White takes space and denies f6 to the knight. In return Black gets
+two levers against the chain: ...c5 against its base on d4, and ...f6 against its head on e5. The French bishop
+sits behind its own pawns on e6 and d5; the whole opening is an argument about whether that matters. }
+3... c5 { The critical reply. 3...c5 attacks the base of the chain, and if Black ever removes d4, the pawn on e5 is
+loose. The rare third moves have their own file. } 4. c3 { [%cal Gc3d4,Gd1a4] The main move: if Black takes on d4,
+the pawn recaptures and the chain stays intact, and the queen gets the a4-e8 diagonal. }
+( 4. dxc5?! { The Steinitz Variation gives Black what it wants: the centre is gone and the e5-pawn has no pawn
+behind it. Black wins the pawn back with ...Bxc5 while developing. } 4... Nc6 5. Nf3 Bxc5 6. Bd3 f6 7. Qe2 fxe5
+8. Nxe5 Nxe5 9. Qxe5 Nf6 )
+4... Nc6 { Second attacker on d4. 4...Qb6 and 4...Bd7 are move-order tries with their own lines. }
+5. Nf3 { [%cal Gf3d4,Rc6d4] The third defender of d4 (pawn on c3, queen, knight), and the knight also guards e5.
+5.Be3 is a rare try: after ...Qb6 the b2-pawn has no defender. }
+( 5. Bb5?! { The bishop will have to trade itself for the knight or lose a tempo retreating. } 5... cxd4 6. Qxd4 Bd7
+7. Bxc6 Bxc6 )
+5... Qb6 { [%cal Rb6d4,Rb6b2] The main line (Wikipedia, Werle, Schneider). Queen and knight pile onto d4, and
+b2 is under fire, so the dark-squared bishop cannot simply come to e3 or f4. White now has three real choices:
+6.a3, 6.Be2 and the gambit 6.Bd3. }
+6. a3 { [%cal Gb2b4,Gc1b2] **The idea:** a3 takes b4 away from the black bishop and knight, and prepares b2-b4,
+after which the c1-bishop is free of the b2-pawn and d4 gains a defender (Bb2). It looks like a slow move with
+the centre under attack, but d4 holds for the moment and Black is the one who now has to choose a structure.
+Werle's and Schneider's main recommendation, and treated as the most important line in the Advance by
+Wikipedia. }
+6... c4 { [%csl Yb3] The main line. Black stops b4: after b2-b4 the pawn takes en passant on b3, and the clamp on
+the queenside shuts in the f1-bishop. The price is d4, which is no longer under pressure from the c-pawn. }
+7. Nbd2 { [%cal Gd2b3,Rc6a5] The move in Marin's course, Wikibooks and the studies. It covers b3, the square where
+Black wants a piece, and can head for the kingside once the queenside is closed. }
+7... Na5 { Black aims for b3, and with ...Bd7 for a4. }
+( 7... Nge7 { A natural developing move, but it allows a sharp shot from the study with 395 likes. } 8. Bxc4! { After
+...dxc4 the knight takes with a double attack on the queen and the knight on a5, and Nd6+ follows. The source gives the
+line without an evaluation, so treat it as a tactic to know, not as a proven win. } 8... dxc4 9. Nxc4 Qa6
+10. Nd6+ Kd7 ( 10... Kd8 11. Nxf7+ Kc7 12. Nxh8 ) 11. Ng5 Ng6 12. Ndxf7 Rg8 )
+8. g3 { [%cal Gf1g2,Gf1h3,Gh2h4] The sharp choice (Marin gives it two chapters, and the study with 395 likes plays it).
+Instead of Be2, where the bishop sits behind the pawn on c4, it goes to g2 or to h3. White's kingside pawns are
+free to advance, since Black's pieces are busy on the other wing. }
+( 8. Be2 { The quiet alternative (the 73-likes 'French Defense Repertoire' study, Wikibooks, Marin chapter 9) and a
+perfectly good one: White castles and plays Rb1 at once. } 8... Bd7 9. O-O Ne7 10. Rb1 Qc7 )
+( 8. Rb1 { Mentioned by Wikipedia, who adds that Black has a firm grip on b3 after ...Bd7; Marin lists it as a
+sideline. } 8... Bd7 )
+8... Bd7 { The bishop develops and prepares ...Ba4. }
+9. h4 { [%cal Gh4h5,Gf1h3] **Plan:** h4-h5 gains space and restricts the black knights, and Bh3 offers a trade of the
+d7-bishop, Black's piece for the queenside play. }
+( 9. Bg2 { The slower version, also analysed by Marin: the bishop sits on the long diagonal and h4 can wait. } 9... Ne7
+10. O-O h6 )
+9... Ne7 10. Bh3 { Offering the exchange on d7. } 10... h6 { Stops Bg5. } 11. O-O Qc7 { Marin's chapter 11 ends with this
+move, and the sources stop here. **Plan:** White has the kingside space and can think about opening the centre with
+Re1, Nf1-e3 and f4; Black has the b-file and the squares b3 and a4, and ...b5-b4 is his lever.
+
+**Verdict:** a closed, strategic fight in which both sides have a plan. the sources give no evaluation. }
+*
+
+[Line "Lputian Variation: 6...Nh6 7.b4"]
+[Section "5...Qb6 6.a3: the main line"]
+[Summary "Black brings the knight to f5 without blocking the c8-bishop. White does not take on h6; he plays b4 and meets the knight with Bb2, with three defenders against three attackers on d4."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Nh6 { [%cal Gh6f5,Rf5d4] The Lputian Variation. The knight
+heads for f5 and a third attacker on d4, from h6 rather than e7, so the f8-bishop keeps its diagonal to c5.
+Wikipedia adds that Black follows with ...Bg7 and castles. }
+7. b4! { [%cal Gc1b2,Gb4c5] The answer given by every source (Wikibooks, Schneider, the study with 395 likes and the 73-likes
+'French Defense Repertoire' study). The pawn takes c5 under control and frees the bishop for b2, from where it defends
+d4. }
+( 7. Bxh6? { The tempting way to wreck Black's pawns. } 7... Qxb2! { Wikibooks: the queen takes the pawn with a threat on the
+rook; after 8.Nbd2 Black recaptures on h6 and is two pawns up, with the g-file as compensation for the damaged
+pawns. Wikipedia also says that Black is happy with the open g-file and ...Bg7. } 8. Nbd2 gxh6 )
+7... cxd4 8. cxd4 Nf5 { [%cal Gf5d4,Gc6d4,Gb6d4] Three attackers on d4: queen, c6-knight, f5-knight. }
+9. Bb2 { [%cal Gb2d4,Gf3d4] Now three defenders as well: the knight, the bishop and the queen. The pawn is
+safe as long as all three stay put, so castling and development must not loosen it. } 9... Bd7 { The sources stop
+here (the study with 395 likes; the 73-likes study also plays 9.Bb2 Bd7). **Plan:** keep the three defenders of d4
+in place while developing the king's side; Black's ...a5 is the natural way to attack the pawn on b4.
+
+**Verdict:** Wikibooks marks the Lputian line equal. White has the space, Black the pressure on d4; do not expect
+more than that, and do not take on h6. } *
+
+[Line "6.a3: 6...cxd4 7.cxd4 Nge7 8.b4 Nf5 9.Bb2"]
+[Section "5...Qb6 6.a3: the main line"]
+[Summary "Black releases the tension at once. White recaptures with the pawn, expands with b4 and plays on both wings; the knights meet on the kingside."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 cxd4 { Black resolves the tension before White's b4. }
+7. cxd4 { [%cal Gc3b5] Always with the pawn: the e5-pawn would be loose after a knight recapture. }
+( 7. Nxd4? { Takes the piece away from e5. } 7... Nxe5 { The pawn is lost. } )
+7... Nge7 { Heads for f5, again to put a third piece on d4. } 8. b4 { [%cal Gb4b5,Gc1b2] **Idea:** the pawn gains space,
+takes c5 away from Black, and prepares b5 against the knight on c6, which would take an attacker off d4. }
+8... Nf5 9. Bb2 Be7 10. Be2 O-O 11. O-O Bd7 { Both sides have developed; the pieces are in place for the standard
+plans. } 12. Qd3 { The source gives the queen move without comment; it supports the Nbd2-b3 and b5 plan that
+follows. }
+( 12. g4 { A sharper try: the pawn attacks the knight on f5 directly. } 12... Nh4 13. Nbd2 Ng6 14. Nb3 a5 15. b5 Nf4
+16. Bc1 Nxe2+ 17. Qxe2 Nb4 18. a4 Rfc8 19. Ba3 )
+12... f6 13. Nbd2 fxe5 14. dxe5 Be8 15. Nb3 a5 16. b5 a4 { [%csl Rb3] The source stops here, with the knight on b3
+attacked and the c6-knight about to lose its square. **Verdict:** a balanced middlegame. White has more space, but
+...a4 gains time against the knight; the sources give no evaluation. } *
+
+[Line "6.a3: 6...Bd7, 6...a5 and 6...f6"]
+[Section "5...Qb6 6.a3: the main line"]
+[Summary "Black waits with ...Bd7, ...a5 or ...f6. Against ...Bd7 the pawn goes to b4; against ...a5 White can play the Milner-Barry set-up, because the a-pawn has left b5 undefended."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Bd7 { Delays the knight and keeps ...Qc7 available. }
+7. b4 { [%cal Gb4c5] The point of a3: the pawn expands before Black has committed the knights. }
+( 7. Bd3?! { Offering the Milner-Barry pawn with a3 and ...Bd7 already on the board is a different matter. The
+Lichess study based on Pedersen's book has 7...cxd4 8.cxd4 Nxd4 9.Nxd4 Qxd4 10.Qe2 f6 11.Be3 Qxe5 and says that the
+gambit failed. The real gambit lines are in the Milner-Barry file, with the bishop on d3 before a3. }
+7... cxd4 8. cxd4 Nxd4 9. Nxd4 Qxd4 10. Qe2 f6 11. Be3 Qxe5 )
+7... cxd4 8. cxd4 Rc8 { Black takes the open c-file at once. This is where Wikibooks stops; the pawn structure is
+the one of the Lputian line, with Black's knight still on g8. The source gives no more moves, so this line is a
+draft. } *
+
+[Line "6.a3: 6...a5"]
+[Section "5...Qb6 6.a3: the main line"]
+[Summary "6...a5 stops b4 for good but leaves b5 weak, and White switches to the Milner-Barry set-up."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 a5 { [%csl Yb5] Black prevents b4 by force. The price: b5
+can never be covered by a pawn again. } 7. Bd3 { Now the Milner-Barry gambit, with the extra moves a3 and ...a5
+included (the study based on Pedersen's book). }
+( 7. Be2 { The quiet continuation: Nc3-b5 uses the weak square. } 7... cxd4 8. cxd4 Nge7 9. Nc3 Nf5 10. Nb5 )
+7... Bd7 8. O-O cxd4 9. cxd4 Nxd4 10. Nxd4 Qxd4 11. Nc3 Qxe5 12. Re1 Qb8 13. Nxd5 Bc6 14. Nb6 Nf6 15. Nxa8 Qxa8
+{ White has won the exchange for a pawn and keeps the initiative; evaluation not given by the study. } *
+
+[Line "6.a3 f6"]
+[Section "5...Qb6 6.a3: the main line"]
+[Summary "Black strikes at e5 at once. White develops with Bd3 and meets ...c4 with Bc2."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 f6 { [%cal Rf6e5] The break with ...f6, played before the
+kingside is developed. Against 5...Bd7, Wikipedia says that 6.a3 f6 gives Black at least equality, because without the
+queen on b6 the move a3 hits nothing. Here the queen is already committed. } 7. Bd3 { [%cal Gd3c2] The bishop develops. }
+7... c4 8. Bc2 { **Idea:** the bishop keeps the b1-h7 diagonal, and a black knight cannot land on f5 without being
+hit. The study based on Pedersen's book stops here, so this line is a draft. } *
+
+[Line "Quiet alternative: 6.Be2 cxd4 7.cxd4 Nh6 8.Nc3 Nf5 9.Na4"]
+[Section "5...Qb6: the quiet alternatives 6.Be2 and 6.Na3"]
+[Summary "White simply develops and castles later. After the trade on d4 the knight jumps to a4 with tempo against the queen; this avoids the complications of 6.a3 c4."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Be2 { [%cal Ge1g1,Gb1c3] The study with 395 likes calls this the
+Paulsen Attack. White develops and waits for Black to take on d4; the knight then goes to c3-a4. It is the quiet
+alternative to 6.a3 (Wikipedia, Marin chapters 6 and 7). }
+( 6. Na3 { Marin's chapter 5 and Jobava's course. The knight defends d4 from c2; Marin's outline gives 6...cxd4 7.cxd4 Bd7
+8.Nc2 Nb4 and an Efimenko-Fridman line, and the readable source stops at these moves. } 6... cxd4 7. cxd4 Bd7 8. Nc2 Nb4 )
+6... cxd4 { Black takes. }
+( 6... Nge7 { Levy's repertoire for Black (4231 likes) leaves the pawn alone and develops. } 7. dxc5 Qc7 { White takes while the
+e7-knight blocks the f8-bishop, so the pawn cannot be recaptured at once. } )
+( 6... Nh6 { Levy's other idea: the knight heads for f5. Wikipedia says White usually answers 7.Bxh6 or 7.b3 (preparing Bb2);
+Levy gives 7.O-O. } 7. O-O
+( 7. Bxh6?! { Gives up the bishop for a knight and helps Black open the g-file. } 7... gxh6 { Levy and Wikipedia (on the
+similar 6.a3 line) call this good for Black: the g-file and the bishop White has given up. The sources disagree here. } )
+7... cxd4 8. cxd4 Nf5 { The knight reaches f5 with a third attacker on d4. } )
+7. cxd4 Nh6 { [%cal Gh6f5,Rf5d4] The usual idea: the knight goes to f5 to attack d4. On the chess.com forum ThrillerFan says
+8.Bxh6 Qxb2 now troubles Black, Toldsted thinks Black can escape; the forum recommends 8.Nc3 Nf5 9.Na4 (played in
+Nimzowitsch-Spielmann, 1920). }
+( 7... Nge7 { Marin's version: the same knight route from e7. The forum warns that 8.O-O? allows ...Nf5, winning at least a
+pawn. } 8. Nc3
+( 8. Na3 { Marin's chapter 7: the knight goes to c2, where it protects d4. } 8... Nf5 9. Nc2 Bd7 10. O-O Rc8 )
+8... Nf5 9. Na4 Qa5+ )
+8. Nc3 { [%cal Gc3a4,Gc3b5] Develops with a threat: Na4 hits the queen. } 8... Nf5 9. Na4 { [%cal Ga4b6,Ga4c5] The queen has to leave
+the b6-g1 diagonal. } 9... Qa5+ 10. Bd2 Bb4 11. Bc3 Bxc3+ 12. Nxc3 Qb6 13. Bb5 { [%cal Gb5c6] } 13... Bd7 14. Bxc6 Bxc6 15. Qd2 O-O
+16. O-O { **Verdict:** the study with 395 likes plays the line without comment, and none of the readable
+sources gives an evaluation, so treat this as a draft. } *

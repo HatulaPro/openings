@@ -1,0 +1,184 @@
+[Line "Milner-Barry Gambit: 6.Bd3 cxd4 7.cxd4 Bd7 8.O-O, main line 11.Re1 Qd6 12.Nb5"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "White gives up d4 and e5 for a lead in development. The pin on the e6-pawn and the knight jumps to b5 and d5 keep Black's queen and king in trouble. The first thing to know is that 7...Nxd4 loses the queen."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 { [%cal Gd3b5,Rb6d4] **The idea:** White does not add a
+defender to d4, and the bishop develops with a threat of its own: if Black takes twice on d4, with the knight and then
+the queen, Bb5+ is a discovered attack that wins the queen. The gambit is named after Stuart Milner-Barry; it is a main line in
+Marin's course and the subject of Robert Ris's ChessBase video on its improved form. It is the sharp second weapon
+of this chapter: whoever wants no quiet lines at all can play 6.Bd3 against 5...Qb6 every time. }
+6... cxd4 { Black takes the pawn. }
+7. cxd4 { [%csl Rd4] The pawn recaptures. A knight recapture would leave e5 without a defender. }
+( 7. Nxd4? { Takes with the knight. } 7... Nxe5 { Black wins a pawn and has a healthy position. } )
+7... Bd7! { [%cal Gd7e8] The right move. It blocks the check on b5, and now the threat of ...Nxd4 is real. }
+( 7... Nxd4? { The tempting capture, and the trap that makes the whole line worth playing. } 8. Nxd4 Qxd4?? { Takes the knight and walks into it. } 9. Bb5+!
+{ [%cal Gb5e8,Gd1d4] The check is a discovered attack: the bishop leaves d3 and the white queen suddenly looks at the
+black one. } 9... Bd7 10. Bxd7+ Kxd7 11. Qxd4 { White has won the queen. Wikipedia and Wikibooks, Levy's course and
+the Lichess studies on the gambit all show it. } )
+8. O-O { [%cal Gf1e1,Gb1c3] **The gambit:** White castles and lets Black take the knight on d4. In return he gets an
+open e-file, the knight route to d5 and b5, and a lead in development. }
+( 8. Be2 { Declines the gambit and gets a much less ambitious position (Wikibooks). } )
+8... Nxd4 { Black takes the pawn with the knight; this is the normal move. } 9. Nxd4 { The knight trade is the
+main line. Marin also examines 9.Nbd2 and 9.Ng5, which have their own game below. } 9... Qxd4 { The queen recaptures. }
+10. Nc3 { [%cal Gc3b5,Gc3d5,Gf1e1] The knight eyes d5 and b5, and Re1 is threatened. White has given a second pawn:
+10...Qxe5 is possible. }
+10... Qxe5 { The natural move and the one Black plays most often. }
+11. Re1 { [%cal Ge1e5,Ge1e6] The queen is attacked, and once she leaves the e-file the e6-pawn is pinned to the king,
+so Black can never recapture on d5 with it. All the tactics below are built on that pin. }
+( 11. Bf4?! { Not now: the queen takes the bishop. } 11... Qxf4 )
+11... Qd6 { A popular reply (Wikipedia, the Lichess study): the queen guards d5 and steps out of the pin. }
+12. Nb5 { [%cal Gb5c7,Gb5d6] The knight attacks the queen and c7 at once. Black must decide where the queen goes
+before Be3 or Bf4 and Rc1 arrive. }
+12... Qb6 { The queen keeps b2 in sight. }
+( 12... Qb8 { The queen goes to the corner. } 13. Qf3 { [%cal Gc1f4] **Idea:** the queen guards the future bishop
+square f4, so Bf4 can come with tempo. Bf4 at once would just lose the bishop to the queen. } 13... Bd6 { Black
+prevents the fork. The source says that after trading on d6 and bringing out the bishop White still has a good,
+active position. } )
+13. Be3! { [%cal Ge3b6,Gb5d6] The bishop attacks the queen with tempo and develops. }
+( 13. Bf4? { Looks natural, because the fork on c7 is threatened. } 13... Bxb5 14. Bxb5+ Qxb5 { The knight on b5 has
+two attackers, so the idea fails and White loses a piece. } )
+13... Bc5? { [%cal Gc5e3] A very common blunder at this point (the Lichess study). } 14. Bxc5! { Take the bishop first
+and play Rc1 afterwards: 14.Rc1? gives away too many ideas. } 14... Qxc5 15. Rc1 { [%cal Gc1c5,Gb5c7] The queen is pinned
+against the rook and the knight threatens Nc7+. } 15... Qb6 16. Nc7+ Ke7 17. Nxd5+ Kf8 18. Nxb6 { **Verdict:** White
+wins the queen. This is the line as club players meet it. Against exact defence (the next games) the gambit is
+compensation, not a refutation of 5...Qb6, and Wikibooks rates the position as level. } *
+
+[Line "Milner-Barry: Black's best defence 11...Qb8 and other queen moves"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "Giving back the d5-pawn with 11...Qb8 is Black's best, but Qh5 keeps the initiative. The other queen moves lose to tactics on the pinned e6-pawn and the d7-bishop."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 Qxe5
+11. Re1 Qb8 { The queen retreats and protects c7. This is the correct move, and the Lichess study says it is
+played only about a tenth of the time. } 12. Nxd5 { [%cal Gd5c7,Gd5f6] The e6-pawn is pinned, so the knight cannot be
+taken; Nc7+ and Nf6+ are in the air. } 12... Bd6 { The best defence (the study). } 13. Qh5! { [%cal Gh5e8,Gh5f7] The
+queen adds a second pin on the h5-e8 diagonal; the study calls it hard to find and the position very uncomfortable
+for Black even with accurate play. **Plan:** keep the knight protected on d5 and bring Bf4 and Rc1. }
+( 13. h3 { The study gives it as an alternative: it protects h2 and loses no time. Roughly as good, but less
+tricky. } )
+( 13. Qg4 { Still tricky, but h2 is loose. } )
+( 13. g3 { Prevents the bishop's battery on h2, but does little else and may weaken the kingside; in the study's
+statistics Black scores better than White after it. } )
+{ **Verdict:** the study says that Black's position is so uncomfortable that White usually wins in practice.
+The source gives no moves after 13.Qh5, so the line ends here. } *
+
+[Line "Milner-Barry: 11...Qc7, 11...Qf6 and 11...Qd4"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "The other ways the queen can leave the pin fail to tactics: the pinned e6-pawn, the loose d7-bishop and knight forks on c7."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 Qxe5
+11. Re1 Qc7 { The queen protects c7 and the d7-bishop. } 12. Nxd5 { [%cal Gd5c7] The pinned pawn cannot take. }
+12... Qc6 { Black attacks the knight a second time. }
+( 12... Qd6 { The queen guards d5 again. } 13. Bc4 { [%cal Gc4e6] The knight is protected twice. } 13... Be7 14. Bf4 Qc5
+15. Nc7+ Kf8 16. Nxa8 Qxc4 17. Qxd7 )
+13. Bb5! { [%cal Gb5c6,Gd5c7] Whichever piece takes loses something: ...Qxb5 allows Nc7+ with a fork of king and
+queen, and ...Qxd5 is met by Qxd5. }
+( 13. Be4 { Also good: the bishop breaks the pin on its own terms. } )
+13... Qd6 14. Bf4 { [%cal Gf4d6] The queen is attacked again. } 14... Qc5 15. Nc7+ Kd8 16. Qxd7# { **Verdict:** a model
+of the tactics in this structure: pins on the e-file and the d7-bishop, and a knight that forks from c7. } *
+
+[Line "Milner-Barry: 11...Qf6 and 11...Qd4"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "Two more queen moves that look natural and fail: the queen on f6 runs into the second pin on the h5-e8 diagonal, and the queen on d4 into a discovered attack."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 Qxe5
+11. Re1 Qf6 { The queen steps out of the pin and attacks the knight on c3. }
+( 11... Qd4 { Rare, but the tactic is too pretty to skip. } 12. Rxe6+ { [%cal Gd3b5,Gd1d4] Whatever Black takes with,
+there is a check with a discovered attack on the queen: ...Bxe6 is met by Bb5+ and ...fxe6 by Bg6+. } 12... Be7 { Black
+blocks instead of taking; White continues the attack on the queen with Nb5 or Be3. } )
+12. Nxd5 { [%cal Gd5f6] The knight takes with an attack on the queen. } 12... Qd8 13. Bf4 { [%cal Gf4c7] Nc7+ is the threat,
+and the bishop supports it. } 13... Rc8 14. Rc1 { Brings the last piece to the attack. } 14... Bc6 15. Qh5 { [%cal Gh5e8,Ge1e6]
+A second pin: the e6-pawn and the bishop are both tied, and Black is likely to err. } 15... Qxd5 16. Qxd5 Bxd5 17. Rxc8+
+{ **Verdict:** the rook on c8 is no longer protected once the queens are off, so Black cannot take the knight on d5.
+It takes a lot of mistakes to get here, but the sources show that this is how club games are lost. } *
+
+[Line "Milner-Barry: 10...a6 11.g3"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "Black declines the second pawn and stops Nb5 with ...a6. White reroutes with g3 and Bf4; Qe2 with Kh1 and f4 is the main alternative."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 { [%csl Rb5]
+Black knows that taking the second pawn is tricky, and prevents Nb5 first. The natural 11.Re1 can run into
+problems (the Lichess study). }
+11. g3 { [%cal Gc1f4,Gg3f4] A rare move with shocking potential (the Lichess study 'French as White'): the pawn
+protects f4, so the bishop can go there even when the queen takes on e5. Odds are about even in the source. }
+( 11. Qe2 { Considered the main line by the study. The idea is Kh1 and f4, with the rook staying on f1 to support
+the push; it works out if you know what you are doing. } )
+( 11. Ne2 { Playable on paper, but it scores very badly in practice according to the study. } )
+11... Qxe5 { Black takes the second pawn anyway. } 12. Re1 Qd6 { Nb5 is not available, but the pawn on g3 gives the
+bishop a new route. } 13. Bf4 Qc6 14. Rc1 Be7 15. Nb5 { [%cal Gb5c7,Gb5d6,Gf4c7] } 15... Qb6 16. Bc7 { **Verdict:** the queen is
+trapped on b6 and Black loses it for less than it is worth; 15...Qb6 does not stop the fork and has a second
+problem in Bc7. } *
+
+[Line "Milner-Barry Hector Gambit: 6...cxd4 7.O-O"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "White does not recapture on d4 at all and castles first. The second pawn goes on c3, and the pieces come out faster still. A sharper form of the gambit."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. O-O { [%cal Gf1e1,Gb1c3,Gc1e3] The Hector Gambit, the
+'improved' Milner-Barry of Robert Ris's ChessBase video (White quickly pushes the h-pawn there). The Lichess
+studies 'Crush the French Defense' (39 likes) and 'French as White' (25 likes) both show it. }
+7... dxc3 { Black takes the second pawn. }
+( 7... Bd7 { The most common reply (Chess in the Library and the study 'Crush the French Defense'): Black keeps the pawn
+on d4 and covers b5. 8.cxd4 transposes to the main line, and 8.Re1 keeps the gambit going. } 8. Re1 { A waiting move that
+keeps all the ideas. } 8... dxc3 9. Nxc3 Nge7 10. Be3 { If Black does not play ...d4, the same ideas as in the Hector main line
+apply. } 10... d4? { The natural-looking pawn push, which loses material to a pin. } 11. Nxd4 Nxd4 12. Bxd4 Qxd4?
+{ Takes the bishop and walks into the discovered attack. } 13. Nb5 { [%cal Gb5d4,Gb5c7] The knight attacks the queen, and
+whatever Black does, the bishop on d3 delivers a discovered check. } 13... Bxb5 14. Bxb5+ ) 8. Nxc3 { [%cal Gc3b5,Gc3d5]
+The knight comes in with a hit on d5. White has given two pawns and every piece aims at the black king. } 8... Bd7
+{ [%cal Gd7b5] Black develops and covers b5. }
+( 8... a6 9. Be3 Qc7 10. Na4 { [%cal Ga4b6,Gc3c5] } 10... Nge7 ( 10... Nxe5? { Grabs a third pawn. } 11. Nxe5 Qxe5 12. Nb6 Rb8 13. Qa4+ { The king has to move and White crushes (Chess in the Library). } )
+11. Rc1 Ng6 12. Bb6! { Chases the queen to b8, and 13.Re1 then keeps the e5-pawn defended. } 12... Qb8 13. Re1 )
+9. Be3 { [%cal Ge3b6,Gc3b5] The bishop attacks the queen and gives b2 away on purpose. }
+9... Qd8 { The queen retreats at once and keeps the extra pawns. }
+( 9... Qxb2 { The greedy move. } 10. Nb5 { [%cal Gb5c7,Ga1b1] The knight threatens Nc7+. } 10... Rc8 11. Re1
+{ Preparing Re2, which attacks the queen. } 11... a6 12. Rb1 Qxa2 13. Re2 Qa5 14. Bb6!! { [%cal Gb6a5,Gb1b6] The queen is
+trapped. } 14... Qxb6 15. Nd6+ Bxd6 16. Rxb6 )
+( 9... d4? { Attacks two pieces. } 10. Nxd4 Nxd4 11. Qg4 { The bishop on e3 and the queen both hit the knight on
+d4, and Qxg7 is behind it. } 11... Bc5?? { The most common move in the source, and it loses at once. } 12. Qxg7 )
+( 9... Bc5?? { Natural development, but the bishop and the queen are both exposed to the knight. } 10. Na4 )
+10. Bd2 { [%cal Gd2c3] Chess in the Library prefers this to 10.Rc1: it protects the knight, so ...Bb4 and ...Bxc3 are
+not possible. } 10... Nge7 11. Bg5 { [%cal Gc3b5] } 11... a6! { Black's best (Chess in the Library): the pawn takes b5 from the knight in advance. } ( 11... h6?? { The
+most common mistake. } 12. Nb5 { Threatens Nd6+ with mate ideas. }
+12... Qb6 13. Nd6+ Kd8 14. Be3 ) 12. Rc1 h6 13. Bd2 { The same ideas continue. **Verdict:** the sources are club-level
+(their win rates are quoted for players below 1800), so the evaluation is practical, not theoretical. Black's quiet
+9...Qd8 keeps the extra pawns; White has the initiative, and the tactics above are what the opponent has to
+avoid. } *
+
+[Line "Milner-Barry: 9.Nbd2"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "A quieter way to play the gambit: the knight keeps the f3-square and White does not immediately open the position."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nbd2 { [%cal Gd2b3,Gf3d4] White keeps
+a knight on f3 and asks Black what he will do with the one on d4. Marin lists this as one of three ninth moves. }
+9... Ne7 { Black develops and allows the trade. } ( 9... Nxf3+ 10. Nxf3 Bc5 { [%cal Gb2b4] } 11. b4!? { The idea is to open
+the b-file. } 11... Bxb4?! { Takes a pawn but lets the rook onto the open b-file. } 12. Rb1 Qa5 13. a3 { The rook gets to b7. White is a pawn down but has compensation (Chess in
+the Library). } 13... Bxa3?? { Loses a piece. } 14. Ra1 )
+( 9... Nc6 { Black retreats. } 10. Nb3 { [%cal Gb3c5,Gc1e3] } 10... Nge7 11. Be3 Qc7 12. Rc1 Ng6 13. Nc5 { **Idea:** the knight
+lands on c5 with tempo and eyes b7. Chess in the Library gives 13...Be7 14.b4 as one continuation, with space and pressure on the queenside. } 13... Ngxe5
+14. Nxe5 Qxe5 15. Nxb7 { Chess in the Library: a sound sacrifice that is hard to defend in practice, with a 65 percent White
+score in an amateur database. } )
+10. Nxd4 Qxd4 11. Nf3 { The queen is hit and White develops with tempo. The source does not evaluate the position. } *
+
+[Line "Milner-Barry: 9.Ng5 (Sorensen)"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "Instead of taking on d4, the knight jumps to g5. It is slightly dubious but scores very well in practice, and the mating tactics are worth knowing."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Ng5 { [%cal Gg5f7,Gd1h5] The Sorensen
+variation. The Lichess study 'French as White' calls it slightly dubious, but says it has the highest win rate among
+1200-1800 players. Marin lists 9.Ng5 as one of three ninth moves. } 9... h6 { About half of the time. } 10. Nxf7 { [%cal Gd1h5]
+The knight sacrifice that the study demonstrates (it also gives 10.Qh5). } 10... Kxf7 11. Qh5+ Ke7 12. Qh4+ { If 12...Ke8 there is a bishop mate
+in one; the king must go to f7 (rarely found), and White can repeat or try Be3. } 12... g5 13. Bxg5+ hxg5 14. Qxg5+ Kf7
+15. Bg6+ Kg7 16. Bh5+ Kh7 17. Qg6# { **Verdict:** a forced mate after the natural 9...h6 and 12...g5, but Black can
+sidestep with 12...Kf7 and 12...Nf6, so it is a practical weapon, not a refutation. } *
+
+[Line "6.Bd3 Bd7: 7.dxc5 trap and 7.O-O"]
+[Section "5...Qb6 6.Bd3: Milner-Barry Gambit"]
+[Summary "Black pre-empts the bishop check with 6...Bd7. White either castles and reaches the main line, or takes on c5 and sets a trap on b4."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 Bd7 { Black prevents Bb5+ before taking on d4. This is nowadays the
+most played reply (Wikibooks). } 7. dxc5! { [%cal Gd4c5,Gf8c5] The quick trap of the 'French as White' study, which scores
+57 percent for White there. White takes the pawn: the e5-pawn still has Nf3 behind it. }
+( 7. O-O { Fine if you prefer: Black takes on d4 in 84 percent of the games and the main line follows. } 7... cxd4
+8. cxd4 Nxd4 9. Nxd4 Qxd4 10. Nc3 Qxe5 11. Re1 )
+7... Bxc5 8. O-O Nge7? { [%cal Gb2b4] A natural developing move, and a mistake. } 9. b4! { [%cal Gb4c5] The bishop is attacked and has no
+safe square (Wikibooks says it is trapped). } 9... Bxb4 10. cxb4 Nxb4 { **Verdict:** the study stops with the bishop traded for
+two pawns and the knight attacking the bishop on d3. If Black avoids 8...Nge7 there is nothing dubious about White's
+position, and the study reports about a 50 percent score for White. } *

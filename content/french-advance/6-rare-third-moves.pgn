@@ -1,0 +1,47 @@
+[Line "3...Bd7: the extended bishop swap"]
+[Section "Rare third moves"]
+[Summary "Black wants to trade the bad bishop at once with ...a6 and ...Bb5. White takes c4 for himself and keeps the bishop on b3, or trades on d3 and recaptures with the queen."]
+
+1. e4 e6 2. d4 d5 3. e5 Bd7 { [%cal Gd7b5] The extended bishop swap (Wikibooks). Black skips ...c5 and heads for b5 straight
+away, hoping to exchange the French bishop for White's light-squared one. Schneider's course covers it among the
+early sidelines. } 4. Nf3 { Natural development; the knight guards e5. } 4... a6 { Prepares ...Bb5. }
+( 4... c5 { Black changes his mind and reaches the Wade Variation (4...Qb6 in the fourth-move file) by transposition. } 5. c3 Qb6 )
+5. c4! { [%cal Gc4d5,Gc4b5] The critical reply (Wikibooks marks it). The pawn hits d5; after 5...dxc4 6.Bxc4 Bb5 the bishop
+retreats to b3 and a4 drives the black bishop back. }
+( 5. Bd3 { The simple alternative: White is happy to trade bishops on d3 and recapture with the queen. } 5... Bb5 6. O-O
+Bxd3 7. Qxd3 { Wikibooks marks this slightly better for White: the queen is well placed and e5 is secure. } )
+5... dxc4 6. Bxc4 Bb5 7. Bb3 { [%cal Ga2a4,Gb3a2] The bishop retreats to b3, keeps the a2-g8 diagonal and prepares a4. }
+7... Bb4+ 8. Nc3 Ne7 9. a4 { [%cal Ga4b5] **Plan:** the pawn drives the bishop off b5. Black has the choice of ...Bc6, which
+obstructs his own c-pawn's break, and ...Bd7, a very inactive square (Wikibooks). The position is slightly better
+for White according to Wikibooks, which stops here. } *
+
+[Line "3...b6: Black plans ...Ba6"]
+[Section "Rare third moves"]
+[Summary "Black prepares ...Ba6 or ...Bb7 and hopes to open the long diagonal. White develops with c3 and Nf3 and lets Black trade bishops if it wants to."]
+
+1. e4 e6 2. d4 d5 3. e5 b6 { [%cal Gc8b7,Gc8a6] Black intends ...Bb7 and hopes to free the diagonal one day, or ...Ba6 to trade
+the bad bishop for the good one (Wikibooks). } 4. c3 { Supports d4. }
+4... Qd7 { Prepares ...Ba6. } 5. Nf3 Ba6
+( 5... Ne7 { The Dolchthron repertoire (Lichess, 73 likes) lists this as an uncommon line. } 6. a4 { **Plan:** a4 stops
+...b5 and the bishop gets no easy way out; White simply develops. } 6... a5 )
+6. Bxa6 Nxa6 { Wikibooks marks the position slightly better for White: Black has traded his bad bishop, but his
+knight is offside on a6. The source gives no further moves, so this line is a draft. } *
+
+[Line "3...f6: the early break"]
+[Section "Rare third moves"]
+[Summary "Black attacks the chain at once, before the kingside is developed. White develops with Bd3 and goes for the h-pawn: the light squares around the black king are weak."]
+
+1. e4 e6 2. d4 d5 3. e5 f6 { [%cal Rf6e5] Black strikes at e5 straight away. He has not developed anything yet, so the
+light squares around his king are weak and White has time to use them (the Complete Repertoire study, which prefers
+...c5 first and ...f6 second). } 4. Bd3 { [%cal Gd3g6,Gd1h5] The bishop eyes the h5-e8 diagonal and g6. } 4... g6
+{ Covers the diagonal. } 5. h4 { [%cal Gh4h5] **Idea:** the h-pawn goes after the g6-pawn and the weak light squares; Black has
+to defend all the time. }
+5... fxe5
+( 5... Nh6 { Black avoids the pawn grab. } 6. Nf3 Nf7 7. Qe2 Nc6 8. c3 Bd7 9. b4 Bg7 10. Bf4 a6 11. a4 O-O { White expands on the
+queenside and keeps e5 overprotected with the bishop on f4. } )
+6. dxe5 Bg7 7. Bg5 { [%cal Gg5e7] } 7... Ne7 8. h5 Bxe5 9. Nc3 Bxc3+ 10. bxc3 Qd6 11. f4 { [%cal Gf4f5,Rg7h8] } 11... Rf8
+12. Nf3 Nbc6 13. hxg6 hxg6 14. Bb5 Bd7 15. Bxc6 Bxc6 16. Rh7 Rf7 17. Rxf7 Kxf7 18. Qd4 Rg8 19. Qf6+ Ke8 20. Ne5 Rf8 21. Qg7
+Qa3 22. Kd1 Rf5 23. Rb1 Qc5 24. Kc1 Rxe5 25. Qxe5 Qd6 26. Qg7 Kd7 { **Verdict:** the study ends here with White clearly better:
+the black king is stuck in the centre and his pieces are tied up. The sequence is long and hard to remember; the ideas
+to keep are h4-h5, Bg5 and the rook on the h-file. The line comes from a Black-side study, so Black's improvements
+are not covered, and 5...Nh6 above is the way Black avoids it. } *

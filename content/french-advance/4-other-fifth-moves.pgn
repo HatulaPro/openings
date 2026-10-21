@@ -1,0 +1,50 @@
+[Line "5...Nge7 6.Na3 cxd4 7.cxd4 Nf5 8.Nc2"]
+[Section "Other fifth moves"]
+[Summary "Black develops the knight to attack d4 from f5 and avoids the gambit. White brings the knight round to c2 to defend d4, and then builds up on the queenside."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nge7 { [%cal Ge7f5,Rf5d4] Black skips ...Bd7 and ...Qb6 and goes straight for the
+knight jump to f5. The cost is that the knight blocks the f8-bishop, so Black is slow to castle; the gain is
+that the Milner-Barry gambit is not available (the Lichess blog by mizant, who recommends it for Black, says so
+explicitly). It is a sideline, but Schneider's course has a chapter on it. }
+6. Na3 { [%cal Ga3c2,Gc2d4] Defends d4 from c2 in advance, before the knight on f5 arrives. Schneider's
+choice (Gokun's page has the same knight route in a related line); mizant calls 6.Na3 and 6.a3 White's main systems here, both of which first defend d4 and then build
+an attack. }
+( 6. a3 { The second main system: a3-b4 and Bb2. Mizant calls it the strongest and most-played move. } )
+( 6. Bd3 { Chess in the Library's answer: White takes on f5 if the knight arrives, damaging the pawns. } 6... cxd4
+( 6... Nf5 7. dxc5 { Black plays the knight move before releasing the tension, and White simply takes the pawn:
+comfortable for White (Chess in the Library). } ) 7. cxd4 Nf5 { Nearly forced: the e7-knight is boxed in by its own
+bishop, and ...Ng6 runs into h4. } 8. Bxf5 exf5 9. Nc3 Be6 10. h4 { **Plan:** h4 gains kingside space and prepares
+Rh1-h3-g3; Black has the bishop pair but a passive Be6, a 'tall pawn'. Chess in the Library gives White roughly
+60 percent winning chances, and plans such as Ke1-f1-g1 and Nc3-e2-f4. } )
+6... cxd4 7. cxd4 Nf5 { The knight reaches its square, hitting d4. } 8. Nc2 { [%cal Gc2d4,Rf5d4] The knight defends d4. White's
+d4-pawn is now defended three times (Nf3, Nc2, Qd1). **Plan:** castle and develop; Black adds ...Qb6. The sources stop here
+(Schneider's chapter on 5...Nge7), so the line is a draft. } *
+
+[Line "5...Nh6 6.Bd3"]
+[Section "Other fifth moves"]
+[Summary "The knight heads for f5 from h6 and keeps the f8-bishop free. White offers the trade on f5, which damages Black's pawns."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nh6 { [%cal Gh6f5,Rf5d4] Recently popular (Wikipedia): if White takes on h6,
+Black gets the g-file; if not, the knight reaches f5 and attacks d4. }
+6. Bd3 { [%cal Gd3f5] The answer of the 73-likes 'French Defense Repertoire' study (Black's side): the same idea as against 5...Nge7: whenever the knight lands on f5, the bishop takes
+it and Black recaptures with the e-pawn. }
+( 6. Bxh6?! { The tempting way to wreck the pawns, and the move Black wants. } 6... gxh6 { Wikipedia: Black gets the open g-file, and he can
+play ...Bg7 and ...f6 against e5. The 73-likes study adds that most of White's pawns are on dark squares and his
+dark-squared bishop is gone. } )
+6... cxd4 7. cxd4 Nf5 8. Bxf5 exf5 9. Nc3 { [%cal Gc3b5] } 9... Be6 { The bishop guards d5 against Nc3-Qb3. } 10. h4
+( 10. O-O { The quieter move: castle, then Ne2 heading for f4. } 10... Be7 11. Ne2 )
+10... h6 { **Verdict:** that study (73 likes, written from Black's side) ends here. A comfortable position for White with
+plenty of play; Black's structure is the long-term problem. } *
+
+[Line "5...cxd4 6.cxd4"]
+[Section "Other fifth moves"]
+[Summary "Black takes at once. White recaptures with the pawn and the game usually transposes to the Milner-Barry or the Euwe lines; ...Qb6 and the gambit bishop is the sharp reply."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 { Black resolves the tension early. } 6. cxd4 { The pawn takes. }
+( 6. Nxd4? { Takes with the knight and leaves e5 without a defender. } 6... Nxe5 { Black wins a pawn. } )
+6... Qb6 { Black adds the queen to the attack on d4. } 7. Bd3 { [%cal Gd3b5] The gambit position of the
+Milner-Barry, reached by transposition (the study 'French as White'). } 7... Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 Qxe5 11. Re1
+Qc7 12. Nxd5 Qc6 13. Bb5 Qc8 14. Bf4 Bxb5 15. Nc7+ Ke7 16. Qd6+ Kf6
+17. Qe5+ Ke7 18. Qc5+ Kd7 19. Rad1+ Bd3 20. Rxd3+ Bd6 21. Qxd6# { **Verdict:** a mate in six from the study 'French as
+White'. You will not get this game, but it shows what the pin on the e-file and the bishop on f4 mean. }
+*

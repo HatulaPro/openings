@@ -1,0 +1,58 @@
+[Line "Wade Variation: 4...Qb6 5.Nf3 Bd7 6.a3"]
+[Section "Black's fourth-move alternatives"]
+[Summary "Black puts the queen on b6 first so that the bishop can go to d7 and b5 and be traded for White's good one. White meets ...Bb5 with b4 and takes on b5 at the right moment."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 { [%cal Rb6b2,Rb6d4] The queen hits d4 and b2 straight away. The move order has two
+points: Black can play ...Bd7-b5 to trade his bad bishop (the Wade Variation), and 5.Be3 is no longer possible
+because b2 would hang (Wikibooks, the chess.com forum). Often it just transposes to the main line after 5.Nf3
+Nc6. }
+5. Nf3 { [%cal Gf3d4] The natural development. If Black plays 5...Nc6, the lines of the main file follow (6.a3 c4, or the
+gambit 6.Bd3). }
+( 5. Be3? { The move that 4...Qb6 is designed to stop: b2 has no defender. } 5... Qxb2 )
+5... Bd7 { [%cal Gd7b5] The Wade Variation. Black wants ...Bb5 to swap the bad bishop. The price is time: the queen has
+moved twice and the bishop once, and White can allow the trade. }
+6. a3 { [%cal Gb2b4] The most popular reply (Wikibooks). The pawn prepares b4, which expands on the queenside
+and tries to gain time against the black queen (Wikibooks). }
+( 6. Be2 { A second main line (Wikibooks). The bishop allows the trade, but on White's terms: Black has to capture on
+b5 and White retakes with the queen. } 6... Bb5 7. dxc5 Bxc5 8. b4 Bxf2+ 9. Kf1 Bc6 10. a4 a6 { Wikibooks: 7.dxc5 is used to
+expand on the queenside again; 9...Bxe2+? would lose the bishop to Qxe2. } )
+( 6. Bd3 { The third most played option. } 6... Bb5 7. dxc5 Bxc5 8. b4 Bxd3 9. Qxd3 Bf8 10. O-O Ne7 { White has gained
+space on the queenside, but Black has traded his bad bishop. } )
+6... Bb5 { Black goes through with the trade plan. } 7. b4 { [%cal Gb4c5,Gf1b5] White expands and takes c5 under control. } 7... cxd4 8. Bxb5+ Qxb5 9. cxd4 Nd7 10. Nc3 { [%cal Gc3b5] } 10... Qc6 { The queen is driven off b5. **Verdict:**
+White enjoys a space advantage (Wikibooks) and a healthy structure; Black has traded his bad bishop but is behind in
+development. The source ends here. } *
+
+[Line "4...Bd7 5.Nf3 Qb6 and 5...a6"]
+[Section "Black's fourth-move alternatives"]
+[Summary "Black plays ...Bd7 before ...Nc6. White develops and lets the bishops be traded when it suits him; ...a6 is answered by Bd3 and dxc5."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Bd7 { [%cal Gd7b5,Rd8b6] Black wants ...Bb5 and ...Qb6, and avoids the move-order trick of 5.Be3
+(pfren on the chess.com forum: 4...Bd7 also takes care of it). Schneider's course has a chapter on 4...Bd7 5.Nf3 Qb6. }
+5. Nf3 Qb6 { Black threatens ...Bb5. This is the Wade position by transposition. }
+( 5... a6 { Prepares ...Bb5 without losing a tempo on the queen. } 6. Bd3 Bb5 7. Bxb5+ axb5 8. dxc5 Bxc5 9. b4 Ba7
+10. Qe2 Nd7 11. Na3 Ne7 12. Nxb5 Bb8 13. Bg5 O-O { **Plan:** after the exchange on b5 White wins the b5-pawn with 12.Nxb5, and Black's bishop on b8 is out of play.
+(Complete Repertoire study, 777 likes, Black's side.) } )
+6. Be2 Bb5 7. O-O { [%cal Gf1e2] White castles and lets the bishops go. Schneider's chapter has 6.Be2 Bb5 7.dxc5 and 7.Bxb5
+as well. } 7... Bxe2 8. Qxe2 cxd4 9. cxd4 Ne7 10. Nc3 Nec6 11. Be3 Nd7 12. Rac1 { [%cal Gc1c7] **Verdict:** a normal position with
+equal chances (the Complete Repertoire study, written from Black's side). White has the space and the c-file; Black has
+traded his bad bishop. } *
+
+[Line "Rare fourth moves: 4...f6, 4...b6 and 4...a6"]
+[Section "Black's fourth-move alternatives"]
+[Summary "Black breaks at once with ...f6, or tries to trade the bad bishop by ...b6 or ...a6. White plays Bd3 and Nf3 and keeps the e5-pawn overprotected."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 f6 { [%cal Rf6e5] The immediate break. Black attacks the chain at both ends, d4 and e5, and
+White cannot start a kingside attack at once because Black has tactical counter-shots. (Complete Repertoire study.) }
+( 4... b6 { A sideline: ...Ba6 trades the bad bishop. } 5. Nf3 Qd7 6. Bd3 Ba6 7. Bxa6 Nxa6 8. O-O Ne7 9. Na3 Rc8 10. h4
+Nc6 11. Nc2 Be7 12. Bf4 cxd4 13. cxd4 { The Complete Repertoire study calls ...b6 a bit dubious; White plays h4 and brings
+the knight to c2. } )
+( 4... a6 { Has fallen out of favour and been seen only a few times (the study). The idea is ...Bd7 and ...Bb5, with the
+a-file as compensation for the damaged queenside. } 5. Bd3 Bd7 6. Nf3 cxd4 7. cxd4 Bb5 8. Bxb5+ axb5 9. O-O Nc6 10. Nc3 b4
+11. Ne2 Nge7 12. Ng3 g6 13. Bg5 Bg7 14. Qd2 h6 15. Be3 Nc8 16. Rfc1 O-O )
+5. Bd3 { [%cal Gd3g6,Gd1h5] The bishop develops, and with the pawn on f6 the h5-e8 diagonal is a weakness. } 5... Qc7 { Black adds the queen to the attack on e5. }
+6. Nf3 fxe5 7. dxe5
+( 7. Nxe5 { The study's second line. } 7... Nf6 8. Bg5 Nbd7 9. Bxf6 Nxf6 10. Bb5+ Kd8 11. O-O Bd6 12. Re1 Rf8
+13. Nd2 cxd4 14. cxd4 Qb6 { Black's king has to stay on d8, but he has the bishop pair; the study stops here. } )
+7... Nc6 8. O-O Nh6 9. c4 d4 10. Qe2 Nf7 11. Bf4 { [%cal Gf4e5] White protects e5 with the bishop, as Chess in the
+Library recommends for the ...f6 break. } 11... Be7 12. Nbd2 g5 13. Bg3 Bd7 14. Rae1 a5 { **Verdict:** the sources stop here;
+Black has chances against e5, and White has to keep the pawn. Draft. } *

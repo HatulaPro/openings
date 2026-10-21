@@ -1,0 +1,76 @@
+[Line "Euwe Variation: 5...Bd7 6.Be2 Nge7 7.O-O Ng6 8.g3 Be7 9.h4"]
+[Section "5...Bd7: the Euwe Variation"]
+[Summary "Black develops the bad bishop first and keeps the queen flexible. White plays the classical Be2, castles, and goes after the knight on g6 with g3 and h4."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 { [%cal Rd8b6,Rd7b5,Rc6b4] The Euwe Variation. Black plays the move he
+will almost always want anyway, ...Bd7, and keeps the queen free for ...Qc7 or ...Qb6. The bishop can also head
+for b5 or a4 to leave the chain. It is the main alternative to 5...Qb6 (Wikipedia, Werle, Schneider). }
+6. Be2 { [%cal Ge1g1,Gb1a3] The classical move of Werle and Schneider, and of the 73-likes 'French Defense Repertoire' study. Werle's chapter covers 6...Nge7, 6...f6 and 6...Bb5; only the moves of the first two could be read. White
+castles and decides between the Na3-c2 regroup and kingside play. }
+( 6. Bb5? { A basic trap of the Euwe Variation: Black simply takes the pawn on e5. } 6... Nxe5! { If White recaptures with
+the pawn, ...Bxb5 wins the bishop; if he takes on d7, the knight recaptures and Black is out of danger (the study
+'French as White'). } 7. dxe5 Bxb5 )
+( 6. a3?! { A wasted move here: the queen is not on b6, so a3 hits nothing and Black uses the tempo to attack
+e5 (Wikipedia: Black at least equalises after 6...f6). } 6... f6! { The break comes at once, and White's centre is
+under pressure before the kingside is developed. } 7. Bd3 Qc7 8. O-O O-O-O 9. Re1 c4 10. Bc2 Nge7 { This is the
+line Wikibooks gives; Black has the e5-pawn in his sights and a king on the queenside. } )
+6... Nge7 { The main move: the knight goes to f5 or g6, and the f8-bishop keeps its diagonal. } 7. O-O { [%cal Gf1e1]
+White castles. }
+( 7. Na3 { The quiet alternative, and the main line in Wikibooks. **Idea:** the knight goes round to c2, where it
+defends d4. } 7... cxd4 8. cxd4 Nf5 9. Nc2 Qb6 10. O-O Rc8 )
+( 7. Na3 cxd4 8. cxd4 Nf5 9. g4 { A sharp try from the 73-likes 'French Defense Repertoire' study (Black's side): the pawn kicks the knight on f5. } 9... Nh4 10. Nxh4
+Qxh4 11. Bf4 )
+7... Ng6 { [%cal Gg6h4,Rg6e5] The knight attacks e5 and heads for h4. } 8. g3 { [%cal Gh2h4,Gh4h5] **Idea:** the pawn takes h4
+away from the knight and prepares h4-h5 to hit the one on g6. } 8... Be7 9. h4 { [%cal Gh4h5,Rg6h4] **Plan:** h5 drives
+the knight away, usually to e7 or h8, and wins time and space on the kingside. Schneider's course gives this line
+as the main one; the confirmed sources stop here, so this is a draft. Watch for ...f6 once the knight has
+left g6. } *
+
+[Line "5...Bd7 6.Be2 Nge7 7.O-O: 7...Nf5 and 7...cxd4"]
+[Section "5...Bd7: the Euwe Variation"]
+[Summary "Black heads for f5 at once or releases the tension first. White uses Na3-c2 or Nc3 and meets ...Nf5 with Bd3 and the trade on f5."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 Nge7 7. O-O Nf5 { [%cal Gf5d4] The knight attacks d4 straight away. }
+( 7... cxd4 8. cxd4 Nf5 9. Nc3 { [%cal Gc3b5] } 9... Rc8 10. Bg5 { [%cal Gg5d8] } 10... Qb6 11. Na4 Qa5 12. Rc1 h6 13. Be3 Be7
+14. Bd3 O-O { The Dannyburger study (113 likes) from which this comes calls it a pretty equal position with a solid
+structure. } )
+8. Na3 { [%cal Ga3c2] The knight heads for c2 to defend d4. } 8... cxd4 9. cxd4 Be7 10. Nc2 O-O 11. Bd3 { [%cal Gd3f5] The bishop
+now offers the trade on f5, which removes Black's best minor piece. } 11... f6 { Played only now that Black has
+castled (the study's advice for Black). } 12. Bf4 { [%cal Gf4e5] The e5-pawn is overprotected rather than given up, as
+Chess in the Library recommends against ...f6. } 12... Rc8 13. Bxf5 exf5 14. Re1 Be8 15. exf6 Bxf6 { **Verdict:** a quiet
+equal position (the Complete Repertoire study, 777 likes, written from Black's side, ends here). White gets little
+against 7...Nf5 in this line; the sharper tries are the 7.Na3 lines above. } *
+
+[Line "5...Bd7 6.Be2 f6"]
+[Section "5...Bd7: the Euwe Variation"]
+[Summary "The break ...f6 as early as move six. White takes on e5 and the structure becomes double-edged: Black has the centre pawns and the king on the queenside, White the initiative."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 f6 { [%cal Rf6e5] Black attacks e5 immediately. He usually takes on
+e5 and plays ...Qc7 and ...O-O-O, with a very double-edged game (Wikibooks). } 7. O-O fxe5 8. Nxe5 { [%cal Ge5d7,Ge5c6]
+Wikibooks recaptures with the knight. }
+( 8. dxe5 { The Complete Repertoire study's line, from Black's side. } 8... Qc7 9. Bf4 Nh6 10. c4 d4 11. Nbd2 Be7
+12. Ne1 O-O-O )
+8... Nxe5 9. dxe5 Qc7 10. Re1 O-O-O { The source stops here, so this is a draft. The structure is double-edged, as Wikibooks says: Black
+has the centre pawns and the king on the queenside, White the pawn on e5 and the open f-file. } *
+
+[Line "5...Bd7 6.Bd3: the sharp alternative"]
+[Section "5...Bd7: the Euwe Variation"]
+[Summary "Against the Euwe Variation the gambit bishop move still works: 6...Qb6 transposes to the Milner-Barry, and 6...Rc8 needs a precise 7.a3."]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Bd3 { [%cal Gd3b5,Rc6b4] The sharp choice (Chess in the Library, the
+Lichess study 'French as White'). If Black plays ...Qb6 the game transposes to the Milner-Barry; if he plays
+...cxd4 the gambit follows. The Euwe player's own idea is the one to know: ...Rc8, ...Nb4 and ...cxd4, with a knight
+jump to c2. }
+6... Rc8 { [%cal Gc6b4,Rc5d4,Rb4c2] Black prepares ...Nb4 attacking the bishop, and ...cxd4. If White castles now, the
+knight takes over c2. }
+7. a3! { [%cal Ga3b4] Takes b4 away from the knight and the bishop, and most of Black's ideas stop working. The game is
+even and White can develop and go for a kingside attack. }
+( 7. O-O? { The move Black hopes for. } 7... cxd4 8. cxd4 Nb4 { [%cal Gb4c2,Gb4d3] The knight attacks the bishop and
+jumps to c2; the study says Black usually wins if he is prepared. } )
+( 7. Na3 { Surprisingly good (the study): the bishop can tuck itself into b1 and the knight goes to c2, where it
+is safe from tactics and adds a defender to d4. } )
+7... cxd4 8. cxd4 Qb6 { Black adds a third attacker to d4. } 9. O-O { **Plan:** reach a version of the Milner-Barry. The
+study calls this a bit more dubious than the real gambit but statistically quite good. The 'correct' move is to
+add a defender with Bc2, but then ...g5 is a sharp idea for Black that White has to meet with precision. }
+9... Nxd4 10. Nxd4 Qxd4 11. Nc3 Qxe5 12. Re1 { **Verdict:** the same pin on the e6-pawn as in the Milner-Barry
+file; the study rates this a little worse than the main gambit, but White's practical chances are good. } *
