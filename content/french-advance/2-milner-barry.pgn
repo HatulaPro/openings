@@ -98,11 +98,10 @@ It takes a lot of mistakes to get here, but the sources show that this is how cl
 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 { [%csl Rb5]
 Black knows that taking the second pawn is tricky, and prevents Nb5 first. The natural 11.Re1 can run into
 problems (the Lichess study). }
-11. g3 { [%cal Gc1f4,Gg3f4] A rare move with shocking potential (the Lichess study 'French as White'): the pawn
-protects f4, so the bishop can go there even when the queen takes on e5. Odds are about even in the source. }
+11. g3!? { [%cal Gc1f4,Gg3f4] A rare move with shocking potential (the Lichess study 'French as White'): the pawn
+protects f4, so the bishop can go there even when the queen takes on e5. Odds are about even in the source. It is a surprise weapon: none of the 256 elite games here chose it (they play Qe2, Re1, Kh1 or Be3), so it rests on this one 25-like study. }
 ( 11. Qe2 { Considered the main line by the study. The idea is Kh1 and f4, with the rook staying on f1 to support
 the push; it works out if you know what you are doing. } )
-( 11. Ne2 { Playable on paper, but it scores very badly in practice according to the study. } )
 11... Qxe5 { Black takes the second pawn anyway. } 12. Re1 Qd6 { Nb5 is not available, but the pawn on g3 gives the
 bishop a new route. } 13. Bf4 Qc6 14. Rc1 Be7 15. Nb5 { [%cal Gb5c7,Gb5d6,Gf4c7] } 15... Qb6 16. Bc7 { **Verdict:** the queen is
 trapped on b6 and Black loses it for less than it is worth; 15...Qb6 does not stop the fork and has a second
