@@ -1,0 +1,37 @@
+[Line "Steinitz: 7...Qb6 8.Na4"]
+[Section "Steinitz: other seventh moves"]
+[Summary "Black hits d4 and b2 with the queen. White jumps to a4 with tempo, answers the check with c3 and uses b4 to dislodge the queen."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Qb6 { [%cal Rb6b2,Rb6d4] The fourth main option (Tomic). The queen pressures d4 and b2 at once, and Black may follow with ...Qxb2 if White is careless. }
+8. Na4 { [%cal Ga4b6,Ga4c5] The knight comes with tempo against the queen and the c5-pawn. 8.dxc5 Bxc5 gives Black an easy game with free development, so it is not the way. }
+8... Qa5+ { }
+9. c3 { Blocks the check and prepares b4 to chase the queen. }
+9... cxd4 { }
+( 9... b6 { Black supports c5 against the knight. } 10. Bd2 { The c3-pawn can now support d4. } 10... cxd4 11. b4 Nxb4 12. Nxd4 { Draft: this comes from a 2-like study (6MvVHrsD) and was not cross-checked. } )
+10. b4 { [%cal Gb4a5] }
+10... Qc7 { }
+11. Nxd4 Nxd4 12. Bxd4 { **Verdict:** better for White in BTF's rating (the same moves appear in 6MvVHrsD): the knight on a4 is offside, but White has the centre and the bishop on d4 hits g7 and a7. Black's bad bishop is still on c8 and the plan is Be2, O-O and Nc5 or f5. } *
+
+[Line "Steinitz: 7...Rb8 8.h4"]
+[Section "Steinitz: other seventh moves"]
+[Summary "A slightly dubious move that Tomic calls a surprise weapon. White either plays h4-h5 at once, or a3 to meet ...b5."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Rb8 { Black wants ...b5-b4 without wasting a move on ...a6. }
+8. h4 { [%cal Gh4h5] BTF: ignore the plan and start the h-pawn. }
+( 8. a3 { The other way to meet the plan: take b4 away first, then deal with ...b5. } 8... b5 9. Ra2 { [%cal Ga2b2] The ChessBase reviewer of Bologan's DVD calls this "a very nice idea": the rook protects b2 and meets ...b4 with axb4. } )
+8... cxd4 9. Nxd4 Bc5 10. h5 { [%cal Gh5h6] }
+10... Qb6 11. Na4 Qa5+ 12. c3 Bxd4 13. Bxd4 Nxd4 14. Qxd4 h6 15. Bd3 { **Verdict:** slightly better for White (BTF). The h-pawn is on h5 and Black has played ...Rb8 and ...h6, which hardly helps; the rooks and the bishop pair give White a comfortable edge. } *
+
+[Line "3...Nf6 4.e5 Ne4 5.Nxe4 dxe4 6.Bc4"]
+[Section "Classical: 4...Ne4"]
+[Summary "Black puts the knight on e4 at once. White trades it and goes for a quick Bc4, Ne2 and c3 against a pawn on e4 that is more a target than a bind."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Ne4 { Rare but played. }
+5. Nxe4 { [%cal Ge4d5] }
+5... dxe4 { }
+6. Bc4 { [%cal Gc4e6,Gc4f7] The bishop hits e6 and is ready for Ne2-g3 and c3. 6.Qe2? loses a pawn to ...Qxd4. }
+6... a6 { Stops Bb5 ideas and prepares ...b5. }
+( 6... c5 7. d5! { [%cal Gd5e6] The pawn strikes at once. } 7... a6 8. a4 Nd7 9. dxe6 fxe6 10. Bxe6 Nxe5 11. Qh5+ Ng6 12. Ba2 { Clearly better for White (BTF). } )
+( 6... Nd7 7. c3 c5 8. Ne2 Nb6 9. Bb3 Bd7 10. O-O Bc6 11. a4 a5 12. Be3 h5 13. Bc2 h4 14. h3 Be7 15. Qb1 { Better for White (BTF): the pawn on e4 is weak and White's pieces are more active. } )
+7. a4 { Stops ...b5. }
+7... Nd7 8. c3 c5 9. Ne2 cxd4 10. cxd4 Nb6 11. Bb3 Bb4+ 12. Bd2 Bxd2+ 13. Qxd2 O-O 14. Nc3 { [%cal Gc3e4] **Verdict:** better for White (BTF): Black has no bind, the e4-pawn is weak, and the bishop on b3 is a long-range attacker that can later come to the kingside. The line is a single-source draft. } *

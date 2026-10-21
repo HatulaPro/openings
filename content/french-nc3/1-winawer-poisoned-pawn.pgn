@@ -1,0 +1,62 @@
+[Line "7.Qg4 Qc7 8.Qxg7: the poisoned pawn"]
+[Section "Winawer 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4"]
+[Summary "White takes g7 and h7 with the queen and lets Black have the centre and the queenside files. A dynamic balance that is full of tactics; the point is to know the first ten moves cold."]
+
+1. e4 e6 2. d4 d5 3. Nc3 { [%cal Gc3d5,Gc3e4] The principled move. The knight guards e4 and hits d5 without blocking the c-pawn, and White agrees to meet the pin 3...Bb4 head on. Black has three real answers: 3...Bb4 (this file), 3...Nf6 (Steinitz, files 4 and 5) and 3...dxe4 (Rubinstein, file 6). Until now the Exchange was the plan; this is the sharp replacement. }
+3... Bb4 { [%cal Rb4c3] The Winawer. The pin renews the pressure on e4 and threatens ...Bxc3 with a wrecked pawn structure. Black pays by giving up the dark-squared bishop that guards his own king. }
+4. e5 { [%cal Gc7c5,Gf7f6] Closes the centre, takes f6 from the knight and leaves Black with a light-squared bishop buried behind e6. The French breaks ...c5 and ...f6 both attack this pawn chain. }
+( 4. exd5 { The delayed Exchange, the quiet second choice if the theory below is too much. Wikibooks calls it somewhat less drawish than the plain Exchange, and it was played by Harikrishna against Rapport and Caruana. } 4... exd5 5. Bd3 Nf6 6. a3 { Giri calls this the most promising move, and Caruana has played it too. } 6... Bxc3+ 7. bxc3 O-O 8. Ne2 )
+4... c5 { [%cal Rc5d4] Attacks the base of the chain. If d4 falls, e5 falls with it. }
+5. a3 { [%cal Gb2b4] Puts the question to the bishop at once. 5...Bxc3+ 6.bxc3 gives White the bishop pair and a huge pawn centre; 5...Ba5 runs into 6.b4 (file 3). }
+5... Bxc3+ 6. bxc3 { [%csl Rc3,Rg7] Forced. The doubled c-pawns are weak, but they give White the c3-d4-e5 chain, the half-open b-file and, above all, the dark-squared bishop that is no longer opposed. Black's kingside is the soft spot: nothing guards g7 or g5 any more. }
+6... Ne7 { Black's main move. The knight prepares ...Ng6 or ...Nf5 against Qg4, and keeps the f-pawn free. The queen moves 6...Qc7 and 6...Qa5 are in file 3. }
+7. Qg4 { [%cal Gg4g7] The critical move: g7 is attacked and no black piece guards it comfortably. Black chooses between sacrificing the pawn (7...Qc7, 7...cxd4), guarding it by castling (7...O-O), with the king (7...Kf8) or with the knight (7...Nf5); the last three are in the next file. The quieter 7.a4, 7.Nf3 and 7.h4 (strategic lines that Giri covers from Black's side) are lighter alternatives and are not covered here. }
+7... Qc7 { [%cal Gc7c3,Gc5d4,Gc7e5] The accepted gambit. Black offers g7 for counterplay on the queenside: ...cxd4 cxd4 Qc3+ would fork king and rook, and the queen also eyes e5 and c3. }
+8. Qxg7 { [%csl Rg7] White takes. The alternative 8.Bd3 is the second main line, in the next game. }
+8... Rg8 { The rook is attacked and this attacks the queen. Black gets the g-file against g2 in return. }
+9. Qxh7 { [%csl Rh7] The second pawn. The queen is far from the action, but Black's pieces are all undeveloped and White already has a passed h-pawn. }
+9... cxd4 { Threatens ...Qxc3+ winning the rook, and ...Qxe5+. }
+10. Ne2 { [%cal Ge2c3] The standard move. The knight guards c3, so the rook on a1 is safe, and it prepares to recapture on d4. The price is that the knight blocks the f1-bishop, which is why White needs f4 and Qd3 over the next moves. }
+( 10. Qd3 { Rare. } 10... Qxe5+ 11. Ne2 dxc3 12. Qxc3 Qxc3+ 13. Nxc3 { LBB86 judges White better thanks to the lead in development. } )
+( 10. Kd1!? { Giri says this is not at all as bad as it looks, but it does not refute the Winawer: } 10... Nbc6 11. Nf3 dxc3 12. Ng5 Nxe5 13. f4 f6 14. fxe5 fxg5 15. Qh5+ Kd8 16. Bxg5 Qc5 { and Black survives the direct assault and develops slowly. } )
+10... Nbc6 { The universal move. Black adds a second attacker to d4 and keeps both ...dxc3 and ...Nxe5 in hand. Wikipedia gives 10.Ne2 Nbc6 as the main line (and 10.Kd1 Nd7 as the other branch). }
+( 10... dxc3 { Takes at once. The pawns on c2 and c3 are now fixed, Black's counterplay down the c-file is gone and White has the extra h-pawn and the bishops. } 11. f4 Nbc6 12. Qd3 Bd7 13. Qxc3 { Slightly better for White (LBB86): White is a pawn up with the bishop pair and a passed h-pawn, and Black's bishop is still the one hemmed in by e6. } )
+11. f4 { [%cal Gf4f5,Gd1d3] Supports e5, which otherwise falls to ...Nxe5, and prepares Qd3. Black is by now almost fully developed while White's bishops and rooks are still at home. }
+( 11. cxd4? { Recaptures the pawn and loses material at once. } 11... Nxd4 12. Nxd4 Qc3+ { The queen forks the king and the a1-rook. } )
+11... Bd7 { [%cal Ge8c8] Prepares queenside castling, Black's king goes to safety and the rook on g8 stays on the open file. }
+12. Qd3 { [%csl Yc3] Protects c3, so that ...dxc3 can be met by Nxc3 and cxd4 is a threat again. The queen has come back from h7 with tempo. }
+12... dxc3 13. Nxc3 { [%cal Gc3b5,Gb5d6] White is a pawn up (the h-pawn) and threatens Nb5 and Nd6+. Black is better developed, so White now has to finish development without losing the extra pawn. }
+13... a6 { Stops Nb5. }
+14. Rb1 { [%cal Gb1b7] The rook comes into play on the open b-file and the b7-square. }
+14... Na5 { [%cal Ga5c4] }
+15. h4 { Pushes the passed pawn and frees h3 for the rook. }
+15... Nf5 { [%cal Gf5g3] }
+16. Rh3 { [%cal Gh3g3] **Verdict:** LBB86 stops here at equal chances. The other sources agree that the line is dynamically balanced: BTF has White slightly better in its version with 11.Rb1, Wikibooks calls it very complex, and the ChessBase reviewer of Bologan's DVD calls the lines after 8.Qxg7 very sharp, noting that Black scored 3.5/4 in one sub-line where Bologan assumed a White edge. White's plan: finish development, keep the h-pawn alive and lift the rook (Rh3, Rg3 against the knight on f5). Black's: ...Nc4 and ...Nf5-g3 ideas, long castling and pressure on c2. If you do not want to learn all of this, 8.Bd3 is a more controlled alternative. } *
+
+[Line "7.Qg4 Qc7 8.Bd3: the second main line"]
+[Section "Winawer 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4"]
+[Summary "White develops first and takes g7 only when ...cxd4 has to be answered. A forcing line to a messy position in which White gives up two pawns for the initiative, or a drawn-ish ending."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7
+8. Bd3 { [%cal Gd3h7,Gg4g7] The point of the bishop move: after ...cxd4 Ne2 the light-squared bishop is already out and does not sit behind the knight, and the pressure on h7 adds to the threat on g7. It declines the pawn on g7 for now. Giri calls it the real test of 7...Qc7, and it was why Black players looked for alternatives. }
+8... cxd4 { The old and main reply. Giri's alternative 8...c4 9.Be2 Qa5 is below. }
+( 8... c4 { Black closes the position and gains two tempi on the bishop. Giri recommends this for Black and expects a robust structure. } 9. Be2 Qa5 10. Bd2 Nf5 { The knight cannot be driven away by bishop or pawn. } 11. Nf3 Qa4 { The queen fixes a3 so that a3-a4 and Bc1-a3 never happen. } 12. Ra2 Nc6 13. Nh4 Rg8 14. Nxf5 exf5 15. Qh4 h6 { Giri: very easy play for Black, who will follow with ...g5 and castle long. So 8...c4 is a real alternative, and White should not expect a quick attack against it. } )
+9. Ne2 { [%cal Ge2c3] The move to remember (BTF). It defends c3 so that ...dxc3 no longer forks anything, and it keeps the d4-pawn under fire. }
+9... dxc3 { The critical continuation. }
+( 9... Qxe5 { Takes the pawn at once. LBB86: White can repeat moves, but has the upper hand with 12.cxd4. } 10. Bf4 Qf6 11. Bg5 Qe5 12. cxd4 h5 { [%csl Ye7] } 13. Qh4 Qd6 14. Bf4 Qb6 15. Bxb8 Rxb8 16. Qg3 { Another LBB86 line. White has the advantage: the queen is going to g7 and the e7-knight is a problem. } )
+10. Qxg7 Rg8 11. Qxh7 Qxe5 { Black has taken three pawns for White's two. }
+12. Bf4 { [%cal Gf4e5,Gf4c7] A good move (BTF): it hits the queen with tempo, targets b8 and prepares h4-h5 and the rook lift. }
+( 12. h4 { [%cal Gh4h5] The other move order, and Giri's. } 12... Nd7 13. Bf4 Qf6 14. Bg5 Qh8 15. Qxh8 Rxh8 16. Nxc3 { Giri's version of the same line, which leads by force to an ending. He thinks Black can hold, but calls it one-sided with White having many options and Black on a narrow path. A good fallback if you want to play for a small plus without risk. } )
+12... Qf6 13. h4 { [%cal Gh4h5,Gh5h6] White is a pawn down (two after ...Rxg2). The compensation: the h-pawn, the bishops against an exposed Black king, and the rook that will come to h3. LBB86 plays 13...Rxg2 14.Kf1 Rg8 and speaks of interesting compensation. **Verdict:** this is the line for a player who wants to avoid the main theory; but White is a sacrifice down and has to know the follow-ups. The Giri ending is the safe version, 12.h4. } *
+
+[Line "7...cxd4 8.Qxg7 (Berg's move order)"]
+[Section "Winawer 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4"]
+[Summary "Black takes on d4 first so that 8.Bd3 can be met by 8...Qa5. The line with 8.Qxg7 then usually transposes into the poisoned pawn; BTF finds it slightly better for White."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 cxd4 { Berg, in his Quality Chess book for Black, prefers this move order to 7...Qc7. The point is that after 8.Bd3 Black can play 8...Qa5, which is a different story. For White it means that after 7...cxd4 it is 8.Qxg7 which keeps the main lines together. }
+8. Qxg7 { [%csl Rg7] }
+( 8. Bd3 { A second choice. } 8... Qa5 9. Rb1!? { Giri's text: a trendy idea that a second brought him before the 2020 Candidates and with which he got a winning position against Nepomniachtchi in an online blitz game. He claims to have found an answer (9...b6), so this is a try, not a refutation. } )
+8... Rg8 9. Qxh7 Qc7 10. Ne2 Nbc6 11. Rb1 { [%cal Gb1b7] BTF's order: the rook takes the b-file first and f4 follows. In the first game 11.f4 came at once; the two transpose after ...dxc3. }
+11... dxc3 12. f4 Bd7 13. Qd3 { [%csl Gc3] }
+13... d4 { Supports the pawn on c3 and opens the long diagonal. }
+14. h4 O-O-O 15. h5 { **Verdict:** BTF marks this slightly better for White, with the h-pawn running. The ChessBase review of Bologan's DVD warns that Black has scored well in the 11.f4 lines of the same family, so treat the evaluation as optimistic. } *

@@ -1,0 +1,57 @@
+[Line "7...O-O 8.Bd3: Black castles into it"]
+[Section "7.Qg4: Black guards g7"]
+[Summary "The most popular reply. White points the pieces at the kingside: Bd3, Qh5, Nf3 and Ng5 or the Bh6 sacrifice. Black can hold with accurate defence, so the aim is to keep the tension and the better pieces."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 O-O { [%csl Rg7] Surprisingly the most popular move: it looks like castling into the attack, but with the knight on e7 ready to go to g6 Black can usually defend. }
+8. Bd3 { [%cal Gd3h7,Gg4h5,Gc1h6] The bishop aims at h7, and Qh5, Nf3-g5 and Bh6 are the follow-ups. White points the pieces at the kingside before deciding where the queen stands best. }
+8... Nbc6 { Black adds a defender to d4 and keeps the centre. }
+( 8... c4 { Chases the bishop. White has a tactic instead of the retreat to e2. } 9. Bh6 { [%cal Gh6g7] } 9... Ng6 10. Bxg6 fxg6 { Important to take with the f-pawn, so that the rook comes to f8. } 11. Be3 { LBB86 gives no verdict. White has traded the bishop for a defender and kept the structure; Black's compensation is the open f-file. } )
+( 8... f5 { Black tries to break at once. } 9. exf6 { White cannot let the pieces be blocked out. } 9... Rxf6 10. Bg5 Rf7 11. Qh5 g6 12. Qd1 { The queen goes all the way back so that ...Qa5 can be met by Qd2. 12.Qe2? loses the bishop to ...c4. } )
+9. Qh5 { [%cal Gh5h7,Gd3h7] Keeps the pressure on h7 and forces Black to decide how to guard it. }
+9... Ng6 { The knight blocks and eyes e5. }
+( 9... g6 { Weakens the dark squares and strengthens the dark-squared bishop of White. } )
+( 9... h6 { This allows the sacrifice: } 10. Bxh6 gxh6 11. Qxh6 Nf5 12. Bxf5 exf5 13. O-O-O { LBB86: the attack is more than enough compensation for the piece, with the rooks coming to d3-g3 and the h-file. } )
+10. Nf3 { [%cal Gf3g5] Threatens Ng5 and the h7-pawn. }
+10... Qc7 { Protects the seventh rank and eyes c3 for the later ...cxd4 cxd4 Qxc3+. }
+11. Be3 { [%cal Ge3d4,Ge3f2] Defends both d4 and f2 and thereby makes Ng5 a real threat. }
+( 11. Ng5? { Too early: the queen on c7 covers the seventh rank. } 11... h6 12. Nxf7 Qxf7 13. Qxg6 Qxg6 14. Bxg6 cxd4 15. cxd4 Nxd4 { Equal, and White has given up the attack for nothing. } )
+11... c4 { Black locks the position. He gives up queenside play along the c-file, but the bishop on d3 is attacked. }
+12. Bxg6 { [%csl Rg6] White prefers to remove a defender to retreating to e2. }
+12... fxg6 { The f-file opens for the rook. }
+13. Qg4 { [%cal Gg4g6] The queen eyes g6 and keeps the h-pawn at home to guard it. 13.Qh4 h6 would let Black plan ...g5 and ...Bd7-e8. }
+13... Qf7 { Black wants ...Qf5 to trade queens: with the queens off, the pawn structure favours Black. }
+14. Ng5 { Prevents ...Qf5. }
+14... Qe8 15. h4 { [%cal Gh4h5] Opens the h-file. }
+15... h6 16. Nh3 { [%cal Gh3f4,Gf4g6] }
+16... Bd7 { **Verdict:** equal (LBB86): the knight returns to e7 and defends g6, and Black has neutralised the attack. White can try a4, Bc1 and Ba3, or put the king on d2, with play on the dark squares. This is the position the whole 7...O-O line comes to. White gets a lasting pull only if Black goes wrong; the point of choosing it is the safe king and the extra possibilities. } *
+
+[Line "7...Kf8 8.Qd1"]
+[Section "7.Qg4: Black guards g7"]
+[Summary "Black gives up castling and defends g7 with the king. White retreats the queen and plays on the kingside with h4-h5, Bg5 and the rook lift."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Kf8 { [%cal Rg4g7] The king guards g7 and gives up castling for good. The Bologan DVD has a chapter on this move. }
+8. Qd1!? { [%cal Gh2h4,Gc1g5] BTF's idea. The queen goes back with Black having lost castling rights, which is a tempo well spent. White continues h4-h5, Bg5 and Rh3-g3 against the king on f8. }
+( 8. Bd2 { The Anand-So game (rapid, 2017): the bishop covers c3 so that ...Qa5 and ...cxd4 cxd4 Qc7 do not threaten a fork. } 8... b6 9. Nf3 Ba6 10. dxc5 Bxf1 11. Kxf1 bxc5 12. h4 h5 13. Qf4 Ng6 14. Qe3 Nd7 15. Rh3 Rb8 { Black has traded off his bad bishop and White has given up the f1-bishop, so White has to prove the rook lift. LBB86 thinks Black came out with an advantage in the full game, although Anand drew. For that reason BTF's 8.Qd1 is the repertoire move. } )
+8... b6 { Black prepares ...Ba6 to trade the bad bishop. }
+9. h4 { [%cal Gh4h5,Gc1g5] }
+9... h5 { Stops h5. }
+10. Bg5 { [%csl Gg5][%cal Gg5e7] The bishop attacks the knight that guards g6 and f5. }
+10... Qc7 11. Bxe7+!? { BTF's idea: the dark-squared bishop trades itself for the knight that defends Black's kingside, and the queen on d2 then eyes f4 and h6. }
+11... Qxe7 12. Qd2 Bd7 13. Rh3 { [%cal Gh3g3] The rook lift: the rook swings to g3 against g7 and the king. }
+13... Nc6 14. Qf4 Rc8 15. Rg3 { [%cal Gg3g7] }
+15... Be8 16. Nh3 Kg8 17. Bd3 { [%cal Gh3f4,Gg2g4] **Verdict:** Black's king cannot castle and White has a free hand on the kingside: g4, Nf4 and the f-pawn are the plan. The bishop pair is gone, so do not expect a quick win. This is a single-source line (BTF), so treat it as a draft. } *
+
+[Line "7...Nf5 8.Bd3 h5"]
+[Section "7.Qg4: Black guards g7"]
+[Summary "The knight guards g7 by blocking the queen's line, and ...h5 drives the queen back. White trades the knight and gets a better structure."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Nf5 { [%cal Gf5g7] The knight stops Qxg7 by guarding g7. }
+8. Bd3 { [%cal Gd3f5,Gg4g7] Threatens Bxf5 and Qxg7. }
+8... h5 { Drives the queen off the g-file. }
+9. Qd1 { BTF's retreat: the queen leaves the g-file, and the knight on f5 stays exposed to Bxf5. }
+( 9. Qf4 { LBB86's move, which keeps the queen active. } 9... Qc7 { Threatens cxd4 cxd4 Qc3+. } 10. Ne2 { Defends c3 and threatens Bxf5. } 10... Ne7 { The knight leaves; now Black threatens ...c4 trapping the bishop. } 11. dxc5 Nd7 { White has to give back one pawn, with interesting play. } )
+9... Nc6 10. a4 { [%cal Ga4a5,Gc1a3] Giri (writing for Black) fears exactly this plan: with a4 in, White can lock the centre with f4 and bring the c1-bishop to a3. }
+10... cxd4 11. Bxf5 { [%csl Rf5] Trades the knight for the bishop so as to wreck Black's structure. }
+11... exf5 12. cxd4 h4 13. h3 g5 { }
+14. Nf3 f4 { **Verdict:** slightly better for White (BTF). Black has plenty of pawn pushes on the kingside, but the structure is the problem: his c8-bishop is still buried, the d4-pawn is firmly held, and the pawns on f4, g5 and h4 need support. }
+( 14... g4 15. Ng5 Qa5+ 16. Bd2 { Also slightly better for White (BTF): the knight on g5 is a thorn and the queenside is calm. } ) *

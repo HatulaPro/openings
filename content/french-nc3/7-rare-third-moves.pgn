@@ -1,0 +1,27 @@
+[Line "3...c5: the Marshall Gambit"]
+[Section "Rare third moves"]
+[Summary "Black counterattacks d4 at once and gives up the d5-pawn. White takes it, checks on b5 and keeps the extra pawn."]
+
+1. e4 e6 2. d4 d5 3. Nc3 c5 { The Marshall Gambit, marked dubious by Wikibooks. Black hits d4 before White has settled and hopes to get development for the d5-pawn. }
+4. exd5 { [%cal Gd5e6] White simply takes: there is no need to defend d4. }
+4... exd5
+( 4... Qxd5? { The queen hangs to the knight on c3. } 5. Nxd5 )
+5. Bb5+ { [%cal Gb5c6] Craze's order: check first and keep the pawn after dxc5. }
+( 5. dxc5 { Wikibooks takes the pawn immediately. } 5... Bxc5 6. Qxd5 { Black is a pawn down and White is better (Wikibooks). } )
+5... Nc6 6. dxc5 { [%csl Rd5] White keeps the extra pawn. }
+6... Be6
+( 6... Bxc5 7. Qxd5 { The queen takes the pawn and attacks c5; the knight on c6 is pinned by the bishop on b5. } )
+7. Be3 { [%cal Ge3c5,Gg1f3,Ge1g1] **Verdict:** White is a pawn up and develops with Nf3 and castling (Craze's study, 11 likes). A short, thinly sourced line: the sources stop here. }
+*
+
+[Line "3...Nc6 4.Nf3 Nf6 5.e5 Ne4"]
+[Section "Rare third moves"]
+[Summary "The Hecht-Reefschlager Variation. Black blocks his own c-pawn and aims for ...Nf6-e4 and ...Bb4. Wikibooks gives equality; Craze's study answers with Bd3 and Bd2."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nc6 { Black gives up the ...c5 break and aims for ...Nf6, ...Ne4 and ...Bb4. Wikibooks has no article for this line and treats 4.Nf3 Nf6 as equal. }
+4. Nf3 { Natural development; the knight watches e5. }
+4... Nf6 5. e5 { [%cal Ge5f6] Gains a tempo on the knight. }
+( 5. exd5 { Craze's quieter alternative: the pin on c6 and a plain Exchange structure. } 5... exd5 6. Bb5 )
+5... Ne4 6. Bd3 { [%cal Gd3e4] }
+6... Bb4 7. Bd2 { [%cal Gd2b4] }
+7... Nxd2 8. Qxd2 { [%csl Ge5,Gd3,Gb4] **Verdict:** equal according to Wikibooks. White keeps the space of the e5-pawn, but Craze's study stops here, so the plan is left to the middlegame. } *

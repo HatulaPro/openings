@@ -1,0 +1,60 @@
+[Line "Steinitz: 7.Be3 cxd4 8.Nxd4 Bc5 9.Qd2 O-O 10.O-O-O"]
+[Section "3...Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3"]
+[Summary "The main line of the Steinitz French. White gets a clear kingside space plan, long castling and a pawn storm on the h-file; Black gets the c-file and queenside play. BTF rates it clearly better for White, Wikibooks slightly better."]
+
+1. e4 e6 2. d4 d5 3. Nc3
+3... Nf6 { The Classical. Black attacks e4 at once. White has the Steinitz 4.e5 and the Burn/McCutcheon 4.Bg5. The Steinitz is chosen here: it gives a fixed pawn chain and a clear plan, and it is the one both the Bologan DVD and Ponomariov's White course recommend. }
+4. e5 { [%cal Ge5f6] Gains time on the knight and takes space. It also pre-empts 4.Bg5, where Black has the choice of the Burn, Classical and McCutcheon lines with a more theoretical load. }
+( 4. Bg5 { The alternative, which is not in the repertoire. The Black-side study "The Aggressive French" (3 likes) shows 4...dxe4 5.Nxe4 Nbd7 6.Nf3 h6 7.Bxf6 Nxf6 8.Bd3 Nxe4 9.Bxe4 c5 as an easy equal game, and 4...Be7 and 4...Bb4 give Black a choice of theory-heavy set-ups (Classical, Burn, McCutcheon). The Steinitz asks for less. } 4... dxe4 5. Nxe4 Nbd7 6. Nf3 h6 7. Bxf6 Nxf6 8. Bd3 Nxe4 9. Bxe4 c5 )
+4... Nfd7 { The standard retreat. 4...Ne4 is in the next file. }
+5. f4 { [%cal Gf4f5] Supports e5 and prepares kingside space. }
+( 5. Nce2 { The Shirov-Anand idea, recommended in Harikrishna's course. It plans c3 so that d4 is held by a pawn, but Tomic calls it too slow: it gives up the opening advantage. } 5... c5 6. c3 Nc6 7. f4 Be7 )
+5... c5 { [%cal Rc5d4] The French break against the base of the chain. }
+6. Nf3 { [%cal Gf3d4] Develops, guards d4, and does not hurry to settle the pawns. }
+6... Nc6 { [%cal Rc6d4] Second attacker on d4. 6...Qb6 and 6...Be7 are other tries that need their own preparation, which this chapter does not cover. }
+7. Be3 { [%cal Ge3d4,Gd1d2,Ge1c1] The key move. The bishop guards d4 so that ...cxd4 can be answered by Nxd4, and prepares Qd2 and long castling. From here Black's main options (Tomic) are 7...a6, 7...cxd4, 7...Be7 and 7...Qb6; 7...Rb8 and 7...b6 are slightly dubious. The structure is identical to the one in the Fantasy chapter's Steinitz line. }
+7... cxd4 { Opens the c-file for Black's rook. }
+8. Nxd4 { [%cal Gd4c6,Gd4b5] The knight recaptures and eyes b5, f5 and c6. }
+8... Bc5 { [%cal Rc5d4] The most natural: the bishop hits the knight. The line with 8...Qb6 has a game below. }
+( 8... Qb6 { Black attacks b2 and d4 with the queen. } 9. a3 Bc5 10. Ncb5 a6 11. b4 axb5 12. bxc5 Qxc5 13. Qd3 Nxd4 14. Bxd4 Qc7 15. Qe3 b6 16. f5 { Suleymanli-Abasov (Azerbaijan Championship 2026): White won, but the sources give no verdict beyond the result, so treat the line as a draft: after 10.Ncb5 White gives up material for the bishop pair and the attack. } )
+9. Qd2 { [%cal Gd2f2] The queen leaves the line of the bishop on c5 and prepares to castle long. }
+9... O-O
+( 9... Bxd4 { Black trades the dark-squared bishop at once. } 10. Bxd4 Nxd4 11. Qxd4 Qb6 { Black offers a queen trade. } 12. Qxb6 Nxb6 13. h4 { Karjakin-Carlsen (Saint Louis blitz 2019): White won with h4-h5 and the rook lift. Bologan's DVD has a chapter on this queen-trade ending, which gives White a space edge and a ready-made kingside plan. } 13... Bd7 14. h5 h6 15. O-O-O Ke7 16. Bd3 )
+10. O-O-O { [%cal Gh2h4,Gg2g4] White castles long, and the h- and g-pawns are free to roll against Black's king. }
+10... Nxd4 11. Bxd4 { [%cal Gd4c5,Gd4g7] }
+11... a6 { Stops Nb5 and prepares ...b5. }
+12. Qe3 { [%cal Ge3c5,Gc3e2] BTF's move: the queen defends the bishop on d4 a second time and attacks the bishop on c5. }
+12... Bxd4 { The most direct. }
+( 12... Qc7 { Black keeps the bishop for now. } 13. Bd3 Bxd4 14. Qxd4 { Slightly better for White (BTF). The knight comes round via e2 to d4, f5-f6 is a lever, and Black's bad bishop on c8 stays a problem. } )
+13. Rxd4 { **Verdict:** BTF rates this clearly better for White, Wikibooks only slightly better; the second is the safer guess. The rook on d4 is active, the knight can come to e2 and then to d4 or g3, and f4-f5 is the lever to open the position when the time is right. } *
+
+[Line "Steinitz: 7...a6 8.a3"]
+[Section "3...Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3"]
+[Summary "Black prepares ...b5 and a queenside storm. The prophylactic 8.a3 takes b4 from the knight and the pawn, and White castles long into the usual race."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 a6 { Already the most played move in ChessBase's database. The plan is ...b5-b4 or ...c4, and the knight goes to b4 or a5. }
+8. a3 { [%cal Ga3b4] The idea: Nb4 is prevented, and when Black plays ...b5-b4 the pawn can be taken. Bologan and Ponomariov also cover 8.Qd2 b5 9.a3; the ChessBase reviewer of Bologan's DVD thinks Black comes close to equality there, which is why 8.a3 goes first here. }
+8... cxd4
+( 8... Qb6 9. dxc5 Bxc5 10. Na4 Qa5+ 11. b4 Qxa4 12. bxc5 Qa5+ 13. Qd2 Qxd2+ 14. Kxd2 O-O 15. Bd3 f6 16. exf6 Nxf6 { The queens come off and White keeps both bishops. M. Vachier-Lagrave beat Firouzja with this in the CCT final playoff of 2023, but the game took 79 moves and it is not a forced win. } 17. Rhe1 Ne4+ 18. Kc1 Bd7 19. Rb1 Rab8 20. g3 )
+9. Nxd4 Bc5
+10. Qd2 O-O 11. O-O-O { [%cal Gh2h4,Gh4h5] }
+11... Bxd4 12. Bxd4 b5
+13. h4 { [%cal Gh4h5,Gh1h3] White starts the pawn storm and prepares the rook lift. }
+13... Rb8 14. Rh3 { [%cal Gh3g3,Gh3b3] The rook can switch to the g-file or b3 as required. }
+14... Nxd4 15. Qxd4 Qe7 16. b4 { Fixes the queenside pawns, so that Black's rooks cannot open the b-file. }
+16... Nb6 17. g4 { [%cal Gg4g5,Gf4f5] **Verdict:** slightly better for White (BTF). The h-pawn and g-pawn roll, and Black's play on the b-file has been stopped by b4. White has the more comfortable game. } *
+
+[Line "Steinitz: 7...Be7 8.Qd2"]
+[Section "3...Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3"]
+[Summary "Black develops the bishop before deciding on the centre. White keeps the tension, castles long and trades on d4 or plays dxc5 at the right moment."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 { Black avoids the lines with ...cxd4, and keeps the bishop flexible. The ChessBase course on this move says White has two plans: Be2 and short castling, which is more positional, or dxc5 and long castling, the tactical version. }
+8. Qd2 { [%cal Gd2f2,Ge1c1] }
+8... O-O
+( 8... cxd4 9. Nxd4 Nxd4 10. Bxd4 Nb8 { Black wants to regroup the knight to c6 and keep e5 under pressure. } 11. O-O-O Nc6 12. Bf2 Qa5 13. h4 f6 14. exf6 Bxf6 15. a3 Bxc3 16. Qxc3 Qxc3 17. bxc3 { Better for White in BTF's rating: the bishop pair, the half-open e-file and a healthy structure after the queens come off. } )
+9. dxc5 { [%cal Gd1d8] White releases the tension in the centre, takes a pawn, and keeps the possibility of long castling in the air. }
+9... Qa5 { Black hits c5 and e5 and pins the knight on c3 against the queen. }
+10. a3! { [%cal Ga3b4] A prophylactic move first: ...Nb4 is prevented and the pawn can go to b4. According to Gajewski (quoted in a Black-side Lichess study) this is the way to handle ...Qa5. }
+( 10. O-O-O? { The natural-looking move, but it runs into the queenside break. } 10... b6! { Black strikes at the base of the chain, and White's king is the one in danger. } 11. Bb5 Nb4 12. a3 )
+10... a6 11. Nd4 { [%cal Gd4c6] Gajewski's main line. The Black-side author prefers 11...Nxd4 12.Bxd4 Bxc5 and sees no problems for Black there, so the evaluation is disputed. }
+11... Bxc5 12. Nb3 Bxe3 13. Qxe3 Qb6 14. Qxb6 Nxb6 15. g3 { [%cal Gf4f5] The point of g3 is not a fianchetto but to support f4 and the centre. With the light-squared bishops on the board, White enjoys a long-term advantage (Gajewski). The Black-side author still considers the ending highly playable. } 15... Bd7 { **Verdict:** Gajewski considers White slightly better in this ending (the light-squared bishops stay on, f4 is the key pawn); the Black-side study replies that the ending is highly playable and that Black has better in 11...Nxd4. This is the most debatable branch of the chapter, so treat it as a draft. The safer choice against 7...Be7 is the BTF line 8...cxd4. } *

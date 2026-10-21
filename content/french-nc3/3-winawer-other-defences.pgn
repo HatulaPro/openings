@@ -1,0 +1,44 @@
+[Line "5...Ba5 6.b4"]
+[Section "Winawer: Black avoids the doubled pawns"]
+[Summary "After 5.a3 the retreat 5...Ba5 meets the pawn sacrifice 6.b4. White gives the d-pawn for the dark squares and a lead in development; BTF finds it slightly better for White."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Ba5 { The retreat. Black keeps the bishop and avoids the doubled pawns; the Lichess video on the Winawer cites Akobian's game with it against Nakamura (US Championship 2018). }
+6. b4! { [%cal Gb4a5,Gb4c5] The bishop is attacked, and if Black simply takes the pawn the knight jumps in with tempo. The bishop on a5 becomes a target. }
+6... cxd4 { The natural capture and the main line of BTF. }
+( 6... cxb4 { Takes the second pawn. } 7. Nb5! { [%cal Gb5c7,Gb5d6] The knight threatens Nc7+ and Nd6+, and the black bishop is cut off from the kingside. } 7... b3+ { The pawn move uncovers a check from the bishop on a5. } 8. c3 Bc7 9. Bd3 Nc6 10. Qxb3 Nge7 11. Nxc7+ Qxc7 12. Ne2 { Clearly better for White (BTF): the b-file, the bishop pair and the lead in development. } )
+7. Nb5 { [%cal Gb5c7,Gb5d6] Threatens Nc7+, forking king and rook, and Nd6+. }
+7... Bc7 { Black gives up the bishop pair rather than the exchange. }
+8. Nxc7+ Qxc7 9. f4 { [%cal Gf4f5,Gc1b2] Supports e5 and prepares Bb2 and Nf3. White is a pawn down (the d-pawn) but has traded a knight for the strong bishop, and has the lead in development and the dark squares. }
+9... Bd7 10. Bb2 Ba4 { The bishop hits c2. }
+11. Bxd4 { Takes the pawn back. }
+11... Nc6 12. Bc5 { [%cal Gc5a7,Gc5d6] }
+12... b6 13. Bd6 { [%csl Rc7] The bishop attacks the queen and then sits on d6 where it cramps Black's kingside. }
+13... Qd7 14. Ne2 Nce7 15. Nc3 Bc6 16. a4 { **Verdict:** slightly better for White (BTF). The bishop on d6 is a long-term thorn, e5 and f4 hold the centre, and Black still has to find a safe place for the king. Single source, so check the details before relying on it. } *
+
+[Line "4...Ne7 (and the rare 4...b6, 4...Bd7)"]
+[Section "Winawer: other fourth moves"]
+[Summary "4...Ne7 usually transposes into the main line after 5.a3. BTF meets the rarer 4...b6 and 4...Bd7 with Qg4 and h4. Both are single-source lines."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 { A tricky move order that keeps the choice between ...c5 and other plans open. The Bologan DVD treats it among its sidelines, and the Lichess video says it leads to unusual positions that White rarely finds comfortable. }
+( 4... b6 { Very rare. } 5. h4 { [%cal Gh4h5,Gd1g4] BTF's line: the h-pawn starts the attack while the black bishop is still on b4. } 5... Qd7 6. Qg4 Bf8 7. h5 h6 8. b4!! { [%cal Gb2b4] BTF's deep idea: if the bishop takes the pawn, Qxg7 wins material. } 8... f5 ( 8... Bxb4 9. Qxg7 Bxc3+ 10. Bd2 Bxa1 11. Qxh8 Kf8 12. Bxh6+ Ke7 13. Qxg8 { White wins material (BTF). } ) 9. Qg6+ Qf7 10. Qxf7+ Kxf7 11. a3 c5 12. Nf3 Nc6 13. dxc5 bxc5 14. b5 Nce7 15. Nh4 g6 16. hxg6+ Nxg6 17. Nxg6 Kxg6 18. Be2 { Better for White in BTF, but it is one author's analysis. } )
+( 4... Bd7?! { The light-squared bishop comes out at once, aiming at a4. } 5. Qg4! { [%csl Rg7][%cal Gg4g7] With the dark-squared bishop on b4 and no knight on e7 yet, g7 has no defender. } 5... g6 6. a3 Bxc3+ 7. bxc3 Ba4 8. Bd3 b5 9. Bg5 Qd7 10. Ne2 { BTF: White should win here. It marks f6, g7 and h6 as the weak points; the a4-bishop is out of play and the knight on e2 covers c3. } )
+5. a3 { Asks the bishop at once. }
+5... Bxc3+ 6. bxc3 c5 7. Qg4 *
+
+[Line "6...Qc7 and 6...Qa5"]
+[Section "Winawer: other sixth moves"]
+[Summary "6...Qc7 usually transposes into the poisoned pawn after 7.Qg4 Ne7; 6...Qa5 is a thinly sourced draft."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 { Black delays ...Ne7 so as to keep other set-ups available. The Bologan DVD has a chapter on it, but no move text for 7...f5 was found, so only the transposition below is covered. }
+7. Qg4 Ne7 { With the knight back on e7 the game transposes into the poisoned pawn: 8.Qxg7 Rg8 9.Qxh7 cxd4 10.Ne2 Nbc6 11.Rb1 is the position of the third game of the first file. The Black-side study by Shreksify (1905 likes) continues 11...dxc3 12.Bf4 Bd7 13.g3 O-O-O. }
+8. Qxg7 Rg8 9. Qxh7 cxd4 10. Ne2 Nbc6 11. Rb1 *
+
+[Line "6...Qa5 7.Bd2 (draft)"]
+[Section "Winawer: other sixth moves"]
+[Summary "A short sketch of 6...Qa5, which the Bologan DVD covers. The only move text found is a one-like study, so this is a draft."]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 { The queen attacks c3 and eyes e5. Bologan gives the line a whole chapter. }
+7. Bd2 { The bishop guards c3. }
+7... Qa4 { The queen aims at c2 and a3. }
+8. Qb1 { Covers c2 and offers a queen trade. }
+8... c4 9. h4 Nc6 10. h5 h6 { Single source (Audax6), so treat this as a sketch: White gets a kingside pawn storm and a pawn on h5, while Black closes the queenside. } *

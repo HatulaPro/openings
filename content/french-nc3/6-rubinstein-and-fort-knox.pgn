@@ -1,0 +1,62 @@
+[Line "Rubinstein: 4...Nd7 5.Nf3 Ngf6 6.Nxf6+ Nxf6 7.c3"]
+[Section "3...dxe4 4.Nxe4"]
+[Summary "Black has solved the bad-bishop problem by capturing on e4, and White needs a plan in a calm position. 7.c3 builds the chain, Be3 prepares Ne5 and Qa4+, and the pin on the d7-knight wins a pawn or a small edge."]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 { Black resolves the tension at once: no bad bishop and no break to prepare. The price is that White gets a free centre, easy development and space for the pieces, and Black's play is less ambitious. The same position arises from 3.Nd2, so nothing is lost by 3.Nc3. }
+4. Nxe4 Nd7 { [%cal Gd7f6] The Blackburne Defence, the main reply. The knight supports f6 so that ...Ngf6 can recapture on f6 with a knight and avoid ...Qxf6 or ...gxf6. }
+( 4... Nf6 5. Nxf6+ { [%cal Gf6g7] } 5... Qxf6 ( 5... gxf6 { The Rozman French, Levy's choice for Black: the idea is queenside castling and a rook on the g-file. } 6. Nf3 Nc6 7. Bc4 Be7 8. O-O Rg8 9. Re1 { Better for White in BTF. } ) 6. Nf3 h6 { This wastes time: after 6...Nc6 7.Bg5 the queen has to move twice (PfVEpqnZ). } 7. Bd3 Bd6 8. Qe2 O-O 9. Qe4 Qf5 10. Qh4 Qa5+ 11. Bd2 Qb6 12. Bxh6 gxh6 13. Qxh6 { [%cal Gh6h7,Gf3g5] A line from Craze's Lichess study (11 likes): the bishop is given up for the h-pawn and an attack on the king. A draft, one source. } )
+( 4... Be7?! { PfVEpqnZ marks this an inaccuracy. } 5. Nf3 Nf6 6. Nxf6+ Bxf6 7. c3 { The bishop on f6 bites on granite against the d4-c3 chain, and a bishop is worse placed there than a knight. } )
+5. Nf3 { [%cal Gf3d4,Gf3e5] The main move: it guards d4 and heads for e5. 5.Bd3 is the other route, and Ponomariov's White course plays 5.Nf3 Ngf6 6.Bd3, a move order that mostly transposes. }
+( 5. g3 { BTF's quieter alternative: the bishop goes to g2. PfVEpqnZ calls it slow, since Black can trade his bad bishop by ...b6 and ...Bb7, but admits that White scores well with it in practice. } 5... Ngf6 6. Nxf6+ Nxf6 7. Nf3 Be7 8. Bg2 c5 9. O-O cxd4 10. Qxd4 Qxd4 11. Nxd4 O-O 12. Nb3 Nd5 13. c4 Nb6 14. Nd2 Rd8 15. b3 Bf6 16. Rb1 Be7 17. Nf3 Bd7 18. Ne5 { Clearly better for White in BTF's rating. A calm second weapon. } )
+5... Ngf6
+6. Nxf6+ { [%csl Gf6] White trades on its own terms, so that Black recaptures with the knight (he would not have played ...Nd7 otherwise). }
+6... Nxf6
+7. c3 { [%cal Gc3d4,Gd1c2] The Kramnik line in Dreev and Basso's course, and Naroditsky's recommendation in a Lichess guide. The chain d4-c3 is solid and the queen gets the diagonal. 7.Bd3, the move played most often, is the next game; Naroditsky calls it totally not dangerous for Black, and 7.c3 asks sharper questions. }
+7... c5 { [%cal Rc5d4] }
+( 7... Be7 8. Bd3 O-O 9. Bf4 { [%cal Gf4c7] } 9... c5 10. dxc5 Bxc5 11. Qe2 { Naroditsky: Black has lost a tempo with the bishop (e7-c5), so this is an improved version of the main line for White. } )
+8. Be3 { [%cal Ge3c5,Ge3d4] The bishop defends d4 and hits c5, so ...cxd4 recaptures with the bishop. }
+( 8. Ne5 { Too early (Naroditsky). } 8... a6 9. Qa4+ Bd7 10. Nxd7 Qxd7 11. Qxd7+ Kxd7 { An ending that is not appealing for White (Naroditsky). } )
+8... Qc7 { }
+( 8... Nd5?! { Naroditsky's verdict is inaccuracy: } 9. Ne5 a6 10. dxc5 Nxe3 11. Qxd8+ Kxd8 12. fxe3 Ke8 13. b4 { Clearly better for White (Naroditsky): the extra pawn on c5, and Black's king has lost castling. } )
+( 8... Be7 9. Bb5+ Bd7 10. Bxd7+ Nxd7 11. d5! { Too many weaknesses in Black's camp (Naroditsky). } 11... exd5 12. Qxd5 )
+9. Ne5 { [%cal Ge5d7,Ge5f7] The knight attacks f7 and d7 and prepares the check on a4. }
+9... a6 10. Qa4+ { }
+10... Nd7 { }
+( 10... Bd7 11. Nxd7 Qxd7 12. Qxd7+ Nxd7 13. O-O-O { A better version of the ending for White: the knight on d7 is awkward (Naroditsky). } )
+11. Bb5! { [%cal Gb5d7,Ge5d7,Ga4d7] The classic pin on the knight: three attackers against d7, and the king cannot help. }
+11... cxd4 { }
+( 11... Be7 12. Bxd7+ Bxd7 13. Qxd7+ Qxd7 14. Nxd7 Kxd7 15. dxc5 Kc6 16. b4 { White wins a clean pawn. } )
+12. Bxd7+ Bxd7 13. Qxd4 { [%cal Gd4g7] }
+13... Bd6 { }
+( 13... Rd8 14. O-O-O f6 15. Nxd7 Rxd7 16. Qe4 { Slightly better for White: Black is paralysed along the d-file (Naroditsky). } )
+14. Nxd7 Qxd7 15. Qxg7 { **Verdict:** better for White (Naroditsky): White keeps a small but stable advantage, Black has trouble with his dark-squared bishop, and after 13...Bd6 g7 falls. The line comes from a 2-like Lichess study of Naroditsky's guide; the Dreev and Basso course has a separate 7.c3 chapter, so the move is respectable, but the follow-up is a single-source draft. } *
+
+[Line "Rubinstein: 7.Bd3 c5 8.Be3"]
+[Section "3...dxe4 4.Nxe4"]
+[Summary "The most played seventh move. White meets ...c5 with Be3 (the Korobov line) and develops without letting Black get easy play. Equal or a slight pull; there is no sharp theory behind it."]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6
+7. Bd3 { [%cal Gd3b5,Gd1d4] The most played move. The bishop obstructs the queen's guard of d4, but Bb5+ would come with check and uncover the queen if Black took on d4 with his queen. }
+7... c5 { [%cal Rc5d4] Black attacks d4 straight away. }
+( 7... Be7?! { Developing the bishop first lets White take on c5 and force the bishop to move twice (PfVEpqnZ). } 8. Qe2 O-O 9. Bg5 h6 10. Bd2 c5 11. dxc5 )
+( 7... b6?! { The fianchetto weakens the light squares. } 8. Qe2 Bb7 9. Ne5 Be7 10. Be3 O-O 11. O-O-O )
+8. Be3 { [%cal Ge3d4,Ge3c5] The Korobov line in Dreev and Basso's course, and PfVEpqnZ's strongest move. The bishop defends d4 again and attacks c5, so Black has to choose at once between the trade and a defence of the pawn. }
+( 8. O-O { Castling first is the most played move and the old main line. } 8... cxd4 9. Nxd4 Bc5 { Black's bishop hits the knight, which has to move again (PfVEpqnZ). } )
+( 8. dxc5 { Accepting the trade at once. } 8... Bxc5 9. O-O O-O 10. Bg5 b6 11. Qe2 Bb7 12. Rad1 Qc7 13. Bxf6 gxf6 14. Be4 Bxe4 15. Qxe4 Rad8 16. Qg4+ Kh8 { Naroditsky: completely equal, a draw. So 8.dxc5 is not enough to play for a win. } )
+8... Qc7 { The queen defends c5 so that dxc5 can be met by ...Bxc5, and prepares ...Bd6 and ...O-O. }
+( 8... cxd4 9. Bxd4 { PfVEpqnZ marks 8...cxd4 an inaccuracy: the bishop on d4 pressures f6 and g7 and makes it hard to develop the other pieces. } 9... Be7 )
+9. O-O Bd6 10. Qe2 O-O { **Verdict:** equal (Wikibooks) or a slight pull for White. White has the freer game, but no sharp sourced continuation was found from here (the Black-side Shreksify study stops at this move, and PfVEpqnZ only lists 9.O-O, 9.Qe2, 9.c3, 9.dxc5, 9.Bb5+, 9.Ne5 and 9.Qd2 without analysis). Learn the structure here; any line beyond it is unsourced. } *
+
+[Line "Fort Knox: 4...Bd7 5.Nf3 Bc6 6.Bd3 Nd7 7.O-O Ngf6"]
+[Section "3...dxe4 4.Nxe4"]
+[Summary "Black trades his bad bishop and builds a solid c6-e6 structure. White keeps a small space edge and no sharp refutation is known. Thinly sourced."]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 { The Fort Knox. Black wants to exchange the bad bishop for a knight and reach a solid structure with pawns on c6 and e6, in the manner of the Caro-Kann. }
+5. Nf3 { }
+( 5. c4!? { Craze's study (11 likes) has this space-gaining try: the knight retreats to c3 after ...Bc6 and White keeps the centre. } 5... Bc6 6. Nc3 Nf6 7. Be3 )
+5... Bc6 6. Bd3 { [%cal Gd3e4] Keeps the e4-knight supported and prepares to castle. }
+6... Nd7 { Black plays ...Nd7 before ...Ngf6, to avoid tactics on the f6-square (Shreksify). }
+7. O-O Ngf6 8. Nxf6+ Qxf6 { }
+9. Be2
+( 9. c3 { Supports d4 and keeps the bishop on d3. } 9... Bxf3 10. Qxf3 Qxf3 11. gxf3 Bd6 { A Morozevich game in BLPgN1cw: White's kingside pawns are damaged and Black has no problems. } )
+9... Bd6 { **Verdict:** balanced. BLPgN1cw (a Black-side study with 25 likes) gives these two lines as playable for Black. The Bologan DVD and Ponomariov's course both give the Fort Knox a chapter, but their moves could not be read. Treat this line as a gap: the plan is c3, Qd3 or Re1, and Ne5 to challenge the bishop on c6. } *
