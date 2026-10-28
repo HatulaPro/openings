@@ -1,0 +1,153 @@
+[Line "6.Bd3 Nc6 7.O-O e5"]
+[Section "5.Nf3 O-O 6.Bd3"]
+[Summary "The main line of the Austrian. Black castles, develops the knight to c6 and breaks with the King's Indian move ...e5 as soon as White has castled; the exchanges on e5 free the g7-bishop."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 { The Austrian Attack, 16% of the elite games after 3...d6. White builds e4-d4-f4 and keeps two plans in hand: e4-e5 to cramp the f6-knight, or Nf3, Bd3, O-O and an attack on the king (Qe1-h4, f5, Bh6, Ng5). Marin calls it the most challenging system against the Pirc. The pawn on f4 also takes e5 away from Black, so his usual break is harder to carry out than against 4.Be3 or 4.Nf3, and ...c5 is common here. }
+4... Nf6 { [%cal Gf6e4] The same set-up as against every other 4th move in this chapter (63% of the book, White 55%). The knight hits e4 at once, so White has to support it (Nf3, Bd3) or push (e5). Black's break is ...e5 where White allows it (games 1, 2 and 7) and ...c5 where he does not (games 3 to 5, 8). }
+5. Nf3 { [%cal Gf3e5,Gf3g5] The main move (83% of the book): it covers e5 and d4 and keeps Ng5 and h4 in the air. 5.Bd3 O-O 6.Nf3 and 5.a3 O-O 6.Nf3 reach the same position. 5.e5 is a separate line (game 8). }
+5... O-O { [%cal Ge8g8] Castling first is what most players choose; Vigus calls the choice between 5...O-O and 5...c5 a matter of taste, not of theoretical correctness. It keeps both ...e5 and ...c5 in reserve, and the king is not yet a target because White's pieces are not aimed at the kingside. The other main move 5...c5 is the last game of this file; three sources prefer it but it leaves the ...O-O/...e5 pattern. }
+6. Bd3 { The Weiss Variation, 45% of the book after 5...O-O. It protects e4 so that ...Nxe4 is no longer a trick, and prepares O-O. The other sixth moves are 6.e5 (36%), 6.Be3 and 6.Be2, all in the following games. }
+6... Nc6 { [%cal Gc6d4,Ge7e5] The knight puts a second piece on d4 and prepares ...e5. It is the most popular reply (59% of the book, White 52%, the best score for Black among the main replies). Vigus calls it reliable but traditionally an equalizing move rather than a winning try, which is why grandmasters who want more play choose 6...Na6 (game 3). It is the chapter's move because it is the one that makes ...e5 work exactly as in the King's Indian: Nc6 and Nf6 both aim at the centre, and the f4-pawn becomes a target for ...exf4 once White has castled. White has three sensible answers: 7.O-O (this game), 7.e5 (game 2) and 7.Be3 or 7.d5. }
+7. O-O { White castles and thereby can no longer meet ...e5 with e5 himself. }
+( 7. d5 Nb4 { [%cal Gb4d3] } 8. Be2 c6 9. a3 Na6 10. Be3 { 7.d5 drives the knight away but costs time: it goes to b4 with a threat on d3, and after ...c6 and ...Na6 it is on a fine square with c5 and b4 available, while the pawn on c6 hits d5. Book: 7.d5 scores 48% for White, and 8.Be2 c6 9.a3 only 33% in 12 games. The study stops at move 10. } )
+( 7. Be3 e5 8. fxe5 dxe5 { Reached from 6.Be3 Nc6 7.Bd3 as well. 7...e5 is the most played answer (18 of 41 games, White 50%) and has the same structure as the main line. Do not play 7...Bg4? here: White scores 86%. No guide gives moves beyond 8...dxe5; the plan is ...Nd4 or ...Ne7 as in the main line. } )
+7... e5! { [%cal Ge5d4,Ge5f4] The King's Indian break, and the reason for 6...Nc6. The pawn hits d4 and f4 at once. If White ignores it, ...exd4 or ...exf4 gains the centre; if he captures, Black recaptures with the d-pawn and the g7-bishop looks down an open diagonal. Book: 72% of the 7.O-O games go 7...e5; 7...Bg4 is the other choice (27%, White 46%). }
+8. fxe5 { [%cal Gf4e5] White takes with the f-pawn, which is why f4 was played: the pawn on d4 stays and the f-file opens for the rook. 8.d5 is the most common move in the book (45% of the games) and 8.dxe5 the third. }
+( 8. d5 Ne7 { 8.d5 hits the knight on c6. Ne7 is the calmer answer (book: 31 games, White 45%); 8...Nd4 (51 games, White 50%) allows 9.f5. } 9. fxe5 dxe5 { Book: 25 of 29 games. White has the space with d5, but Black has the half-open d-file and the e4-pawn is under attack. No guide goes further. } )
+( 8. dxe5 dxe5 { White gives up the centre pawn. The d-file is half open, but the bishop on d3 blocks the white queen, so no queens leave the board. The book (53 games, White 50-54%) continues 9.f5 or 9.Qe1; no guide covers it. } )
+8... dxe5 { [%cal Gc6d4,Gg7d4] Recapturing with the d-pawn is the point: d4 is now attacked by the knight, the pawn and the bishop. }
+9. d5 { [%cal Gd5c6] The only way to keep the pawn on d4 from falling: it hits the knight. }
+9... Nd4 { [%cal Gd4f3,Gd4c2] The knight lands on the best square on the board and the study line follows. Honest note: the book scores this move worse than the alternative (47 games, White 67%, against 45 games and 49% after 9...Ne7, see the variation), so treat it as the study's recommendation and not as the sure thing. }
+( 9... Ne7!? { The book prefers this one (45 games, White 49%). No guide has moves for it. The idea is ...Nxe4 or ...Ng4 and the knight on e7 can go to g6 or f5; after 10.Bg5 the book continues 10...h6 11.Bh4 (six games, White 33%) and avoids 10...c6 (11 games, White 73%). } )
+10. Nxe5 { White grabs the pawn. The bishop on g7 is blocked by the f6-knight, so nothing recaptures at once. }
+( 10. Nxd4 exd4 { The quiet answer (book: 6 of 50 games, White 67%). After 11.Ne2 the d4-pawn cramps White but is isolated. The sources do not cover it. } )
+10... Nxe4! { [%cal Ge4c3,Gg7e5] The point: the knight takes the pawn with attack on c3, and the bishop on g7 is open at last, so the knight on e5 is hanging. } 11. Nxe4 ( 11. Bxe4 Bxe5 { Same idea. The white pieces are loose on e4 and e5 and the knight on d4 is solid. } ) 11... Bxe5 { [%cal Ge5h2,Ge5b2] Now the bishop is a monster: it protects the knight on d4 and eyes b2 and h2. }
+12. c3 Nf5 { [%cal Gf5d4,Gf5g3] The study stops here with a healthy game for Black. Both sides keep two bishops; White has the d5-pawn and the e4-knight, Black the strong bishop on e5 and a knight on f5 eyeing d4, e3 and g3. The structure is unbalanced but healthy: White's d5-pawn is cut off from its supporters and the bishop on e5 and the knight on f5 are Black's best pieces. A book of nine games reached 10.Nxe5 and White scored 44% in it. The line rests on one source (109 likes) and the book; it is the thinnest in the file. } *
+
+[Line "6.Bd3 Nc6 7.e5 dxe5 8.fxe5 Nh5"]
+[Section "5.Nf3 O-O 6.Bd3"]
+[Summary "White pushes e5 before Black can break. Black takes twice and pins the f3-knight; ...f6 undermines the pawn and the g7-bishop comes to life."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Bd3 Nc6 7. e5 { [%cal Ge5f6] The most testing, and the most popular seventh move in the book (44%, White 54%): the pawn hits the knight and White hopes for a cramping space edge. Black takes; 7...Nd7 (2%) is the quiet alternative, but the knight blocks the bishop. }
+7... dxe5 { Black opens the d-file and the long diagonal. } 8. fxe5 { [%cal Gf6e5] }
+( 8. dxe5 Nd5 { 8.dxe5 is nearly as popular (48% of the games after 7...dxe5). Do not expect a queen trade: the bishop on d3 blocks the d-file, so ...Qxd1 is not possible. The knight jumps to d5 instead. } 9. Nxd5 Qxd5 10. Qe2 Bg4 11. Be4 Qd7 { Book: 59 of 73 games choose ...Bg4; after 11.Be4 the queen has to move. 11...Qd7 scores better for Black (White 40%, ten games) than 11...Qa5+ (White 59%, 34 games). White has the bishop pair; Black has pressure on f3. No guide continues here. } )
+8... Nh5 { [%cal Gh5f4,Gf7f6] The knight must leave f6 and h5 is the square that does not lose time: it covers f4 and g3 and clears f6 for the pawn. Book: 91 of 139 games, White 44%. }
+( 8... Nd5? { Natural, but it is the mistake of the line. } 9. Nxd5 Qxd5 10. c3 { Book: 40 games, White scores 73%. The queen on d5 is chased with tempo by Bc4 or Be4 and the e5-pawn is firmly held by Nf3 and c3, so Black has no counterplay. } )
+9. Be3 { [%cal Ge3g5] } 9... Bg4 { [%cal Gg4f3,Gc6e5,Gg7e5] The pin makes e5 a real target: it is attacked by the knight and bishop and soon by the f-pawn. }
+10. Be2 { Breaks the pin and prepares to take on g4. }
+( 10. Be4 f6 { Book: 19 games, White 39%. Black plays the same ...f6 break. } )
+10... f6! { [%cal Gf6e5] The pawn undermines the base of the chain. The study stops here, calling the position dynamic and fine for Black. Book: all 41 games. }
+11. exf6 { [%cal Gf6g7] } 11... Nxf6 { Recapturing with the knight (book: 12 games, White 33%) keeps the g7-bishop's diagonal open to d4 and leaves the e7-pawn alone. }
+( 11... exf6?! { Weaker: 20 games, White 53%. The pawn on f6 blocks the bishop on g7 and e6 is left weak. } 12. O-O )
+12. O-O Qd7 { [%cal Gd7h3,Ga8d8] Book: seven games, White 29%. The d4-pawn is the target: the g7-bishop, the c6-knight and the queen all aim at it, and ...Rad8 with ...Bxf3 will remove its defender. The sources stop here; what follows is the plan. } *
+
+[Line "6.Bd3 Na6: ...c5 Benoni style"]
+[Section "5.Nf3 O-O 6.Bd3"]
+[Summary "The grandmaster move: the knight avoids d5 and heads for c7 or b4, while ...c5 and ...Bg4 hit the centre. The same idea as the main line, with ...c5 instead of ...e5."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Bd3 Na6 { [%cal Ga6b4,Ga6c7,Gc7c5] Vigus calls this the standard choice at grandmaster level and Marin played it for years with excellent results. The knight keeps out of the way of d4-d5 and heads for b4 (hitting d3) or c7, supporting ...b5 and ...c5; Wikipedia adds ...Rb8. It is the second choice in this chapter because it is rare in the elite book (under 2%), so the figures come from the books, and because it gives up the ...e5 pattern. If you prefer Benoni structures to King's Indian ones, this is the line. }
+7. O-O { Castling invites ...c5 at once. }
+( 7. e5 Nd7 8. Be3 c5 { [%cal Gc5d4] Against 7.e5 the knight goes to d7 and ...c5 undermines the chain from the other side (sFabvhrU). } ( 8... Nb4?! { Tempting, but passive. } 9. O-O Nxd3 10. Qxd3 c6 { Black gives up the bishop pair and White keeps the space; play ...c5 at once instead. } ) )
+( 7. a3 c5 8. d5 Bg4 9. O-O { Marin gives this as the transposition from 5.a3 O-O 6.Nf3 Na6 7.Bd3: the same position as 7.O-O c5 8.d5 Bg4 9.a3. The extra a-pawn move helps White only with b2-b4, and takes ...Nb4 away. } )
+7... c5 { [%cal Gc5d4] The same idea as ...e5 in the main line: the base of the pawn chain is hit before White can organise e5. }
+8. d5 { White takes space and fixes the structure. Vigus calls this the ubiquitous continuation. } 8... Bg4 { [%cal Gg4f3] Vigus: generally reliable (his games 19 and 20). The other choices are the risky 8...Nc7 and the ambitious 8...Rb8, which Ivanchuk has recently played. The pin on f3 prepares ...Nc7, ...Rb8 and ...b5. The sources I could read stop here; the plan is a Benoni one with ...Nc7, ...b5 and the bishop nagging the knight on f3 and the pawn on e4. } *
+
+[Line "6.e5 Nfd7: the main reply"]
+[Section "5.Nf3 O-O 6.e5"]
+[Summary "The Unzicker Attack. Black retreats the f6-knight and answers 7.h4 with ...c5. Vigus says Black has nothing to fear; the main line is a forced draw if wanted, with ...cxb2 as the winning try."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. e5 { [%cal Ge5f6] The Unzicker Attack, 36% of the book after 5...O-O. The pawn hits the knight at once. Vigus notes that White still plays it occasionally, and that in theory Black has nothing to fear. Wikipedia calls it a sharp try with unclear consequences. }
+6... Nfd7 { [%cal Gd7e5,Gc7c5] The repertoire move (it is also the owner's move). Vigus: Black has no theoretical reason to avoid this sharp line; 6...dxe5 is a decent alternative for those who do not want to stretch their memory. After the retreat the pawn on e5 attacks d6 only, and Black breaks with ...c5, hitting the chain at its base (Nimzowitsch), or with ...dxe5. The price is the blocked g7-bishop, which comes back to life when the pawn goes. Book: 481 games, White scores 56%, against 55% after 6...dxe5. }
+( 6... dxe5!? { The simplifying alternative (55% of the book, more popular than 6...Nfd7 at 38%), and the move of the two Lichess studies HIwKTrVU and sFabvhrU; see the next game. } )
+7. h4 { [%cal Gh4h5] White wants to open the h-file against g6 before Black organises counterplay; 63% of the book. }
+( 7. Bc4 Nb6 8. Bb3 Nc6 9. Ne4 Na5 10. O-O Nxb3 11. axb3 f6 12. exf6 exf6 { An Alekhine-like set-up (Filipovic-Skoberne, Sibenik 2009) with equality: Black trades the bishop and strikes at e5 with ...f6. Book: 126 games, White 56%. } )
+7... c5! { [%cal Gc5d4] The central strike beats the wing attack; without it Black would only be defending against h5. }
+8. h5 { 8.dxc5? loses the centre, and White goes forward instead. } 8... cxd4 9. hxg6 { [%cal Gg6f7] }
+( 9. Qxd4 dxe5 10. Qf2 { The book's favourite (112 of 193 games, White 56%), and neither Vigus nor Marin covers it. Marin's version of the same idea (6.h4 c5 7.h5 cxd4 8.Qxd4 dxe5 9.Qf2 Nc6 10.hxg6 hxg6 11.Rxh8+ Bxh8) wins a pawn for Black because the h-rook falls; here, with the knight on f3, the book shows trouble. } 10... Nc6?! { Natural, but it runs into the next move. } 11. hxg6 hxg6 12. Qh4 { Book: 17 games, White scores 88%: the queen reaches h4 and Ng5 follows. I have no sourced alternative for Black at move 10; this is the weak spot of the repertoire against 6.e5. } )
+9... dxc3 { [%cal Gc3b2] } 10. gxf7+ Rxf7 11. Bc4 { [%cal Gc4f7] Develops with a threat on f7. Black has to find a plan against Ng5 and e6. }
+( 11. e6? { Hasty. } 11... cxb2 12. exf7+ Kf8 13. Bxb2 Bxb2 { Disastrous for White (Zhuravlev-Vitolins, Latvian Championship 1967). } )
+11... e6! { [%cal Ge6d5] Vigus: more ambitious than the alternative, and it keeps the rook on f7 defended and covers d5. }
+( 11... Nf8?! { Passive. } 12. Bxf7+ Kxf7 13. Ng5+ Kg8 14. Qh5 dxe5?? { Black collapsed in Shirov-Smirin, Odessa 2007. } 15. Qf7+ Kh8 16. Qb3 { Winning for White. 14...h6 saves the game: 15.Qf7+ Kh8 16.Qb3 Qa5 17.Nf7+ Kh7 18.Ng5+ is a draw by repetition (Nadyrhanov-Tseshkovsky, Krasnodar 1999). } )
+12. Ng5 { [%cal Gg5f7,Gg5e6] The knight attacks the rook and the e6-pawn. }
+12... Nxe5! { [%cal Ge5c4,Ge5g4] Vigus: the safe choice. Book: 12 of 19 games, White scores 25%. The knight takes the pawn with a threat on c4. }
+( 12... cxb2!? { Black plays for a win. } 13. Bxb2 Qa5+ 14. Ke2 Nf8!? { Ivanchuk's idea (Sutovsky-Ivanchuk, Khanty-Mansiysk 2011): the knight shores up e6 and h7 and Black keeps the tension. Vigus calls the position unclear. } 15. Nxf7 Kxf7 16. f5? { Sutovsky probably overlooked something in the complications; 16.Qxd6 was the alternative. } 16... Bxe5 17. Rh5?! { Artificial: the f8-knight is playing a heroic defensive role. } 17... Ke8! { The king runs and the rook on h5 is offside. } 18. fxe6? { A time-trouble move. } 18... Qb4! { Vigus: this fork would have been decisive; the game went 18...Bxe6? and Ivanchuk still won in the end. } )
+13. Qh5 { [%cal Gh5h7] The only move: 13.fxe5? cxb2 14.Nxf7 bxa1=Q 15.Nxd8 Qxe5+ is catastrophic for White. } 13... h6! { [%cal Gh6g5] The pawn attacks the knight and guards h7. } 14. fxe5 hxg5 15. Qh7+ Kf8 16. Qh8+ Bxh8 17. Rxh8+ Kg7 { [%cal Gg7h8] } 18. Rxd8 Nc6 19. Rxd6 Nxe5 20. Be2 Bd7 21. bxc3 Rh8 { The line of Garcia Caballero-Gual Pascal (Spanish Team Championship 1998), drawn: queens and a lot of material have gone and the position is balanced. The g5-pawn is a target for White, Black's king is safe on g7 and the h-file is his. Vigus gives this as the recap of his earlier book (The Pirc in Black and White). If a draw is not enough, play 12...cxb2 (the variation above). } *
+
+[Line "6.e5 dxe5: the simple alternative"]
+[Section "5.Nf3 O-O 6.e5"]
+[Summary "Black takes on e5 and, after fxe5, puts the knight on d5 and goes ...Nb6. A calmer way to meet 6.e5, played in both Lichess studies."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. e5 dxe5 7. fxe5 { [%cal Ge5f6] }
+( 7. dxe5 Qxd1+ 8. Kxd1 Rd8+ { The less critical capture: the queens go off and the rook comes with check, so the white king loses castling (Chekhov-Zvjaginsev, St Petersburg 2011). The Spanish study (311 likes) plays 8...Nh5, hitting f4, instead. } 9. Ke1 Ne8 10. Be3 Nc6 11. Bb5 Nb4 12. Rc1 c6 13. Ba4 Nc7 14. Bc5 Nbd5 15. Nxd5 Nxd5 16. g3 Bg4 17. Kf2 b6 18. Be3 c5 19. Rcd1 Nxe3 20. Kxe3 f6 21. exf6 exf6 22. Rxd8+ Rxd8 23. c3 Be6 24. Bb3 c4 25. Ba4?? { A blunder in a position where Black has been outplaying White: the white king cannot castle. } 25... Rd3+ 26. Ke2 Rxf3 { Black wins. } )
+7... Nd5 { [%cal Gd5c3,Gd5f4] The knight hits c3 and f4 and the e5-pawn is now a target for the bishop on g7. }
+8. Bc4 { [%cal Gc4d5] The main move (44% of the book). It attacks the d5-knight for the second time, so Black must decide what to do with it. }
+( 8. h4!? { A wild experiment from Nakamura against Kramnik (Moscow, blitz 2010): White goes for the h-file at once. } 8... Bg4 9. h5 c5 10. hxg6 hxg6 11. Rh4 Bxf3 12. Qxf3 Nb4 13. Bc4 Nxc2+ 14. Kf1 Nxd4 15. Qh3 Nf5 { Vigus thinks the final position dashes White's hopes. } )
+( 8. Nxd5 Qxd5 { The Spanish study (311 likes) calls this equal: Black's queen is centralised and ...Bg4 follows. 8.Nxd5 is 10% of the book. } )
+8... Nb6 { [%cal Gb6c4] Vigus's move. The knight hits the bishop on c4 and keeps the pieces on; it scores best for Black of the main moves in the book (White 47% against 51% after 8...Nxc3 and 57% after 8...Be6). }
+( 8... Nxc3 { The book's most played move (149 games, White 51%) and a fine second choice. The exchange doubles the white pawns. } 9. bxc3 c5 { The pawn and the queen both hit d4. } 10. O-O Bg4 { The pin on f3 piles up on e5, and 11.Be3 scores only 37% for White in the book. } )
+( 8... Be6 { The worst score for Black among the main moves (White 57%), but it is the move of two sources. } 9. Qe2 c5 10. Bxd5 Bxd5 11. Nxd5 Qxd5 12. c4 Qd7 13. d5 e6 14. d6 Nc6 15. Bg5 h6 { Tregubov-Rakhmangulov, Yuzhny 2011, drawn in a double-edged position. sFabvhrU gives 9.Nxd5 Bxd5 10.Bxd5 Qxd5 11.Qe2 and calls it a line where White trades pieces and loses attacking chances. } )
+9. Bb3 Nc6 { [%cal Gc6e5] } 10. O-O Na5 { [%cal Ga5b3] Black trades off the bishop that matters. }
+11. Qe2 { Vigus: the natural move; the position is equal. }
+( 11. Qe1?! { White wants to go to h4. } 11... Nxb3 12. axb3 Bf5 13. Qh4? { An overoptimistic attack. } 13... Bxc2 14. Rf2 Bxb3 15. Ng5 h5 16. Ra3 Bc4 17. Nce4 Qxd4! { The queen sacrifice that decides: the white king is exposed. } 18. Nf6+ exf6 19. Qxd4 Rfd8 { Stevic-Smirin, Plovdiv 2008: Black wins. With 13.Rf2 White should settle for equality. } ) *
+
+[Line "6.Be3 c6: the solid answer"]
+[Section "5.Nf3 O-O 6.Be3 and 6.Be2"]
+[Summary "White prepares Qd2 and long castling. Black takes d5 away with ...c6, plays ...Nbd7 and meets e5 with ...Nd5; the position is solid, with ...f6 as the break."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 { Prepares Qd2 and O-O-O, and covers g5. Book: 9% of the games after 5...O-O. Vigus mentions that Andrew Greet has recently recommended it for White. The critical reply is 6...b6, covered below; but it takes Black out of the ...e5 pattern. }
+6... c6 { [%cal Gc6d5,Gb8d7] Takes d5 away from the white knight, prepares ...Nbd7 and ...Qa5 and keeps ...e5 as a plan. The most solid reply in the book (150 games, White scores only 48%, the lowest of the main sixth moves). Vigus likewise points to the developing move 6...Nbd7 in the notes of his game 12. }
+( 6... b6!? { [%cal Gb6b7] The Kurajica line, the critical test of 6.Be3: Marin played it with excellent results and Vigus finds the complications fascinating, but sFabvhrU's author thinks Black should avoid it. Book: 87 games, White 51%. } 7. Qd2 Bb7 8. e5 Ng4 9. O-O-O c5 10. dxc5 bxc5 11. Bxc5 { Black cannot take: } 11... Qa5 ( 11... dxc5? { Loses the exchange. } 12. Qxd8 Rxd8 13. Rxd8+ Bf8 { Black has given a rook for a bishop. } ) 12. Ba3 dxe5 13. Nd5 Qxd2+ 14. Rxd2 { White's pieces are more active, and Black must rescue the pieces on g4 and e5 and the weak squares on c7 and e7; the study calls it a line Black should avoid. } )
+( 6... Nc6!? { Sharper: it keeps the main-line structure. After 7.Bd3 e5 8.fxe5 dxe5 the position is that of game 1. Book: 71 games, White scores 56%, and 7.d5 (21 games, White 67%) and 7.Qd2 are the alternatives. } )
+7. h3 { [%cal Rf6g4,Rc8g4] Prevents ...Ng4 and ...Bg4. } 7... Nbd7 { [%cal Gd7b6,Gd7c5] } 8. e5 { By far the most common (93% of 95 games): White expects Black to play ...e5. }
+8... Nd5 { [%cal Gd5e3,Gd5c3] The knight attacks both the bishop on e3 and the knight on c3. } 9. Nxd5 cxd5 { Black has a healthy pawn on d5, which blocks the e5-pawn, and the open c-file. }
+10. Bd3 Qb6 { [%cal Gb6b2,Gb6d4] The queen hits b2 and d4. }
+11. Qc1 { Book: 59 of 75 games, White scores 49%. } 11... dxe5 12. dxe5 { The position is balanced: the elite book scores 50% for each side. Black pressures e5 with the knight and bishop and can undermine it with ...f6; the c-file and the weakness of White's king side after Be3 are the other targets; White tries to use the e5 chain for a kingside space grab. The sources give no moves beyond here. A reasonable choice when a draw would do. } *
+
+[Line "6.Be2 Nc6 7.O-O e5"]
+[Section "5.Nf3 O-O 6.Be3 and 6.Be2"]
+[Summary "The old 1950s move, revived in the 1980s. Black develops the knight and breaks with ...e5 as soon as White has castled, or with ...c5."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be2 { Often seen in the 1950s and early 1960s; a defeat suffered by Fischer with it sent White players, Fischer included, to 6.Bd3 (Wikipedia). It was revived in the 1980s with 6...c5 7.dxc5 Qa5 8.O-O Qxc5+ 9.Kh1. }
+6... Nc6 { The same plan as in game 1 (book: 30 games, White 48%). The bishop on e2 does not hit e4, so Black has a free hand. }
+( 6... c5 { The most played reply (70 of 132 games, White 49%). } 7. dxc5 ( 7. d5 b5 { Book: 29 games with ...b5, White scores only 29%: the pawn sacrifice works because Nxb5 Nxe4 hits c3. } ) 7... Qa5 8. O-O Qxc5+ 9. Kh1 Nc6 { The 1980s line (Wikipedia): Black wins the pawn back with check, and the white king goes to h1. Book: 22 games, White 45%; 9...Nc6 (nine games, White 33%) is better than 9...Ng4 (seven games, White 86%). } )
+7. O-O { 7.e5 (8 games, White 75%) and 7.Be3 (12 games) are the alternatives. } 7... e5 { [%cal Ge5d4,Ge5f4] The same break as in game 1. Book: 8 games, White scores 38%. 7...Bg4 is the other choice (9 games, 44%). } 8. fxe5 dxe5 { Book: 5 of 8 games. The position is that of game 1 with the white bishop on e2 instead of d3: d5 is met by ...Nd4 and the exchanges on d4 leave Black comfortable. The sources stop here; the plan is the one from game 1. The other sixth moves (6.a3, 6.Qd2, 6.Bc4, 6.h3, each 1-2% of the book) are not covered. } *
+
+[Line "5.e5 Nfd7 6.Nf3 c5"]
+[Section "5.e5"]
+[Summary "White plays e5 before developing the kingside. Black retreats with ...Nfd7 and strikes at the pawn chain with ...c5; he has little to fear."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. e5 { [%cal Ge5f6] Premature (Marin): the kingside is undeveloped, so Nf3 and h4 have no support. The follow-up e5 after 5.Nf3 O-O is far more consistent, so here Black has little to fear. Book: 6% of the games after 4...Nf6, White scores 55%. }
+5... Nfd7 { [%cal Gd7e5,Gc7c5] The most flexible answer, preparing to undermine the centre with ...c5 (Marin). Ramirez's study (108 likes) also calls it a good move. Book: 174 games, White 51%. The other retreat 5...Ng8 is bad (93 games, White 70%). }
+( 5... dxe5 { NM Ramirez's study (108 likes) recommends taking, because it is easier to remember, but he plays both. Book: White scores 59% in 141 games, against 51% after 5...Nfd7. } 6. fxe5 ( 6. dxe5 Qxd1+ 7. Kxd1 Nfd7 8. Nd5 Kd8 9. Nf3 c6 10. Nc3 f6 { Ramirez: the knight goes to d7, not g4, after the king takes. The king on d8 looks odd, but White's pieces are not coordinated and ...f6 breaks the chain. } ) 6... Nd5 7. Nxd5 Qxd5 8. c4 Qe4+ 9. Ne2 c5 10. dxc5 Qxe5 )
+6. Nf3 { [%cal Gf3g5] The knight protects e5 and prepares h4 and Ng5. Book: 75%. }
+( 6. exd6 cxd6 { Rare: it is not in the book at all. The e5-pawn disappears and Black has a normal Pirc structure with the c-file. Then ...Nc6 and ...Nb6 (or ...Nf6), ...O-O and ...e5 are the plans, as e4 is weak. No source gives moves. } )
+( 6. h4 c5 7. h5 cxd4 8. Qxd4 dxe5 9. Qf2 Nc6 10. hxg6 hxg6 11. Rxh8+ Bxh8 { Marin: White achieves nothing; Black has an extra pawn and a normal development (Tredup-Oetzel, Krumpa 1972). } )
+6... c5! { [%cal Gc5d4] Attacking the enemy chain at its base, as recommended by Nimzowitsch (Marin). }
+7. exd6 { White tries to stabilise the position and prove the knight retreat was a loss of time, since the knight must return to f6. But with the e5-pawn gone the e4-square becomes a telling weakness (Marin). Book: 39% of the games, White scores 38%. }
+( 7. e6 fxe6 8. Be3 Nc6 9. dxc5 Nxc5 10. Bxc5 dxc5 11. Qxd8+ Kxd8 12. O-O-O+ Kc7 13. Ne4 b6 14. Bc4 Rf8 15. g3 e5 { Marin (Giri-Ivanchuk, Leon 2013): Black gives up the vulnerable pawn to weaken White's king side and clear the diagonal for the g7-bishop; Black stands better. } )
+( 7. dxc5 dxe5 8. fxe5 O-O 9. e6 fxe6 10. Bc4 Nxc5 11. Qe2 Nc6 12. Be3 Qb6 13. Bb3 Qa5 14. O-O { Marin: 8.Nxe5? Nxe5 9.Qxd8 fails to 8...O-O. Black retrieves the c5-pawn soon, with free development and active play (Vasiukov-Tseshkovsky, Leningrad 1974). } )
+7... O-O { [%cal Gf8d6] Castling and letting White take on e7 is the most active; 8.dxe7? Qxe7+ 9.Be2 cxd4 is bad for White (Marin). Ramirez also recommends castling; 7...cxd4 is the other choice (book: 19 games each; White 45% after 7...O-O, 32% after 7...cxd4). }
+8. Be3 { 'White does better to develop' (Marin). } 8... exd6 { Returning the game to a normal course of development. } 9. Qd2 Nc6 { [%cal Gc6d4] } 10. O-O-O { The fastest way of getting the king off the centre files and the best way of defending b2. } 10... Qa5 { [%cal Ga5a2] Pressure on a2, and the queen defends c5 so that ...Nf6 can be played. }
+11. Kb1 { [%cal Gb1a1] White tucks the king away. Marin treats 11.a3 as the other way of avoiding trouble (see the variation). }
+( 11. a3 { This does not create problems either (Marin). } 11... Nf6 12. Bc4 ( 12. Nb5 Qxd2+ 13. Rxd2 Ne4 14. Rd1 Bf5 { Black has comfortable play (Marin's novelty 13...Ne4). } ) 12... Bg4 { [%cal Gg4f3,Gg4d1] Increasing the pressure on the d4-pawn and more or less forcing White to open the d-file. } 13. dxc5 dxc5 14. Qf2 b5! { [%cal Gb5c4] Marin's improvement: in Schaefer-Schlemermeyer (Germany 1993) Black missed it and White got the better of it. The pawn hits the bishop, and 15.Nxb5 Rab8 16.Bd2 Ne4 wins material. } 15. Bxb5 Ne4 16. Nxe4 Qxb5 17. c3 Na5 { Followed by ...Bf5 with nasty threats (Marin). } )
+11... Nf6 12. h3 { Preventing ...Bg4. } 12... Re8 { [%cal Ge8e3] The rook goes to the e-file, hitting the bishop on e3 and eyeing e4. }
+13. Bc4 { Only in part an active move: White prepares Bb3 to protect the king. The familiar 13.Nb5? fails to 13...Nb4! 14.a3 Ne4 15.Qe1 a6 (Toma-Sfarlog, Predeal 2006), when many white pieces and the king are vulnerable. } 13... Bf5 { [%cal Gf5c2] }
+14. Bb3 c4! { [%cal Gc4b3] The fastest way of getting counterplay: at the cost of a pawn Black clears the c-file and gains a tempo for the b-pawn. 14...b5 would lose the c5-pawn with unclear consequences. }
+15. Bxc4 b5! { [%cal Gb5c4] Taking the second pawn clears the b-file and wins more tempi for the attack. }
+16. Bb3 ( 16. Bxb5 Nb4 17. Bxe8 Rxe8 18. Rc1 Ne4 { wins the queen. } ) 16... b4 17. Ne2 Ne4 18. Qc1 Qb5 { Black has compensation for the two pawns: ...a5 or ...Na5 follow, and White's king is on the open b-file. Marin's sample of this chapter ends a little later; deeper play is not sourced. } *
+
+[Line "5.Nf3 c5: the Dragon formation (note)"]
+[Section "5.Nf3 c5"]
+[Summary "A short note on the other main reply. Black strikes at once with ...c5; after dxc5 Qa5 the g7-bishop gets its diagonal. Out of the ...O-O/...e5 pattern, but three sources prefer it."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 c5 { [%cal Gc5d4,Gg7d4] The sources disagree with the rest of this file. Marin calls 5...c5 objectively the main line and made it his repertoire line in 2017, after avoiding it for years; sFabvhrU's author (109 likes) thinks it the best move; NM Ramirez (108 likes) recommends it over castling because of the amount of theory after 5...O-O. Vigus calls the choice a matter of taste. The elite book agrees with them: 5...c5 is 21% of the games and White scores 50% against it, but 56% against 5...O-O. We castle in this file because it keeps the structure of the other lines; this is the line to switch to if a sharper game is wanted. The sample of Marin's book I could read has none of his 6.d5 and 6.Be2 lines (28% and a few % of the book). }
+6. dxc5 { [%cal Gc5d6] The main move (41% of the book). }
+( 6. Bb5+ Bd7 7. e5 Ng4 8. e6 fxe6 9. Ng5 Bxb5 10. Nxe6 Bxd4 11. Nxd8 Bf2+ 12. Kd2 Be3+ 13. Ke1 Bf2+ { Black forces a draw by repetition. White can avoid it with 11.Nxb5 Qa5+, which is sharper. Seirawan-Sax (Brussels 1988) showed that 8...fxe6 is playable; NM Ramirez prefers 8...Bxb5 in serious games. } )
+( 6. Bb5+ Bd7 7. Bxd7+ Nfxd7 { Recapturing with the f6-knight opens the diagonal of the g7-bishop. } 8. d5 b5 9. Nxb5 Qa5+ )
+( 6. e5 { Transposes to game 8 after 6...Nfd7 7.exd6 O-O (Wikipedia and Ramirez: good play for Black). } 6... Nfd7 7. exd6 O-O )
+6... Qa5 { [%cal Ga5c5,Ga5c3] The queen hits the knight on c3 and the pawn on c5 will be taken back next move. }
+7. Bd3 { Stops ...Nxe4, so Black takes the pawn back. }
+( 7. cxd6? { Greedy. } 7... Nxe4 8. dxe7 Nxc3 9. bxc3 Qxc3+ 10. Kf2 Nc6 { Bad for White: Black has a lasting attack on the king (NM Ramirez). } )
+7... Qxc5 8. Qe2 { [%cal Gc1e3] White needs the queen to leave the diagonal, to prepare Be3 and O-O. } 8... Bg4! { [%cal Gg4f3] NM Ramirez recommends this over 8...O-O: if Black does not play ...Bg4 now, White plays h3 and the bishop never gets here. It takes the knight that guards e5 and d4. }
+( 8... O-O { The other line (Ramirez and sFabvhrU). } 9. Be3 Qa5 ( 9... Qb4!? { A blitz trap (Ramirez): the natural 10.O-O-O or 10.Rb1 loses a pawn to ...Nxe4. } 10. O-O-O? Nxe4! 11. Bxe4 Bxc3 12. bxc3 Qxe4 { Black wins a pawn and the white king is exposed. } ) 10. O-O Bg4 { White has the better development, Black the diagonal of the bishop on g7 and a firm centre. } )
+9. Be3 Qa5 10. O-O O-O 11. h3 Bxf3 12. Qxf3 Nc6 { Black is very comfortable (Ramirez): ...e6 and ...Rac8 are next, the bishop pair is gone but the g7-bishop has the long diagonal. } *
