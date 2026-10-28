@@ -84,14 +84,18 @@
 7. Bh4 Qe8 { **Idea:** the queen gives the b8-knight c6 or d7 and prepares ...e5. Rule of thumb from CoHp4wPV: push ...c5 if White can castle long, ...e5 if he cannot; with c3 played, long castling would give Black great attacking chances, so the study goes for ...e5. }
 8. Be2 e5 { [%cal Ge5d4] The break. White has nothing to gain from keeping the tension. } 9. dxe5 dxe5 10. O-O Nh5 { [%cal Gc8e6,Gh5f4] The knight clears the diagonal for ...Be6 and heads for f4. } 11. Re1 Be6 12. Nc4 Nd7 { Defends e5. } 13. Nfd2 Nf4 { [%cal Gf4e2] **Idea:** to trade off the bishop on e2. } 14. Bf1 Nc5 { [%cal Gc5d3,Gf4d3] Nd3 is the square. } 15. Qc2 a5 { The study continues 16.Ne3?! b5 17.b4 Na4 with a small edge for Black, after which the pawn on c3 is weak. } *
 
-[Line "3.Be3 d6 4.Bd3 Nf6 5.Nc3 c6 6.Qd2 b5 7.Nf3 Nbd7 8.O-O Qc7 9.Bh6 O-O"]
+[Line "3.Be3 d6 4.Bd3 Nf6 5.Nc3 O-O 6.Nf3 Nc6 7.h3 e5"]
 [Section "3.Be3"]
-[Summary "3.Be3 keeps Nc3 flexible. 4.Nc3 is the 150 Attack (Nc3 chapter); after 4.Bd3 Nf6 5.Nc3 the Czech set-up ...c6, ...b5 and ...Nbd7 delays castling and meets the Be3 and Qd2 build-up. Other fifth moves have no source."]
+[Summary "3.Be3 keeps Nc3 flexible. 4.Nc3 is the 150 Attack (Nc3 chapter); after 4.Bd3 Nf6 5.Nc3 Black uses that chapter's set-up ...O-O, ...Nc6 and ...e5. Draft: the moves after 5.Nc3 come from the elite games; the Czech set-up of one study is the second choice."]
 
 1. e4 g6 2. d4 Bg7 3. Be3 { The bishop supports d4 and prepares Qd2 and Bh6, but the b1-knight stays flexible. In the elite games 3...d6 is met by 4.Nc3 in 90% of the cases: that is the 150 Attack, covered in the Nc3 chapter. }
 3... d6 4. Bd3 { The bishop defends e4, so ...Nf6 does not win a tempo, and it keeps f4 and Nf3 possible. } ( 4. Nc3 Nf6 5. f3 { **150 Attack:** the Nc3 chapter. } )
-( 4. f3 { Also the 150 Attack after Nc3, by transposition. } 4... Nf6 5. Nc3 c6 )
-( 4. Qd2 Nf6 5. Nc3 c6 6. f3 )
-4... Nf6 { [%cal Gf6e4] **Idea:** hit e4 as in any Pirc. White's fifth moves are Nc3, Nf3, c3, Nd2, f3 and e5. Only 5.Nc3 has a source line (below); 5.Nf3 (the most common in the elite games), 5.c3, 5.Nd2, 5.f3 and 5.e5 are a gap, listed in the notes. Your habit ...O-O is fine against all of them; only the plan after it is unsourced. }
-5. Nc3 { The position is now the Pirc "Shy 150 Attack" of FwXo3Qhq (51 likes), with the bishop already on g7. } 5... c6 { [%cal Gb7b5,Gd8a5] **Idea:** the Czech-Pirc set-up. It prepares ...b5 and ...Qa5 and keeps the king in the centre until White commits his own. Against Be3 and Qd2 the danger is Bh6 and a pawn storm with h4-h5; castling late is what takes the sting out of it. }
-6. Qd2 b5 { [%cal Gb5b4] } 7. Nf3 { Now the position is the one the Nf3 chapter reaches by 3.Nf3 d6 4.Be3 Nf6 5.Nc3 c6 6.Qd2 b5 7.Bd3, so the rest of the line (...Nbd7, ...Qc7, castling only when the bishops are traded on h6, then ...b4 and ...c5) is given there. The only source is FwXo3Qhq, a 51-like study, so this is a draft. } 7... Nbd7 8. O-O Qc7 9. Bh6 O-O 10. Bxg7 Kxg7 11. a4 b4 12. Ne2 c5 13. dxc5 Qxc5 *
+( 4. f3 { Also the 150 Attack after Nc3, by transposition. } 4... Nf6 5. Nc3 O-O )
+( 4. Qd2 Nf6 5. Nc3 O-O 6. f3 )
+4... Nf6 { [%cal Gf6e4] **Idea:** hit e4 as in any Pirc. White's fifth moves are Nc3, Nf3, c3, Nd2, f3 and e5. Only 5.Nc3 is given (below); 5.Nf3 (the most common in the elite games), 5.c3, 5.Nd2, 5.f3 and 5.e5 are a gap. ...O-O is the move against all of them; only the plan after it is unsourced. }
+5. Nc3 { The position is now 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Be3 Nf6 5.Bd3, a rare 150 Attack (12 elite games) that FwXo3Qhq (51 likes) calls the "Shy 150 Attack". }
+5... O-O { [%cal Gb8c6,Ge7e5] The set-up of the Nc3 chapter. White's usual reply is 6.Nf3 (51 of 67 elite games). }
+( 5... c6 { [%cal Gb7b5,Gd8a5] The study's Czech set-up: ...c6, ...b5 and ...Qa5, with the king in the centre until White commits his own, so that Bh6 and h4-h5 have no target. After 6.Qd2 b5 7.Nf3 Nbd7 the position is the second choice of the 4.Be3 line in the Nf3 chapter. } 6. Qd2 b5 7. Nf3 Nbd7 )
+6. Nf3 Nc6 { [%cal Gc6d4,Ge7e5] 27 elite games, White scores only 37%. The knight hits d4 and prepares ...e5. }
+7. h3 { The usual answer (48 games): no ...Bg4 or ...Ng4. }
+7... e5 { [%cal Ge5d4] 42 of 57 elite games, White scores 49%. The structure is that of the Nc3 chapter's 5.Bd3 O-O 6.O-O Nc6 7.h3 e5 line: after d5 the knight goes to e7, after dxe5 dxe5 the d-file opens. **Gap:** no source covers this exact position, so the line stops here. } *

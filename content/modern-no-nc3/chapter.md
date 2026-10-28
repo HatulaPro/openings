@@ -88,15 +88,16 @@ above. With 4.Bg5 and 5.Nd2 (the Lazy Variation) Black castles, asks the bishop 
 he cannot. After the exchange on e5 the knight goes h5-f4. Against 4.f4, the sources hit at once with
 4...c5 5.dxc5 Nf6. The pawn comes back and the queen trade after e5 leaves Black's king safe on d8.
 
-## 3.Be3: castle only after the bishops come off
-moves: 1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Be3 Nf6 5. Nc3 c6 6. Qd2 b5
-arrows: Gb5b4 Gc6c5
-squares: Rh6
+## Be3 set-ups: the same ...O-O, ...Nc6 and ...e5
+moves: 1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Be3 Nf6 5. Nc3 O-O 6. Qd2 Nc6 7. h3 e5
+arrows: Ge5d4 Gc6d4 Gg7d4
+squares: Yd4 Rh6
 
 Be3 with Qd2 is the 150 Attack set-up, and Bh6 is the threat. 3.Be3 d6 4.Nc3 and 4.Qd2 transpose to the 3.Nc3
-chapter. With Nf3 or Bd3 instead, the sources choose the Czech set-up: ...c6, ...b5, ...Nbd7 and ...Qc7, with
-castling put off until White has traded on g7 with Bh6. Then ...b4 drives the knight away and ...c5 opens
-the queenside.
+chapter, and so does 3.Nf3 d6 4.Be3 Nf6 5.Nc3. The answer is the set-up of that chapter: castle, ...Nc6 and ...e5
+against d4 before the attack starts. With Bd3 instead of Nc3 the same moves are played, but no source covers those
+positions; the moves come from the elite games. The Czech set-up (...c6, ...b5, ...Nbd7 and ...Qc7, castling only
+after White trades on g7) is the second choice, from one study.
 
 ## 3.c4: the King's Indian, or ...e5 at once
 moves: 1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 e5 5. d5 a5

@@ -73,7 +73,7 @@ Not yet written: the Makogonov 5.h3 (11% of the elite games), 5.Bg5 and 5.Bd3. S
 3. Nf3 { The commonest third move after 3.d4 (769 elite games, ahead of 3.g3 and 3.f4). }
 ( 3. d3 d6 { 3.d3 has come up three times in your games. No source gives a line against it; the general advice of the Modern study for sidelines is to develop as usual and to get ...e5 in: ...d6, ...Nc6 (or ...Ne7), ...e5, ...Nf6 and ...O-O, with ...f5 as the break. White has given up the central tension, so there is no hurry. } )
 ( 3. Bc4 d6 4. d4 { Transposes to the Mad Dog chapter: 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Bc4. } )
-3... d6 { [%cal Gd6e5] } 4. d4 { 97% of the elite games. Black has not committed the g8-knight, so this is 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3, and every line of the Nf3 chapter applies: 4...a6 (the Tiger) or 4...Nf6 (the Pirc Classical). } *
+3... d6 { [%cal Gd6e5] } 4. d4 { 97% of the elite games. Black has not committed the g8-knight, so this is 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3, and the Classical lines of the Nc3 chapter apply: 4...Nf6, ...O-O, ...Nc6 and ...e5. } *
 
 [Line "2.Nc3 Bg7 3.g3 e5 4.Bg2 Ne7: the ...e5 set-up"]
 [Section "2.Nc3"]
@@ -87,7 +87,7 @@ Not yet written: the Makogonov 5.h3 (11% of the elite games), 5.Bg5 and 5.Bd3. S
 [Summary "Against the Vienna-style f4 Black can play the Tiger idea ...a6 and ...b5, but if White stops it with a4 the position becomes a good version of a Grand Prix Sicilian."]
 
 1. e4 g6 2. Nc3 Bg7 3. f4 { Vienna or Grand Prix style. It makes ...e5 impossible, so Black goes for the queenside expansion instead. 3...d6 4.Nf3 is also possible, but it enters the Austrian structure when White gets d4 in. } 3... a6 { [%cal Ga6b5,Gc8b7] Aims for ...b5.  } ( 3... d6 { Playable: it keeps the Pirc/Austrian structure. } 4. Nf3 { Playable, but White can still play d4 with a pure Austrian Attack in which Black has not got the extra ...a6. Choose it only if you know that chapter. } )
-4. a4 { Stops ...b5 for good, but the move is slow. } ( 4. d4 d6 { Transposes to the Tiger against the Austrian Attack: 3.Nc3 d6 4.f4 a6, see the Austrian Attack chapter. } )
+4. a4 { Stops ...b5 for good, but the move is slow. } ( 4. d4 d6 { An Austrian Attack in which Black has played ...a6 instead of ...Nf6. The Nc3 chapter answers 4.f4 with ...Nf6 and ...O-O and no longer covers the ...a6 set-up, so this position is a **gap**. } )
 4... c5 { [%cal Gc5d4,Gb8c6] Now the position is a Sicilian Defence in which Black has the extra useful move ...Bg7 and White the extra move a4. } 5. Nf3 Nc6 6. Bc4 { The Grand Prix set-up. } ( 6. g3 d6 7. Bg2 e6 { Solid: the knight comes to e7 and castling follows. } )
 6... e6 { [%cal Gd7d5,Gg8e7] Blocks the bishop's diagonal at once. The plan is ...Nge7, ...d5 to hit the bishop, and ...O-O. } *
 

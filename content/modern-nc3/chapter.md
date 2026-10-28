@@ -1,151 +1,115 @@
 ---
 title: Modern Defence: 3.Nc3 systems
-subtitle: 1.e4 g6 2.d4 Bg7 3.Nc3 d6
+subtitle: 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4...Nf6
 side: black
 group: Modern Defence
 order: 60
 ---
 
-After 1.e4 g6 2.d4 Bg7 3.Nc3 d6 White chooses between the 150 Attack (4.Be3), the Austrian Attack (4.f4), the classical
-4.Nf3 and a handful of rarer moves. The repertoire answers each with a system that has the same character as the King's Indian: the
-king's knight and the king stay home until the position has shown what White is doing, the bishop on g7 is the long-term trump, and the
-counterplay comes from two breaks, ...c5 and ...e5.
+After 1.e4 g6 2.d4 Bg7 3.Nc3 d6 the repertoire plays **4...Nf6 against everything**, castles short and fights for the centre
+with the King's Indian break **...e5**, usually prepared by **...Nc6**. Against the 150 Attack (4.Be3), the Classical (4.Nf3, with 4.Be2 and
+4.Bd3 transposing), the calm lines of the Austrian (4.f4) and most rare moves the pieces go to the same squares in the same order:
+...Nf6, ...O-O, ...Nc6, ...e5. Learn the set-up once and the lines become variations of one idea.
 
-There are two families. Against 4.Be3, 4.Nf3 and 4.Bg5 Black plays the Tiger's Modern set-up with ...a6, ...b5, ...Bb7 and ...Nd7, and brings out
-the king's knight only after the d4-pawn has been exchanged. Against 4.f4, 4.Be2, 4.g3 and 4.Bc4 he plays ...Nf6 at once, which leads to Pirc and
-King's Indian positions that this player knows. The second option against 4.Be3 is the Pirc move 4...Nf6, and against 4.f4 it is the Tiger move 4...a6. Where
-a line can reach the same position by two routes, the notes say so.
+After 4...Nf6 the game is a Pirc (1.e4 d6 2.d4 Nf6 3.Nc3 g6 by another order), so Pirc books and studies apply. The theme bends
+in a few places and the notes say why each time: against 4.f4 the e4-e5 push has to be met first (...Nfd7 and ...c5), and against
+6.Be3 in the Austrian the solid answer is ...c6.
 
-The chapter is built from the moves of well-liked Lichess studies, which were cross-checked against the project's book of elite games.
-Where the study moves were not played in the book the notes say so.
+This is a rebuild around one set-up. **Parts of it are a draft.** No book or popular study analyses 6...e5 against the 150 Attack
+beyond the move itself, so those lines take their moves from the book of elite games (2400+) and stop where it thins out. The
+Classical ...Nc6 lines rest on master games rather than annotated sources. Every line says where its sources end.
 
-## Why 3...d6, and what the Modern does with the knights
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6
-arrows: Gd6e5 Rg7d4 Re4e5
-squares: Ye5 Ye4
+## The set-up: ...Nf6, ...O-O, ...Nc6, ...e5
+moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Be2 O-O 6. O-O Nc6 7. Be3 Bg4 8. Qd2 e5
+arrows: Gc6d4 Ge5d4 Gg4f3 Gg7d4
+squares: Yd4 Ye5
 
-White has a big centre and Black has no pawn in the middle. 3...d6 is the move that makes this tolerable: e4-e5 no longer has a target (there
-is no knight on f6 to attack), the c8-bishop is freed, and the pawn can be played to e5 itself later. After 3...Nf6? 4.e5 Ng8 White has
-gained two tempi.
+Everything in this chapter attacks **d4**. The bishop on g7 is already aimed at it; ...Nc6 adds a second attacker, ...Bg4 removes
+the knight on f3 that guards it, and ...e5 makes the third. White has to decide what to do with the pawn:
+- **d4-d5** closes the centre and gains space, but the knight jumps to d4 or goes back to e7 and the game turns into a King's Indian:
+  ...Nh5 or ...Ne8 and ...f5 on the kingside, or ...c6 to open the c-file. Without a white pawn on c4, d5 is weaker than in the
+  King's Indian: it is supported only by e4, so ...c6 hits it directly.
+- **dxe5 dxe5** opens the d-file. With the queens off the endgame is level; Black's knight heads for d4 and the bishop on g7 is
+  blunted, but so are White's attacking chances.
+- **Holding the tension** lets Black take on d4 at a good moment, after which the e4-pawn is the target of the knight on f6, a rook on
+  e8 and the bishop on g7.
 
-The consequence for the whole chapter is a rule: **do not play ...Nf6 and do not castle until it is clear what White's pieces are
-doing.** Against Be3 and Qd2 it keeps Bh6 and the h-pawn attack from having a target. Against Nf3 and Be2 there is nothing to be afraid of
-and the knight comes out at once. The decision is made at move four and not before.
+The knight goes to c6 and not d7 because it hits d4 at once and can jump to d4 after d5. 3...Nf6 too early is met by 4.e5; the knight
+waits for 3...d6 so that e4-e5 has no target.
 
-3...c6 and 3...a6 are also playable, but 3...d6 is the most solid and by far the most common, and it keeps every plan of this chapter available. In the elite
-database White scores about 49% against 3...d6 whichever of the main fourth moves he chooses, so the choice is one of comfort and not of theory.
+## The 150 Attack: castle and hit the centre first
+moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5
+arrows: Ge5d4 Rd2h6 Re3h6 Rh2h4
+squares: Yd4 Rh6
 
-## The Tiger structure: ...a6, ...b5, ...Bb7, ...Nd7, ...c5
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Nf3 b5 6. Bd3 Bb7 7. O-O Nd7 8. a4 b4 9. Ne2 c5 10. c3
-arrows: Gc5d4 Gb7e4 Gb4c3 Gd7f6
-squares: Ye4 Yd4 Rc3
+White wants Qd2, Bh6 to trade the fianchettoed bishop, O-O-O and h4-h5 against the castled king. The popular studies avoid castling
+and play ...c6 and ...b5. The repertoire castles anyway and strikes at once with **6...e5** (Zaichik's idea, the most played move of the
+2400+ players). A wing attack needs a quiet centre: after ...e5 the d4-pawn is attacked and the bishop meant for h6 is one of its
+guards, so White must settle the centre before the pawns can march.
 
-Black's plan is Sicilian in nature. ...a6 prepares ...b5; the pawn then threatens ...b4 to drive the c3-knight away from the defence of e4, and
-the bishop on b7 attacks that pawn. White must protect e4 (Bd3, f3 or Qd3), and that settles his set-up. The queen's knight goes to d7, not to
-c6, because a knight on c6 would block the c-pawn, while from d7 it supports both ...c5 and ...e5.
+What decides the lines:
+- **7.Nge2 exd4 8.Nxd4 d5.** Without a pawn on c4, the ...d5 break is possible here; in the Sämisch King's Indian it is not.
+- **7.O-O-O exd4 8.Bxd4 Nc6.** Take on d4 first: 7...Nc6?! 8.d5 Nd4 scores badly for Black.
+- **7.d5 Nh5 and ...f5,** the Sämisch plan. 7...c6? 8.O-O-O cxd5 9.Nxd5 loses d6, because White has no c-pawn to take back with.
+- **7.dxe5 dxe5 8.Qxd8 Rxd8** is a level endgame.
 
-The standard sequence is:
-- **...c5 and, after dxc5, ...Nxc5**: the knight hits e4 and d3. Since d4 has gone, e5 no longer counts as White's, and ...Ngf6 can be played without fear.
-- **...c5 and, after d5, ...Ngf6**: Black gets a Benoni-type structure with the b5-b4 expansion, as in 4.Nf3.
-- **After a4, ...b4** and ...c5 to attack the centre while the knight is on e2.
+**5.Qd2 Ng4?!** gains nothing: the bishop steps aside, h3 or f3 drives the knight back, and White scores well. Play 5...O-O, then
+...Nc6 and ...e5.
 
-The structure is flexible but has a price: the pawn on b5 or b4 and the squares c4 and a5 become targets if White's centre holds, so ...c5 has to follow soon after ...b5.
+## The Austrian Attack: meet e4-e5 first
+moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Bd3 Nc6 7. O-O e5
+arrows: Ge5f4 Gc6d4 Gf6e4 Re4e5
+squares: Yd4 Ye5
 
-## The 150 Attack: how Black avoids Bh6
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Qd2 b5 6. f3 Bb7 7. O-O-O Nd7 8. h4 h6
-arrows: Rd2h6 Rh4h5 Gg6g5 Gc7c5
-squares: Rh6 Rg5 Yc3
+Against 4.f4 the same set-up works when White develops calmly: 6.Bd3 Nc6 7.O-O e5 and 6.Be2 Nc6 7.O-O e5. With pawns on e4 and f4,
+...e5 also hits f4, and after fxe5 dxe5 d5 the knight lands on d4.
 
-The pattern is well known from the Pirc and the Dragon: Qd2, Bh6, long castling, h4-h5, g4 and the white attack runs over the g- and h-files. Black's answer
-is a waiting game. There is no knight on f6 and no castled king, so Bh6 Bxh6 Qxh6 has no point beyond the trade. Black meets the pawn storm with ...h6 (which also occupies the very square Bh6 aims at), or stops it with
-...h5, and starts his own play on the queenside with ...Rc8 and ...c5.
+The difference is the e5 push:
+- **6.e5 Nfd7** (the main reply in the sources, and your move) and **5.e5 Nfd7** answer it with ...c5. The pawns on e5 and f4 cannot be
+  supported for ever, and the knight returns to f6 or c6.
+- **6.Bd3 Nc6 7.e5 dxe5 8.fxe5 Nh5** and ...Bg4, ...f6 break up the pawn on e5.
+- **6.Be3 c6** is the solid answer, the one place where the theme bends.
+- **6.Bd3 Na6** with ...c5 is the grandmasters' choice according to Marin and Vigus. It is given as a second option.
 
-What decides the move choices:
-- **...h6 or ...h5.** ...h6 prevents both Bh6 and Ng5 and answers h5 with ...g5, closing the wing. ...h5 prevents h5 for good but weakens g5, which gives
-  White a knight outpost after Nh3, and this is the sharp line. Both are good; ...h6 is the safer one.
-- **The king stays in the centre** until ...c5 and the exchange of the d-pawn have changed the structure. It is dangerous only if White can open lines there before Black does.
-- **...Rc8 before ...c5.** The rook supports ...c5 and ...b4, and after dxc5 Nxc5 the knight is protected.
-- **If White plays Bd3 and Nf3 instead of the pawn storm,** Black answers with ...c5 at once, before White's pieces are placed and while d4 has no extra defender.
+## The Classical: ...Nc6 and ...e5 against the quiet set-ups
+moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Be2 O-O 6. O-O Nc6 7. d5 Nb8 8. h3 e5
+arrows: Gb8d7 Gf6h5 Gf7f5 Gc7c6
+squares: Yd5 Yc6
 
-## ...c5 or ...e5: choosing the break
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Nf3 b5 6. a3 Bb7 7. Bd3 Nd7 8. O-O c5 9. Re1 cxd4 10. Bxd4 e5 11. Be3 Ngf6
-arrows: Ge7e5 Gc5d4 Gf6e4 Gb7e4
-squares: Ye4 Yd5
+Against 4.Nf3 and Be2 nothing is threatened, so Black has time for the whole set-up. 6...Nc6 scores best of Black's sixth moves in
+the elite book:
+- **7.Be3 Bg4 8.Qd2 e5** reaches the main position of the set-up.
+- **7.h3** prevents the pin. After 7...e5 8.dxe5 dxe5 9.Qxd8 Rxd8 the endgame is level.
+- **7.d5** drives the knight back to b8. It returns by d7, and ...e5 (or ...c6) hits the centre.
 
-Black has two ways to hit the centre and they work together more often than they compete:
-- **...c5** is the main break. It trades the c-pawn for White's d-pawn, opens the c-file for the rook and the long diagonal for the g7-bishop. After dxc5 Nxc5 the knight attacks e4
-  and cannot be driven away by a pawn. It is the right answer when White has castled long, because the c-file then points at his king, and when he has not castled at all, because every
-  move spent on defence delays his development.
-- **...e5** is the second break, played when the white pieces on d4 and e3 can be hit with tempo. In the model above, after 9.Re1 cxd4 10.Bxd4 e5! the bishop is attacked and has to return to e3,
-  and Black has a firm Dragon-like centre: the d6-pawn is solid, the knight reaches f6 with a hit on e4, and the bishop on b7 keeps pointing at that square. It blocks the g7-bishop in exchange for central space, so it is
-  chosen when the diagonal matters less than the centre.
+Against **5.h3**, Davies plays ...a6, ...Nc6 and ...e5. Against **5.Bc4**, ...Bg4, ...Bxf3, ...Nc6 and ...e5 is the same set-up. The
+**...c6** lines are a second choice; the elite book scores them worse.
 
-In the Tiger set-ups do not play ...Ngf6 before the d-pawn has been exchanged: e4-e5 would then be a threat. In the Pirc-style lines (4...Nf6) the knight is already on f6 and the break ...c5 is played with that in mind.
+## Tactics: the fork trick
+moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Bc4 O-O 6. O-O Nxe4 7. Nxe4 d5
+arrows: Gd5c4 Gd5e4 Gg7d4
+squares: Rc4 Re4
 
-## The Austrian Attack: a Pirc with ...Nf6 and ...O-O
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Bd3 Nc6 7. e5 dxe5 8. fxe5 Nh5 9. Be3 Bg4 10. Be2 f6
-arrows: Gf7f6 Gh5f4 Gg4f3 Re5e6
-squares: Re5 Yf4
-
-Against 4.f4 the repertoire does not use the Tiger's set-up but moves the king's knight at once. The Austrian is the Pirc's sharpest line, and Black has the usual trumps: after
-e5 the f4/e5 pawn chain is a target; the knight on h5 attacks f4, and the long diagonal opens as soon as the d-pawn goes.
-
-The main line with 6.Bd3 Nc6 7.e5 dxe5 8.fxe5 Nh5 9.Be3 Bg4 is the model: the pin on f3 and the knight on h5 combine to break up White's centre, and the plan is ...f6 and ...Nxe5 with pressure on the e5-pawn. The move 6.e5 is met by ...dxe5
-fxe5 Nd5 (not by the passive ...Nfd7, which loses time) and 6.Be3 by the solid ...c6.
-
-The second option is 5...c5, the Dragon formation. It scores very well in the elite database and the lines are forcing: dxc5 Qa5, then ...Qxc5 and ...O-O, and the perpetual check in the Bb5+ lines is a safety net. Against 4.f4 the Tiger move 4...a6
-is also playable, and is the second option in the games.
-
-## When White plays e5
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 a6 5. Nf3 b5 6. Bd3 Nd7 7. e5 c5 8. Be4 Rb8
-arrows: Re5e6 Gc5d4 Gb8b7 Gb5b4
-squares: Re6 Ye5
-
-In the Tiger's set-up Black does not mind if the e-pawn advances: with the knight still on g8 e4-e5 hits nothing, and Black simply attacks the pawn with ...dxe5 or the base d4 with ...c5. What he must watch is the e6 push: with
-pawns on f4 and e5 White threatens e5-e6, breaking the f7-pawn. There are two ways to deal with it. Either play ...e6 to stop it for good (a weakness on f6 and d6, so only if the knight can be brought to d5), or allow e5-e6 and recapture ...fxe6, relying on ...Nf8 or
-...Nh6 to cover f7 after Ng5.
-
-With the Pirc move order the same pawn break appears as 6.e5. There Black takes at once: ...dxe5 fxe5 Nd5 and the white centre has to prove itself. If the knight is exchanged, ...c5 and ...Bg4 give Black the better pieces.
-
-## The Hippo and Semi-Hippo
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. h4 h6 6. Qd2 b5
-arrows: Gg6g5 Gb5b4 Gc8b7
-squares: Yg5 Rh5
-
-The full Hippo is the most flexible form: Black plays ...b6, ...Bb7, ...d6, ...e6, ...Nd7 and ...Ne7 (often with ...h6 and ...a6 as well), builds a compact wall of pawns and pieces and waits
-for White to commit. Its price is time: against Qd2 and long castling the study finds it too passive. In this chapter only a modest version appears: the **Semi-Hippo with ...h6,
-...a6 and ...b5**, which Black can adopt against 5.h4 and the 150 Attack.
-
-The aim is to deprive White of a target. With the pawn on h6, h4-h5 meets ...g5 and the kingside is locked; Bh6 and Ng5 are impossible; and Black develops by ...b5, ...Bb7, ...Nd7, ...Ngf6 and ...c5. The danger is passivity if White can
-play f4 and e5 (hence the Semi-Hippo, with active ...b5, and not the Full Hippo, with ...b6, for most lines). If White gets the full pawn centre, Black needs ...c5 or ...e5 in time.
-
-## Tactics on the long diagonal and f7
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bc4 Nf6 5. Nf3 O-O 6. O-O Nc6 7. h3 Nxe4 8. Nxe4 d5 9. Bd3 dxe4 10. Bxe4 Nxd4
-arrows: Gg7d4 Rc4f7 Gc6d4 Gd8d4
-squares: Rf7 Yd4 Ye4
-
-Two kinds of tactics matter in this chapter. The first is the diagonal a1-h8: the bishop on g7 hits d4 and c3. Whenever d4 is attacked twice (by ...Nc6 and ...Bg7) and White's centre is stretched, ...Nxe4 followed by ...d5 and ...Nxd4 can win a pawn.
-In the Bc4 line White cannot take on f7: Bxf7+ Rxf7 gives a bishop for a pawn, and the knight on e4 is hit by ...d5.
-
-The second is f7 itself: with the bishop on c4 and a queen or knight joining it, f7 is the pressure point, and Black does not leave it under-defended. So against 4.Bc4 he plays ...Nf6 immediately, which prevents e5, and castles before ...Nc6.
-Against 4.Bc4 Nf6 5.Qe2 he plays 5...c6! (the book shows 5...O-O and 5...Nc6 doing worse) and answers e5 with ...dxe5 and ...Nd5.
-
-## The quiet systems: King's Indian and Pirc structures
-moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 a6 5. a4 Nf6 6. Be2 O-O 7. O-O Nc6 8. h3 e5 9. d5 Ne7
-arrows: Gf6h5 Gf7f5 Gc8d7 Gc7c6
-squares: Yf4 Yc6
-
-When White plays Nf3, Be2 or g3, nothing is threatened and Black can use King's Indian methods: ...Nf6, ...O-O, ...Nc6, ...e5. After d5 the knight goes to e7 and the position is a Mar del Plata without the c-pawn on c4, with plans ...Nh5-f4 and ...f5, or ...Bd7 and ...c6 to open the queenside. After dxe5
-dxe5 the position is level and the d-file easy to hold.
-
-The role of ...a6 in these lines is to prepare ...b5 or to keep the knight on b4 safe after d5. White's a4, as in the main line, takes b5 away, so Black switches to the ...Nc6, ...e5 plan. The same structure arises from 4.Be2 (6...a6 and 7...Nc6), and 4.g3 gives a related set-up with ...e5 and the exchange on d4, so the repertoire needs only one family of plans for all the quiet systems.
+Against 5.Bc4 O-O 6.O-O the knight takes on e4, and after 7.Nxe4 d5 the pawn forks the bishop on c4 and the knight on e4, so Black
+wins the piece back. It is sound but only equalises (White scores 53% in the elite book), which is why the main line is the quieter
+6...Bg4 with ...Nc6 and ...e5. With the knight already on c6 (the Mad Dog order, 6...Nc6 7.h3?) the same trick wins a pawn, because
+...Nxd4 follows; against 7.Re1 or 7.Bb3 it is not on.
 
 ## Sources
-- "The Tigers Modern", Felixdanmark, https://lichess.org/study/OjJZuCKK (374 likes): the ...a6, ...b5, ...Bb7, ...Nd7 and ...c5 plan, the 6.a3 line with 10...e5
-- "Defensa Pirc conceptos básicos - Pirc Defense", the_luiz, https://lichess.org/study/HIwKTrVU (310 likes): the Austrian and 150 attacks in the Pirc order
-- "Modern Defense, Standard Line (White)", Coldfield1994, https://lichess.org/study/oH1IQYBq (293 likes): the move-order map of the 3...d6 position and the 5.h4 lines
-- "Pirc Defense", ahmedshaf, https://lichess.org/study/r7IsnoO1 (128 likes): the Austrian Attack, the Dragon formation
-- "Tiger's Modern: Sharp reply to e4", BlindFool, https://lichess.org/study/CoHp4wPV (114 likes): the Austrian, Classical, Flexible Dragon, Bg5 and Bc4 lines
-- "Pirc Defense: Austrian Attack", FatPigz69, https://lichess.org/study/sFabvhrU (109 likes): the Kurajica, Weiss, Unzicker and Dragon lines of the Austrian
-- "Modern Defense For Black Complete Repertoire", Positionalchess101, https://lichess.org/study/4cqQt2Q1 (73 likes): the Nf3 and 150 Attack lines
-- Move frequencies and scores were checked against the project's book of elite Lichess games (the Lichess masters database could not be reached)
+- Lichess study "Defensa Pirc conceptos básicos - Pirc Defense", the_luiz, https://lichess.org/study/HIwKTrVU (311 likes): the 150 Attack warning, the Austrian 6.e5 and 6.Bd3 Nc6 lines, the 5.Bc4 fork trick
+- Lichess study "The Pirc Defense For U1700", https://lichess.org/study/cClOocCO (237 likes): Classical lines
+- Lichess study "The Pirc Defense", https://lichess.org/study/ymPbIxwI (141 likes): Classical lines
+- Lichess study "King's Indian Defense", https://lichess.org/study/jNUkcl81 (133 likes): the ...c6 7.a4 Bg4 line and the 5.Bd3 Bg4 line
+- Lichess study "Pirc - (150 Attack) NM Robert Ramirez", https://lichess.org/study/M6BR0uAS (131 likes): the 150 Attack with ...c6, why ...Ng4 gains nothing
+- Lichess study "Pirc Defense", ahmedshaf, https://lichess.org/study/r7IsnoO1 (128 likes): the Classical main line, the Czech and Schlechter lines, 5.Bc4 Nxe4
+- Lichess study "Tiger's Modern: Sharp reply to e4", BlindFool, https://lichess.org/study/CoHp4wPV (117 likes): the Mad Dog line
+- Lichess study "Pirc Defense: Austrian Attack", FatPigz69, https://lichess.org/study/sFabvhrU (109 likes): 6.Bd3 Nc6, 6.Be3 b6, 5...c5
+- Lichess study "Pirc - (Austrian Attack) NM Robert Ramirez", https://lichess.org/study/sB2IVGYW (108 likes): 5.e5 and 5...c5
+- Lichess studies with fewer likes, cited only as second opinions: "Modern Defense For Black Complete Repertoire", https://lichess.org/study/4cqQt2Q1 (73), "Pirc Defense: Opening Repertoire for Black", https://lichess.org/study/FwXo3Qhq (52), "Pirc Defense, 150 Attack (White)", https://lichess.org/study/n61o52Eh (47)
+- Mihail Marin, *Grandmaster Repertoire: The Pirc Defence* (Quality Chess, 2017), sample chapter: the Austrian with 5.e5 and 6...Na6
+- James Vigus, *Chess Developments: The Pirc* (Everyman, 2012), sample chapter: the Austrian with 6.e5 Nfd7 (Sutovsky-Ivanchuk) and 6.Bd3
+- Nigel Davies, *The Pirc: Move by Move* (Everyman, 2016), sample chapter: 5.h3 with ...a6, ...Nc6 and ...e5
+- Wikipedia, "Pirc Defence" and "Pirc Defence, Austrian Attack"; "King's Indian Defence, Sämisch Variation" for the comparison with c4
+- Thomas Ollo's Pirc Classical game lists (thomasollo.net): master games for the 6...Nc6 lines
+- chessdoctrine.com, Pirc Defense guide: counterplay against the 150 Attack
+- Move frequencies and scores: the project's book of elite Lichess games (2400+), used to confirm moves and, in the 150 Attack ...e5 lines, as the only source of moves

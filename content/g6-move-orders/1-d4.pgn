@@ -111,15 +111,15 @@
 1. d4 g6 2. Bf4 Bg7 3. Nc3 { 17% of the elite games after 2.Bf4 Bg7 (the same position arises after 2.Nc3 Bg7 3.Bf4 d6). White wants e4, Qd2, O-O-O and Bh6 to swap the bishop on g7. } 3... d6 { [%cal Gd6e5] } 4. e4 Nf6 { The knight now has d6 behind it, so e4-e5 is not a threat. } 5. Qd2 { Planning O-O-O and Bh6. } ( 5. h4 { A fierce pawn storm, shown in the London guides with 5...O-O 6.h5 Nxh5 7.Rxh5 gxh5 8.Qxh5. Black has no ready answer in these sources other than 5...h5, which gives White the g5 square. } 5... h5 )
 5... O-O 6. O-O-O Nc6 { [%cal Gc6e5,Ge7e5] The London guides say that ...Nc6 and ...Nbd7 are Black's best tries, because both aim at ...e5, which is the break the London bishop on f4 controls. } 7. Nf3 Bg4 { [%cal Gg4f3] The elite games' reply (79%). The same guide that recommends delaying ...e5 shows 8.Qe3 Nd7 9.Bg5 Qe8 10.Bh6 Bxf3 11.gxf3 e5 12.Bxg7 Kxg7 13.dxe5 Qxe5 14.Nd5 as White's winning plan: move the queen off the d-file, provoke ...Qe8 and only then play Bh6. Black's alternatives to 8...Nd7 in the elite games are 8...Bxf3 (30%) and 8...Nh5. None of the sources gives Black an improvement, so this line is a draft: the plan is ...e5 as soon as it can be supported, and to keep the bishop on g7 from being exchanged. } *
 
-[Line "2.Nc3 Bg7 3.e4 d6 4.Be2 Nf6 5.Nf3 O-O 6.O-O a6: into the Nc3 chapter"]
+[Line "2.Nc3 Bg7 3.e4 d6 4.Be2 Nf6 5.Nf3 O-O 6.O-O Nc6: into the Nc3 chapter"]
 [Section "2.Nc3 and 2.e4: the Modern by transposition"]
 [Summary "2.Nc3 Bg7 3.e4 d6 is the Modern Defence of 1.e4 g6 2.d4 Bg7 3.Nc3 d6, covered in modern-nc3. 3.Nf3 d6 4.e4 leads to the same positions."]
 
-1. d4 g6 2. Nc3 { 7 games. } 2... Bg7 3. e4 { 95% of the elite games. After 3...d6 it is the Modern Defence with Nc3, in the chapter modern-nc3 (also reached by 1.e4 g6 2.d4 Bg7 3.Nc3 d6). } ( 3. Nf3 d6 4. e4 a6 5. Be2 b5 { The same position again, covered in modern-nc3. } )
-3... d6 4. Be2 Nf6 5. Nf3 O-O 6. O-O a6 { [%cal Ga6b5,Gb7b5] The Tiger's Modern idea ...a6 and ...b5; see modern-nc3. } *
+1. d4 g6 2. Nc3 { 7 games. } 2... Bg7 3. e4 { 95% of the elite games. After 3...d6 it is the Modern Defence with Nc3, in the chapter modern-nc3 (also reached by 1.e4 g6 2.d4 Bg7 3.Nc3 d6). } ( 3. Nf3 d6 4. e4 Nf6 { The Pirc Classical (4.Nf3 Nf6 in modern-nc3). } )
+3... d6 4. Be2 Nf6 5. Nf3 O-O 6. O-O Nc6 { [%cal Gc6d4,Ge7e5] The set-up of modern-nc3: ...Nc6 and ...e5. } *
 
-[Line "2.e4 Bg7 3.Nc3 d6 4.Be2 Nf6 5.Nf3 O-O 6.O-O a6: the same position"]
+[Line "2.e4 Bg7 3.Nc3 d6 4.Be2 Nf6 5.Nf3 O-O 6.O-O Nc6: the same position"]
 [Section "2.Nc3 and 2.e4: the Modern by transposition"]
 [Summary "After 1.d4 g6 2.e4 White has transposed to the Modern Defence with 1.e4 g6 2.d4. Everything is in modern-nc3 and modern-no-nc3."]
 
-1. d4 g6 2. e4 { 12 games. } 2... Bg7 3. Nc3 ( 3. Nf3 d6 4. Bd3 Nf6 5. O-O O-O 6. c3 Nbd7 ) 3... d6 4. Be2 Nf6 5. Nf3 O-O 6. O-O a6 *
+1. d4 g6 2. e4 { 12 games. } 2... Bg7 3. Nc3 ( 3. Nf3 d6 4. Bd3 Nf6 5. O-O O-O 6. c3 Nbd7 ) 3... d6 4. Be2 Nf6 5. Nf3 O-O 6. O-O Nc6 *

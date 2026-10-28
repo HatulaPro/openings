@@ -75,23 +75,25 @@ With the knight on f3 and no knight on c3, White has no easy way to build a big 
 ( 5... O-O?! { The natural move, but after the central break the position is a little better for White. } 6. O-O Bg4 { Pinning the knight, and asking White to defend the pawn on d4. } 7. e5! { Hits the knight on f6 before Black has castled kingside into safety; after ...dxe5 dxe5 the knight has to go to d5 (the only move in all 46 elite games), and White's pieces are the better placed. } 7... dxe5 8. dxe5 Nd5 9. Nbd2 { [%cal Gd2e4,Gf3d4] } 9... Nb6 10. Bd3 Nc6 11. h3 Nd4 12. Qe4 Nxf3+ 13. Nxf3 Bxf3 14. Qxf3 c6 { The pawn on e5 shuts in the bishop on g7 and White has the more active pieces. The study rates this a small plus for White, which is the reason to prefer 5...Nc6. } )
 6. O-O Bg4 { [%csl Gd4][%cal Gc6d4] } 7. c3 { Defends d4 at once. } 7... e5 8. d5 ( 8. Rd1 O-O 9. h3 Bxf3 10. Qxf3 Nd7 11. Be3 Kh8 { [%cal Gf7f5] } ) 8... Ne7 { [%cal Gf7f5,Gf6d7,Ge8g8,Rg4f3,Rh2h3] Black keeps the bishop on g4 as long as possible. The plan is ...Nd7 (or ...O-O) followed by ...f5. If White plays h3 the bishop takes on f3, and the queen's position is then spoilt. } *
 
-[Line "4.Be3 Nf6 5.Nc3 c6 6.Qd2 b5 7.Bd3 Nbd7 8.O-O Qc7 9.Bh6 O-O 10.Bxg7 Kxg7 11.a4 b4 12.Ne2 c5 13.dxc5 Qxc5"]
+[Line "4.Be3 Nf6 5.Nc3 O-O 6.Qd2 Nc6 7.h3 e5: into the Nc3 chapter"]
 [Section "4.Be3: the 150 Attack with Nf3"]
-[Summary "With Nf3 instead of f3 White cannot storm the kingside as fast, so Black plays the Czech set-up ...c6, ...b5, ...Nbd7, ...Qc7 and castles when the dark-squared bishops are about to be traded. Draft: one study only."]
+[Summary "After 5.Nc3 this is the Nc3 chapter's 4.Nf3 Nf6 5.Be3, met by the set-up used everywhere there: ...O-O, ...Nc6 and ...e5. The Czech set-up with ...c6 and ...b5 is the second choice."]
 
 1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Be3 { 7 of his games. The 150 Attack with the knight on f3: White wants Qd2 and Bh6 to trade Black's fianchettoed bishop, but without f3 and g4 the attack is slower than in the lines with f3. After 4...Nf6 White plays 5.Nc3 in 98% of the elite games, so this is the Pirc 150 Attack. }
-4... Nf6 5. Nc3 c6 { [%cal Gb7b5,Gb8d7,Gd8c7,Gd8a5] The study answers the 150 Attack with the Czech set-up: ...c6 and ...b5, then ...Nbd7 and ...Qc7 or ...Qa5, with the king staying flexible. In the elite games 5...O-O is the main move (52%) and 5...c6 follows (19%); only the one study gives a line, see the notes. }
-6. Qd2 b5 { [%cal Gb5b4,Gd8a5] Black expands on the queenside while White prepares his kingside play. } 7. Bd3 Nbd7 { [%cal Gd7b6] } 8. O-O Qc7 { [%cal Gc7c5,Gb5b4] Getting ready for play on the queenside. An alternative is ...Qa5, which a strong grandmaster has played. } 9. Bh6 O-O { Black castles now: the attack with the king on the kingside is no longer promising once the dark-squared bishops are traded. } 10. Bxg7 Kxg7 { A quiet position. White has castled as well, so neither side can attack the king. } 11. a4 b4 12. Ne2 c5 { Black plays on in the centre and on the queenside. } 13. dxc5 Qxc5 *
+4... Nf6 5. Nc3 { The position of 1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 Nf6 5.Be3 in the Nc3 chapter, where the rest is covered. }
+5... O-O { [%cal Gb8c6,Ge7e5] The main move of the elite games (52%) and the Nc3 chapter's set-up: ...Nc6 and ...e5 follow. }
+( 5... c6 { [%cal Gb7b5,Gb8d7,Gd8c7,Gd8a5] The second choice, from one study (FwXo3Qhq, 51 likes; 19% of the elite games): the Czech set-up ...c6 and ...b5, then ...Nbd7 and ...Qc7 or ...Qa5, with the king staying flexible. } 6. Qd2 b5 7. Bd3 Nbd7 8. O-O Qc7 9. Bh6 O-O 10. Bxg7 Kxg7 { The study's line: Black castles once the dark-squared bishops are about to be traded, then plays ...b4 and ...c5. } )
+6. Qd2 Nc6 7. h3 e5 *
 
-[Line "4.Be2 Nf6 5.Nc3 O-O 6.O-O a6: into the Nc3 chapter"]
+[Line "4.Be2 Nf6 5.Nc3 O-O 6.O-O Nc6: into the Nc3 chapter"]
 [Section "4.Be2, 4.Nc3, 4.h3 and the other transpositions"]
-[Summary "Most other fourth moves lead to Nc3 and the Pirc Classical, which is the Nc3 chapter: with Nf3 played and Nc3 added, Black plays his usual ...Nf6, ...O-O and ...a6."]
+[Summary "Most other fourth moves lead to Nc3 and the Pirc Classical, which is the Nc3 chapter: with Nf3 played and Nc3 added, Black plays his usual ...Nf6, ...O-O and ...Nc6, with ...e5 to follow."]
 
 1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Be2 { Only 3 of his games. White moves into the Classical without committing the c-pawn. The position after 4...Nf6 5.Nc3 O-O 6.O-O is the one reached by 3.Nc3 d6 4.Be2 Nf6 5.Nf3, a line of the Nc3 chapter. }
-( 4. Nc3 { The Two Knights or Classical Variation, 5 of his games: the Nc3 chapter, where 4...a6 and 4...Nf6 are both covered. } 4... Nf6 5. Be2 O-O 6. O-O a6 )
+( 4. Nc3 { The Two Knights or Classical Variation, 5 of his games: the Nc3 chapter, where 4...Nf6 is the repertoire. } 4... Nf6 5. Be2 O-O 6. O-O Nc6 )
 ( 4. h3 { 4.h3 (7 of his games) takes g4 away in advance. 4...Nf6 5.Bd3 O-O 6.O-O c6 reaches the position of the 6.h3 c6 game above. 4...Nf6 5.Nc3 O-O is the Pirc with h3, the Schlechter Variation, again in the Nc3 chapter. } 4... Nf6 5. Bd3 O-O 6. O-O c6 )
 4... Nf6 { 98% of the elite games. } ( 4... a6?! { With 4.Be2 White has not committed the c-pawn, so 5.c4! is possible: the Modern-Defence authors warn that Black has been move-ordered into a Pirc where White picks the better centre. Play 4...Nf6 and avoid the problem. } 5. c4 )
-5. Nc3 O-O 6. O-O a6 { [%cal Gb7b5,Gb8c6] The same move as in the Nc3 chapter: against a quiet bishop move ...b5 is available, and ...Nc6 and ...e5 stay in reserve. 6...c6, played by Lakdawala and Browne, is the other option. } *
+5. Nc3 O-O 6. O-O Nc6 { [%cal Gc6d4,Ge7e5] The move of the Nc3 chapter: the knight hits d4 and prepares ...e5 (after 7.Be3, with ...Bg4 first). 6...c6, played by Lakdawala and Browne, is the other option. } *
 
 [Line "2.Nf3 Bg7 3.Bc4 d6 4.O-O Nf6 5.Nc3 O-O 6.d4 Nc6: the Mad Dog"]
 [Section "2.Nf3 Bg7: 3.Bc4, 3.c3 and 3.d3"]
