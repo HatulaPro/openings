@@ -1,0 +1,247 @@
+[Line "5.f3 O-O 6.Qd2 e5 7.Nge2 exd4 8.Nxd4 d5"]
+[Section "5.f3 O-O 6.Qd2 e5"]
+[Summary "The main line of the chapter. Black castles at once against the 150 Attack and hits d4 before Bh6 and h4-h5 are ready; against 7.Nge2 he trades on d4 and breaks with ...d5, which the c2-pawn allows. Draft: moves from the elite book, plans partly from own understanding."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 { [%cal Gd1d2,Ge3h6,Gf2f3] The 150 Attack. Be3 and Qd2 form the
+battery for Bh6, f3 and O-O-O follow, then g4 and h4-h5. Because Black answers 4...Nf6, the position is a Pirc
+(1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg7), so Pirc books and studies apply directly. }
+4... Nf6 { Hits e4, so White has to spend a move on it. That is why the 150 Attack is played with f3 and not with Nf3:
+f3 also takes g4 away from the knight. Ng4 is the move the old Argentine players feared; Robert Ramirez's
+Pirc lesson (study M6BR0uAS, 131 likes) says it never gave him anything against Be3, and the 5.Qd2 line below shows why. }
+5. f3 { [%cal Gf3g4] Protects e4, takes g4 from the knight and prepares g2-g4. 4.f3 Nf6 5.Be3 O-O 6.Qd2 is the same
+position, and 5.Qd2 O-O 6.f3 comes here too. }
+5... O-O { [%cal Re3h6,Rd2h6,Rh2h4] **Where this chapter bends away from the sources.** The Ramirez study
+(M6BR0uAS, 131 likes) and the Pirc basics study (HIwKTrVU, 311 likes) keep the king in the centre and play
+...c6, ...b5 and ...Qa5 against this set-up. The White-side study (n61o52Eh, 47 likes) calls 5...O-O a mistake because
+White develops and castles long with tempo. The basics study shows what happens to a player who castles and then
+sits still: 5...O-O 6.Qd2 c6 7.Bh6 b5 8.h4 Nbd7 9.h5 Nxh5? 10.Rxh5 gxh5 11.Qg5 and Qxg7 is mate. The same note adds that
+the study's analysis found little real danger if White rushes the attack. **Why castle anyway:** Wikipedia (Pirc Defence)
+credits Gennady Zaichik, about 1985, with showing that Black can castle and strike with 6...e5 against Qd2. The cost
+is visible in the elite book: after 5.f3 White scores 54% against 5...O-O and 49% against 5...c6. }
+6. Qd2 { [%cal Gd2h6] }
+6... e5 { [%cal Ge5d4,Re3h6] Zaichik's move, and the top choice of the 2400+ players (312 of 680 games). **What it
+does against Bh6 and h4-h5:** the attack wants a quiet centre. After ...e5 the d4-pawn is under fire at once, and the
+bishop that is supposed to go to h6 is one of its guards. White has to settle the centre (Nge2, d5, O-O-O or dxe5)
+before the pawns can march. Bh6 at once has been tried only 18 times, and 7.Bh6 Nc6 scored 25% for White (4 games).
+**What it does not do:** it does not make the king safe for ever. Once the centre is closed the h-file matters again,
+so the timing of ...exd4, and the choice between ...Nc6 and ...Nbd7, decide whether Black has counterplay in time.
+chessdoctrine.com puts the general rule in one line: against the 150 Attack Black must create queenside or central
+counterplay early, and passive defence after ...O-O is the mistake that loses. **Elite book after 6...e5:** 7.Nge2 57%,
+7.d5 16%, 7.O-O-O 16%, 7.dxe5 9%, 7.h4 3%; White scores 57% overall (against 6...c6 it scores 53%, against 6...a6
+60%). Not covered below: 7.Bh6 (18 games, answered by ...c6 or ...Nbd7) and 7.h4 (24 games, ...Nc6 8.Nge2 h5).
+**Gap:** I found no book or well-liked study that analyses 6...e5 beyond the move itself; the moves of this chapter come
+from the book of elite games, and the plans from the structure, not from a guide. }
+7. Nge2 { [%cal Ge2d4,Ge2g3] The most played move (203 games, 60% for White). It guards d4 a second time without
+blocking the f-pawn. The Sämisch King's Indian has the same position with a pawn on c4 instead of c2 (5.f3 O-O
+6.Be3 e5 7.Nge2); Wikipedia, citing Cherniaev and Prokuronov (*The Sämisch King's Indian Uncovered*, Everyman 2007)
+and Ward (*The Controversial Sämisch King's Indian*, Batsford 2004), calls 7.Nge2 less promising than 7.d5 there and
+names 7...c6, 7...Nbd7 and 7...exd4 as Black's moves. **What the missing c4-pawn changes:** (1) ...d5 is a real
+break here; in the Sämisch c4 hits d5, so it does not work. (2) White has no space-gaining c4-c5 and no
+pawn chain c4-d5, so after d4-d5 his centre rests on e4 alone, and ...c6 hits d5 with nothing behind it. (3) After O-O-O
+the king stands behind a full a2-b2-c2 wall, but ...a6 and ...b5-b4 hit the knight on c3 and the king's cover directly. }
+7... exd4 { [%cal Ge8e1] Trades the e-pawn for the d-pawn before White can choose. White must recapture with the knight,
+and the e-file is open for ...Re8. **Why not 7...Nc6 first:** after 8.O-O-O White has a better version of everything
+(see the variation). }
+( 7... Nc6 { The most played move (195 games), but White scores 59% and after 8.O-O-O 63%. } 8. O-O-O { It is
+also what 7.O-O-O Nc6 8.Nge2 gives, and 8...a6 here is worse still (70% for White over 58 games). If this
+is reached, 8...exd4 9.Nxd4 Nxd4 10.Bxd4 Be6 is the main line, treated in the 5.Qd2 6.O-O-O line below. } 8... exd4 9. Nxd4 Nxd4 10. Bxd4 Be6 )
+8. Nxd4 { [%cal Gd8d4] 8...Nc6 9.O-O-O Nxd4 10.Bxd4 Be6 would transpose to the variation above; the book likes
+8...d5 more (White scores 46% in 84 games, against 64% after 8...Nc6). }
+8... d5 { [%cal Gd5e4,Re4e5] The break the c2-pawn allows. It hits e4 at once, the knight on f6 supports it and the
+g7-bishop looks at d4. White has three real answers, different in kind: e5 (47 games), exd5 (18) and
+O-O-O (14). }
+( 8... Re8 { Pressure on e4 first. It leaves White the choice, and he castles: } 9. O-O-O { 31 games, 63% for White. } )
+9. e5 { [%cal Re5f6] Gains time on the knight and keeps the centre closed. After 9...Nfd7 the d5-pawn is loose,
+because the knight on d7 blocks the queen's protection; that is the point of the next moves. }
+( 9. exd5 Nxd5 10. Nxd5 Qxd5 { Black's queen takes the centre and eyes a2 and f3. Small samples, but White
+scored 24% in 14 games. } 11. O-O-O Qxa2 { Four games, four wins for Black: the pawn on a2 is simply loose and the queen
+is not in danger. } 12. c3 Nc6 )
+( 9. O-O-O Re8 { **The critical test.** Only 14 games, but White scored 71%: castling first keeps all the
+captures in hand. 9...Re8 is the most played answer (12 games, 58% for White); after 10.exd5 Nxd5 11.Bg5 Qd7
+Black did better (3 games, 33%). } 10. exd5 Nxd5 11. Bg5 Qd7 )
+9... Nfd7 { [%cal Gd7e5,Gd8d5] }
+( 9... Nh5!? { [%cal Gh5f4] Ten games, 40% for White, a better score than 9...Nfd7 (50%). The knight eyes f4 and g3;
+the cost is that it leaves the kingside undefended. } 10. g4 c5 11. gxh5 cxd4 12. Bxd4 Qh4+ )
+10. Nxd5 { [%cal Gd5c7,Rd5e7] White takes the pawn back, but the knight on d5 is loose: the e5-pawn is attacked by
+Nd7 and the knight on d4 blocks the queen's protection of d5. }
+( 10. f4 c5 { [%cal Gc5d4] Four games, and White scored 13%: after 11.Nxd5 cxd4 12.Bxd4 Nc6 Black wins the
+fight for the centre. } 11. Nxd5 cxd4 12. Bxd4 Nc6 )
+( 10. e6 Ne5 { [%cal Ge5f3] } 11. exf7+ Rxf7 { Material is level; fifteen games with 57% for White, so this is the line where
+Black has to be accurate. 10...Nb6 11.exf7+ Rxf7 12.O-O-O went badly for Black (4 games, 88% for White). } )
+10... Nxe5 { [%cal Ge5f3,Gd8d5] Wins the pawn on e5 and attacks the knight on d5 with the queen. }
+11. Nc3 { The knight has to move. }
+11... Nbc6 { [%cal Gc6d4,Gg7d4] Hits the knight on d4, which is defended by Be3 and Qd2 only. }
+12. O-O-O Nxd4 { **Where the book stops** (5 games, level at 50%). Material is level and the d- and e-files are open.
+White's king is on c1 with the a-, b- and c-pawns unmoved; Black's king on g8 is untouched. **Plan for Black:**
+the e-file and the long diagonal, with ...Re8, ...Be6 or ...Bf5 and a knight on e5 or c6. **Plan for White:** g4, h4 and h5
+with the queen behind them, and the knights to d5 or e4. **Verdict:** level; beyond this point nothing is claimed,
+because the book gives the line only five games and I found no guide. }
+*
+
+[Line "7.O-O-O exd4 8.Bxd4 Nc6 9.Be3 Be6"]
+[Section "5.f3 O-O 6.Qd2 e5"]
+[Summary "White castles long at once. Black must not play ...Nc6 before ...exd4, because 8.d5 Nd4 is bad; after the pawn trade Black hits the bishop with ...Nc6 and develops with ...Be6."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. O-O-O { [%cal Gc1c8] 57 games (16% of 6...e5),
+White scores 54%. It prepares Bh6 and the pawn storm without committing a knight. }
+7... exd4 { [%cal Ge8e1] **Order matters.** With the king already on c1 the same position arises from 7.Nge2 Nc6 8.O-O-O,
+where White scores 63%; here White scores 45% (33 games). }
+( 7... Nc6?! { Played 164 times, and White scores 63% (it transposes to 7.Nge2 Nc6 8.O-O-O). On top of that 8.d5 is awkward: }
+8. d5 Nd4 9. Nge2 c5 10. dxc6 { 8...Nd4 is the worse reply (42 games, 75% for White; 9.Nge2 c5 10.dxc6 was 20 games, 88%).
+8...Ne7 is the playable answer (30 games, 55%). } )
+8. Bxd4 { [%cal Gd4f6,Gd4g7] }
+8... Nc6 { [%cal Gc6d4] Attacks the bishop, which has to leave the long diagonal. }
+( 8... Nbd7 { Only three games exist (White scored 17%), too few to build on; 8...Nc6 hits the bishop with tempo. } 9. Bxf6 )
+9. Be3 { The bishop goes back with its battery on the queen intact. 9.Bxf6 Bxf6 is the other way and hands Black the
+bishop pair. }
+9... Be6 { [%cal Ge6a2] Develops with an eye on a2. 33 games, White scores 53%. The alternatives are 9...Ne5 (13 games, 50%) and
+9...Re8 (11 games, 45%). }
+( 9... Re8 { Hits e4 at once. A playable alternative: after 10.h4 Be6 White scored 36% (7 games). } 10. h4 Be6 )
+10. Nge2 { [%cal Ge2d4,Ge2g3] The knight comes to the d4-square that Black has just made empty. Only eight games
+and 69% for White. 10.g4 (8 games, 38%), 10.Bh6 (8 games, 31%), 10.h4 (6 games, 67%) and 10.Kb1 (5 games, 60%)
+are all played, and the book is too thin to say which is best. }
+( 10. g4 a6 { [%cal Ga6b5,Gc6e5] Four games, 25% for White: ...Ne5 hits both g4 and f3, so the pawn storm is slow. } 11. h4 h5 )
+( 10. Bh6 a6 { Eight games, White scored 31%. Black starts the queenside play and does not worry about the bishop yet. } 11. h4 )
+10... a6 { [%cal Ga6b5,Gb7b5] Starts the queenside play. With the king on c1 and the c2-pawn unmoved, ...b5-b4 hits the knight
+on c3. **Plan for Black:** ...b5, ...Qd7 and ...Rac8 or ...Rfc8, ...Ne5 when the pawns on f3 and g4 are loose.
+**Plan for White:** g4, h4 and h5 to open the h-file. **Where the book stops** (three games); no guide was found. }
+*
+
+[Line "7.d5 Nh5: the Sämisch idea without c4"]
+[Section "5.f3 O-O 6.Qd2 e5"]
+[Summary "White shuts the centre. Black prepares ...f5 with ...Nh5; the usual 7...c6 runs into Nxd5 and a weak d6-pawn because White has no c4-pawn to recapture with. Thin: the book has only six games with 7...Nh5."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. d5 { [%cal Gd5c6] Closes the centre and keeps the
+king in the middle for the moment. In the Sämisch (same position with c4) Wikipedia names
+7...c6, 7...Nh5, 7...Ne8 and 7...c5 as Black's choices and notes that White usually castles long and attacks
+with g4 and h4. }
+7... Nh5!? { [%cal Gh5f4,Gf7f5] The knight clears f6 for ...f5 and eyes f4 and g3. Six games in the book, and White scored
+17%; too small to call it the main line, but it is the best score on offer. **Idea:** ...f5, then ...f4 hitting the e3-bishop
+and opening the f-file. }
+( 7... c6 { The immediate break, as in the Sämisch. Here it has a flaw: } 8. O-O-O cxd5 { [%cal Rd5d6] } 9. Nxd5 { **The difference from the Sämisch.**
+There the c4-pawn recaptures on d5 and the d6-pawn is no target. Here the knight lands on d5, and after the trade the white
+queen sits on d5 and hits d6. } 9... Nxd5 10. Qxd5 Nc6 11. Qxd6 { Black loses a pawn (six games, White scored 75%). }
+)
+( 7... Ne8 { Prepares ...f5 without the h5-knight, but it is passive. } 8. g4 h5 { Nine games, White scored 72% overall. } )
+8. Nge2 { The only move seen in the book (four games, White 25%). }
+8... f5 { [%cal Gf5f4,Rf5e4] Three games, so this is where the book stops. **Plan for Black:** ...f4 to chase the bishop, then
+...Nd7 or ...a5 with the knight to f6 or d7. **Plan for White:** exf5 gxf5 and the knight to g3 or f4 against the h5-knight,
+or Bh6 to trade the dark-squared bishops. A sourced analysis of this position was not found. }
+*
+
+[Line "7.dxe5 dxe5 8.Qxd8 Rxd8 9.Bc4 c6"]
+[Section "5.f3 O-O 6.Qd2 e5"]
+[Summary "White trades queens and takes the sting out of his own attack. The pieces come out with ...c6, ...Nbd7 and ...Nc5, and White's king never gets the attack it wanted."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. dxe5 { [%cal Gd2d8] White gives up the attack for
+a queenless middlegame (31 games, 42% for White, the lowest score of any seventh move). }
+7... dxe5 { [%cal Gd8d2] }
+8. Qxd8 { 8.O-O-O is the more ambitious move and the worse one: Black trades queens on d2 anyway and White scored 31%
+over 13 games. }
+( 8. O-O-O Qxd2+ 9. Rxd2 c6 { Five games, White scored 20%. } 10. Bc4 { Three games, three wins for Black. } )
+( 8. Bd3 Nc6 { Four games, White 38%. } 9. Nge2 )
+8... Rxd8 { [%cal Gd8d1] }
+9. Bc4 { [%cal Gc4f7] The f1-bishop comes out with a hit on f7; with the queens off, development is what counts.
+The e3-bishop could take a7, but 9.Bxa7 never occurs in the book and I found nothing about it, so the line is not analysed here. Eight games, White scored 56%. }
+9... c6 { [%cal Gc6d5] Covers d5 so the bishop on c4 has no target, and prepares ...Nbd7 and ...Nc5. }
+10. a4 { Takes b5 away from the knight and prepares Nge2-g3. Nine games, 61% for White after 10.a4. }
+10... Nbd7 { [%cal Gd7c5,Gf6e4] **Plan for Black:** ...Nc5 hitting e4 and a4, ...Be6 to challenge the bishop on c4.
+**Plan for White:** Nge2-g3, O-O and Rfd1 to use the d-file. **Verdict:** equal. The book has only four games here, and I
+found no guide that covers the line, so treat the plans as general. }
+*
+
+[Line "5.Qd2 O-O 6.O-O-O Nc6 7.f3 e5 8.Nge2 exd4 9.Nxd4 Nxd4"]
+[Section "5.Qd2 O-O"]
+[Summary "The Pirc move order with 5.Qd2 and long castling. 6.f3 transposes to the main line; after 6.O-O-O Black plays ...Nc6 and ...e5 and gets the same structure. Includes 5...Ng4?! and why 5...O-O is the move."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 { [%cal Rd2h6,Gf2f3] Played 1953 times against 4...Nf6, second only to 5.Nf3. White
+keeps f3 in hand: if the knight goes to g4 now, the bishop simply moves. According to Wikipedia this is what the
+British players (Hebden, Motwani, Lane, later Adams) worked out: ...Ng4 is mainly dangerous for Black, so they played Be3 and Qd2
+in all sorts of move orders and left f2-f3 out. }
+5... O-O { [%cal Re3h6,Rd2h6] The theme move. Against 6.f3 it transposes to the main line; against 6.O-O-O and 6.Bh6 below it plays the same
+...Nc6 and ...e5. In the book: 568 games, White 57%. The White-side study (n61o52Eh, 47 likes) puts a question mark on it; as in
+the main line this chapter keeps it because of ...e5. }
+( 5... Ng4?! { [%cal Rg4e3] **The habitual move, and a loss of time.** It attacks the bishop and looks active. The White-side study
+(n61o52Eh, 47 likes) says why it gains nothing: the bishop goes to g5 or f4, h3 follows later, and Black has moved the same piece twice.
+Ramirez (study M6BR0uAS) agrees that Ng4 against Be3 is awkward for the knight. In the elite book White scores 63% in 304 games. }
+6. Bg5 { 277 of the 304 games. The bishop takes f6 away from the knight, so h3 threatens to trap it. } 6... h6
+7. Bh4 { 222 games, 62% for White. }
+( 7. Bf4 { The other retreat (29 games, 71% for White). } 7... Nf6 { The knight comes back, and Black has weakened g6 with ...h6 for nothing. The tempting 7...e5? 8.dxe5 Nxe5 9.O-O-O
+(12 games) gave White 79%. } )
+7... g5 { 105 games, 59% for White: better than 7...Nc6 (68%) or 7...O-O (72%). } 8. Bg3
+{ [%cal Gh2h3] } 8... Nc6 { The best-scoring move (42 games, 45% for White) against 8...e5 (34 games, 59%) and 8...Nf6 (10 games, 70%). }
+9. Nge2 e5 10. d5 Ne7 { Even here Black has only reached an acceptable position after two wasted tempi and a weakened kingside, and White has the choice at move 7.
+**Conclusion:** 5...O-O is the move. } )
+6. O-O-O { [%cal Gd1d8] The most testing move by the book (239 games, 63% for White). It starts the pawn storm at once and keeps Bh6 in hand.
+chessdoctrine.com describes this very position as the trap for a Black player who castles and then waits: Bh6 trades the dark-squared bishops
+and the h-pawn comes. }
+( 6. f3 { Transposes to the main line after } 6... e5 )
+6... Nc6 { [%cal Gc6d4,Ge5d4] The move order Black wants: the knight hits d4 and the c-pawn is left alone for later. 77 games
+(58% for White) against 6...c6 (70 games, 66%): Black does better with the knight. }
+7. f3 { [%cal Gf3g4] 160 games, 62% for White. 7.Bh6 (82 games, 54%) is the other main move and 7.Nf3 (63 games, 46%) the quiet one. }
+( 7. Bh6 e5 { 71 games, 51% for White. } 8. Bxg7 Kxg7 9. Nf3 )
+7... e5 { [%cal Ge5d4] }
+8. Nge2 { 202 games, 63% for White; this is the same position as in the variation of the main line (7.Nge2 Nc6 8.O-O-O). }
+( 8. d5 Ne7 { [%cal Gf6e8,Gf7f5] 30 games, 55% for White. 8...Nd4 is the worse move (42 games, 75% for White). } 9. Bh6 )
+8... exd4 { **Why ...exd4 and not 8...a6.** 8...a6, the slow Sämisch-style move, scores 70% for White in 58 games; the pawn trade
+has to come before White can play g4. }
+9. Nxd4 { 9...Re8 is the book's bad version for Black (36 games, 74% for White, mostly because of 10.g4), so the knights are traded. }
+9... Nxd4 { [%cal Gd4e2] }
+10. Bxd4 { [%cal Gd4f6,Gd4g7] 112 games, 60% for White after this move. }
+10... Be6 { [%cal Ge6a2] 101 of 111 games. Hits a2 and prepares ...Nd7-e5 or ...c5. }
+11. Kb1 { 11.g4 (46 games, 61% for White) and 11.h4 (24 games, 56%) are the more aggressive tries. After 11.g4 c5 12.Be3 Qa5
+(15 games, 63% for White) the book gives Black the worse of it, so the pawn lever ...c5 should not be rushed. }
+11... a6 { [%cal Ga6b5] 15 games, 50% for White. **Plan for Black:** ...b5, ...Qd7 and ...Rac8 or ...Rfc8; ...c5 only when the bishop on d4 can
+be hit with tempo. **Plan for White:** g4, h4 and h5. **Where the book stops** (15 games); no guide was found for this line. }
+*
+
+[Line "5.Qd2 O-O 6.Nf3 Nc6 7.h3 e5"]
+[Section "5.Qd2 O-O"]
+[Summary "White develops the knight instead of playing f3. Black plays ...Nc6 and ...e5 and gets a King's Indian structure; the book is much better for Black here (49% for White) than in the f3 lines."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 O-O 6. Nf3 { [%cal Gf3d4] About 1,200 games counting the 5.Nf3 O-O 6.Qd2 order, White 56%; the most
+played reply to 5...O-O. Black has many choices (6...c6 473 games, 6...Nc6 236, 6...a6 224, 6...Ng4 189, 6...Bg4 145). The same position arises from 4...Nf6 5.Nf3 O-O 6.Qd2, so
+it may be covered in the Nf3 chapter too. Here the theme move ...Nc6 keeps the ...e5 plan (50% for White); 6...c5 (68 games, 44%) and 6...Bg4 (145 games, 49%) also score well. }
+6... Nc6 { [%cal Gc6d4,Ge7e5] }
+7. h3 { [%cal Rf6g4] 362 games. Stops ...Ng4, which would hit the bishop. White's other tries are 7.O-O-O (63 games, 46% for White; Black answers 7...Bg4, 42 games, 54%)
+and 7.Bh6 (91 games, 45%). }
+( 7. Bh6 e5 { 51 games, 41% for White. } 8. Bxg7 Kxg7 9. O-O-O )
+( 7. d5 Nb8 { 34 games, White 43%: the knight retreats and ...c6 follows. 7...Ne5 (27 games) is worse (67% for White). } 8. Bh6 c6 )
+7... e5 { [%cal Ge5d4] The King's Indian structure with the d6-pawn firm. 242 games, 49% for White, a lower score than in the f3 lines (57%). White has three
+options: d5 (136 games), O-O-O (60) and dxe5 (42). }
+8. d5 { 136 games, 48% for White. }
+( 8. O-O-O exd4 9. Nxd4 Nxd4 { [%cal Gd4e2] } 10. Bxd4 Be6 { 9 games, 33% for White. } 11. g4 { 5 games, White scored 20%. } )
+( 8. dxe5 Nxe5 9. Nxe5 dxe5 10. O-O-O Qxd2+ 11. Rxd2 c6 { 7 games, 50% for White. With the queens off Bh6 and h4-h5 lose their point. } )
+8... Ne7 { [%cal Ge7e8,Gf7f5] 108 of 136. The knight goes to e8 next so that ...f5 can come. }
+9. O-O-O { 44 games, White 49%. }
+( 9. Bh6 Ne8 { 34 games, 60% for White: White trades the dark-squared bishops before Black's ...f5. } 10. Bxg7 Kxg7 11. g4 f5 )
+9... Ne8 { [%cal Gf7f5] **Plan for Black:** ...f5. Thirteen games, White scored 23%. }
+10. g4 { 14 games, 36% for White. White tries to stop ...f5 by taking more space. }
+10... f5 { [%cal Gf5g4] }
+11. gxf5 gxf5 { **Where the book stops** (11 games, 36% for White). This is the Sämisch King's Indian structure with ...Ne8 and ...f5 (the plan Wikipedia names for
+7.d5 there), but White's pawn is on c2, so there is no c4-c5 to race with and the play is on the g-file. **Plan for Black:** ...f4 to chase the bishop, then ...Nf6, ...Kh8
+and ...Rg8 against the king on c1. **Plan for White:** Bh6 or h4-h5 with the queen behind. No sourced analysis was found past this point. }
+*
+
+[Line "5.Qd2 O-O 6.Bh6 e5 7.Bxg7 Kxg7 8.O-O-O Nc6"]
+[Section "5.Qd2 O-O"]
+[Summary "White trades the bishops at once. Black recaptures with the king, plays ...e5 and ...Nc6 and keeps the tension; the book is thin, and 9...exd4 10.Nxd4 is the line to avoid."]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 O-O 6. Bh6 { [%cal Rh6g7] 349 games, 53% for White. Trades off the fianchetto bishop before
+Black can do anything else. The studies (HIwKTrVU, M6BR0uAS) present this trade as the point of Qd2 and Be3: if Black does not trade, the bishop stays on h6
+and the pawn storm comes; if he trades, the king has no dark-squared defender. In the book Black plays ...c5 (113 games, 51% for White), ...e5 (91 games, 49%),
+...c6 (62 games, 64%) and ...Nc6 (61 games, 64%). }
+6... e5 { [%cal Ge5d4] The e-pawn hits d4 and the bishop on h6 has to decide. }
+7. Bxg7 { 42 games. }
+( 7. d5 c6 { 34 games, 46% for White. } )
+7... Kxg7 { [%cal Gd8d4] }
+8. O-O-O { [%cal Gd1d8] }
+8... Nc6 { [%cal Gc6d4,Ge5d4] 59 games, 46% for White. }
+9. Nge2 { [%cal Ge2d4] 39 games, 62% for White: the most played, and the best for White. }
+( 9. Nf3 { 30 games, 47% for White. } 9... Bg4 { Hits the knight; 31 games, 58% for White. } 10. d5 Bxf3 { [%cal Gc6d4] } 11. gxf3 Nd4 12. f4 { 15 games, White scored 20%. The doubled f-pawns are
+no strength and the knight on d4 is strong. } )
+9... Re8 { [%cal Ge8e4] Five games, 40% for White. Keep the tension: 9...exd4 10.Nxd4 is the book's bad version (19 games, 74% for White). }
+10. f3 { **Where the book stops** (six games, 33% for White). The bishop trade has left White with an attack that has no dark-squared piece
+to land on h6. **Plan for Black:** ...Nd7 or ...Qe7, ...Be6, and take on d4 only when White has committed. **Plan for White:** g4, h4 and h5; the
+king on g7 can be harassed by Qh6+ and the h-file. **Gap:** I found no guide that analyses 6.Bh6 e5 as such; the lines are from the elite book. }
+*
