@@ -95,8 +95,26 @@ wins the piece back. It is sound but only equalises (White scores 53% in the eli
 6...Bg4 with ...Nc6 and ...e5. With the knight already on c6 (the Mad Dog order, 6...Nc6 7.h3?) the same trick wins a pawn, because
 ...Nxd4 follows; against 7.Re1 or 7.Bb3 it is not on.
 
+## The rarer fourth moves
+moves: 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bg5 Nf6 5. Qd2 c6
+arrows: Gc6b5 Gd8a5 Rg5h6 Rd2h6
+squares: Yh6
+
+Most of the rare moves get the same set-up. **4.g3** Nf6 5.Bg2 O-O 6.Nge2 e5, **4.Nge2**, **4.Bf4** and **4.h4** (met by ...h5
+when the pawn arrives) all lead to ...O-O, ...Nc6 and ...e5. **4.h3** and **4.f3** transpose to the Classical and the 150 Attack.
+
+Two moves bend the theme:
+- **4.Bg5 (the Byrne).** Against 5.Qd2 the sources play ...c6, with ...Qa5 and ...b5 in mind; the bishop trade on h6 comes before
+  Black castles, and ...e5 follows with the king still in the centre. 5...O-O 6.Bh6 e5 is the on-theme alternative and transposes to
+  the 150 Attack. Against 5.e5 the knight goes to d7, as in the Austrian. Against 5.Nf3, ...O-O and ...Nc6 with ...e5 again, but
+  5...O-O 6.Qd2 c5? loses a pawn to the pin on the d-file.
+- **4.Bc4.** Against 5.Qe2 the f7-pawn and the e5 push come first: 5...c6 and, after 6.e5, ...dxe5 and ...Nd5. 5.Nf3 transposes to
+  the Classical.
+
+These lines are thinner than the main systems: some are confirmed only by the elite games, and the notes say so.
+
 ## Sources
-- Lichess study "Defensa Pirc conceptos básicos - Pirc Defense", the_luiz, https://lichess.org/study/HIwKTrVU (311 likes): the 150 Attack warning, the Austrian 6.e5 and 6.Bd3 Nc6 lines, the 5.Bc4 fork trick
+- Lichess study "Defensa Pirc conceptos básicos - Pirc Defense", the_luiz, https://lichess.org/study/HIwKTrVU (311 likes): the 150 Attack warning, the Austrian 6.e5 and 6.Bd3 Nc6 lines, the 5.Bc4 fork trick, the Byrne with 5.e5
 - Lichess study "The Pirc Defense For U1700", https://lichess.org/study/cClOocCO (237 likes): Classical lines
 - Lichess study "The Pirc Defense", https://lichess.org/study/ymPbIxwI (141 likes): Classical lines
 - Lichess study "King's Indian Defense", https://lichess.org/study/jNUkcl81 (133 likes): the ...c6 7.a4 Bg4 line and the 5.Bd3 Bg4 line
@@ -106,6 +124,9 @@ wins the piece back. It is sound but only equalises (White scores 53% in the eli
 - Lichess study "Pirc Defense: Austrian Attack", FatPigz69, https://lichess.org/study/sFabvhrU (109 likes): 6.Bd3 Nc6, 6.Be3 b6, 5...c5
 - Lichess study "Pirc - (Austrian Attack) NM Robert Ramirez", https://lichess.org/study/sB2IVGYW (108 likes): 5.e5 and 5...c5
 - Lichess studies with fewer likes, cited only as second opinions: "Modern Defense For Black Complete Repertoire", https://lichess.org/study/4cqQt2Q1 (73), "Pirc Defense: Opening Repertoire for Black", https://lichess.org/study/FwXo3Qhq (52), "Pirc Defense, 150 Attack (White)", https://lichess.org/study/n61o52Eh (47)
+- Lichess study "Modern Defense, Standard Line (White)", Coldfield1994, https://lichess.org/study/oH1IQYBq (294 likes): verdicts on 4.h4 and 4.Bc4
+- Stjepan Tomic (Hanging Pawns), Lichess video "Byrne Variation", https://lichess.org/video/WUgtRXm6DtY: ...c6 against the Byrne
+- Fabien Libiszewski, *Master the Pirc Defence!*, contents page only: the 4.Bg5 5.f4 c6 line
 - Mihail Marin, *Grandmaster Repertoire: The Pirc Defence* (Quality Chess, 2017), sample chapter: the Austrian with 5.e5 and 6...Na6
 - James Vigus, *Chess Developments: The Pirc* (Everyman, 2012), sample chapter: the Austrian with 6.e5 Nfd7 (Sutovsky-Ivanchuk) and 6.Bd3
 - Nigel Davies, *The Pirc: Move by Move* (Everyman, 2016), sample chapter: 5.h3 with ...a6, ...Nc6 and ...e5

@@ -1,5 +1,5 @@
 [Line "5.f3 O-O 6.Qd2 e5 7.Nge2 exd4 8.Nxd4 d5"]
-[Section "5.f3 O-O 6.Qd2 e5"]
+[Section "4.Be3: 5.f3 O-O 6.Qd2 e5"]
 [Summary "The main line of the chapter. Black castles at once against the 150 Attack and hits d4 before Bh6 and h4-h5 are ready; against 7.Nge2 he trades on d4 and breaks with ...d5, which the c2-pawn allows. Draft: moves from the elite book, plans partly from own understanding."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 { [%cal Gd1d2,Ge3h6,Gf2f3] The 150 Attack. Be3 and Qd2 form the
@@ -79,7 +79,7 @@ because the book gives the line only five games and I found no guide. }
 *
 
 [Line "7.O-O-O exd4 8.Bxd4 Nc6 9.Be3 Be6"]
-[Section "5.f3 O-O 6.Qd2 e5"]
+[Section "4.Be3: 5.f3 O-O 6.Qd2 e5"]
 [Summary "White castles long at once. Black must not play ...Nc6 before ...exd4, because 8.d5 Nd4 is bad; after the pawn trade Black hits the bishop with ...Nc6 and develops with ...Be6."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. O-O-O { [%cal Gc1c8] 57 games (16% of 6...e5),
@@ -108,7 +108,7 @@ on c3. **Plan for Black:** ...b5, ...Qd7 and ...Rac8 or ...Rfc8, ...Ne5 when the
 *
 
 [Line "7.d5 Nh5: the Sämisch idea without c4"]
-[Section "5.f3 O-O 6.Qd2 e5"]
+[Section "4.Be3: 5.f3 O-O 6.Qd2 e5"]
 [Summary "White shuts the centre. Black prepares ...f5 with ...Nh5; the usual 7...c6 runs into Nxd5 and a weak d6-pawn because White has no c4-pawn to recapture with. Thin: the book has only six games with 7...Nh5."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. d5 { [%cal Gd5c6] Closes the centre and keeps the
@@ -130,7 +130,7 @@ or Bh6 to trade the dark-squared bishops. A sourced analysis of this position wa
 *
 
 [Line "7.dxe5 dxe5 8.Qxd8 Rxd8 9.Bc4 c6"]
-[Section "5.f3 O-O 6.Qd2 e5"]
+[Section "4.Be3: 5.f3 O-O 6.Qd2 e5"]
 [Summary "White trades queens and takes the sting out of his own attack. The pieces come out with ...c6, ...Nbd7 and ...Nc5, and White's king never gets the attack it wanted."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. dxe5 { [%cal Gd2d8] White gives up the attack for
@@ -151,7 +151,7 @@ found no guide that covers the line, so treat the plans as general. }
 *
 
 [Line "5.Qd2 O-O 6.O-O-O Nc6 7.f3 e5 8.Nge2 exd4 9.Nxd4 Nxd4"]
-[Section "5.Qd2 O-O"]
+[Section "4.Be3: 5.Qd2 O-O"]
 [Summary "The Pirc move order with 5.Qd2 and long castling. 6.f3 transposes to the main line; after 6.O-O-O Black plays ...Nc6 and ...e5 and gets the same structure. Includes 5...Ng4?! and why 5...O-O is the move."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 { [%cal Rd2h6,Gf2f3] Played 1953 times against 4...Nf6, second only to 5.Nf3. White
@@ -196,7 +196,7 @@ be hit with tempo. **Plan for White:** g4, h4 and h5. **Where the book stops** (
 *
 
 [Line "5.Qd2 O-O 6.Nf3 Nc6 7.h3 e5"]
-[Section "5.Qd2 O-O"]
+[Section "4.Be3: 5.Qd2 O-O"]
 [Summary "White develops the knight instead of playing f3. Black plays ...Nc6 and ...e5 and gets a King's Indian structure; the book is much better for Black here (49% for White) than in the f3 lines."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 O-O 6. Nf3 { [%cal Gf3d4] About 1,200 games counting the 5.Nf3 O-O 6.Qd2 order, White 56%; the most
@@ -224,7 +224,7 @@ and ...Rg8 against the king on c1. **Plan for White:** Bh6 or h4-h5 with the que
 *
 
 [Line "5.Qd2 O-O 6.Bh6 e5 7.Bxg7 Kxg7 8.O-O-O Nc6"]
-[Section "5.Qd2 O-O"]
+[Section "4.Be3: 5.Qd2 O-O"]
 [Summary "White trades the bishops at once. Black recaptures with the king, plays ...e5 and ...Nc6 and keeps the tension; the book is thin, and 9...exd4 10.Nxd4 is the line to avoid."]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 O-O 6. Bh6 { [%cal Rh6g7] 349 games, 53% for White. Trades off the fianchetto bishop before
