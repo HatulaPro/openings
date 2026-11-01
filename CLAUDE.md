@@ -51,5 +51,8 @@ The app covers only the openings he picks; the old catalogue of every named open
   Haiku), a few agents at a time, never a large parallel batch. Have agents write files early.
 - He tests on his own phone: `pnpm android:install` (USB debugging). Verify in the preview first,
   then reinstall after every app change without being asked, if the phone is connected.
+- The app on his phone is signed with this PC's debug key. A build anywhere else (a cloud session)
+  only installs over it with that key, given in `ANDROID_DEBUG_KEYSTORE_BASE64` (see README). Never
+  commit the keystore: the repository is public. A cloud session cannot reach the phone.
 - Report sourcing gaps and untested parts plainly; he would rather know a chapter is a draft.
 - Commit and push after every major step

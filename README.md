@@ -9,6 +9,16 @@ game-style training mode, the moves of elite players for each position, and Stoc
 
 The chapter format and the research rules are in [content/README.md](content/README.md).
 
+**Building on another machine.** Android only installs an update signed with the same key as the
+installed app, and each machine makes its own debug key. To sign like the original machine, put its
+key in the `ANDROID_DEBUG_KEYSTORE_BASE64` variable of the other environment (for a Claude Code cloud
+session: its environment's Environment variables). The build writes it to `~/.android/debug.keystore`.
+On Windows, this copies the key to the clipboard:
+
+    [Convert]::ToBase64String([IO.File]::ReadAllBytes("$env:USERPROFILE\.android\debug.keystore")) | Set-Clipboard
+
+Never commit the keystore: this repository is public.
+
 ## Credits
 
 **Opening content.** The chapters in `content/` are written from published opening theory, mainly
